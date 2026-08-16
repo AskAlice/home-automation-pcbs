@@ -1,2 +1,2 @@
-boards/*/docs/datasheets/
-!boards/*/docs/datasheets/.gitkeep
+See the repository root `.gitignore` — downloaded datasheet PDFs are ignored
+repo-wide from `boards/*/docs/datasheets/`.
