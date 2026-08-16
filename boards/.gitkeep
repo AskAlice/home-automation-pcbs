@@ -1,0 +1,5 @@
+# PCB designs live here, one directory per board:
+#   boards/<board>/<board>.kicad_pro
+#   boards/<board>/<board>.kicad_pcb
+#   boards/<board>/<board>.kicad_sch
+#   boards/<board>/docs/DATASHEETS.md   <- required for every SMD board
