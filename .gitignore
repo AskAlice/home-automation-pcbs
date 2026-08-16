@@ -1,0 +1,11 @@
+# Downloaded manufacturer datasheet PDFs (copyrighted; fetched by
+# tools/fetch_datasheets.py for offline reference). Flip this to commit
+# them if redistribution rights are confirmed.
+boards/*/docs/datasheets/
+!boards/*/docs/datasheets/.gitkeep
+
+# KiCad
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
