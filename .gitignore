@@ -1,0 +1,21 @@
+# KiCad
+*-backup/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.net
+fp-info-cache
+*-cache.lib
+*.gbr
+*.drl
+*.pos
+*.rpt
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
