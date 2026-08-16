@@ -1,0 +1,43 @@
+# GitHub Actions workflow enforcing the SMD datasheet + 3D render standard.
+#
+# NOTE: move this file to .github/workflows/pcb-checks.yml to activate it
+# (pushing workflow files via the GitHub API needs the `workflow` token
+# scope, which the automation account doesn't have — hence it lives here).
+
+name: PCB docs & 3D checks
+
+on:
+  push:
+    paths: ["boards/**", "tools/**", "docs/**", ".github/workflows/pcb-checks.yml"]
+  pull_request:
+    paths: ["boards/**", "tools/**"]
+
+jobs:
+  datasheets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint datasheet indexes
+        run: python3 tools/fetch_datasheets.py --check
+
+  models-3d:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check footprints have 3D models
+        run: python3 tools/render_3d.py --check-models
+
+  render:
+    needs: [datasheets, models-3d]
+    runs-on: ubuntu-latest
+    container: kicad/kicad:8.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render boards and export STEP
+        run: python3 tools/render_3d.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 3d-renders
+          path: |
+            3d/renders/**
+            3d/models/**
