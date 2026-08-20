@@ -1,0 +1,594 @@
+[
+ {
+  "lcsc": "100nF",
+  "mpn": "Capacitor_SMD:C_0603_1608Metric",
+  "footprint": "C4",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "10uF",
+  "mpn": "Capacitor_SMD:C_0603_1608Metric",
+  "footprint": "C8",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "4.7k",
+  "mpn": "Resistor_SMD:R_0603_1608Metric",
+  "footprint": "R14",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "BT_DN",
+  "mpn": "BT_LF",
+  "footprint": "BT_UP",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "C10",
+  "mpn": "10uF",
+  "footprint": "C7",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "C131337",
+  "mpn": "B2B-PH-K-S(LF)(SN)",
+  "footprint": "gardenprobe-c6:JST-PH-2",
+  "file": "C131337_B2B-PH-K-S_LF__SN_.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C136351",
+  "mpn": "JFC1206-1500FS",
+  "footprint": "Fuse:Fuse_1206_3216Metric",
+  "file": "C136351_JFC1206-1500FS.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C139797",
+  "mpn": "TS-1187A-B-A-B",
+  "footprint": "threadnode-h2:Tactile-6x6-SMD",
+  "file": "C139797_TS-1187A-B-A-B.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C141632",
+  "mpn": "TSOP38238",
+  "footprint": "irblaster-c3:TSOP38238",
+  "file": "C141632_TSOP38238.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C15127",
+  "mpn": "AO3401A",
+  "footprint": "Package_TO_SOT_SMD:SOT-23",
+  "file": "C15127_AO3401A.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C165948",
+  "mpn": "TYPE-C-31-M-12",
+  "footprint": "Connector_USB:USB_C_Receptacle_USB2.0_16P",
+  "file": "C165948_TYPE-C-31-M-12.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C167874",
+  "mpn": "FNR4030S4R7MT",
+  "footprint": "custom:L-4x4-4R7",
+  "file": "C167874_FNR4030S4R7MT.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C181158",
+  "mpn": "S8050",
+  "footprint": "Package_TO_SOT_SMD:SOT-23",
+  "file": "C181158_S8050.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C194656",
+  "mpn": "SHT31-DIS-B2.5kS",
+  "footprint": "custom:SHT31-DFN8",
+  "file": "C194656_SHT31-DIS-B2.5kS.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2071056",
+  "mpn": "AP63205WU-7",
+  "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+  "file": "C2071056_AP63205WU-7.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C209903",
+  "mpn": "HLK-PM01",
+  "footprint": "custom:HLK-PM01",
+  "file": "C209903_HLK-PM01.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2128",
+  "mpn": "1N4148WS",
+  "footprint": "Diode_SMD:D_SOD-323",
+  "file": "C2128_1N4148WS.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2146",
+  "mpn": "S8050 J3Y",
+  "footprint": "Package_TO_SOT_SMD:SOT-23",
+  "file": "C2146_S8050_J3Y.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2150710",
+  "mpn": "TMC2209-LA-T",
+  "footprint": "blinddriver-c6:TMC2209-socket",
+  "file": "C2150710_TMC2209-LA-T.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2691448",
+  "mpn": "PZ254V-11-04P",
+  "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+  "file": "C2691448_PZ254V-11-04P.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2837510",
+  "mpn": "BL0942",
+  "footprint": "custom:BL0942-SSOP10",
+  "file": "C2837510_BL0942.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2874215",
+  "mpn": "SGP40-D-R4",
+  "footprint": "airquality-s3:SGP40-DFN6",
+  "file": "C2874215_SGP40-D-R4.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2903470",
+  "mpn": "HoJLR2512-3W-1mR-1%",
+  "footprint": "custom:Shunt-2512",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "C2909890",
+  "mpn": "SHT40-AD1B-R2",
+  "footprint": "airquality-s3:SHT40-DFN4",
+  "file": "C2909890_SHT40-AD1B-R2.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2913198",
+  "mpn": "ESP32-S3-WROOM-1-N8",
+  "footprint": "airquality-s3:ESP32-S3-WROOM-1",
+  "file": "C2913198_ESP32-S3-WROOM-1-N8.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C2934560",
+  "mpn": "ESP32-C3-WROOM-02-N4",
+  "footprint": "custom:ESP32-C3-WROOM-02",
+  "file": "C2934560_ESP32-C3-WROOM-02-N4.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C3008369",
+  "mpn": "PC817C-S",
+  "footprint": "custom:PC817-SOP4",
+  "file": "C3008369_PC817C-S.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C3122",
+  "mpn": "5F.0010220000R1",
+  "footprint": "(fuse element)",
+  "file": "C3122_5F.0010220000R1.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C3130",
+  "mpn": "5x20-CLIP",
+  "footprint": "custom:FuseClip-5x20",
+  "file": "C3130_5x20-CLIP.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C315909",
+  "mpn": "59170-1-S-00-D",
+  "footprint": "threadnode-h2:Reed-SMD",
+  "file": "C315909_59170-1-S-00-D.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C32020546",
+  "mpn": "ESP32-C6-WROOM-1-N8",
+  "footprint": "custom:ESP32-C6-WROOM-1",
+  "file": "C32020546_ESP32-C6-WROOM-1-N8.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C3659421",
+  "mpn": "SCD40-D-R2",
+  "footprint": "airquality-s3:SCD40",
+  "file": "C3659421_SCD40-D-R2.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C370970",
+  "mpn": "EC11E15244G1",
+  "footprint": "custom:EC11-Encoder",
+  "file": "C370970_EC11E15244G1.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C39051",
+  "mpn": "MCP1700T-3302E/TT",
+  "footprint": "Package_TO_SOT_SMD:SOT-23",
+  "file": "C39051_MCP1700T-3302E_TT.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C42377750",
+  "mpn": "WJ500V-5.08-05P-14-00A",
+  "footprint": "custom:TB-5.08-5P",
+  "file": "C42377750_WJ500V-5.08-05P-14-00A.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C474952",
+  "mpn": "KF128-5.08-2P-AA",
+  "footprint": "custom:TB-5.08-2P",
+  "file": "C474952_KF128-5.08-2P-AA.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C474953",
+  "mpn": "KF128-5.08-3P-AA",
+  "footprint": "custom:KF128-5.08-3P",
+  "file": "C474953_KF128-5.08-3P-AA.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C492404",
+  "mpn": "PZ254V-11-05P",
+  "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+  "file": "C492404_PZ254V-11-05P.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C492424",
+  "mpn": "PZ254V-12-14P",
+  "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical",
+  "file": "C492424_PZ254V-12-14P.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C49257",
+  "mpn": "KH-2.54PH180-1X3P-L13.5",
+  "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+  "file": "C49257_KH-2.54PH180-1X3P-L13.5.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C49258",
+  "mpn": "KH-2.54PH180-1X4P-L13.5",
+  "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "C51115",
+  "mpn": "AP2112K-3.3TRG1",
+  "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+  "file": "C51115_AP2112K-3.3TRG1.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C51118",
+  "mpn": "AP2112K-3.3TRG1",
+  "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+  "file": "C51118_AP2112K-3.3TRG1.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C5183132",
+  "mpn": "HLK-LD2410B-P",
+  "footprint": "module:on J1 1x5 header",
+  "file": "C5183132_HLK-LD2410B-P.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C5239862",
+  "mpn": "BS-02-A1AJ010",
+  "footprint": "threadnode-h2:CR2032-holder",
+  "file": "C5239862_BS-02-A1AJ010.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C5366877",
+  "mpn": "ESP32-C6-WROOM-1-N8",
+  "footprint": "custom:ESP32-C6-WROOM-1",
+  "file": "C5366877_ESP32-C6-WROOM-1-N8.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C6",
+  "mpn": "C7",
+  "footprint": "C5",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "C74541",
+  "mpn": "HF32F-G/005-HS",
+  "footprint": "custom:HF32F-G",
+  "file": "C74541_HF32F-G_005-HS.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C78960",
+  "mpn": "BH1750FVI-TR",
+  "footprint": "custom:BH1750-WSOF6",
+  "file": "C78960_BH1750FVI-TR.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C80862",
+  "mpn": "SHT31-DIS-B2.5kS",
+  "footprint": "custom:SHT31-DFN8",
+  "file": "C80862_SHT31-DIS-B2.5kS.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C842299",
+  "mpn": "74AHCT125S14-13",
+  "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+  "file": "C842299_74AHCT125S14-13.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C8465",
+  "mpn": "WJ500V-5.08-2P",
+  "footprint": "custom:TerminalBlock-5.08-2P",
+  "file": "C8465_WJ500V-5.08-2P.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C8760",
+  "mpn": "10D471K",
+  "footprint": "custom:MOV-10D",
+  "file": "C8760_10D471K.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "C9",
+  "mpn": "100nF",
+  "footprint": "C8",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "C92466",
+  "mpn": "BMP280",
+  "footprint": "custom:BMP280-LGA8",
+  "file": "C92466_BMP280.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "Capacitor_SMD:C_0603_1608Metric",
+  "mpn": "C14663",
+  "footprint": "100nF",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "Capacitor_SMD:C_0805_2012Metric",
+  "mpn": "C45783",
+  "footprint": "22uF",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+  "mpn": "C49258",
+  "footprint": "Conn_01x04",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+  "mpn": "C492407",
+  "footprint": "Conn_01x08",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "Diode_SMD:D_SMA",
+  "mpn": "C8678",
+  "footprint": "SS34",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "Q4",
+  "mpn": "AO3400A",
+  "footprint": "Q3",
+  "file": "Q4_AO3400A.pdf",
+  "url": null,
+  "status": "cached"
+ },
+ {
+  "lcsc": "R15",
+  "mpn": "10k",
+  "footprint": "R11",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "R20",
+  "mpn": "R21",
+  "footprint": "R17",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "R4",
+  "mpn": "100R",
+  "footprint": "R3",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "R8",
+  "mpn": "R13",
+  "footprint": "R7",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "Resistor_SMD:R_0603_1608Metric",
+  "mpn": "C23186",
+  "footprint": "5.1k",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "ScrewTerm_2P",
+  "mpn": "blinddriver-c6:ScrewTerm-5.08-2P",
+  "footprint": "J7",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "airquality-s3:Tactile-6x6-SMD",
+  "mpn": "C139797",
+  "footprint": "SW_PUSH",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "blinddriver-c6:Tactile-6x6-SMD",
+  "mpn": "C139797",
+  "footprint": "SW_PUSH",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "custom:Tactile-6x6-SMD",
+  "mpn": "C139797",
+  "footprint": "SW_PUSH",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "irblaster-c3:IR-LED-5mm",
+  "mpn": "C55528",
+  "footprint": "TSAL6200",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "irblaster-c3:Tactile-6x6-SMD",
+  "mpn": "C139797",
+  "footprint": "SW_PUSH",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "threadrcp-h2:Tactile-6x6-SMD",
+  "mpn": "C139797",
+  "footprint": "SW_PUSH",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ },
+ {
+  "lcsc": "\u2014",
+  "mpn": "ESP32-H2-MINI-1-N4",
+  "footprint": "threadrcp-h2:ESP32-H2-MINI-1",
+  "file": null,
+  "url": null,
+  "status": "failed"
+ }
+]
