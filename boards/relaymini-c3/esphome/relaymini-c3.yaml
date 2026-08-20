@@ -1,0 +1,64 @@
+# relaymini-c3 — ESPHome config (mains inline switch + BL0942 energy metering)
+# ⚠ NEVER have mains connected while flashing. Flash first, then install.
+esphome:
+  name: relaymini-c3
+  friendly_name: RelayMini C3
+
+esp32:
+  board: esp32-c3-devkitm-1
+  variant: esp32c3
+  framework:
+    type: esp-idf
+
+logger:
+  baud_rate: 0          # UART0 pins are free; BL0942 uses UART1 on GPIO4/5
+api:
+  encryption:
+    key: !secret api_encryption_key
+ota:
+  - platform: esphome
+    password: !secret ota_password
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  ap: {}                # fallback hotspot
+
+# BL0942 energy metering IC (opto-isolated UART, live side) — GPIO4=RX, GPIO5=TX
+uart:
+  id: bl0942_uart
+  tx_pin: GPIO5
+  rx_pin: GPIO4
+  baud_rate: 4800
+  stop_bits: 1
+
+sensor:
+  - platform: bl0942
+    uart_id: bl0942_uart
+    voltage:   { name: "Voltage" }
+    current:   { name: "Current" }
+    power:     { name: "Power" }
+    energy:    { name: "Energy" }
+    frequency: { name: "Frequency" }
+    update_interval: 10s
+
+switch:
+  - platform: gpio
+    pin: GPIO6
+    name: "Relay"
+    id: relay_sw
+    restore_mode: RESTORE_DEFAULT_OFF
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO9
+      inverted: true
+      mode: { input: true, pullup: true }
+    name: "Button"
+    on_press:
+      - switch.toggle: relay_sw
+
+status_led:
+  pin:
+    number: GPIO8
+    inverted: true
