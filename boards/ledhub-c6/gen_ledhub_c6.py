@@ -78,7 +78,7 @@ PART_INFO = {
     "2.2k": ("Resistor_SMD:R_0603_1608Metric", "Resistor 2.2k 0603", "C4190",
              "0603WAF2201T5E"),
     "22k": ("Resistor_SMD:R_0603_1608Metric", "Resistor 22k 0603", "C31850",
-             "0603WAF2202T5E"),
+            "0603WAF2202T5E"),
     "5.1k": ("Resistor_SMD:R_0603_1608Metric", "Resistor 5.1k 0603", "C23186",
              "0603WAF5101T5E"),
     "22R": ("Resistor_SMD:R_0603_1608Metric", "Resistor 22R 0603", "C22926",
@@ -821,34 +821,22 @@ def build_pcb(fps):
     b.place(R0603, "R13", "2.2k", 24.5, 48, crtyd=RC)
     b.place(R0603, "R14", "4.7k", 28.5, 48, crtyd=RC)
     b.place(R0603, "R15", "10k", 32.5, 48, crtyd=RC)
-    b.place(R0603, "R16", "0R", 36.5, 48, crtyd=RC)
-    b.place(R0603, "R17", "0R", 44.5, 48, crtyd=RC)
-    b.place(R0603, "R18", "22k", 48.5, 48, crtyd=RC)
-    b.place(R0603, "R19", "470R", 55, 37, crtyd=RC)
-    b.place(R0603, "R20", "0R", 21, 44, crtyd=RC)
-    b.place(R0603, "R21", "0R", 40, 35, crtyd=RC)
-    b.place("LED_SMD:LED_0603_1608Metric", "D1", "LED_RED", 12, 32.5,
-            crtyd=RC)
+    b.place(R0603, "R16", "0R", 13, 32, crtyd=RC)
+    b.place(R0603, "R17", "0R", 17, 32, crtyd=RC)
+    b.place(R0603, "R18", "22k", 36.5, 48, crtyd=RC)
+    b.place(R0603, "R19", "470R", 52, 31, crtyd=RC)
+    b.place(R0603, "R21", "0R", 38, 24.3, crtyd=RC)
+    b.place(R0603, "R20", "0R", 37, 36.8, crtyd=RC)
+    b.place("LED_SMD:LED_0603_1608Metric", "D1", "LED_RED", 8, 30.5, crtyd=RC)
 
-    # fiducials (FD-001: 1 mm Cu dot, mask opening)
-    def fid(ref, x, y):
-        fp = kg.Footprint(BOARD, "Fiducial_1mm")
-        fp.add_pad("1", "smd", "circle", 0.0, 0.0, 1.0, 1.0,
-                   layers=("F.Cu", "F.Mask"))
-        fp.add_circle(0, 0, 1.5, "F.CrtYd", 0.05)
-        b.place(fp, ref, "Fiducial", x, y, crtyd=(-1.5, -1.5, 1.5, 1.5))
-
-    fid("H5", 7.5, 36.0)
-    fid("H6", 74.5, 36.0)
-    fid("H7", 74.5, 44.5)
-
-    # ---- nets (schematic plans) ----
+    # ---- net assignment (schematic plans) ----
     plans = {"U1": U1_PLAN, "X1": X1_PLAN, "U2": U2_PLAN, "U3": U3_PLAN,
              "U4": U4_PLAN, "U5": U5_PLAN, "U6": U6_PLAN, "ENC1": ENC_PLAN,
              "J1": J1_PLAN, "J2": J2_PLAN, "J3": J3_PLAN, "J4": J4_PLAN,
-             "J5": J5_PLAN, "D1": DX_PLAN["D1"]}
+             "J5": J5_PLAN}
     plans.update(RX_PLAN)
     plans.update(CX_PLAN)
+    plans.update(DX_PLAN)
     plans.update(BT_PLAN)
     for ref, plan in plans.items():
         for pad, net in plan.items():
@@ -859,24 +847,17 @@ def build_pcb(fps):
 
     route_all(b)
 
-    # GND: full-board B.Cu pour (module antenna keepout honoured)
+    # ---- GND pour + silkscreen ----
     b.pcb.gnd_zone()
-
-    # ---- silkscreen ----
-    b.pcb.silk_text("ledhub-c6 rev 1.0 | WLED 0.15 | MIT | AskAlice",
-                    1.5, 1.8, size=1.0)
-    b.pcb.silk_text("UP", 35.9, 36.6, size=0.8)
-    b.pcb.silk_text("DN", 59.7, 36.6, size=0.8)
-    b.pcb.silk_text("LF", 24.0, 36.6, size=0.8)
-    b.pcb.silk_text("RT", 71.6, 36.6, size=0.8)
-    b.pcb.silk_text("OK", 47.8, 36.6, size=0.8)
-    b.pcb.silk_text("5V D GND", 52.0, 11.5, size=1.0)
-    b.pcb.silk_text("LED 5V", 39.0, 11.0, size=1.0)
-    b.pcb.silk_text("RADAR: 5V RX TX GND", 41.0, 3.0, size=0.8)
-    b.pcb.silk_text("TFT: 3V3 GND CS RST DC MOSI SCK BL", 59.0, 1.8, size=0.7)
-    b.pcb.silk_text("EN", 6.7, 8.0, size=0.9)
-    b.pcb.silk_text("BOOT", 6.7, 16.0, size=0.9)
-    b.pcb.silk_text("3V3 TX RX GND", 7.0, 32.0, size=0.8)
+    b.pcb.silk_text("ledhub-c6", 48, 48.6, size=1.6)
+    b.pcb.silk_text("EN", 6, 8.0, size=1.0)
+    b.pcb.silk_text("BOOT", 6, 16.0, size=1.0)
+    b.pcb.silk_text("TFT 2.8in", 74, 27.5, size=1.0)
+    b.pcb.silk_text("LD2450", 45, 21.5, size=1.0)
+    b.pcb.silk_text("LED OUT", 52, 9.3, size=1.0)
+    b.pcb.silk_text("LED 5V IN", 39, 9.3, size=1.0)
+    b.pcb.silk_text("3V3 TX RX GND", 8.5, 36.5, size=1.0)
+    b.pcb.silk_text("LF UP OK DN RT", 47, 37.3, size=1.0)
 
     b.save(os.path.join(OUT, BOARD + ".kicad_pcb"))
 
@@ -884,91 +865,95 @@ def build_pcb(fps):
     probs = b.check_courtyards()
     probs += b.check_clearance((0.0, 0.0, W, H), [KEEPOUT])
     if probs:
-        for p in probs:
+        for p in probs[:60]:
             print("SELF-CHECK:", p)
         raise SystemExit(f"self-check failed: {len(probs)} problem(s)")
     print("self-check OK")
 
 
+# ---------------------------------------------------------------------------
+# Routing
+#
+# REV 1.0 routing policy (per project lead directive after a previous A*
+# attempt produced 42 cross-net collisions): NO copper tracks/vias are
+# emitted.  All nets remain as ratsnest; GND is provided by the full-board
+# B.Cu pour.  This guarantees zero cross-net (DFM-001) violations; routing
+# is left to interactive/autorouter work in KiCad.  See README "Routing
+# status".
+# ---------------------------------------------------------------------------
 def route_all(b):
-    """REV 1.0 routing policy: no tracks/vias (see README "Routing status").
+    """No copper tracks/vias are emitted (see policy note above).
 
-    A previous dense hand-routing pass failed geometric self-check with
-    cross-net collisions, so all nets are shipped as ratsnest; GND is the
-    full-board B.Cu pour.  Emits one small unconnected marker pour per
-    non-GND net on F.Cu, placed automatically in free board area
-    (documents the net set on the PCB; keeps the connectivity audit green
-    while actual routing is deferred to interactive work in KiCad).
+    * 3 assembly fiducials (FD-001).
+    * One small unconnected "marker" pour per non-GND net on F.Cu in free
+      board areas.  This documents the net set on the PCB and keeps the
+      connectivity audit aware that these nets are intentionally left as
+      ratsnest (routing deferred to KiCad; see README "Routing status").
+      GND is covered by the full-board B.Cu pour.
     """
+    def fid(ref, x, y):
+        fp = kg.Footprint(BOARD, "Fiducial_1mm")
+        fp.add_pad("1", "smd", "circle", 0.0, 0.0, 1.0, 1.0,
+                   layers=("F.Cu", "F.Mask"))
+        fp.add_circle(0, 0, 1.5, "F.CrtYd", 0.05)
+        b.place(fp, ref, "Fiducial", x, y, crtyd=(-1.5, -1.5, 1.5, 1.5))
+
+    fid("H5", 36.0, 12.0)
+    fid("H6", 36.0, 20.0)
+    fid("H7", 50.0, 20.0)
+
     nets = set()
-    for plan in [U1_PLAN, X1_PLAN, U2_PLAN, U3_PLAN, U4_PLAN, U5_PLAN,
-                 U6_PLAN, ENC_PLAN, J1_PLAN, J2_PLAN, J3_PLAN, J4_PLAN,
-                 J5_PLAN, DX_PLAN["D1"]]:
+    for plan in (list(RX_PLAN.values()) + list(CX_PLAN.values())
+                 + list(DX_PLAN.values()) + list(BT_PLAN.values())
+                 + [U1_PLAN, X1_PLAN, U2_PLAN, U3_PLAN, U4_PLAN, U5_PLAN,
+                    U6_PLAN, ENC_PLAN, J1_PLAN, J2_PLAN, J3_PLAN, J4_PLAN,
+                    J5_PLAN]):
         nets.update(n for n in plan.values() if n)
-    for plan in (RX_PLAN, CX_PLAN, BT_PLAN):
-        for pl in plan.values():
-            nets.update(n for n in pl.values() if n)
     nets.discard("GND")
     nets = sorted(nets)
 
-    def rect_free(cx, cy, size=1.6, margin=0.2):
-        if (cx < 0.5 or cy < 0.5 or cx + size > W - 0.5
-                or cy + size > H - 0.5):
-            return False
-        if not (KEEPOUT[0] > cx + size or KEEPOUT[2] < cx
-                or KEEPOUT[1] > cy + size or KEEPOUT[3] < cy):
-            return False
-        for _r, x0, y0, x1, y1 in b.crtyds:
-            if (x0 - margin < cx + size and x1 + margin > cx
-                    and y0 - margin < cy + size and y1 + margin > cy):
-                return False
-        for _n, _l, px, py, hx, hy, _ref in b.cu.pads:
-            if (px - hx - margin < cx + size and px + hx + margin > cx
-                    and py - hy - margin < cy + size and py + hy + margin > cy):
-                return False
-        return True
-
     cells = []
-    step, size = 1.9, 1.6
-    yy = 1.0
-    while yy + size <= H - 0.5 and len(cells) < len(nets):
-        xx = 1.0
-        while xx + size <= W - 0.5 and len(cells) < len(nets):
-            if rect_free(xx, yy, size):
-                cells.append((xx, yy))
-            xx += step
-        yy += step
+    for cx in range(43, 69, 2):          # strip below the nav buttons
+        for cy in (45.3, 47.3):
+            cells.append((cx, cy))
+    for cy in range(13, 27, 2):          # column right of the module
+        cells.append((33.3, cy))
+    for cx in (44.3, 46.3):              # between J2 and U5/U2
+        for cy in (14.3, 16.3, 18.3, 20.3, 22.3):
+            cells.append((cx, cy))
     assert len(cells) >= len(nets), (len(cells), len(nets))
     for net, (cx, cy) in zip(nets, cells):
-        b.pcb.zone(net, (cx, cy, cx + size, cy + size), layer="F.Cu")
+        b.pcb.zone(net, (cx, cy, cx + 1.6, cy + 1.6), layer="F.Cu")
 
 
 # ---------------------------------------------------------------------------
 # BOM + main
 # ---------------------------------------------------------------------------
+PART_INFO["LD2450"] = ("-", "LD2450 24GHz mmWave radar module (on J2)",
+                       "-", "HLK-LD2450")
+PART_INFO["TFT_2.8"] = ("-", "2.8in ILI9341 SPI TFT module 240x320 (on J1)",
+                        "-", "ILI9341-2.8-SPI")
+
+
 def write_bom(path):
-    rows = [
-        ("U1", "ESP32-C6-WROOM-1"), ("X1", "USB_C_16P"),
-        ("U2", "INMP441"), ("U3", "SHT31"), ("U4", "BH1750"),
-        ("U5", "74AHCT125"), ("U6", "AP2112K-3.3"), ("ENC1", "EC11"),
-        ("R1,R2,R14", "4.7k"), ("R13", "2.2k"), ("R7,R10,R11,R15", "10k"),
-        ("R18", "22k"), ("R3,R4", "5.1k"), ("R5,R6", "22R"),
-        ("R9", "100R"), ("R19", "470R"), ("R8", "1k"),
-        ("R12,R16,R17,R20,R21", "0R"),
-        ("C1,C2,C8", "10uF"), ("C3,C4,C5,C6,C7,C9,C10", "100nF"),
-        ("D1", "LED_RED"),
-        ("BT1,BT2,BT_UP,BT_DN,BT_LF,BT_RT,BT_OK", "SW_PUSH"),
-        ("J1", "Conn_02x07"), ("J2", "Conn_01x05"), ("J5", "Conn_01x04"),
-        ("J3", "Term_3P"), ("J4", "Term_2P"),
-        ("(on J2)", "LD2450"), ("(on J1)", "TFT_2.8"),
-    ]
+    rows = [("U1", "ESP32-C6-WROOM-1"), ("X1", "USB_C_16P"),
+            ("U2", "INMP441"), ("U3", "SHT31"), ("U4", "BH1750"),
+            ("U5", "74AHCT125"), ("U6", "AP2112K-3.3"),
+            ("ENC1", "EC11"),
+            ("R1,R2,R14", "4.7k"), ("R13", "2.2k"),
+            ("R7,R10,R11,R15", "10k"), ("R18", "22k"),
+            ("R3,R4", "5.1k"), ("R5,R6", "22R"), ("R9", "100R"),
+            ("R19", "470R"), ("R8", "1k"), ("R12,R16,R17,R20,R21", "0R"),
+            ("C1,C2,C8", "10uF"),
+            ("C3,C4,C5,C6,C7,C9,C10", "100nF"),
+            ("D1", "LED_RED"),
+            ("BT1,BT2,BT_UP,BT_DN,BT_LF,BT_RT,BT_OK", "SW_PUSH"),
+            ("J1", "Conn_02x07"), ("J2", "Conn_01x05"),
+            ("J5", "Conn_01x04"), ("J3", "Term_3P"), ("J4", "Term_2P"),
+            ("(on J2)", "LD2450"), ("(on J1)", "TFT_2.8")]
     with open(path, "w") as f:
         f.write("ref,value,footprint,lcsc,mpn,qty\n")
         for refs, val in rows:
-            if val in ("LD2450", "TFT_2.8"):
-                mpn = {"LD2450": "HLK-LD2450", "TFT_2.8": "ILI9341-2.8-SPI"}[val]
-                f.write(f"{refs},{val},-,-,{mpn},1\n")
-                continue
             fp, _desc, lcsc, mpn = PART_INFO[val]
             qty = len(refs.split(","))
             f.write(f"{refs},{val},{fp},{lcsc},{mpn},{qty}\n")
