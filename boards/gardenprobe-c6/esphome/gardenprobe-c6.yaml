@@ -1,0 +1,79 @@
+# gardenprobe-c6 — ESPHome configuration (SPEC 7.5)
+# Battery soil-moisture stick node. ESP32-C6-WROOM-1. 3.7 V LiPo (JST-PH,
+# charge EXTERNALLY — no charger on board) + MCP1700-3302 LDO.
+# Soil probe = copper area on B.Cu tip (J2): 1M charge resistor from GPIO1,
+# ADC read on GPIO0. Sensors on switched rail (AO3401 load switch, GPIO3).
+
+esphome:
+  name: gardenprobe-c6
+  friendly_name: "GardenProbe C6"
+
+esp32:
+  board: esp32-c6-devkitc-1
+  variant: esp32c6
+  framework:
+    type: esp-idf
+
+logger:
+  hardware_uart: UART0    # J1 prog header: 3V3/TX0=GPIO16/RX0=GPIO17/GND
+api:
+ota:
+  - platform: esphome
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+# ------------- Load switch: GPIO3 enables +3V3_SW (SHT31 + I2C pull-ups) --
+switch:
+  - platform: gpio
+    name: "Sensor rail"
+    id: sensor_rail
+    pin: GPIO3
+    restore_mode: ALWAYS_OFF
+
+# ------------- I2C on switched rail: SDA=GPIO20, SCL=GPIO21 ----------------
+i2c:
+  sda: GPIO20
+  scl: GPIO21
+  scan: true
+
+sensor:
+  # SHT31 temp/humidity (0x44) — powered from +3V3_SW via Q1
+  - platform: sht3xd
+    temperature:
+      name: "Soil temperature"
+    humidity:
+      name: "Air humidity"
+    address: 0x44
+    update_interval: 60s
+  # Soil moisture: capacitive pad via 1M charge R (GPIO1) + ADC (GPIO0).
+  # Simple fixed-RC approach: drive GPIO1 high briefly, sample GPIO0.
+  # CALIBRATE per soil/installation — map raw ADC to % with filters below.
+  - platform: adc
+    pin: GPIO0
+    attenuation: 12db
+    name: "Soil moisture (raw)"
+    id: soil_raw
+    update_interval: 60s
+    filters:
+      - sliding_window_moving_average:
+          window_size: 8
+          send_every: 4
+  # Battery divider 100k/100k on GPIO2: Vbat = 2 x ADC voltage
+  - platform: adc
+    pin: GPIO2
+    attenuation: 12db
+    name: "Battery voltage"
+    update_interval: 10min
+    filters:
+      - multiply: 2.0
+
+output:
+  - platform: gpio
+    pin: GPIO1
+    id: soil_charge
+
+# ------------- Deep sleep: 30 min cycles -----------------------------------
+deep_sleep:
+  run_duration: 45s
+  sleep_duration: 30min
