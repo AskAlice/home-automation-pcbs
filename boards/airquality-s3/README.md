@@ -70,3 +70,5 @@ module pad columns.
 |---|---|
 | ![top](render3d_top.png) | ![top](render_top.png) |
 | ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+
+🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
