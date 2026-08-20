@@ -1,0 +1,7435 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "4545dc70-292e-429e-a64d-6a900729083e")
+  (paper "A4")
+  (title_block
+    (title "airquality-s3")
+    (date "2025-01-01")
+    (rev "1.0")
+    (comment 1 "v0.1 concept design -- verify before fabrication")
+  )
+  (lib_symbols
+    (symbol
+      "airquality-s3-lib:ESP32-S3-WROOM-1"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "ESP32-S3-WROOM-1"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "airquality-s3:ESP32-S3-WROOM-1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2913198"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "ESP32-S3-WROOM-1 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:ESP32-S3-WROOM-1_0_1"
+        (rectangle
+          (start -5.08 -27.94)
+          (end 5.08 27.94)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:ESP32-S3-WROOM-1_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 26.67 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 24.13 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 21.59 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 19.05 0)
+          (length 2.54)
+          (name
+            "IO4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 16.51 0)
+          (length 2.54)
+          (name
+            "IO5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 13.97 0)
+          (length 2.54)
+          (name
+            "IO6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 11.43 0)
+          (length 2.54)
+          (name
+            "IO7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 8.89 0)
+          (length 2.54)
+          (name
+            "IO15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 6.35 0)
+          (length 2.54)
+          (name
+            "IO16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "IO17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "IO18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "IO8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -3.81 0)
+          (length 2.54)
+          (name
+            "IO3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -6.35 0)
+          (length 2.54)
+          (name
+            "IO46"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -8.89 0)
+          (length 2.54)
+          (name
+            "IO9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -11.43 0)
+          (length 2.54)
+          (name
+            "IO10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -13.97 0)
+          (length 2.54)
+          (name
+            "IO11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -16.51 0)
+          (length 2.54)
+          (name
+            "IO12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -19.05 0)
+          (length 2.54)
+          (name
+            "IO13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "19"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -21.59 0)
+          (length 2.54)
+          (name
+            "IO14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "20"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -24.13 0)
+          (length 2.54)
+          (name
+            "IO21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 26.67 180)
+          (length 2.54)
+          (name
+            "IO47"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "22"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 24.13 180)
+          (length 2.54)
+          (name
+            "IO48"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "23"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 21.59 180)
+          (length 2.54)
+          (name
+            "IO45"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "24"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 19.05 180)
+          (length 2.54)
+          (name
+            "IO0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "25"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 16.51 180)
+          (length 2.54)
+          (name
+            "IO35*"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "26"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 13.97 180)
+          (length 2.54)
+          (name
+            "IO36*"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "27"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 11.43 180)
+          (length 2.54)
+          (name
+            "IO37*"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "28"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 8.89 180)
+          (length 2.54)
+          (name
+            "IO38"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "29"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 6.35 180)
+          (length 2.54)
+          (name
+            "IO39"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "30"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "IO40"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "31"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "IO41"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "32"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "IO42"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "33"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -3.81 180)
+          (length 2.54)
+          (name
+            "RXD0/IO44"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "34"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -6.35 180)
+          (length 2.54)
+          (name
+            "TXD0/IO43"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "35"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -8.89 180)
+          (length 2.54)
+          (name
+            "IO2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "36"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -11.43 180)
+          (length 2.54)
+          (name
+            "IO1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "37"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -13.97 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "38"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -16.51 180)
+          (length 2.54)
+          (name
+            "IO19/USB_D-"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "39"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -19.05 180)
+          (length 2.54)
+          (name
+            "IO20/USB_D+"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "40"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -21.59 180)
+          (length 2.54)
+          (name
+            "EP/GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "41"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:USB_C_16P"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "X"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "USB_C_16P"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C165948"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "USB_C_16P (X)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:USB_C_16P_0_1"
+        (rectangle
+          (start -5.08 -13.97)
+          (end 5.08 13.97)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:USB_C_16P_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 12.7 0)
+          (length 2.54)
+          (name
+            "GND1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 10.16 0)
+          (length 2.54)
+          (name
+            "VBUS1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 7.62 0)
+          (length 2.54)
+          (name
+            "CC1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 5.08 0)
+          (length 2.54)
+          (name
+            "DP1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "DM1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "SBU1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name
+            "VBUS2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -5.08 0)
+          (length 2.54)
+          (name
+            "GND2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -7.62 0)
+          (length 2.54)
+          (name
+            "GND3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -10.16 0)
+          (length 2.54)
+          (name
+            "VBUS3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 12.7 180)
+          (length 2.54)
+          (name
+            "SBU2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 10.16 180)
+          (length 2.54)
+          (name
+            "DM2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 7.62 180)
+          (length 2.54)
+          (name
+            "DP2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 5.08 180)
+          (length 2.54)
+          (name
+            "CC2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "VBUS4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "GND4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -2.54 180)
+          (length 2.54)
+          (name
+            "SH1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -5.08 180)
+          (length 2.54)
+          (name
+            "SH2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -7.62 180)
+          (length 2.54)
+          (name
+            "SH3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -10.16 180)
+          (length 2.54)
+          (name
+            "SH4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:AP2112K-3.3"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "AP2112K-3.3"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Package_TO_SOT_SMD:SOT-23-5"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C51115"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "AP2112K-3.3 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:AP2112K-3.3_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:AP2112K-3.3_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "VIN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "VOUT"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:SCD40"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SCD40"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "airquality-s3:SCD40"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://sensirion.com/resource/datasheet/scd40"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C3659421"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SCD40 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SCD40_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SCD40_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "SCL"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "VDD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "SDA"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:SGP40"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SGP40"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "airquality-s3:SGP40-DFN6"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://sensirion.com/resource/datasheet/sgp40"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2874215"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SGP40 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SGP40_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SGP40_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "VDD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "VSS"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "SDA"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "VDDH"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "SCL"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:SHT40"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SHT40"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "airquality-s3:SHT40-DFN4"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://sensirion.com/resource/datasheet/sht4x"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2909890"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SHT40 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SHT40_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SHT40_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "SDA"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "SCL"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "VDD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "VSS"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:SW_PUSH"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "BT"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SW_PUSH"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "airquality-s3:Tactile-6x6-SMD"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C139797"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SW_PUSH (BT)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SW_PUSH_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:SW_PUSH_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "A1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "A2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "B1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "B2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:LED_GRN"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "LED_GRN"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "LED_SMD:LED_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2297"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "LED_GRN (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:LED_GRN_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:LED_GRN_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:1k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "1k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C21190"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "1k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:1k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:1k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:5.1k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "5.1k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C23186"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "5.1k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:5.1k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:5.1k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:10k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C25804"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:10k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:10k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:4.7k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "4.7k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C23162"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "4.7k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:4.7k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:4.7k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:10uF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10uF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C15849"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10uF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:10uF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:10uF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:100nF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100nF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C14663"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100nF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:100nF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:100nF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:Conn_01x04"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x04"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C49258"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x04 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:Conn_01x04_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:Conn_01x04_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "TX0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "RX0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:GND"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol GND"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.905 -2.54)
+            (xy 1.905 -2.54)
+            (xy 0 0)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:GND_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 270)
+          (length 0)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:+3V3"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+3V3"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +3V3"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:+3V3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:+3V3_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "airquality-s3-lib:VBUS"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "VBUS"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol VBUS"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "airquality-s3-lib:VBUS_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "airquality-s3-lib:VBUS_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 92.38 65.95)
+    (uuid "c32a1ab8-ea9f-4b40-a87b-7bae3bb94675")
+  )
+  (no_connect
+    (at 92.38 68.49)
+    (uuid "76726cff-b4ba-4811-8e5d-aef619810c1f")
+  )
+  (no_connect
+    (at 92.38 71.03)
+    (uuid "6da1d75a-5b6f-48fd-80d1-613f9bd11333")
+  )
+  (no_connect
+    (at 92.38 73.57)
+    (uuid "87e7c7fd-5a4e-4379-ab65-4ad329fd4bc2")
+  )
+  (no_connect
+    (at 92.38 76.11)
+    (uuid "926e4c20-b0bb-43ba-ac71-a7a825e77d94")
+  )
+  (no_connect
+    (at 92.38 78.65)
+    (uuid "76c4f6a9-ba0c-4815-af67-dcf278a1a640")
+  )
+  (no_connect
+    (at 92.38 81.19)
+    (uuid "5e6aba54-82c5-474b-81c1-4ed5917909e7")
+  )
+  (no_connect
+    (at 92.38 83.73)
+    (uuid "399f0d2d-8272-42b7-ae50-94755338e39b")
+  )
+  (no_connect
+    (at 92.38 88.81)
+    (uuid "0c39a82c-07f8-4876-bc93-dc29a992fe05")
+  )
+  (no_connect
+    (at 92.38 91.35)
+    (uuid "33bf2d6d-8f18-4ed6-be5d-311a372a43c0")
+  )
+  (no_connect
+    (at 92.38 96.43)
+    (uuid "5763a7ce-92a5-4dba-a20b-1f6dc7709b3c")
+  )
+  (no_connect
+    (at 92.38 98.97)
+    (uuid "f21d06ca-e3a2-470b-9833-34fbf9ed6339")
+  )
+  (no_connect
+    (at 92.38 101.51)
+    (uuid "7aca0c9f-3078-4f9f-8e25-59769a8e3cc0")
+  )
+  (no_connect
+    (at 92.38 104.05)
+    (uuid "d7fd43bf-9606-46f4-8fc4-db8a8f37d764")
+  )
+  (no_connect
+    (at 92.38 106.59)
+    (uuid "5ea2c2fd-9303-4599-9747-39937706731d")
+  )
+  (no_connect
+    (at 92.38 109.13)
+    (uuid "213a7505-4f06-494a-afcc-ade081f44818")
+  )
+  (no_connect
+    (at 107.62 58.33)
+    (uuid "8c2f671b-cc31-4d72-bee9-0e72223a1cb1")
+  )
+  (no_connect
+    (at 107.62 60.87)
+    (uuid "12bc528b-3908-4610-a204-43b738e3ce96")
+  )
+  (no_connect
+    (at 107.62 63.41)
+    (uuid "fc3dddef-8077-4b47-a929-7df69d481431")
+  )
+  (no_connect
+    (at 107.62 68.49)
+    (uuid "ef9fe3f7-b0e2-4826-81aa-d3969fc5cbb1")
+  )
+  (no_connect
+    (at 107.62 71.03)
+    (uuid "345caab5-21a9-4f66-8496-5c7ebd3da7d1")
+  )
+  (no_connect
+    (at 107.62 73.57)
+    (uuid "fa03ea8f-aa2d-4245-89e1-b2d3c34ad127")
+  )
+  (no_connect
+    (at 107.62 78.65)
+    (uuid "5198abf9-dd7d-4e3a-9fdb-480e46375a8f")
+  )
+  (no_connect
+    (at 107.62 81.19)
+    (uuid "b40b8990-2ebc-41dc-bb94-546cdf012e5a")
+  )
+  (no_connect
+    (at 107.62 83.73)
+    (uuid "70d98ed1-ff26-4dda-b794-bfa093d97622")
+  )
+  (no_connect
+    (at 107.62 86.27)
+    (uuid "5fb7bdae-d661-4b86-8587-950b4ebf3b65")
+  )
+  (no_connect
+    (at 107.62 93.89)
+    (uuid "f9ade79e-5553-4582-8f48-c4b3bd050d9f")
+  )
+  (no_connect
+    (at 107.62 96.43)
+    (uuid "675449d9-0fb4-4fa9-9b30-d385be54e29c")
+  )
+  (no_connect
+    (at 22.38 60)
+    (uuid "92c47087-f1b3-4670-a7aa-d89aedd0e4cd")
+  )
+  (no_connect
+    (at 37.62 47.3)
+    (uuid "1add2a4a-1007-47b4-a5e0-f2a2af629de9")
+  )
+  (no_connect
+    (at 67.62 86.19)
+    (uuid "20452a0f-2682-4a9b-aa35-17ab0807eb2d")
+  )
+  (label
+    "GND"
+    (at 92.38 58.33 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "df8edd55-aa27-42d8-a9ae-18ca84355468")
+  )
+  (label
+    "+3V3"
+    (at 92.38 60.87 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5bd09157-d4ef-4d8e-afc1-a3dd0bf8de10")
+  )
+  (label
+    "EN"
+    (at 92.38 63.41 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "85e96a79-f08f-4a30-9dc3-ce5dda23b368")
+  )
+  (label
+    "I2C_SDA"
+    (at 92.38 86.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9a913381-40cd-4f21-af8b-50bb757e339a")
+  )
+  (label
+    "I2C_SCL"
+    (at 92.38 93.89 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f479c53c-fa39-4173-b2b9-604aa26f7e17")
+  )
+  (label
+    "BOOT"
+    (at 107.62 65.95 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cd45ca62-e349-4309-ad0d-0671e3d37c7c")
+  )
+  (label
+    "STAT_LED"
+    (at 107.62 76.11 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b8d2cd8a-745a-4c96-8992-d99a51a054ea")
+  )
+  (label
+    "RX0"
+    (at 107.62 88.81 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "36069d23-9b79-4157-ac35-e5563157f5c3")
+  )
+  (label
+    "TX0"
+    (at 107.62 91.35 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bf21f57c-8d8b-4ec1-8fe7-d87b181bfbf0")
+  )
+  (label
+    "GND"
+    (at 107.62 98.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cb0d4656-2dc4-478c-979d-1d0a614b3dcc")
+  )
+  (label
+    "USB_DM"
+    (at 107.62 101.51 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ff128da6-7ef3-49be-8b19-ebae5e5ed608")
+  )
+  (label
+    "USB_DP"
+    (at 107.62 104.05 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "de72e401-bd5d-4ee9-8ae5-fb97f55a227b")
+  )
+  (label
+    "GND"
+    (at 107.62 106.59 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c4e249d1-46e6-4e3e-94ef-83092fcdd97f")
+  )
+  (label
+    "GND"
+    (at 22.38 47.3 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0177e7ae-34e3-4fb7-b794-3e4d3920cdf6")
+  )
+  (label
+    "VBUS"
+    (at 22.38 49.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e939bad0-024e-44dc-a2af-dfd96a9da851")
+  )
+  (label
+    "USB_CC1"
+    (at 22.38 52.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c85dd6dc-7885-4af1-bb4f-6f7fbf7846cb")
+  )
+  (label
+    "USB_DP"
+    (at 22.38 54.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c4c68b46-ef2c-47db-9328-aeefc058238b")
+  )
+  (label
+    "USB_DM"
+    (at 22.38 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1a28ae72-ca49-49af-bc8b-5ac5d5379833")
+  )
+  (label
+    "VBUS"
+    (at 22.38 62.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "05d63c35-af48-4791-a0a8-ccc74395d972")
+  )
+  (label
+    "GND"
+    (at 22.38 65.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7f7c923f-e8ad-4b84-bca7-6168496069bb")
+  )
+  (label
+    "GND"
+    (at 22.38 67.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0c20c122-3d5a-4e89-a454-74980bb227b4")
+  )
+  (label
+    "VBUS"
+    (at 22.38 70.16 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7caa65ef-4895-4fc9-8968-3f1f8ce29da2")
+  )
+  (label
+    "USB_DM"
+    (at 37.62 49.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4441c3d1-ccc4-420f-a780-fe91bfb96c12")
+  )
+  (label
+    "USB_DP"
+    (at 37.62 52.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "218e4feb-cdba-4116-bf4c-395a28476724")
+  )
+  (label
+    "USB_CC2"
+    (at 37.62 54.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d15b54ab-8268-4d48-8da5-4368a058fc46")
+  )
+  (label
+    "VBUS"
+    (at 37.62 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0f4211aa-b41d-4d02-89da-07363367105b")
+  )
+  (label
+    "GND"
+    (at 37.62 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9b2616f1-7e11-4a6c-9027-7c9d38433562")
+  )
+  (label
+    "GND"
+    (at 37.62 62.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2d32e028-cb86-4207-b797-7381ccd2e17a")
+  )
+  (label
+    "GND"
+    (at 37.62 65.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "02213cf1-6ac9-4a3a-8ab2-b2717554568f")
+  )
+  (label
+    "GND"
+    (at 37.62 67.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "80330326-9a59-4860-962e-87ff50b0c975")
+  )
+  (label
+    "GND"
+    (at 37.62 70.16 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "192f4af0-b0a7-4206-b7e7-3ff678fd71ea")
+  )
+  (label
+    "VBUS"
+    (at 52.38 86.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ebde38a6-1213-4697-bb55-ca36a6be742b")
+  )
+  (label
+    "GND"
+    (at 52.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "26854db8-a663-4c5e-96ea-d7c3c19a3e35")
+  )
+  (label
+    "VBUS"
+    (at 52.38 91.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b25f18dc-dd56-4727-b1c8-d0cf93779a4a")
+  )
+  (label
+    "+3V3"
+    (at 67.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2aab5b84-7333-4d97-8581-caa1f7fb697b")
+  )
+  (label
+    "I2C_SCL"
+    (at 132.38 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "130c9bf9-e539-409d-a97a-f7408a342683")
+  )
+  (label
+    "GND"
+    (at 132.38 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "37f7e8f9-d67e-4506-91d8-96b64faab827")
+  )
+  (label
+    "+3V3"
+    (at 147.62 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ea2f6154-2500-4404-a1f6-96bb87d1db69")
+  )
+  (label
+    "I2C_SDA"
+    (at 147.62 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5f0cfe8d-9424-403d-9bf7-2af27529d6f1")
+  )
+  (label
+    "+3V3"
+    (at 132.38 86.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b2942d78-0356-4500-9153-79bd78097ad2")
+  )
+  (label
+    "GND"
+    (at 132.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6a2bf69c-7a85-47c4-b055-d46c5771fb3f")
+  )
+  (label
+    "I2C_SDA"
+    (at 132.38 91.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e526e4ee-6ef2-4375-a506-84afa40ffb28")
+  )
+  (label
+    "GND"
+    (at 147.62 86.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d4bce807-bb17-4b68-82b0-964c4e7e5d71")
+  )
+  (label
+    "+3V3"
+    (at 147.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1020e9d0-b760-4427-a3d4-0a20c8a0090a")
+  )
+  (label
+    "I2C_SCL"
+    (at 147.62 91.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7753f3d1-5070-419f-bc28-2ad8dd1ecc95")
+  )
+  (label
+    "I2C_SDA"
+    (at 132.38 112.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bed8e809-9385-476e-a0b4-53e4b9c853b8")
+  )
+  (label
+    "I2C_SCL"
+    (at 132.38 115 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d5a26838-0d99-4ffa-a8a7-3680271cf3a9")
+  )
+  (label
+    "+3V3"
+    (at 147.62 112.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "24c28f81-6e42-4ebf-935c-1e066fff1ae7")
+  )
+  (label
+    "GND"
+    (at 147.62 115 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "57099430-25f9-423c-8f57-c92cbb4d7985")
+  )
+  (label
+    "EN"
+    (at 22.38 112.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "37009036-e526-4dc5-9413-913b0f7ab747")
+  )
+  (label
+    "GND"
+    (at 22.38 115 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1691253c-bd8a-4a5c-a7f0-0a5881f9fb60")
+  )
+  (label
+    "EN"
+    (at 37.62 112.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9170745d-66c8-4b09-af68-d057dbef6130")
+  )
+  (label
+    "GND"
+    (at 37.62 115 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5a6b2d64-8c1f-4858-8b89-20368d93388b")
+  )
+  (label
+    "BOOT"
+    (at 52.38 112.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ce056d0f-6666-4cb9-952e-a110b8b28336")
+  )
+  (label
+    "GND"
+    (at 52.38 115 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fe0fac39-743b-4f43-b415-8f7f1e2af0f7")
+  )
+  (label
+    "BOOT"
+    (at 67.62 112.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0ade64e3-f2b0-4ffe-905d-cd94287930ed")
+  )
+  (label
+    "GND"
+    (at 67.62 115 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e8a86c82-95ec-4004-9cfe-5f71b2d88a7b")
+  )
+  (label
+    "LED1_A"
+    (at 167.38 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a65fdc29-5bc7-4362-9615-06465b08b501")
+  )
+  (label
+    "STAT_LED"
+    (at 182.62 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0b3e56f7-94ea-41c7-a6a1-ee28595033d2")
+  )
+  (label
+    "+3V3"
+    (at 167.38 38.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3135565f-7d67-497d-8e7b-ff197335b775")
+  )
+  (label
+    "LED1_A"
+    (at 182.62 38.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6ee1ae1e-5285-48e0-8f84-1651e448d3e6")
+  )
+  (label
+    "USB_CC1"
+    (at 82.38 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bc0c62cc-8ad8-47ed-98bd-67c8a00eb777")
+  )
+  (label
+    "GND"
+    (at 97.62 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "763c1525-5eb2-4ea7-8d97-9e4c2f94ea5b")
+  )
+  (label
+    "USB_CC2"
+    (at 102.38 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "385e465e-1d6d-4cd0-9b12-513bc983ff53")
+  )
+  (label
+    "GND"
+    (at 117.62 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ed15744f-0405-4c6c-b61d-3c5ca2f655d8")
+  )
+  (label
+    "+3V3"
+    (at 167.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "972e165f-8f28-4f2d-bdae-8934715ee358")
+  )
+  (label
+    "EN"
+    (at 182.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "202847ae-dab1-431a-9025-dd7902533424")
+  )
+  (label
+    "+3V3"
+    (at 167.38 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3fad19c8-8b2a-44ea-8022-3293b2431478")
+  )
+  (label
+    "I2C_SDA"
+    (at 182.62 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "df318b32-5728-499a-9404-e7de89bfde05")
+  )
+  (label
+    "+3V3"
+    (at 187.38 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3e269b48-fcbc-4ac8-bf17-1a93dbb31cf2")
+  )
+  (label
+    "I2C_SCL"
+    (at 202.62 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a2b18d42-8beb-4c8b-b0a1-a51472931501")
+  )
+  (label
+    "VBUS"
+    (at 82.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a8fbe939-72a2-48b0-9332-297b49fa3f33")
+  )
+  (label
+    "GND"
+    (at 97.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7b632115-988b-41bb-bd4d-b7880cf094ba")
+  )
+  (label
+    "+3V3"
+    (at 102.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d3a28eaf-31b8-48a8-99f4-dc26e3c5810f")
+  )
+  (label
+    "GND"
+    (at 117.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "132708e7-cbd4-438b-bb78-5d40db6dfc6d")
+  )
+  (label
+    "+3V3"
+    (at 122.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "87c75af8-cf4c-47b7-9443-930851353e2e")
+  )
+  (label
+    "GND"
+    (at 137.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cb856915-58ab-417d-84cf-57126adfd9cf")
+  )
+  (label
+    "+3V3"
+    (at 142.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5993ac97-9473-4c61-896a-6a15250a8459")
+  )
+  (label
+    "GND"
+    (at 157.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "11575edc-10ec-434e-92e9-1fe7613cf4f0")
+  )
+  (label
+    "+3V3"
+    (at 82.38 162.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "72da7af0-ec5e-48da-8ebf-57ca7a2b2b03")
+  )
+  (label
+    "TX0"
+    (at 82.38 165 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "18f77e44-9a0e-4192-b2ef-54df38f5d90e")
+  )
+  (label
+    "RX0"
+    (at 97.62 162.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f35d459a-7eeb-4776-95b3-2691159b6a4f")
+  )
+  (label
+    "GND"
+    (at 97.62 165 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "462e02ef-908f-45a7-8101-25d37db0513d")
+  )
+  (label
+    "+3V3"
+    (at 137.38 162.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c8969e53-cb7f-4e8c-a822-18c45a1a9709")
+  )
+  (label
+    "I2C_SDA"
+    (at 137.38 165 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6bf85df6-c1a1-4994-bc01-bab8da72e746")
+  )
+  (label
+    "I2C_SCL"
+    (at 152.62 162.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0d7ca707-fc5a-4995-817a-b8d37bb5d270")
+  )
+  (label
+    "GND"
+    (at 152.62 165 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b488d881-944d-4bf6-b730-24942ae958e3")
+  )
+  (label
+    "GND"
+    (at 15 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bd0e11b5-5269-44a0-b051-26ef672bb7af")
+  )
+  (label
+    "+3V3"
+    (at 25 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "03bc8a1f-b656-4aba-aae4-dd0e803e0d30")
+  )
+  (label
+    "VBUS"
+    (at 35 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9ef14064-a3ff-4c98-8c1f-150e17f08747")
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:ESP32-S3-WROOM-1")
+    (at 100 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d9e07360-24c7-45ed-8c76-954aef509044")
+    (property
+      "Reference"
+      "U1"
+      (at 100 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-S3-WROOM-1"
+      (at 100 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "airquality-s3:ESP32-S3-WROOM-1"
+      (at 100 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+      (at 100 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2913198"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "28279b62-10d2-49fa-97a4-388f1938b83e")
+    )
+    (pin
+      "2"
+      (uuid "0fb3c7c9-d338-4daf-a9f4-bcec89ddd47f")
+    )
+    (pin
+      "3"
+      (uuid "1b373d36-de7b-472a-b3c4-0390582e72c6")
+    )
+    (pin
+      "4"
+      (uuid "5ba5bd9f-366e-4ff8-ab66-684e813ef936")
+    )
+    (pin
+      "5"
+      (uuid "04c4ebe4-e7a4-42a1-9b63-1f18a0266062")
+    )
+    (pin
+      "6"
+      (uuid "d0ccf902-9a7a-4933-8197-6f61b4567695")
+    )
+    (pin
+      "7"
+      (uuid "5b6687fb-6fd7-4c4f-9af4-1982bdc0ea5e")
+    )
+    (pin
+      "8"
+      (uuid "f5855682-aaa9-4913-8458-c9e1ee152fd0")
+    )
+    (pin
+      "9"
+      (uuid "f3b61e9d-13d2-4a6f-869b-d15afeed5507")
+    )
+    (pin
+      "10"
+      (uuid "f460f8e8-406a-4f19-b985-21dc47c42b04")
+    )
+    (pin
+      "11"
+      (uuid "4e8b378f-49d4-4fd0-8694-f3387ead5f18")
+    )
+    (pin
+      "12"
+      (uuid "63bff65c-ec3d-4518-a234-6eac1812fd35")
+    )
+    (pin
+      "13"
+      (uuid "4e6aec04-2a07-4a61-86c0-e48e08094e9b")
+    )
+    (pin
+      "14"
+      (uuid "a77d9443-a4dd-4754-b161-5df30ac4d182")
+    )
+    (pin
+      "15"
+      (uuid "07cb0f44-d7e4-44e6-b523-dcaad1c5e7e3")
+    )
+    (pin
+      "16"
+      (uuid "b7fefe9f-514d-4c94-a600-b7ed4e1256e7")
+    )
+    (pin
+      "17"
+      (uuid "f06d62d1-1de0-41ef-a21d-efdd7db89d54")
+    )
+    (pin
+      "18"
+      (uuid "733ecb83-6904-4bbd-9124-e7673b19705b")
+    )
+    (pin
+      "19"
+      (uuid "7329f847-cb5f-43e2-ad0a-91ee561a3aec")
+    )
+    (pin
+      "20"
+      (uuid "453dee42-67cc-4cf6-bcc5-9dbb51674bc2")
+    )
+    (pin
+      "21"
+      (uuid "dd3ff995-85fe-4362-a35f-5a1f67a8c8c7")
+    )
+    (pin
+      "22"
+      (uuid "4fafcd2d-dcd5-4535-bdd8-857ecb61d652")
+    )
+    (pin
+      "23"
+      (uuid "f3e016df-5b06-4a8d-b4cd-ccc51817c3a6")
+    )
+    (pin
+      "24"
+      (uuid "a3ed3597-896b-400f-9cc1-a8c72f692ec4")
+    )
+    (pin
+      "25"
+      (uuid "e442b7ac-9c87-42fd-bbf7-b2fdaf0279f2")
+    )
+    (pin
+      "26"
+      (uuid "6cc5730d-7877-4a66-8f54-314fff085deb")
+    )
+    (pin
+      "27"
+      (uuid "2f408132-8b33-49a0-b0fb-e62bbabaffc6")
+    )
+    (pin
+      "28"
+      (uuid "464d84f3-c94a-4b79-bc6c-b47be3030237")
+    )
+    (pin
+      "29"
+      (uuid "2a3518aa-84fe-47e0-9363-b26d0cbff099")
+    )
+    (pin
+      "30"
+      (uuid "ad6b8542-e715-4673-8cf7-a4373fde55ae")
+    )
+    (pin
+      "31"
+      (uuid "72b08cde-4afc-44a0-9198-a0dd6f8f0928")
+    )
+    (pin
+      "32"
+      (uuid "13477dea-5117-46b7-b710-5fc9c89087bb")
+    )
+    (pin
+      "33"
+      (uuid "b9241ce8-c2c1-425a-ac8c-8a31674662cc")
+    )
+    (pin
+      "34"
+      (uuid "199ec4a5-484b-41df-91fc-0176d0e89d74")
+    )
+    (pin
+      "35"
+      (uuid "85b860a0-1ab2-47d6-ac77-3d1bd0bc5e95")
+    )
+    (pin
+      "36"
+      (uuid "f12d05d1-d548-4448-b370-fa73bfcb746d")
+    )
+    (pin
+      "37"
+      (uuid "bc7f0f18-6daf-408d-a4ef-7d025e134bd7")
+    )
+    (pin
+      "38"
+      (uuid "28bb52f6-895a-4776-abe7-fe1841352f22")
+    )
+    (pin
+      "39"
+      (uuid "bd0b873c-9ca1-43eb-b4d9-ea88e7564349")
+    )
+    (pin
+      "40"
+      (uuid "a9bdea76-e330-4545-96e1-721d01ab0d68")
+    )
+    (pin
+      "41"
+      (uuid "c7b064bd-b310-4660-a0e2-5bac7b5e5efd")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:USB_C_16P")
+    (at 30 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "efac71ff-892d-4b2a-9f10-a1acc2d384cd")
+    (property
+      "Reference"
+      "X1"
+      (at 30 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "USB_C_16P"
+      (at 30 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+      (at 30 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+      (at 30 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C165948"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "10b0ecac-13d5-4ffa-8fb3-49e5e2a81643")
+    )
+    (pin
+      "2"
+      (uuid "8b2aa0ef-86dc-4571-a3eb-71035f70c047")
+    )
+    (pin
+      "3"
+      (uuid "20b10c3b-89f6-4c0f-af30-57ad73111d42")
+    )
+    (pin
+      "4"
+      (uuid "503bc307-f3ba-4aa0-920a-908095e3e159")
+    )
+    (pin
+      "5"
+      (uuid "bd3475b1-f51a-41b7-9b20-231af0375248")
+    )
+    (pin
+      "6"
+      (uuid "5a75d962-8bd7-455e-b779-51e3dec738b4")
+    )
+    (pin
+      "7"
+      (uuid "561cdc18-899a-41bc-953b-3664805bcde8")
+    )
+    (pin
+      "8"
+      (uuid "36ed389b-c92c-4ebb-b46c-6b6d1b961bee")
+    )
+    (pin
+      "9"
+      (uuid "a3eff414-b9f5-4da3-999a-e631dc81eacb")
+    )
+    (pin
+      "10"
+      (uuid "f0451356-268c-4ef4-926e-8346a0d7029c")
+    )
+    (pin
+      "11"
+      (uuid "11ffb827-72ab-4d52-bc2c-861dd53f9b07")
+    )
+    (pin
+      "12"
+      (uuid "588ce960-df15-4628-ba66-c4c87edd66a3")
+    )
+    (pin
+      "13"
+      (uuid "83b78ec2-4a6d-497f-b3fe-99b5c5396d5e")
+    )
+    (pin
+      "14"
+      (uuid "e96bcd12-0351-4d93-85c3-9d7bc86fac26")
+    )
+    (pin
+      "15"
+      (uuid "eead98d3-b60c-4da0-b1ec-a86dc4b61872")
+    )
+    (pin
+      "16"
+      (uuid "cf65a6a8-98c4-46b7-b10a-00a1c8954c09")
+    )
+    (pin
+      "S1"
+      (uuid "68f98459-e5b9-45a3-9f61-644e6265eed3")
+    )
+    (pin
+      "S2"
+      (uuid "746b191a-3dd3-4703-b2dd-12fdd4ff2381")
+    )
+    (pin
+      "S3"
+      (uuid "73503f5e-4f6a-400a-a355-c4ca5488b2ad")
+    )
+    (pin
+      "S4"
+      (uuid "97817855-70c2-4c85-adcc-21b17929ed93")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "X1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:AP2112K-3.3")
+    (at 60 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "48d029ff-e859-4c47-9d06-ee1760cea14c")
+    (property
+      "Reference"
+      "U2"
+      (at 60 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP2112K-3.3"
+      (at 60 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-5"
+      (at 60 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+      (at 60 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C51115"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "c2a93121-c190-4edc-bea5-6da1cbc533fa")
+    )
+    (pin
+      "2"
+      (uuid "2e554fd6-4ecc-41a4-801f-0d3bbfeb4601")
+    )
+    (pin
+      "3"
+      (uuid "f6fdefa1-5f22-494f-86be-1706e0930918")
+    )
+    (pin
+      "4"
+      (uuid "7b84f65f-2212-45b7-a469-590812fe1b8e")
+    )
+    (pin
+      "5"
+      (uuid "4b257f7b-cfc5-4025-b410-f5a5e04eda0b")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "U2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:SCD40")
+    (at 140 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "416f3fe7-b1f7-4a0c-a5a2-5792a151cd95")
+    (property
+      "Reference"
+      "U3"
+      (at 140 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SCD40"
+      (at 140 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "airquality-s3:SCD40"
+      (at 140 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://sensirion.com/resource/datasheet/scd40"
+      (at 140 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C3659421"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a0f2e61e-cc25-47c5-b88c-08b7fd3a707c")
+    )
+    (pin
+      "2"
+      (uuid "b58c89c6-d5f1-4af3-adfc-eea2718a0c7b")
+    )
+    (pin
+      "3"
+      (uuid "e77210af-b3f8-4707-88dd-f53861685e86")
+    )
+    (pin
+      "4"
+      (uuid "e0a4ea78-6fab-4f21-a794-71750e32ec8e")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:SGP40")
+    (at 140 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5d6c1f95-838f-4912-9605-b6c917a1d123")
+    (property
+      "Reference"
+      "U4"
+      (at 140 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SGP40"
+      (at 140 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "airquality-s3:SGP40-DFN6"
+      (at 140 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://sensirion.com/resource/datasheet/sgp40"
+      (at 140 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2874215"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "8ad07977-d909-4931-aa8f-e51c214ac92e")
+    )
+    (pin
+      "2"
+      (uuid "6abed8df-c597-478d-8fed-7f9daed61b9e")
+    )
+    (pin
+      "3"
+      (uuid "61a14b2c-7bc9-4cd7-9040-35b7befcfa0a")
+    )
+    (pin
+      "4"
+      (uuid "4ed1f545-4c34-4d78-98d2-4089217dc4f7")
+    )
+    (pin
+      "5"
+      (uuid "4e68985b-f125-4a05-92b6-a153c878467e")
+    )
+    (pin
+      "6"
+      (uuid "3dae8aae-0c6b-43ea-b0b9-b2eef4d8f78c")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "U4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:SHT40")
+    (at 140 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c0adf99b-5e4a-40a3-979a-95ed3fadd93a")
+    (property
+      "Reference"
+      "U5"
+      (at 140 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SHT40"
+      (at 140 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "airquality-s3:SHT40-DFN4"
+      (at 140 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://sensirion.com/resource/datasheet/sht4x"
+      (at 140 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2909890"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "49367040-5154-4d6f-9942-5608b88bb671")
+    )
+    (pin
+      "2"
+      (uuid "0dccba8a-203f-4c96-8f40-0e0a7d9d4eb7")
+    )
+    (pin
+      "3"
+      (uuid "1cc76e82-7910-46e9-a088-e9254b0dcd91")
+    )
+    (pin
+      "4"
+      (uuid "3ce53d56-ed19-4177-ad9b-b3d878738425")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "U5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:SW_PUSH")
+    (at 30 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "23d187fd-4bac-4932-84de-7cfca2bb6d3e")
+    (property
+      "Reference"
+      "BT1"
+      (at 30 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 30 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "airquality-s3:Tactile-6x6-SMD"
+      (at 30 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "87bc217d-7f6c-4d9b-94ef-30a4888f91ec")
+    )
+    (pin
+      "2"
+      (uuid "5c09c891-d938-4e98-9af9-f20d38468881")
+    )
+    (pin
+      "3"
+      (uuid "0aebf962-5db7-4a8c-82d4-38b4c97f402e")
+    )
+    (pin
+      "4"
+      (uuid "ffd23ba7-9d0d-412b-97c6-45039d9c2b3e")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "BT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:SW_PUSH")
+    (at 60 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "cf0faed3-4ff7-4087-8456-72569a6651d0")
+    (property
+      "Reference"
+      "BT2"
+      (at 60 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 60 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "airquality-s3:Tactile-6x6-SMD"
+      (at 60 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e45784ad-8fea-4649-b686-16e0da9d965c")
+    )
+    (pin
+      "2"
+      (uuid "93ee5ad6-2c0c-462e-9ac6-ff9ea7da63a3")
+    )
+    (pin
+      "3"
+      (uuid "795a89f9-1685-4ec2-9a72-99da039f3cd9")
+    )
+    (pin
+      "4"
+      (uuid "4f68cf08-f137-4e28-990a-6d9750a3edc1")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "BT2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:LED_GRN")
+    (at 175 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9e0b2c8c-2596-4f74-8731-77cf0ae62609")
+    (property
+      "Reference"
+      "D1"
+      (at 175 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_GRN"
+      (at 175 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 175 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 175 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2297"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "8ddd16d8-ab17-4de9-abf1-22304cf71162")
+    )
+    (pin
+      "2"
+      (uuid "8bd89e2e-943e-4c22-8cf2-44333912154e")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "D1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:1k")
+    (at 175 40 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d1b2ad42-37f8-44b9-b704-d54432f26ec1")
+    (property
+      "Reference"
+      "R8"
+      (at 175 34.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 175 45.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 175 40 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 175 40 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21190"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "8192c2ae-2a0f-430c-9eca-ed4db911131a")
+    )
+    (pin
+      "2"
+      (uuid "b7991222-a1f8-4763-b7d2-c05881ee0243")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "R8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:5.1k")
+    (at 90 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "837ae435-1553-4c2b-9f08-babb6cc31ceb")
+    (property
+      "Reference"
+      "R3"
+      (at 90 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 90 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 90 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 90 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "8a1264dd-6841-4261-a517-49bced58e1ff")
+    )
+    (pin
+      "2"
+      (uuid "76ede1a2-8ea6-4148-a5b3-0fc2531b588a")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "R3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:5.1k")
+    (at 110 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "7e9bd26f-6033-4b41-aa0d-6418c4d9d99c")
+    (property
+      "Reference"
+      "R4"
+      (at 110 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 110 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 110 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 110 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "bdfdadbf-735e-4b0d-a3f5-eeae10d1cc44")
+    )
+    (pin
+      "2"
+      (uuid "84d754b6-a2f3-46d3-bfc7-246b9a6a2c85")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "R4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:10k")
+    (at 175 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c25d3453-147b-49fb-b356-2545ad52c533")
+    (property
+      "Reference"
+      "R7"
+      (at 175 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 175 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 175 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 175 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25804"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a7f0a330-99dc-4d9b-87d9-3c863df7597b")
+    )
+    (pin
+      "2"
+      (uuid "eb3d6d7d-4666-482b-8143-f3195f42323b")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "R7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:4.7k")
+    (at 175 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "1e642f0e-142f-41d8-939d-1b8e30a7cedf")
+    (property
+      "Reference"
+      "R1"
+      (at 175 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 175 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 175 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 175 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a3ad3e38-7da6-4834-b4f9-d156357ed670")
+    )
+    (pin
+      "2"
+      (uuid "b2ba339b-16c4-4dd7-b80b-fcfa02dddae0")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "R1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:4.7k")
+    (at 195 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "41172d7f-1e32-4df9-babd-5ef9b77a221a")
+    (property
+      "Reference"
+      "R2"
+      (at 195 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 195 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 195 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 195 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "52ea60b4-c847-4a0d-b9a5-d47f7ffc99ed")
+    )
+    (pin
+      "2"
+      (uuid "9cc721fa-c936-407f-8b12-ce8717a3a27d")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "R2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:10uF")
+    (at 90 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "35bd17b6-a7b6-4904-acfd-8e63ce2fdf74")
+    (property
+      "Reference"
+      "C1"
+      (at 90 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 90 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 90 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 90 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7e0b434e-a5ca-432d-a800-66a54e491254")
+    )
+    (pin
+      "2"
+      (uuid "6eb098a8-2b74-4a7f-a672-4c486afaada6")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:10uF")
+    (at 110 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0c0a1d6f-7672-4d21-8b58-598aa8c91428")
+    (property
+      "Reference"
+      "C2"
+      (at 110 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 110 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 110 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 110 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "923df5ad-3cad-496c-aca8-8e583ae8125a")
+    )
+    (pin
+      "2"
+      (uuid "c28f7d0f-1c74-48ff-bf54-f09070455196")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:100nF")
+    (at 130 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f5f1bd7e-a457-4a3c-9912-0f72434b225f")
+    (property
+      "Reference"
+      "C3"
+      (at 130 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 130 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 130 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 130 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "50c41328-b0b4-4dc2-b2d9-ca9cd738cb53")
+    )
+    (pin
+      "2"
+      (uuid "8bd595df-76d0-4f18-af0b-0501ef5200f3")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:100nF")
+    (at 150 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f995e67f-3811-4fc6-8811-84c62d8ab21e")
+    (property
+      "Reference"
+      "C4"
+      (at 150 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 150 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 150 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 150 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "8e3656ef-3326-4932-97c0-3df4c44f6a7a")
+    )
+    (pin
+      "2"
+      (uuid "3b84a161-f7cd-4338-995c-e65a59a2e94c")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:Conn_01x04")
+    (at 90 165 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3a4bd9f0-dedf-4c5c-ae03-e05eb7184403")
+    (property
+      "Reference"
+      "J1"
+      (at 90 159.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x04"
+      (at 90 170.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+      (at 90 165 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 90 165 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C49258"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "47283595-e68e-4f47-bfc2-ae0713a53548")
+    )
+    (pin
+      "2"
+      (uuid "e4132ba4-4231-493f-b1a0-e84243d5ab10")
+    )
+    (pin
+      "3"
+      (uuid "bf726f71-0fc7-4fa1-b04e-18e576f0297f")
+    )
+    (pin
+      "4"
+      (uuid "d37013ce-6a3d-43d1-a031-bbcfc1291317")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "J1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:Conn_01x04")
+    (at 145 165 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b2614e89-1ff7-4678-b70d-a5245d74dd51")
+    (property
+      "Reference"
+      "J2"
+      (at 145 159.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x04"
+      (at 145 170.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+      (at 145 165 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 145 165 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C49258"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "40160d81-90fd-409c-a20b-c23eb90b170a")
+    )
+    (pin
+      "2"
+      (uuid "b6594120-9be1-4493-a0d4-148e7a9141e2")
+    )
+    (pin
+      "3"
+      (uuid "01315d19-d4b8-440a-8879-d0cfa80333cc")
+    )
+    (pin
+      "4"
+      (uuid "bcc37721-94b2-4887-b764-d760a6247f99")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "J2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:GND")
+    (at 15 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f3cf919a-795c-4ae8-898c-a9a3dd0b86e2")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 15 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 15 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 15 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 15 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "453737d7-126f-4591-8d29-c4898b4fd8b3")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:+3V3")
+    (at 25 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5afde592-a48d-484b-b3ad-7c2a65be60ab")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 25 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 25 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 25 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 25 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d03411bf-de5c-4b87-8536-508c3aefe1cb")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "airquality-s3-lib:VBUS")
+    (at 35 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "771ad20c-4a02-4c35-a7ec-909c2124cc8d")
+    (property
+      "Reference"
+      "#PWR0003"
+      (at 35 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VBUS"
+      (at 35 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 35 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 35 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "13bd11c8-eaca-4314-8519-4d60a0b1171d")
+    )
+    (instances
+      (project
+        "airquality-s3"
+        (path
+          "/4545dc70-292e-429e-a64d-6a900729083e"
+          (reference "#PWR0003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
