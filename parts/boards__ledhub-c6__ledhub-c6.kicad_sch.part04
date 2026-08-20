@@ -1,0 +1,2969 @@
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R13")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:4.7k")
+    (at 375 70 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "399e02e7-44f5-48e5-a67c-071fffc72296")
+    (property
+      "Reference"
+      "R14"
+      (at 375 64.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 375 75.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 375 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 375 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF4701T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "94f07eca-f1ea-4aac-aa60-4436d40b14bd")
+    )
+    (pin
+      "2"
+      (uuid "59200c27-0ad9-4aa9-891a-99d40631ea34")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R14")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:10k")
+    (at 400 70 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "1635fa45-a274-444b-96df-f11b99b44228")
+    (property
+      "Reference"
+      "R15"
+      (at 400 64.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 400 75.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 400 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 400 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25804"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF1002T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "39e00b46-9f46-4628-9bd8-1b624d5be2c1")
+    )
+    (pin
+      "2"
+      (uuid "73f846ea-7724-411a-9ea1-e0cd4d57297b")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R15")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:0R")
+    (at 300 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9be24943-dfbe-4312-9610-4ee5077d9d52")
+    (property
+      "Reference"
+      "R16"
+      (at 300 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 300 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 300 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21189"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF0000T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "91d45207-47fa-4e1a-b958-94f50e2e1f76")
+    )
+    (pin
+      "2"
+      (uuid "127ec83e-bbc6-487e-8b17-c49cd4aa4e30")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R16")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:0R")
+    (at 325 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c8f41963-0f6d-4991-a1fd-97536f0acc43")
+    (property
+      "Reference"
+      "R17"
+      (at 325 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 325 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 325 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 325 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21189"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF0000T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "aab38f0f-b872-4ab1-b681-c8e2d957460e")
+    )
+    (pin
+      "2"
+      (uuid "02375609-6b2e-4506-ba41-73ddc6dbc65d")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R17")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:22k")
+    (at 350 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e2570c22-ae7b-4fa3-b57b-da8036e2a2c5")
+    (property
+      "Reference"
+      "R18"
+      (at 350 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22k"
+      (at 350 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 350 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 350 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C31850"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF2202T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3e3a199b-2eee-4083-8825-5d7576a4470c")
+    )
+    (pin
+      "2"
+      (uuid "cf1cfffb-67e0-4c25-b71a-5b510b402f64")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R18")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:0R")
+    (at 375 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e679f322-43b1-4927-9441-b887517334e4")
+    (property
+      "Reference"
+      "R21"
+      (at 375 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 375 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 375 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 375 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21189"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF0000T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b575507a-fa84-4d59-b9b4-d69543a59117")
+    )
+    (pin
+      "2"
+      (uuid "5bb025e6-dcb2-4876-a330-9f5eef4a9563")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R21")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:470R")
+    (at 400 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "afcd25e0-2898-4578-841b-db1ff7f41d72")
+    (property
+      "Reference"
+      "R19"
+      (at 400 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "470R"
+      (at 400 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 400 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 400 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23179"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF4700T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5a9add2e-34a4-4327-96c6-61535fd86cb2")
+    )
+    (pin
+      "2"
+      (uuid "ac6d8fe9-9bb9-4e6a-b586-3952c02a579d")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R19")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:0R")
+    (at 300 100 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b651d293-fabb-49d5-934a-925aa1988082")
+    (property
+      "Reference"
+      "R20"
+      (at 300 94.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 300 105.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 300 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21189"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF0000T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3ff4d2f3-cdbf-4747-a1fe-b05ba7312a32")
+    )
+    (pin
+      "2"
+      (uuid "2a6e86db-4c52-45c5-b1f7-fb10ad856441")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "R20")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:10uF")
+    (at 300 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b1bf23e8-c4f1-43ef-8c4d-3a8ace1fbaa5")
+    (property
+      "Reference"
+      "C1"
+      (at 300 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 300 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 300 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "CL10A106KP8NNNC"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "24c84562-02d2-4bc0-a041-12223bdb19bc")
+    )
+    (pin
+      "2"
+      (uuid "8b73760d-2ac3-41a0-b5a6-f78b93e4b16a")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:10uF")
+    (at 325 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d1e27652-ff30-4e8f-9fcd-e0c76172df28")
+    (property
+      "Reference"
+      "C2"
+      (at 325 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 325 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 325 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 325 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "CL10A106KP8NNNC"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "43580a88-9ba7-4ca1-9efb-baf45b96a5ad")
+    )
+    (pin
+      "2"
+      (uuid "c1bd29c7-16ca-4050-8c52-873a10a67860")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 350 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5f4d8e18-d045-4887-b850-bafda1ace6ee")
+    (property
+      "Reference"
+      "C3"
+      (at 350 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 350 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 350 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 350 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "be1d4e06-2856-4d49-a281-31c794ebcd6e")
+    )
+    (pin
+      "2"
+      (uuid "825dc600-0bea-4f35-bda5-d15a663eb328")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 375 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "22920d88-49c8-4821-9311-08a70a21bd03")
+    (property
+      "Reference"
+      "C4"
+      (at 375 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 375 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 375 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 375 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "6e96be2d-c267-451e-9029-87086380f4d4")
+    )
+    (pin
+      "2"
+      (uuid "300fb0ef-06bd-4bd4-996c-c58139fc7c41")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 400 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b2fbc299-0bc7-47cb-9625-2379c7e84a50")
+    (property
+      "Reference"
+      "C5"
+      (at 400 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 400 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 400 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 400 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3f72ec7f-af77-4bc9-ae58-b978654d4860")
+    )
+    (pin
+      "2"
+      (uuid "48e93036-6c18-4c82-b0e1-d69f184e798c")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 300 125 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c423e896-0e4a-4b4a-b33c-bbba8310027f")
+    (property
+      "Reference"
+      "C6"
+      (at 300 119.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 300 130.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 300 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "2ccafd4b-16bd-44e4-9d4e-0045acba6f44")
+    )
+    (pin
+      "2"
+      (uuid "8fa86c61-65a8-46a2-94b9-d50c8bb7edbe")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 325 125 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "7f0514e7-c2e3-4c47-ba77-4ba6c118ff2d")
+    (property
+      "Reference"
+      "C7"
+      (at 325 119.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 325 130.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 325 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 325 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4c9c7e24-07ff-43cf-ac22-34a9970a6adc")
+    )
+    (pin
+      "2"
+      (uuid "5a70ae0a-4ede-4690-8214-297e9d810f21")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:10uF")
+    (at 350 125 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "501ee8d8-0532-4446-ae89-b58b66b17f45")
+    (property
+      "Reference"
+      "C8"
+      (at 350 119.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 350 130.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 350 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 350 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "CL10A106KP8NNNC"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ef4b063b-8add-4553-ac0c-41c48eb2b46b")
+    )
+    (pin
+      "2"
+      (uuid "c0156518-4745-41dd-b881-a19f8989675a")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 375 125 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "052231fa-33c9-490e-8ad0-ec9d86b4004b")
+    (property
+      "Reference"
+      "C9"
+      (at 375 119.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 375 130.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 375 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 375 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ca07de42-9cbd-43b1-bf4e-b36b6f4e0f26")
+    )
+    (pin
+      "2"
+      (uuid "f22a27f8-1035-4412-b752-60c17541e121")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:100nF")
+    (at 400 125 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "87516e44-aada-4802-b798-492354f513bd")
+    (property
+      "Reference"
+      "C10"
+      (at 400 119.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 400 130.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 400 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 400 125 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "33fe6e42-6300-428a-89c6-387c3ae9ff74")
+    )
+    (pin
+      "2"
+      (uuid "2dc87316-0b45-4618-bb2f-4fb2d7fad0dc")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "C10")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:LED_RED")
+    (at 300 150 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "14717a67-795d-4b2c-bc65-316e91a2ada9")
+    (property
+      "Reference"
+      "D1"
+      (at 300 144.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_RED"
+      (at 300 155.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 300 150 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 150 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2286"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "LTST-C190KRKT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3e338a1f-c974-4cba-845d-09d33adb0640")
+    )
+    (pin
+      "2"
+      (uuid "aa78de04-0a13-4fe9-bcc5-7c31310dd575")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "D1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 300 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "86bb2ff4-8bd8-472d-bf64-142dccc14852")
+    (property
+      "Reference"
+      "BT1"
+      (at 300 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 300 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 300 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "515fbaa8-9bee-49f3-91db-969e9bccfad5")
+    )
+    (pin
+      "2"
+      (uuid "9517cb47-b547-4dc1-80ae-233c18f815ff")
+    )
+    (pin
+      "3"
+      (uuid "792ad34f-05a3-44ce-82f1-53cb9529a622")
+    )
+    (pin
+      "4"
+      (uuid "38c22881-e7f6-4f39-8f28-6172b3f4ee0e")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 330 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "00832d6b-cfc3-4622-a65a-2a7a31898c61")
+    (property
+      "Reference"
+      "BT2"
+      (at 330 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 330 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 330 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 330 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d8d93416-30b3-49f4-b1c9-b78ae6436e00")
+    )
+    (pin
+      "2"
+      (uuid "58797109-fc76-421d-a02f-6455419efe6c")
+    )
+    (pin
+      "3"
+      (uuid "41085eb8-3bef-42d7-bb1c-05522a0b6381")
+    )
+    (pin
+      "4"
+      (uuid "6979a95f-d831-442f-b243-f706b41974cc")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 360 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3591614d-3881-462b-9b07-afc620a75b5a")
+    (property
+      "Reference"
+      "BT_UP"
+      (at 360 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 360 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 360 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 360 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "6bf3956a-32a2-45e5-8eed-ccd0d059820d")
+    )
+    (pin
+      "2"
+      (uuid "9ddca790-df15-470b-b92b-71c6c3559dc4")
+    )
+    (pin
+      "3"
+      (uuid "127c53af-4770-47cd-8740-77d06f49d363")
+    )
+    (pin
+      "4"
+      (uuid "271403eb-b90a-44da-b894-2342ad95620a")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT_UP")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 390 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3f9c490b-d4f8-451f-9476-71827eb0046a")
+    (property
+      "Reference"
+      "BT_DN"
+      (at 390 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 390 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 390 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 390 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "9a7519e5-8168-4ca6-9ae2-12cc988b9a15")
+    )
+    (pin
+      "2"
+      (uuid "c2907ca1-ff73-4bd9-a6aa-1292c7a97a80")
+    )
+    (pin
+      "3"
+      (uuid "71cfa0ba-b663-4ed9-a37d-7d724a2d1128")
+    )
+    (pin
+      "4"
+      (uuid "4b31c6f5-9abe-474e-b704-f3f870f59227")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT_DN")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 300 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "46ee0d5e-347a-443c-a21d-b05921873654")
+    (property
+      "Reference"
+      "BT_LF"
+      (at 300 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 300 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 300 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 300 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "88e4573f-8b3a-48be-afdc-de4f04f168e6")
+    )
+    (pin
+      "2"
+      (uuid "36714ecd-1220-4f50-a5d1-7bccd9761d02")
+    )
+    (pin
+      "3"
+      (uuid "e36387a4-c9b5-4714-9720-132c679271f7")
+    )
+    (pin
+      "4"
+      (uuid "382841f4-1ed9-42c6-a972-e060f3b09ff6")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT_LF")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 330 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3355cfcc-13fc-40f2-9d67-0fbe0a9ab184")
+    (property
+      "Reference"
+      "BT_RT"
+      (at 330 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 330 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 330 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 330 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d1f5cffc-861a-4f09-aa60-1d70f27f99c5")
+    )
+    (pin
+      "2"
+      (uuid "4defd98e-c66f-45cf-ab30-06af3e0b29d6")
+    )
+    (pin
+      "3"
+      (uuid "c14170cb-78a4-4dab-84cd-ac3adf8c31a9")
+    )
+    (pin
+      "4"
+      (uuid "f387d2b5-33bc-4891-a961-10fe2af179b8")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT_RT")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:SW_PUSH")
+    (at 360 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "66e6f620-361c-4749-9dce-ad38b38e41bc")
+    (property
+      "Reference"
+      "BT_OK"
+      (at 360 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 360 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "ledhub-c6:Tactile-6x6-SMD"
+      (at 360 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 360 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C318884"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "eb9083ab-6925-4c52-b97c-22704907d308")
+    )
+    (pin
+      "2"
+      (uuid "60fb433f-0102-45cb-abed-d5f247440ab6")
+    )
+    (pin
+      "3"
+      (uuid "98e462c7-8c69-43b1-b545-90386e016f45")
+    )
+    (pin
+      "4"
+      (uuid "8476615a-33d5-4e07-acb6-0d09b797b85c")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "BT_OK")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:GND")
+    (at 20 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "90984d81-bde8-4807-9ea0-61a185958d29")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 20 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 20 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "90497c17-411f-499e-a5f6-9f689985706e")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:GND")
+    (at 30 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "1389bc17-6903-47d0-8a8e-152b6e1d6080")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 30 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 30 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "9b272021-32fa-4da3-926f-5e1e8a4e1b0f")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:+3V3")
+    (at 40 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9ea8c74e-5b8d-4535-b4b9-0a95a6f407f3")
+    (property
+      "Reference"
+      "#PWR0003"
+      (at 40 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 40 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d43c5edd-6304-476d-9b7c-fd06d135b448")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:+3V3")
+    (at 50 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "7b6464a6-eb94-4b40-84c0-727595848eb3")
+    (property
+      "Reference"
+      "#PWR0004"
+      (at 50 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 50 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "41ed23e5-b3fa-4144-acb3-d62501d58674")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0004")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:+5V")
+    (at 60 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "13175c09-975d-4065-94b9-6f4ae08021a0")
+    (property
+      "Reference"
+      "#PWR0005"
+      (at 60 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+5V"
+      (at 60 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "df6318d1-bca5-47db-8428-b9e0354ecb4d")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0005")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:VBUS")
+    (at 70 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "59257d53-6ce0-4268-8142-cc84d22731a1")
+    (property
+      "Reference"
+      "#PWR0006"
+      (at 70 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VBUS"
+      (at 70 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 70 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 70 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4d33784b-2556-4a80-ad5a-6567a7eba815")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0006")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledhub-c6-lib:LED_5V")
+    (at 80 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b7aa261c-a773-424e-a55a-6755203f4043")
+    (property
+      "Reference"
+      "#PWR0007"
+      (at 80 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "LED_5V"
+      (at 80 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 80 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 80 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "c20f6f63-711e-4a62-9c20-de58562c0b7c")
+    )
+    (instances
+      (project
+        "ledhub-c6"
+        (path
+          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          (reference "#PWR0007")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
