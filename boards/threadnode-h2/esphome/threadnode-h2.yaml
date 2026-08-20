@@ -1,0 +1,61 @@
+# threadnode-h2 — ESPHome configuration (SPEC 7.1)
+# Battery contact sensor / smart button. ESP32-H2 (Thread/Zigbee, NO Wi-Fi).
+# ESPHome supports esp32-h2; without Wi-Fi, `api` is omitted — this node is
+# meant for Matter-over-Thread (esp-matter) or Zigbee (esp-zigbee-sdk) in
+# production. This yaml validates the I/O map with plain ESPHome logging.
+# NOTE: no USB connector — flash via J1 prog header (3V3/TX0=GPIO24/
+# RX0=GPIO23/GND). USB-JTAG alternative would be on GPIO26/27 (not wired).
+
+esphome:
+  name: threadnode-h2
+  friendly_name: "ThreadNode H2"
+
+esp32:
+  board: esp32-h2-devkitm-1
+  variant: esp32h2
+  framework:
+    type: esp-idf
+
+logger:
+  # UART0: TX0=GPIO24 / RX0=GPIO23 on J1.
+  hardware_uart: UART0
+
+# ---------------- I2C pads (J2): SDA=GPIO12, SCL=GPIO13 -------------------
+# H2 strapping pins (GPIO8/9/25/26/27) avoided; verify against datasheet
+# before reuse. J2 = 3V3/SDA/SCL/GND.
+i2c:
+  sda: GPIO12
+  scl: GPIO13
+  scan: true
+
+# ---------------- Status LED: GPIO8 (pulse only — CR2032 budget) -----------
+light:
+  - platform: status_led
+    name: "Status"
+    pin: GPIO8
+
+# ---------------- Reed switch: GPIO3 (wakeup-capable) ----------------------
+binary_sensor:
+  - platform: gpio
+    name: "Contact (reed)"
+    pin:
+      number: GPIO3
+      inverted: true
+    device_class: window
+  # User button on GPIO9 (BOOT) — hold at reset to enter ROM bootloader.
+  - platform: gpio
+    name: "User button (BOOT)"
+    pin:
+      number: GPIO9
+      inverted: true
+
+# ---------------- Deep sleep (wake on reed switch, GPIO3) -------------------
+deep_sleep:
+  run_duration: 30s
+  sleep_duration: 60min
+  esp32_ext1_wakeup:
+    pins:
+      - GPIO3
+    mode: ANY_LOW
+
+# Battery: CR2032 direct (2.8–3.6 V, brown-out caveat — see README).
