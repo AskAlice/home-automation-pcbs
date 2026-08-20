@@ -1,0 +1,135 @@
+# ledhub-c6 — ESPHome configuration (SPEC 4.5)
+#
+# NOTE: WLED 0.15+ is the PRIMARY firmware target for this board (see
+# README.md and firmware/wled-usermod-ledhub/).  This ESPHome config is the
+# alternative for Home-Assistant-native use.  The pin map is FROZEN —
+# do not change GPIO numbers; both firmwares share the contract.
+#
+# GPIO16/17 are shared (ENC_B/TX0 via R16, I2S_SCK/RX0 via R17 0R links).
+# Flashing: use native USB-C (USB-Serial-JTAG on GPIO12/13); the UART0
+# prog header is only for recovery with R16/R17 removed.
+
+esphome:
+  name: ledhub-c6
+  friendly_name: "LEDHub C6"
+
+esp32:
+  board: esp32-c6-devkitc-1
+  variant: esp32c6
+  flash_size: 8MB
+  framework:
+    type: esp-idf
+
+logger:
+  # UART0 (GPIO16/17) is shared with encoder/I2S via R16/R17 —
+  # keep logging on the native USB-Serial-JTAG instead.
+  hardware_uart: USB_SERIAL_JTAG
+
+api:
+ota:
+  - platform: esphome
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+# ---------------- I2C: SHT31 + BH1750 (GPIO20/21, 4.7k pull-ups) ---------
+i2c:
+  sda: GPIO20
+  scl: GPIO21
+  scan: true
+
+sensor:
+  - platform: sht3xd
+    temperature:
+      name: "Temperature"
+    humidity:
+      name: "Humidity"
+    address: 0x44
+  - platform: bh1750
+    name: "Illuminance"
+    address: 0x23
+  # 5-way nav button resistor ladder on GPIO0 (ADC1_CH0).
+  # +3V3-10k-node; UP=0R DN=2.2k LF=4.7k RT=10k OK=22k to GND.
+  # Voltages (12-bit ADC counts): UP 0.000V(0) DN 0.595V(738)
+  # LF 1.055V(1308) RT 1.650V(2048) OK 2.269V(2813) none 3.300V(4095).
+  # Thresholds: <369 UP, 369-1023 DN, 1023-1678 LF, 1678-2430 RT,
+  # 2430-3454 OK, >3454 none.
+  - platform: adc
+    pin: GPIO0
+    attenuation: 12db
+    update_interval: 100ms
+    name: "Nav button ladder"
+    id: nav_adc
+    on_value_range:
+      - below: 0.30    # ~<369 counts @12dB -> UP
+        then: [logger.log: "Nav UP"]
+      # Higher-level button handling is deployment-specific; wire these
+      # ranges to light/effect control lambdas as needed.
+
+# ---------------- Rotary encoder (GPIO15/16, common = GND) ---------------
+  - platform: rotary_encoder
+    name: "Encoder"
+    id: nav_encoder
+    pin_a: GPIO15
+    pin_b: GPIO16          # via R16 0R (shared with TX0)
+    resolution: 1
+
+# ---------------- LD2450 mmWave radar (UART, GPIO22/23) ------------------
+uart:
+  - id: radar_uart
+    tx_pin: GPIO23         # MCU_TX -> radar RX
+    rx_pin: GPIO22         # MCU_RX <- radar TX
+    baud_rate: 256000
+  # ESPHome has no built-in LD2450 component; use an external component:
+  #   https://github.com/hareeshmu/ld2450 (or ESPHome >=2025 ld2450)
+  # ld2450: uart_id: radar_uart
+
+# ---------------- INMP441 I2S microphone (GPIO17/18/19) ------------------
+i2s_audio:
+  i2s_lrclk_pin: GPIO18    # WS
+  i2s_bclk_pin: GPIO17     # SCK (via R17 0R, shared with RX0)
+microphone:
+  - platform: i2s_audio
+    id: inmp441_mic
+    adc_type: external
+    i2s_din_pin: GPIO19    # SD; L/R=GND -> left channel
+    pdm: false
+
+# ---------------- 2.8" ILI9341 TFT (J1, SPI GPIO5/6/7/4/1) ---------------
+spi:
+  clk_pin: GPIO6
+  mosi_pin: GPIO7
+  # MISO not connected on J1 (module SDO pad NC)
+
+display:
+  - platform: ili9xxx
+    model: ILI9341
+    cs_pin: GPIO5
+    dc_pin: GPIO4
+    reset_pin: GPIO1
+    rotation: 0
+    lambda: |-
+      it.print(0, 0, id(font_default), "ledhub-c6");
+
+font:
+  - file: "gfonts://Roboto"
+    id: font_default
+    size: 16
+
+# Backlight: GPIO2 via 100R, 10k pull-down keeps it off during reset.
+output:
+  - platform: ledc
+    pin: GPIO2
+    id: tft_backlight
+light:
+  - platform: monochromatic
+    output: tft_backlight
+    name: "TFT backlight"
+
+# ---------------- WS2812 output (GPIO3 -> 74AHCT125 -> 470R) -------------
+  - platform: esp32_rmt_led_strip
+    pin: GPIO3             # via R21 0R -> 74AHCT125 1A, 1Y -> R19 470R
+    num_leds: 30
+    chipset: ws2812
+    rgb_order: GRB
+    name: "LED strip"
