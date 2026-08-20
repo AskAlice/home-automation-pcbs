@@ -1,0 +1,8408 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "acc3cc40-c79e-4a31-b9e4-2f4ae509acb1")
+  (paper "A4")
+  (title_block
+    (title "presencepro-c3")
+    (date "2025-01-01")
+    (rev "1.0")
+    (comment
+      1
+      "ESP32-C3-WROOM-02 footprint geometry (18.0 x 20.0 mm body, 1.5x0.9 pads @1.5 mm pitch, columns x=+/-8.75, EP pad 19) matches the official Espressif kicad-libraries ESP32-C3-WROOM-02.kicad_mod and the module datasheet."
+    )
+    (comment
+      2
+      "HLK-LD2410(B) on J1: 5V / TX / RX / OUT / GND.  RAD: MCU GPIO4 = RX <- radar TX; GPIO5 = TX -> radar RX.  OUT (occupancy level) -> GPIO3 (RAD_OUT)."
+    )
+    (comment
+      3
+      "BH1750 U2 on I2C: SDA=GPIO6, SCL=GPIO7 with 4.7k pull-ups R1/R2.  USB-C: D-/D+ -> GPIO19/18 via 22R R5/R6; CC1/CC2 5.1k R3/R4 to GND; VBUS -> R10 0R -> +5V -> AP2112 -> +3V3."
+    )
+    (comment
+      4
+      "EN button BT1 (10k pull-up R7, 100nF C6); BOOT button BT2 -> GPIO9.  Status LED D2 on GPIO10 via R9 1k; power LED D1 via R8 1k.  Prog header J2: 3V3/TX0(IO21)/RX0(IO20)/GND."
+    )
+  )
+  (lib_symbols
+    (symbol
+      "presencepro-c3-lib:ESP32-C3-WROOM-02"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "ESP32-C3-WROOM-02"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "presencepro-c3:ESP32-C3-WROOM-02"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2934560"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "ESP32-C3-WROOM-02-N4"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "ESP32-C3-WROOM-02 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:ESP32-C3-WROOM-02_0_1"
+        (rectangle
+          (start -5.08 -12.7)
+          (end 5.08 12.7)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:ESP32-C3-WROOM-02_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 11.43 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 8.89 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 6.35 0)
+          (length 2.54)
+          (name
+            "IO4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "IO5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "IO6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "IO7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -3.81 0)
+          (length 2.54)
+          (name
+            "IO8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -6.35 0)
+          (length 2.54)
+          (name
+            "IO9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -8.89 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 11.43 180)
+          (length 2.54)
+          (name
+            "IO10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 8.89 180)
+          (length 2.54)
+          (name
+            "RXD0/IO20"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 6.35 180)
+          (length 2.54)
+          (name
+            "TXD0/IO21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "IO18/USB-DN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "IO19/USB-DP"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "IO3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -3.81 180)
+          (length 2.54)
+          (name
+            "IO2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -6.35 180)
+          (length 2.54)
+          (name
+            "IO1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -8.89 180)
+          (length 2.54)
+          (name
+            "IO0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 0 -15.24 90)
+          (length 2.54)
+          (name
+            "EP"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "19"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:USB_C_16P"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "X"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "USB_C_16P"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C165948"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "TYPE-C-31-M-12"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "USB_C_16P (X)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:USB_C_16P_0_1"
+        (rectangle
+          (start -6.35 -11.43)
+          (end 6.35 11.43)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:USB_C_16P_1_1"
+        (pin
+          passive
+          line
+          (at -8.89 10.16 0)
+          (length 2.54)
+          (name
+            "GND.B12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 7.62 0)
+          (length 2.54)
+          (name
+            "VBUS.B9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 5.08 0)
+          (length 2.54)
+          (name
+            "CC1.A5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 2.54 0)
+          (length 2.54)
+          (name
+            "DP.A6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 0 0)
+          (length 2.54)
+          (name
+            "DN.A7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 -2.54 0)
+          (length 2.54)
+          (name
+            "SBU1.B8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 -5.08 0)
+          (length 2.54)
+          (name
+            "VBUS.B4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -8.89 -7.62 0)
+          (length 2.54)
+          (name
+            "GND.B12b"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 10.16 180)
+          (length 2.54)
+          (name
+            "GND.A12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 7.62 180)
+          (length 2.54)
+          (name
+            "VBUS.A4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 5.08 180)
+          (length 2.54)
+          (name
+            "SBU2.A8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 2.54 180)
+          (length 2.54)
+          (name
+            "DN2.A7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 0 180)
+          (length 2.54)
+          (name
+            "DP2.A6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 -2.54 180)
+          (length 2.54)
+          (name
+            "CC2.B5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 -5.08 180)
+          (length 2.54)
+          (name
+            "VBUS.A4b"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 8.89 -7.62 180)
+          (length 2.54)
+          (name
+            "GND.A1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -3.81 -13.97 90)
+          (length 2.54)
+          (name
+            "SHIELD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -1.27 -13.97 90)
+          (length 2.54)
+          (name
+            "SHIELD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 1.27 -13.97 90)
+          (length 2.54)
+          (name
+            "SHIELD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 3.81 -13.97 90)
+          (length 2.54)
+          (name
+            "SHIELD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:AP2112K-3.3"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "AP2112K-3.3"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Package_TO_SOT_SMD:SOT-23-5"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C51118"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "AP2112K-3.3TRG1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "AP2112K-3.3 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:AP2112K-3.3_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:AP2112K-3.3_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "VIN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "VOUT"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:BH1750"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "BH1750"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "presencepro-c3:BH1750-WSOF6"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.mouser.com/datasheet/2/348/bh1750fvi-e-1868571.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C78960"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "BH1750FVI-TR"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "BH1750 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:BH1750_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:BH1750_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "VCC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "ADDR"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "SDA"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "DVI"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "SCL"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 0 -7.62 90)
+          (length 2.54)
+          (name
+            "EP"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:4.7k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "4.7k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C23162"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603WAF4701T5E"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "4.7k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:4.7k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:4.7k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:5.1k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "5.1k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C23186"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603WAF5101T5E"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "5.1k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:5.1k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:5.1k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:22R"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "22R"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C22926"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603WAF220JT5E"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "22R (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:22R_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:22R_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:10k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C25804"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603WAF1002T5E"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:10k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:10k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:1k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "1k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C21190"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603WAF1001T5E"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "1k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:1k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:1k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:0R"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "0R"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C21189"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603WAF0000T5E"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "0R (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:0R_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:0R_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:10uF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10uF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C15849"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "CL10A106KP8NNNC"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10uF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:10uF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:10uF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:100nF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100nF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C14663"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "0603B104K500NT"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100nF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:100nF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:100nF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:LED_RED"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "LED_RED"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "LED_SMD:LED_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2286"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "LTST-C190KRKT"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "LED_RED (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:LED_RED_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:LED_RED_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:LED_GRN"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "LED_GRN"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "LED_SMD:LED_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2297"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "LTST-C190KGKT"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "LED_GRN (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:LED_GRN_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:LED_GRN_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:SW_PUSH"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "BT"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SW_PUSH"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "presencepro-c3:Tactile-6x6-SMD"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_1810251613_SHOU-HAN-TS-1187A-B-A-B_C139797.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C139797"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "TS-1187A-B-A-B"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SW_PUSH (BT)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:SW_PUSH_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:SW_PUSH_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "A1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "A2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "B1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "B2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:Conn_01x05"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x05"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140945_BOOMELE-Boom-Precision-Elec-PZ254V-11-05P_C492404.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C492404"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "PZ254V-11-05P"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x05 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:Conn_01x05_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:Conn_01x05_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "5V"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "TX"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "RX"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "OUT"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:Conn_01x04"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x04"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140945_BOOMELE-Boom-Precision-Elec-2-54-1-4P_C49258.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2691448"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "MPN"
+        "PZ254V-11-04P"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x04 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:Conn_01x04_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:Conn_01x04_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:GND"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol GND"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.905 -2.54)
+            (xy 1.905 -2.54)
+            (xy 0 0)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:GND_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 270)
+          (length 0)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:+3V3"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+3V3"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +3V3"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:+3V3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:+3V3_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:+5V"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+5V"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +5V"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:+5V_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:+5V_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+5V"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "presencepro-c3-lib:VBUS"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "VBUS"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol VBUS"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:VBUS_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "presencepro-c3-lib:VBUS_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 92.38 78.81)
+    (uuid "b37df943-78e7-48a6-bb88-b7f10b8db660")
+  )
+  (no_connect
+    (at 107.62 78.81)
+    (uuid "11af34ea-9a92-4988-9464-55a5e4ff1ded")
+  )
+  (no_connect
+    (at 107.62 81.35)
+    (uuid "0e1dbe8e-bdf6-4cb7-8d50-55e61c7c6023")
+  )
+  (no_connect
+    (at 107.62 83.89)
+    (uuid "8571c676-f772-4dcc-9d6e-cf8ff84d8ccd")
+  )
+  (no_connect
+    (at 191.11 77.54)
+    (uuid "b94e3f5e-1ec2-4d3c-9178-e251c126e48a")
+  )
+  (no_connect
+    (at 208.89 69.92)
+    (uuid "34677f15-196b-4ac8-8716-b101057ec7a9")
+  )
+  (no_connect
+    (at 47.62 126.19)
+    (uuid "308bab96-0255-42f3-af25-2edc089949c7")
+  )
+  (label
+    "+3V3"
+    (at 92.38 63.57 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f5451a15-0fb4-4b56-87ab-946b88190ce0")
+  )
+  (label
+    "EN"
+    (at 92.38 66.11 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "02f5a17f-db2d-4f41-a00e-1b56011022d0")
+  )
+  (label
+    "RAD_TX"
+    (at 92.38 68.65 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1f17f0d8-b4b0-4f89-b48a-656a35d7ca73")
+  )
+  (label
+    "RAD_RX"
+    (at 92.38 71.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "61c1d631-4193-4b5d-a38c-b0fbe674ea77")
+  )
+  (label
+    "I2C_SDA"
+    (at 92.38 73.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ae5c909f-1f3a-49bd-b90b-539ee1fe2d65")
+  )
+  (label
+    "I2C_SCL"
+    (at 92.38 76.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "29046d6e-7fb2-4f2b-a394-92ae374280e9")
+  )
+  (label
+    "BOOT"
+    (at 92.38 81.35 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0131e7ed-e089-448b-85ed-7d7c86507329")
+  )
+  (label
+    "GND"
+    (at 92.38 83.89 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "eb145b80-4863-471d-9600-c3bac9a89163")
+  )
+  (label
+    "STAT_LED"
+    (at 107.62 63.57 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "99ccb2b9-c4c4-4ddc-a352-51c5e8256451")
+  )
+  (label
+    "RX0"
+    (at 107.62 66.11 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bf7cc886-d5d4-4b2d-b6c4-2a011dd38405")
+  )
+  (label
+    "TX0"
+    (at 107.62 68.65 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "16aaa7aa-2c03-41b0-a3ad-c60a228c979e")
+  )
+  (label
+    "USB_DM"
+    (at 107.62 71.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bd48586d-62c5-4445-8c32-a6f2a4482172")
+  )
+  (label
+    "USB_DP"
+    (at 107.62 73.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3ba532b1-fdff-4d30-b9df-cc08bf98bfc1")
+  )
+  (label
+    "RAD_OUT"
+    (at 107.62 76.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6946922a-a37b-4ed1-b201-a993d81f0dfe")
+  )
+  (label
+    "GND"
+    (at 100 90.24 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c3e36b03-8037-46fd-9c7d-17f698b1abe5")
+  )
+  (label
+    "GND"
+    (at 191.11 64.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d299472e-a265-4099-bff7-0ff6c99bddfb")
+  )
+  (label
+    "VBUS"
+    (at 191.11 67.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4aca2a86-4f19-4729-9651-030314945397")
+  )
+  (label
+    "USB_CC1"
+    (at 191.11 69.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "47fdbdb4-45f5-477d-9f1d-942c7f215dae")
+  )
+  (label
+    "USB_DP_CON"
+    (at 191.11 72.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8365798e-3aa3-4413-b7c1-e5d970c35e97")
+  )
+  (label
+    "USB_DM_CON"
+    (at 191.11 75 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a5fafb7a-4234-4e21-b786-5f4f8de4e2b9")
+  )
+  (label
+    "VBUS"
+    (at 191.11 80.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2a78380b-ca61-41e6-80c7-4eb04cf5d0a3")
+  )
+  (label
+    "GND"
+    (at 191.11 82.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f98a065a-7533-4677-859e-cf61aeb56194")
+  )
+  (label
+    "GND"
+    (at 208.89 64.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4c4311a3-d80c-4e96-b920-4ebdced99d4a")
+  )
+  (label
+    "VBUS"
+    (at 208.89 67.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3904b522-d293-4b6d-ab59-5e0459bbda7f")
+  )
+  (label
+    "USB_DM_CON"
+    (at 208.89 72.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6980188e-b92d-4795-baa3-9ff46441d055")
+  )
+  (label
+    "USB_DP_CON"
+    (at 208.89 75 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f3c1b5e9-524e-4254-b714-4a5c38393073")
+  )
+  (label
+    "USB_CC2"
+    (at 208.89 77.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "394718a9-8a12-454e-94f6-51d076891751")
+  )
+  (label
+    "VBUS"
+    (at 208.89 80.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "41cb703c-ff5f-461b-9ddb-d63fa042cace")
+  )
+  (label
+    "GND"
+    (at 208.89 82.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3c1ed35a-7ffd-404d-825a-dbf957ff9699")
+  )
+  (label
+    "GND"
+    (at 196.19 88.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7e72808b-4e84-4d2f-95a1-0c2aae6ef7cf")
+  )
+  (label
+    "GND"
+    (at 198.73 88.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "143d8c09-d604-494c-8d95-7f8da1e4cb0c")
+  )
+  (label
+    "GND"
+    (at 201.27 88.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "51f6860e-bff7-4234-a993-8fff830e013d")
+  )
+  (label
+    "GND"
+    (at 203.81 88.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "064dddfc-02ab-400b-8c11-376f884c1005")
+  )
+  (label
+    "+5V"
+    (at 32.38 126.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c0c6297d-9f59-4aa0-acfb-e0734aac4a08")
+  )
+  (label
+    "GND"
+    (at 32.38 128.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "869dbbd8-aa5b-4a69-9355-95afc46dcbc3")
+  )
+  (label
+    "+5V"
+    (at 32.38 131.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4a50f689-e8a8-405d-a1c2-82cab4bb15d9")
+  )
+  (label
+    "+3V3"
+    (at 47.62 128.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "540f89bf-f2e2-40f0-a248-7a2368462067")
+  )
+  (label
+    "+3V3"
+    (at 92.38 156.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fa9b0bb0-9bf3-4cef-af5f-e663077f5f7a")
+  )
+  (label
+    "GND"
+    (at 92.38 158.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e0550163-137c-49c0-83da-c8629198d906")
+  )
+  (label
+    "GND"
+    (at 92.38 161.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "aa50cd84-e159-4a60-becb-23ec25b7b9be")
+  )
+  (label
+    "I2C_SDA"
+    (at 107.62 156.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0b3ef612-b9d1-400d-a07c-60a4aa5c9683")
+  )
+  (label
+    "+3V3"
+    (at 107.62 158.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fa7122c7-d6e4-465d-a2ff-66014827fb40")
+  )
+  (label
+    "I2C_SCL"
+    (at 107.62 161.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "21f5248f-8f73-40a8-bb54-7a201ddf7123")
+  )
+  (label
+    "GND"
+    (at 100 167.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4f7aec4f-89eb-46d9-95e8-c470c69a8923")
+  )
+  (label
+    "+3V3"
+    (at 222.38 30.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7db4992d-15d5-4908-9390-4e7c699b130d")
+  )
+  (label
+    "I2C_SDA"
+    (at 237.62 30.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "713c1f19-f7b4-4e68-ad0b-49f5bc4dd27a")
+  )
+  (label
+    "+3V3"
+    (at 222.38 42.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4c684f29-8e9a-4ed0-a1de-1769336946c1")
+  )
+  (label
+    "I2C_SCL"
+    (at 237.62 42.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "604ad884-5181-4148-aba3-47fd58cb08da")
+  )
+  (label
+    "USB_CC1"
+    (at 222.38 54.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "07558d1e-6305-4193-9f10-809950d900c2")
+  )
+  (label
+    "GND"
+    (at 237.62 54.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ebc78447-8e07-4e65-b0c9-34a55139edea")
+  )
+  (label
+    "USB_CC2"
+    (at 222.38 66.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "59f688ab-72f2-42b6-be18-f12e1e05b95d")
+  )
+  (label
+    "GND"
+    (at 237.62 66.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "84ddb421-f31d-4717-a212-bac53bf8fc23")
+  )
+  (label
+    "USB_DP_CON"
+    (at 222.38 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f94c4012-2a3a-4624-a433-62bc936773e6")
+  )
+  (label
+    "USB_DP"
+    (at 237.62 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3679ba4a-9604-4be6-830c-8a8ca0f765d5")
+  )
+  (label
+    "USB_DM_CON"
+    (at 222.38 90.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3b9f07c9-fac0-4736-be34-ff48831a933a")
+  )
+  (label
+    "USB_DM"
+    (at 237.62 90.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "69827876-8eb3-420f-9f00-bbd0d850490c")
+  )
+  (label
+    "+3V3"
+    (at 222.38 102.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "396649dc-4d6f-4609-83d2-c26659ed63c8")
+  )
+  (label
+    "EN"
+    (at 237.62 102.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6587b5dc-dae5-44fc-a038-12d21f08a44e")
+  )
+  (label
+    "+3V3"
+    (at 222.38 114.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d5122670-acad-4db4-9164-6a5a676d47b2")
+  )
+  (label
+    "LED1_A"
+    (at 237.62 114.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1d1d5fb3-b701-4aab-a030-c1e4a768fdfe")
+  )
+  (label
+    "+3V3"
+    (at 222.38 126.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7410df01-c1f5-422f-8ce8-fe03059911aa")
+  )
+  (label
+    "LED2_A"
+    (at 237.62 126.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5504b24b-2202-4b71-a235-6597753ec0b2")
+  )
+  (label
+    "VBUS"
+    (at 222.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2e59a906-4a4b-4857-a34b-509046e2a9b0")
+  )
+  (label
+    "+5V"
+    (at 237.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "52f44b48-bbe4-43fe-960e-5061089b5d84")
+  )
+  (label
+    "+5V"
+    (at 252.38 30.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5d7e55af-6966-4df2-a561-1e73e211bbbd")
+  )
+  (label
+    "GND"
+    (at 267.62 30.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "164f6043-28e4-475c-bc2b-d41346bd6bf5")
+  )
+  (label
+    "+3V3"
+    (at 252.38 42.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "dea374da-604c-4433-8d90-c6e472f53cf5")
+  )
+  (label
+    "GND"
+    (at 267.62 42.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e8dfa6e9-2880-4498-ba65-87d3cddd6a13")
+  )
+  (label
+    "+3V3"
+    (at 252.38 54.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a5cc7735-aec6-4d21-a92c-61f9cb8a9e02")
+  )
+  (label
+    "GND"
+    (at 267.62 54.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "af43d6e1-8fa6-4720-a40d-a2a3d14ba2c4")
+  )
+  (label
+    "+3V3"
+    (at 252.38 66.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8fb10366-dd4b-4dd3-a4de-db69aa774373")
+  )
+  (label
+    "GND"
+    (at 267.62 66.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "66e6d4d0-1276-4d29-9017-d08928d8a234")
+  )
+  (label
+    "+5V"
+    (at 252.38 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4521a01e-c522-47f7-997a-5f9974a21ab2")
+  )
+  (label
+    "GND"
+    (at 267.62 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4ec270d3-537b-4ace-ac3a-002712640872")
+  )
+  (label
+    "EN"
+    (at 252.38 90.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7428e85d-dfa8-4798-b1fe-535a6ce271f4")
+  )
+  (label
+    "GND"
+    (at 267.62 90.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "914de926-1e72-487e-a6e6-bfb5d60d2222")
+  )
+  (label
+    "LED1_A"
+    (at 282.38 30.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "31898c91-c022-4d16-81d8-7afa6e3e4fdb")
+  )
+  (label
+    "GND"
+    (at 297.62 30.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "297c3554-c93b-492b-a450-7469c95d5536")
+  )
+  (label
+    "LED2_A"
+    (at 282.38 42.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "334adddf-9db5-4649-8598-2750fbd7339d")
+  )
+  (label
+    "STAT_LED"
+    (at 297.62 42.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "71b1471b-62ea-4b24-b3fc-10189efc52b5")
+  )
+  (label
+    "EN"
+    (at 312.38 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4c2ded08-fb4a-4912-90a1-8dde9f695c04")
+  )
+  (label
+    "GND"
+    (at 312.38 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "63ddafe7-94a9-4605-acad-976bb67a5e9d")
+  )
+  (label
+    "EN"
+    (at 327.62 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "38a726b2-2ff1-4e7e-83fc-2e80bac32b73")
+  )
+  (label
+    "GND"
+    (at 327.62 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "984bc253-47bf-4e78-b031-498807621d21")
+  )
+  (label
+    "BOOT"
+    (at 312.38 97.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6a1f96a1-f031-47f1-82f2-981218614303")
+  )
+  (label
+    "GND"
+    (at 312.38 100 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4df9258d-03db-4176-a764-a63410097b9b")
+  )
+  (label
+    "BOOT"
+    (at 327.62 97.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "09025fd9-435f-4e82-a26e-92c90e86398a")
+  )
+  (label
+    "GND"
+    (at 327.62 100 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2ba960f8-c41d-4063-9844-460e2f6ec0bb")
+  )
+  (label
+    "+5V"
+    (at 342.38 56.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "eb4124bf-0a4a-47bf-9a0b-aa4b42e85e91")
+  )
+  (label
+    "RAD_TX"
+    (at 342.38 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "742630ff-18e6-4c53-aa41-6252ec2d30b0")
+  )
+  (label
+    "RAD_RX"
+    (at 342.38 61.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bb3a2a8e-e5bb-4bf7-8bbc-e26418dfc3fe")
+  )
+  (label
+    "RAD_OUT"
+    (at 357.62 56.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7248fc66-da5d-4759-aeda-aaf318745ce4")
+  )
+  (label
+    "GND"
+    (at 357.62 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1970fc04-d4cc-489c-8e7d-850b0fc44fa3")
+  )
+  (label
+    "+3V3"
+    (at 342.38 107.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1f9ab508-f10a-4846-b825-5700807ad1e9")
+  )
+  (label
+    "TX0"
+    (at 342.38 110 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f535d0f9-2dbb-4f12-8aab-5c648da3e00f")
+  )
+  (label
+    "RX0"
+    (at 357.62 107.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f176a9bb-33e3-4d0f-b6f8-86a5e0720346")
+  )
+  (label
+    "GND"
+    (at 357.62 110 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7dce1420-41b5-4416-8402-f0fc1c7093e3")
+  )
+  (label
+    "GND"
+    (at 20 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c00d4501-f392-49e9-a80a-f49e8cf1d61b")
+  )
+  (label
+    "GND"
+    (at 30 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "62bfb397-aa8b-47db-a441-72e95f275928")
+  )
+  (label
+    "+3V3"
+    (at 40 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "004a5008-af24-494e-a698-792a200b0689")
+  )
+  (label
+    "+5V"
+    (at 50 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "32ee0ce8-8268-4fdb-9658-047b28894b57")
+  )
+  (label
+    "VBUS"
+    (at 60 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c9fad683-ca1f-4870-8ad1-fdc1a02f30c3")
+  )
+  (label
+    "+5V"
+    (at 70 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a2080507-ea48-49ac-afb8-b7a6e1a67d3e")
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:ESP32-C3-WROOM-02")
+    (at 100 75 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ef183604-eceb-4ba5-9377-3424f406a2ee")
+    (property
+      "Reference"
+      "U1"
+      (at 100 69.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-C3-WROOM-02"
+      (at 100 80.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "presencepro-c3:ESP32-C3-WROOM-02"
+      (at 100 75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf"
+      (at 100 75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2934560"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "ESP32-C3-WROOM-02-N4"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "26bf5da3-b412-4054-9c0f-c1bf4361b71b")
+    )
+    (pin
+      "2"
+      (uuid "fa0bcb2a-470c-4ca3-a276-6478ffcbb14e")
+    )
+    (pin
+      "3"
+      (uuid "37e113a8-792f-4b62-9e13-e8f762d19eb7")
+    )
+    (pin
+      "4"
+      (uuid "f393049f-5169-4a5f-a9da-b3e6ea814388")
+    )
+    (pin
+      "5"
+      (uuid "7f7ae4df-157f-4155-8868-0b2eee4efca6")
+    )
+    (pin
+      "6"
+      (uuid "14c695e4-8fce-415c-9ebb-9bc92c224529")
+    )
+    (pin
+      "7"
+      (uuid "91b260f9-f3a3-4b05-bb83-e5654ad547e9")
+    )
+    (pin
+      "8"
+      (uuid "fdf26b41-09f0-4cd8-93d4-b4d6b074f190")
+    )
+    (pin
+      "9"
+      (uuid "e50fd13f-6158-4e9d-ae8f-70f90c01b983")
+    )
+    (pin
+      "10"
+      (uuid "e5fd286c-dfaa-45a5-9b3b-39ec69194f29")
+    )
+    (pin
+      "11"
+      (uuid "0ef5ae4d-02bf-43e3-81ac-7e387c85872b")
+    )
+    (pin
+      "12"
+      (uuid "78a439fc-cc04-4955-a887-e900a1ba7a18")
+    )
+    (pin
+      "13"
+      (uuid "4303c7ef-f698-44f0-b496-16e62a503014")
+    )
+    (pin
+      "14"
+      (uuid "20cae21d-cf18-4da5-8968-83547eb4572e")
+    )
+    (pin
+      "15"
+      (uuid "d4ff09fa-9f77-44ed-803d-05773d112ad9")
+    )
+    (pin
+      "16"
+      (uuid "a3db3f15-6655-45cf-b71e-8630cd343ba9")
+    )
+    (pin
+      "17"
+      (uuid "0db2bb98-0ee5-4426-b200-c235dbc0c788")
+    )
+    (pin
+      "18"
+      (uuid "3896face-b8d3-41c1-b068-5cea41de35c7")
+    )
+    (pin
+      "19"
+      (uuid "db61b827-a26b-4865-97fa-2bb9a86068f4")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:USB_C_16P")
+    (at 200 75 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "05e050ac-c19c-4667-8769-5c4e16947886")
+    (property
+      "Reference"
+      "X1"
+      (at 200 69.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "USB_C_16P"
+      (at 200 80.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+      (at 200 75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+      (at 200 75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C165948"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TYPE-C-31-M-12"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7b654c11-3522-46df-aa35-767d4ad293f7")
+    )
+    (pin
+      "2"
+      (uuid "bb73fa4e-b3af-462e-819c-8d4a5c5f28e1")
+    )
+    (pin
+      "3"
+      (uuid "19fdc789-f1a0-4205-ad3c-c451fd534061")
+    )
+    (pin
+      "4"
+      (uuid "c0c91e22-3f4e-488b-bc54-1df17475c797")
+    )
+    (pin
+      "5"
+      (uuid "5ec531d1-9f8a-428c-b6ae-3a4811244f84")
+    )
+    (pin
+      "6"
+      (uuid "c4fcb7de-1101-41ec-ad52-7aa1cb43bdfa")
+    )
+    (pin
+      "7"
+      (uuid "91eeef1d-ed9d-4295-aeb1-39eb1775fc9c")
+    )
+    (pin
+      "8"
+      (uuid "343b4c48-ef67-4ced-96a7-71e2efbb1dff")
+    )
+    (pin
+      "9"
+      (uuid "fe672dd9-7ae9-4c24-874d-45f67e6a15ae")
+    )
+    (pin
+      "10"
+      (uuid "67113ef9-f8e0-4598-926a-aeb0a859f50a")
+    )
+    (pin
+      "11"
+      (uuid "3a8ddb60-1d29-4752-b6c4-f2b0b52b9242")
+    )
+    (pin
+      "12"
+      (uuid "6f9dcc67-383e-4ddb-b2d8-60faa3252fa0")
+    )
+    (pin
+      "13"
+      (uuid "7c924f63-4362-4c72-a4c3-5c231f05886b")
+    )
+    (pin
+      "14"
+      (uuid "b15d02ec-e388-43a2-b151-e71c4f016236")
+    )
+    (pin
+      "15"
+      (uuid "e562b30e-50cc-4ac9-9bf9-5f728b3ff5f9")
+    )
+    (pin
+      "16"
+      (uuid "5c254447-b92d-4c8a-ba2f-b5c16cf4d7df")
+    )
+    (pin
+      "S1"
+      (uuid "b1e4b25b-2eaa-45c7-9e68-a82f27abfa25")
+    )
+    (pin
+      "S2"
+      (uuid "91160305-4695-415e-9df9-6baf3195751a")
+    )
+    (pin
+      "S3"
+      (uuid "8133f54b-e211-4d2e-9a79-de194cffd58f")
+    )
+    (pin
+      "S4"
+      (uuid "b93dcc54-7370-406f-a3cd-3a07e924e2f8")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "X1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:AP2112K-3.3")
+    (at 40 130 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c41aee0d-ca0b-4233-b877-795485538945")
+    (property
+      "Reference"
+      "U3"
+      (at 40 124.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP2112K-3.3"
+      (at 40 135.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-5"
+      (at 40 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+      (at 40 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C51118"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "AP2112K-3.3TRG1"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "2c56b161-773a-4813-9dbb-20abffc024dc")
+    )
+    (pin
+      "2"
+      (uuid "111d05b6-1f2f-4394-9872-864211bc2d41")
+    )
+    (pin
+      "3"
+      (uuid "d225e38e-11fa-4017-9cb4-eb0b3322fdff")
+    )
+    (pin
+      "4"
+      (uuid "9e93cc43-7e40-4727-af95-e97cb7b6ac27")
+    )
+    (pin
+      "5"
+      (uuid "6589c184-dede-452f-8099-f91a199940e0")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:BH1750")
+    (at 100 160 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e5d286d2-c5c3-420e-9c8b-4910cad94297")
+    (property
+      "Reference"
+      "U2"
+      (at 100 154.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "BH1750"
+      (at 100 165.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "presencepro-c3:BH1750-WSOF6"
+      (at 100 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.mouser.com/datasheet/2/348/bh1750fvi-e-1868571.pdf"
+      (at 100 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C78960"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "BH1750FVI-TR"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "60d1ccb5-c4ca-41b4-a933-95ce47417fda")
+    )
+    (pin
+      "2"
+      (uuid "d46953a5-06a5-4836-9c33-3fcacbdd6ea6")
+    )
+    (pin
+      "3"
+      (uuid "428af447-4fc1-4eec-a059-d2b979fb8035")
+    )
+    (pin
+      "4"
+      (uuid "0e8fc7d5-fe4d-410e-87f0-95b51d561515")
+    )
+    (pin
+      "5"
+      (uuid "09f0ceff-e05a-4472-9f63-9c5c27d86959")
+    )
+    (pin
+      "6"
+      (uuid "09cff167-7cec-4cbf-9059-5e38a62b4ac6")
+    )
+    (pin
+      "7"
+      (uuid "2cb06e47-d0d4-4519-aa59-77eed968d624")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "U2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:4.7k")
+    (at 230 32 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "cf943f3c-98bd-4c77-8a72-308a6d515ddd")
+    (property
+      "Reference"
+      "R1"
+      (at 230 26.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 230 37.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 32 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 32 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF4701T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7c13a086-459f-4a41-8567-0127628c8a9f")
+    )
+    (pin
+      "2"
+      (uuid "08d2b7aa-a654-4073-afab-1bd1dd4192f3")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:4.7k")
+    (at 230 44 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "28508b69-3130-45df-92ac-24fc8de59d42")
+    (property
+      "Reference"
+      "R2"
+      (at 230 38.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 230 49.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 44 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 44 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF4701T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "459a4eb5-375c-4579-8459-351e53c8f51a")
+    )
+    (pin
+      "2"
+      (uuid "f27f346e-7ddd-4a60-9df6-0d0ae989b92a")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:5.1k")
+    (at 230 56 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0082f85c-aa66-4ac1-abdf-21073547d796")
+    (property
+      "Reference"
+      "R3"
+      (at 230 50.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 230 61.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 56 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 56 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF5101T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3e4914a1-673b-43bb-bc51-8d370e4e6e23")
+    )
+    (pin
+      "2"
+      (uuid "4686a348-a22a-47a8-9e83-5fe6c40e68d5")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:5.1k")
+    (at 230 68 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "50f38e6c-53cf-4249-8a36-ea572fcb1bcf")
+    (property
+      "Reference"
+      "R4"
+      (at 230 62.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 230 73.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 68 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 68 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF5101T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "97630e23-21a6-459d-9ac5-be3f3c57fc28")
+    )
+    (pin
+      "2"
+      (uuid "1e92e543-e6f6-47f4-b8f6-d3b1d6269513")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:22R")
+    (at 230 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2cb3f6c5-594e-47ed-a88c-3dec9142232c")
+    (property
+      "Reference"
+      "R5"
+      (at 230 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22R"
+      (at 230 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C22926"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF220JT5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e270d428-b842-4113-b88e-9f9d3771a6e9")
+    )
+    (pin
+      "2"
+      (uuid "3bbc742a-4f2d-438a-8252-e930829b2bc1")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:22R")
+    (at 230 92 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "39992ca0-f704-436a-bd0d-b418acc0e19a")
+    (property
+      "Reference"
+      "R6"
+      (at 230 86.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22R"
+      (at 230 97.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C22926"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF220JT5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "dac94f82-25c6-4929-bb37-f6b8de965033")
+    )
+    (pin
+      "2"
+      (uuid "529d581a-a99c-4338-85be-39ad1489e1e7")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:10k")
+    (at 230 104 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f79472ab-a548-479b-8d8f-ffdcf99b56e9")
+    (property
+      "Reference"
+      "R7"
+      (at 230 98.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 230 109.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 104 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 104 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25804"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF1002T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4fa7bd2e-599e-4bfe-9242-e8e522abf002")
+    )
+    (pin
+      "2"
+      (uuid "ff9855d9-a358-4792-b961-d012e9c18186")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:1k")
+    (at 230 116 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c1ac889a-9be7-4f8d-ac3d-dbb695efcbc6")
+    (property
+      "Reference"
+      "R8"
+      (at 230 110.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 230 121.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 116 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 116 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21190"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF1001T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f8b3570d-f7e7-4576-afcd-275d56e49eb8")
+    )
+    (pin
+      "2"
+      (uuid "fd8f65a4-84e5-485c-b454-10e6d282dbbd")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:1k")
+    (at 230 128 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "460889b8-3dbd-4b3d-9324-098b8cca3f98")
+    (property
+      "Reference"
+      "R9"
+      (at 230 122.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 230 133.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 128 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 128 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21190"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF1001T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "289d69ed-90a5-4228-9c60-241c2a90b8fb")
+    )
+    (pin
+      "2"
+      (uuid "6669dfb1-f576-4157-bb9d-c22e087fb8d4")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:0R")
+    (at 230 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c21a14f5-faf8-4ac6-80e0-36db949b7d98")
+    (property
+      "Reference"
+      "R10"
+      (at 230 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 230 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21189"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603WAF0000T5E"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "44db270f-5e67-4610-ac68-46fefe69781c")
+    )
+    (pin
+      "2"
+      (uuid "bfd660ac-d924-4d84-bc93-969c45bce819")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "R10")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:10uF")
+    (at 260 32 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f2510920-0461-4304-b5d6-c931caf57a10")
+    (property
+      "Reference"
+      "C1"
+      (at 260 26.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 260 37.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 32 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 32 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "CL10A106KP8NNNC"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "edd9ee72-e2ff-4209-af46-925568d1217b")
+    )
+    (pin
+      "2"
+      (uuid "e80c9fb7-93a2-45d8-8d1e-348a410ec99c")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:10uF")
+    (at 260 44 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "447aa53b-129c-4770-8f0b-f477db4742f6")
+    (property
+      "Reference"
+      "C2"
+      (at 260 38.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 260 49.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 44 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 44 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "CL10A106KP8NNNC"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f7671aed-e322-43ab-ad41-5ed104221fc3")
+    )
+    (pin
+      "2"
+      (uuid "1d137d6c-de9f-4a1a-817e-d8fdccbe0f7f")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:100nF")
+    (at 260 56 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "13456d11-8e36-431e-8503-4965d374b1e0")
+    (property
+      "Reference"
+      "C3"
+      (at 260 50.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 61.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 56 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 56 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "63982c60-7b8d-49dd-9fde-50aad48976b6")
+    )
+    (pin
+      "2"
+      (uuid "4529295a-016b-4982-bc5b-76c4795fe90c")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:100nF")
+    (at 260 68 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9741896c-354a-4382-8136-034d406c611c")
+    (property
+      "Reference"
+      "C4"
+      (at 260 62.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 73.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 68 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 68 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7bb8b424-fca1-4e49-abba-b3bf172394c1")
+    )
+    (pin
+      "2"
+      (uuid "753184a7-d657-4588-926d-78f26f4d99bf")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:100nF")
+    (at 260 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "599a6a61-5dca-4535-90fe-fb874c11b5db")
+    (property
+      "Reference"
+      "C5"
+      (at 260 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "0f43c71b-ca25-4559-864a-9f4f74d52b70")
+    )
+    (pin
+      "2"
+      (uuid "0fe69876-799e-4a7f-a45d-7a8f796be320")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "C5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:100nF")
+    (at 260 92 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5b57f720-a17e-404e-8f55-6d45591c9ab1")
+    (property
+      "Reference"
+      "C6"
+      (at 260 86.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 97.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "0603B104K500NT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e7f72aa4-c353-4557-9836-e4ba291b9a15")
+    )
+    (pin
+      "2"
+      (uuid "d5446427-5fcb-4454-a120-bb5081c41b24")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "C6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:LED_RED")
+    (at 290 32 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "02d12ead-bb06-4235-ac60-1fb8411dbe2d")
+    (property
+      "Reference"
+      "D1"
+      (at 290 26.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_RED"
+      (at 290 37.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 290 32 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 290 32 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2286"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "LTST-C190KRKT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a06a3044-1b7e-41a5-8317-79ebd00149a9")
+    )
+    (pin
+      "2"
+      (uuid "58304d35-b03b-49c0-a6ed-7be46eabfcd1")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "D1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:LED_GRN")
+    (at 290 44 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c3e4c1f4-d25c-4e4e-9cae-bae61d16013c")
+    (property
+      "Reference"
+      "D2"
+      (at 290 38.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_GRN"
+      (at 290 49.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 290 44 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 290 44 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2297"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "LTST-C190KGKT"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7b7241c7-7319-47e7-8a56-d26b0a46536c")
+    )
+    (pin
+      "2"
+      (uuid "ec2937d9-b8e9-48cf-a6ec-4430a266152a")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "D2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:SW_PUSH")
+    (at 320 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9d58cc1c-4fe1-4051-8f1f-b1a8dce2fcb1")
+    (property
+      "Reference"
+      "BT1"
+      (at 320 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 320 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "presencepro-c3:Tactile-6x6-SMD"
+      (at 320 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_1810251613_SHOU-HAN-TS-1187A-B-A-B_C139797.pdf"
+      (at 320 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a54d15a6-db93-4d77-8db9-9d86011e5cf3")
+    )
+    (pin
+      "2"
+      (uuid "294d2f59-3e14-4351-849f-be5d05124176")
+    )
+    (pin
+      "3"
+      (uuid "501cca30-4876-446d-94ae-f2a90bc53143")
+    )
+    (pin
+      "4"
+      (uuid "d1071077-bb41-4e0d-b189-f947c04f0554")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "BT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:SW_PUSH")
+    (at 320 100 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "65ddd72b-5e8b-4964-9a20-e322e635fbc4")
+    (property
+      "Reference"
+      "BT2"
+      (at 320 94.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 320 105.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "presencepro-c3:Tactile-6x6-SMD"
+      (at 320 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_1810251613_SHOU-HAN-TS-1187A-B-A-B_C139797.pdf"
+      (at 320 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "TS-1187A-B-A-B"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "63c22aee-f7ff-46a0-9a7e-01d891831b58")
+    )
+    (pin
+      "2"
+      (uuid "369fa139-f866-410c-a521-89ebfc217af8")
+    )
+    (pin
+      "3"
+      (uuid "c0ee5429-fb00-45bf-acf2-4f0f57e906c5")
+    )
+    (pin
+      "4"
+      (uuid "599a51a3-ff45-428a-aa44-f949e375579e")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "BT2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:Conn_01x05")
+    (at 350 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c9eef765-9355-4e0d-b5ee-3fe1f6d779ae")
+    (property
+      "Reference"
+      "J1"
+      (at 350 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x05"
+      (at 350 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+      (at 350 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140945_BOOMELE-Boom-Precision-Elec-PZ254V-11-05P_C492404.pdf"
+      (at 350 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C492404"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "PZ254V-11-05P"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a00efa66-ce9a-4f65-af0a-cd8a8c78c28e")
+    )
+    (pin
+      "2"
+      (uuid "5b12bfe6-7345-453b-aa4f-69b043c81e14")
+    )
+    (pin
+      "3"
+      (uuid "b5e192a7-e4d6-4ae7-8ce3-8fde0a619712")
+    )
+    (pin
+      "4"
+      (uuid "1e8d198a-73f8-40fb-b9f1-cd90d2421760")
+    )
+    (pin
+      "5"
+      (uuid "c1dd9f54-6983-40b0-bc4e-a55e93821e44")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "J1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:Conn_01x04")
+    (at 350 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "62227e39-5f9a-46ab-aa8a-b8fab52d7c34")
+    (property
+      "Reference"
+      "J2"
+      (at 350 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x04"
+      (at 350 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+      (at 350 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140945_BOOMELE-Boom-Precision-Elec-2-54-1-4P_C49258.pdf"
+      (at 350 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2691448"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "MPN"
+      "PZ254V-11-04P"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "22befb52-0769-443f-9a12-5aff2d39949e")
+    )
+    (pin
+      "2"
+      (uuid "77608b6e-e01c-495f-a436-b497fe9b6ea2")
+    )
+    (pin
+      "3"
+      (uuid "3f8d405d-6082-408d-a468-9377d852be82")
+    )
+    (pin
+      "4"
+      (uuid "121485bb-b5c6-4c50-85fd-7753699b9840")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "J2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:GND")
+    (at 20 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f665d532-f14e-43d6-85c1-c7c6a1cd7486")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 20 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 20 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5e612f5f-6d56-45fe-94ea-0cbe1ad13b58")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:GND")
+    (at 30 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9204c071-b147-4681-b3a4-544cf109a23f")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 30 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 30 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "62f2e113-a525-44db-80be-161ea83409a0")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:+3V3")
+    (at 40 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "560bde21-cc66-4740-9fcd-7e52a95b96a7")
+    (property
+      "Reference"
+      "#PWR0003"
+      (at 40 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 40 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f252bd66-5c51-4116-b4c5-b02704149e20")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "#PWR0003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:+5V")
+    (at 50 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3da21424-e183-4bb7-8be1-477a598a6ea0")
+    (property
+      "Reference"
+      "#PWR0004"
+      (at 50 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+5V"
+      (at 50 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "448cdf8d-1db5-4931-81a6-fad82eca4033")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "#PWR0004")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:VBUS")
+    (at 60 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9b44fc8c-fcc7-420e-ae20-5285253fe49f")
+    (property
+      "Reference"
+      "#PWR0005"
+      (at 60 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VBUS"
+      (at 60 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b9b4176d-54d9-42c5-ac23-beee54b97522")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "#PWR0005")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "presencepro-c3-lib:+5V")
+    (at 70 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f6a7ec51-1542-47c9-9e58-7cada3b8815d")
+    (property
+      "Reference"
+      "#PWR0006"
+      (at 70 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+5V"
+      (at 70 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 70 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 70 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "62ad784e-3444-4623-be5a-1571cf7a633a")
+    )
+    (instances
+      (project
+        "presencepro-c3"
+        (path
+          "/acc3cc40-c79e-4a31-b9e4-2f4ae509acb1"
+          (reference "#PWR0006")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
