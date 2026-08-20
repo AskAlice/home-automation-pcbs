@@ -1,0 +1,5288 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "1ab04e37-e287-4cb4-9567-6ef549aadc05")
+  (paper "A4")
+  (title_block
+    (title "gardenprobe-c6")
+    (date "2025-01-01")
+    (rev "1.0")
+    (comment 1 "v0.1 concept design -- verify before fabrication")
+  )
+  (lib_symbols
+    (symbol
+      "gardenprobe-c6-lib:ESP32-C6-WROOM-1"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "ESP32-C6-WROOM-1"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "gardenprobe-c6:ESP32-C6-WROOM-1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C5366877"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "ESP32-C6-WROOM-1 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:ESP32-C6-WROOM-1_0_1"
+        (rectangle
+          (start -5.08 -20.32)
+          (end 5.08 20.32)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:ESP32-C6-WROOM-1_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 19.05 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 16.51 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 13.97 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 11.43 0)
+          (length 2.54)
+          (name
+            "IO4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 8.89 0)
+          (length 2.54)
+          (name
+            "IO5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 6.35 0)
+          (length 2.54)
+          (name
+            "IO6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "IO7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "IO0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "IO1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -3.81 0)
+          (length 2.54)
+          (name
+            "IO8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -6.35 0)
+          (length 2.54)
+          (name
+            "IO10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -8.89 0)
+          (length 2.54)
+          (name
+            "IO11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -11.43 0)
+          (length 2.54)
+          (name
+            "IO12/USB_D-"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -13.97 0)
+          (length 2.54)
+          (name
+            "IO13/USB_D+"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -16.51 0)
+          (length 2.54)
+          (name
+            "IO9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 19.05 180)
+          (length 2.54)
+          (name
+            "IO18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 16.51 180)
+          (length 2.54)
+          (name
+            "IO19"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 13.97 180)
+          (length 2.54)
+          (name
+            "IO20"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 11.43 180)
+          (length 2.54)
+          (name
+            "IO21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "19"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 8.89 180)
+          (length 2.54)
+          (name
+            "IO22"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "20"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 6.35 180)
+          (length 2.54)
+          (name
+            "IO23"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "22"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "IO15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "23"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "RXD0/IO17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "24"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -3.81 180)
+          (length 2.54)
+          (name
+            "TXD0/IO16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "25"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -6.35 180)
+          (length 2.54)
+          (name
+            "IO3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "26"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -8.89 180)
+          (length 2.54)
+          (name
+            "IO2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "27"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -11.43 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "28"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -13.97 180)
+          (length 2.54)
+          (name
+            "EP/GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "29"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:JST_PH_2"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "BT"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "JST_PH_2"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "gardenprobe-c6:JST-PH-2"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C131337"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "JST_PH_2 (BT)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:JST_PH_2_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:JST_PH_2_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "+"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "-"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:MCP1700-3302"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "MCP1700-3302"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Package_TO_SOT_SMD:SOT-23"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1700-Data-Sheet-20001826F.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C39051"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "MCP1700-3302 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:MCP1700-3302_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:MCP1700-3302_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "VIN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "VOUT"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:AO3401A"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "Q"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "AO3401A"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Package_TO_SOT_SMD:SOT-23"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_1811151611_AOSMD-AO3401A_C15127.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C15127"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "AO3401A (Q)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:AO3401A_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:AO3401A_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "G"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "S"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "D"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:SHT31"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SHT31"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "gardenprobe-c6:SHT31-DFN8"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C80862"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SHT31 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:SHT31_0_1"
+        (rectangle
+          (start -5.08 -7.62)
+          (end 5.08 7.62)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:SHT31_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 6.35 0)
+          (length 2.54)
+          (name
+            "SCL"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "VDD"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "SDA"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -3.81 0)
+          (length 2.54)
+          (name
+            "ADDR"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 6.35 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "EP"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:SOIL_PROBE"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SOIL_PROBE"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "gardenprobe-c6:SoilProbe-BCu"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "—"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SOIL_PROBE (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:SOIL_PROBE_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:SOIL_PROBE_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:10k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C25804"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:10k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:10k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:100k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C25803"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:100k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:100k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:1M"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "1M"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C269433"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "1M (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:1M_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:1M_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:4.7k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "4.7k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C23162"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "4.7k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:4.7k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:4.7k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:10uF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10uF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C15849"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10uF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:10uF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:10uF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:100nF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100nF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C14663"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100nF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:100nF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:100nF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:Conn_01x04"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x04"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C49258"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x04 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:Conn_01x04_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:Conn_01x04_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "TX0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "RX0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:GND"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol GND"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.905 -2.54)
+            (xy 1.905 -2.54)
+            (xy 0 0)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:GND_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 270)
+          (length 0)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "gardenprobe-c6-lib:+3V3"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+3V3"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +3V3"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:+3V3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "gardenprobe-c6-lib:+3V3_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 92.38 68.57)
+    (uuid "f1ffe2d4-3eb4-4730-8d8f-b03a91eca101")
+  )
+  (no_connect
+    (at 92.38 71.11)
+    (uuid "19deb694-5b24-4a56-80ab-8d5d4d167843")
+  )
+  (no_connect
+    (at 92.38 73.65)
+    (uuid "7c3cc98a-3374-4c54-aee5-aff366c8deca")
+  )
+  (no_connect
+    (at 92.38 76.19)
+    (uuid "7f69a32f-6d12-4f9f-a84b-dac7a60c80f8")
+  )
+  (no_connect
+    (at 92.38 83.81)
+    (uuid "7f7ff90c-85ff-4801-8146-3f93c43e5247")
+  )
+  (no_connect
+    (at 92.38 86.35)
+    (uuid "67a80809-833f-4e61-bd72-c1e327d0a32e")
+  )
+  (no_connect
+    (at 92.38 88.89)
+    (uuid "3bf6df70-0709-40d0-b0e9-30342b98e22e")
+  )
+  (no_connect
+    (at 92.38 91.43)
+    (uuid "0bc9473e-2dbc-4632-b8e4-d29b7f9c7356")
+  )
+  (no_connect
+    (at 92.38 93.97)
+    (uuid "028eddad-67bc-45f4-8275-c6adaacacd11")
+  )
+  (no_connect
+    (at 92.38 96.51)
+    (uuid "e48c5aed-38a7-4775-84a5-75e8b1e1c36a")
+  )
+  (no_connect
+    (at 107.62 60.95)
+    (uuid "0c18d8f7-7744-4b7d-8116-09814b68ff7b")
+  )
+  (no_connect
+    (at 107.62 63.49)
+    (uuid "365a7dac-cbcd-4acf-8fb9-0c7d6765888d")
+  )
+  (no_connect
+    (at 107.62 71.11)
+    (uuid "27333512-f7cd-4901-9d44-eb561a579d6c")
+  )
+  (no_connect
+    (at 107.62 73.65)
+    (uuid "b605a7d0-37a7-4e26-83f1-9d32f2dd8065")
+  )
+  (no_connect
+    (at 107.62 76.19)
+    (uuid "a1628ea3-9981-4de6-ad51-ceb213d795d7")
+  )
+  (no_connect
+    (at 107.62 78.73)
+    (uuid "397efc2a-06aa-4c9c-9d1b-68a18d6bf1f2")
+  )
+  (no_connect
+    (at 147.62 48.65)
+    (uuid "f21465f3-cf4f-4fde-aad0-19d46c869f39")
+  )
+  (no_connect
+    (at 147.62 51.19)
+    (uuid "6ea499a0-ecc8-4b84-b00d-9d0739932bca")
+  )
+  (label
+    "GND"
+    (at 92.38 60.95 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fb653677-a3b0-424e-ba1f-25d795b0282b")
+  )
+  (label
+    "+3V3"
+    (at 92.38 63.49 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "edc2c718-7602-43d9-9342-cc7f9a61ab83")
+  )
+  (label
+    "EN"
+    (at 92.38 66.03 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "732a79fc-2218-4c47-9a9f-f445f67bcbfd")
+  )
+  (label
+    "SOIL_ADC"
+    (at 92.38 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "936a4fc8-2615-4f64-a48f-3d4616119209")
+  )
+  (label
+    "SOIL_CHG"
+    (at 92.38 81.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "084c98e7-8d54-4b3f-94d0-84b95c9298aa")
+  )
+  (label
+    "I2C_SDA"
+    (at 107.62 66.03 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8344ea98-952e-447b-806c-ed44a7ee0077")
+  )
+  (label
+    "I2C_SCL"
+    (at 107.62 68.57 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "797f84c3-e506-4aa5-bf8b-22a2f20aaceb")
+  )
+  (label
+    "RX0"
+    (at 107.62 81.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b5b424cb-77c5-4997-99f1-7c7260f0be29")
+  )
+  (label
+    "TX0"
+    (at 107.62 83.81 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0135f663-714e-445a-83cc-4020b41e511d")
+  )
+  (label
+    "LOAD_EN"
+    (at 107.62 86.35 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "263c2f73-eb63-475f-bb98-e94eb4ea93a3")
+  )
+  (label
+    "BATT_ADC"
+    (at 107.62 88.89 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "596d4014-b1d4-45ae-a201-abedaed50fcd")
+  )
+  (label
+    "GND"
+    (at 107.62 91.43 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "76cb53bb-a2a4-4cf3-a63f-b92f225299df")
+  )
+  (label
+    "GND"
+    (at 107.62 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ab166fa3-0db4-496f-b9ba-1d593b715298")
+  )
+  (label
+    "VBAT"
+    (at 27.38 53.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "58ecb537-df1f-4ca8-abb2-c0e46f8ed02b")
+  )
+  (label
+    "GND"
+    (at 42.62 53.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "68ef18ea-02db-43a2-b2d6-6013f25c42a1")
+  )
+  (label
+    "GND"
+    (at 57.38 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d6fbc2e1-2b2d-4d7b-80e0-e5325c6d8254")
+  )
+  (label
+    "VBAT"
+    (at 57.38 55 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "acfac1a2-fe1b-4544-8177-ea98858b6168")
+  )
+  (label
+    "+3V3"
+    (at 72.62 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "97bf90ca-c378-4cc0-9b23-85645ada0fc5")
+  )
+  (label
+    "LOAD_EN"
+    (at 87.38 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "75b9e319-9406-4c0a-a230-637383728a1e")
+  )
+  (label
+    "+3V3"
+    (at 87.38 55 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b3bdb0bb-9cb9-4fbd-9e70-77ef737a003e")
+  )
+  (label
+    "+3V3_SW"
+    (at 102.62 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0af096a1-c571-4536-bbdf-0d7a886370f1")
+  )
+  (label
+    "I2C_SCL"
+    (at 132.38 48.65 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7eb8026f-7321-4d9a-bad0-6c5ff5969160")
+  )
+  (label
+    "+3V3_SW"
+    (at 132.38 51.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6bde9df4-959f-4a32-8a15-5e7aa38bcd52")
+  )
+  (label
+    "GND"
+    (at 132.38 53.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "66c0b67f-ac22-4d3e-a7b5-bafaa4679069")
+  )
+  (label
+    "I2C_SDA"
+    (at 132.38 56.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "02560bb7-d7b8-47fd-8a28-eb456886b48d")
+  )
+  (label
+    "GND"
+    (at 132.38 58.81 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "373694fa-29dd-43fe-8adf-a0ab09978179")
+  )
+  (label
+    "GND"
+    (at 147.62 53.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b0a631b3-a36c-4fd7-b061-141a9cdb4e50")
+  )
+  (label
+    "GND"
+    (at 147.62 56.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f46e9197-262b-4e52-8630-a22e74c37c30")
+  )
+  (label
+    "SOIL_ADC"
+    (at 172.38 53.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e0c31466-7924-4074-ac85-45eaa1af6022")
+  )
+  (label
+    "GND"
+    (at 187.62 53.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "83ffac7b-277d-4878-bcc2-ba952494ec66")
+  )
+  (label
+    "+3V3"
+    (at 202.38 38.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d0109343-4875-4240-b7c6-898420e3a3e9")
+  )
+  (label
+    "EN"
+    (at 217.62 38.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "788c7087-fb0b-4238-ba29-b31c496d50d4")
+  )
+  (label
+    "VBAT"
+    (at 202.38 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "35db5a3a-2403-4f35-b27d-f8adf6e2a89b")
+  )
+  (label
+    "BATT_ADC"
+    (at 217.62 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "158e530a-2674-4ca8-b59e-7f6654c693c0")
+  )
+  (label
+    "BATT_ADC"
+    (at 202.38 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "11b5a6fe-2005-476b-9315-3078259295bf")
+  )
+  (label
+    "GND"
+    (at 217.62 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e5752d32-ebb2-4f2c-8e40-79e596f8d46d")
+  )
+  (label
+    "SOIL_CHG"
+    (at 202.38 98.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0bb1ce8f-c80c-4e15-a5d9-aa5fc60e1832")
+  )
+  (label
+    "SOIL_ADC"
+    (at 217.62 98.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1cf0a464-1d19-4cc5-b1b9-013e9552882b")
+  )
+  (label
+    "+3V3_SW"
+    (at 202.38 118.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "085afc3a-3f20-4c9c-9821-bafefac49ad5")
+  )
+  (label
+    "I2C_SCL"
+    (at 217.62 118.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "99c8592f-db3d-4aff-9035-c7ad97ff8dc2")
+  )
+  (label
+    "+3V3_SW"
+    (at 202.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "041995cf-137d-46ab-85f9-36e15305c908")
+  )
+  (label
+    "I2C_SDA"
+    (at 217.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b15bfaf3-b9e3-4fda-a393-df1679fef949")
+  )
+  (label
+    "VBAT"
+    (at 227.38 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4dd48763-5059-4075-a533-50ee56524041")
+  )
+  (label
+    "GND"
+    (at 242.62 58.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7c785aa7-281e-4d51-aef2-f25ef57b03e6")
+  )
+  (label
+    "+3V3"
+    (at 227.38 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d56490f5-983f-4a31-b7c2-2c31178903b3")
+  )
+  (label
+    "GND"
+    (at 242.62 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5e53b90e-4d23-4b00-ac77-b380a01f1a90")
+  )
+  (label
+    "+3V3"
+    (at 227.38 98.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3c833ae8-701a-4264-97de-6002aa21db11")
+  )
+  (label
+    "GND"
+    (at 242.62 98.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5949923f-c53f-4ddb-b930-9227b39ab773")
+  )
+  (label
+    "EN"
+    (at 227.38 118.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "856a1fd5-1204-40c6-be2a-7fd5c49badfa")
+  )
+  (label
+    "GND"
+    (at 242.62 118.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2a9cbc57-0ee4-44ea-92ee-4fa85bb05c6f")
+  )
+  (label
+    "+3V3"
+    (at 137.38 147.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "67b503f8-6bce-40cf-a637-46d27850e067")
+  )
+  (label
+    "TX0"
+    (at 137.38 150 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e77772ac-c98d-496f-82ec-9d46a9134579")
+  )
+  (label
+    "RX0"
+    (at 152.62 147.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "327c1565-01de-4443-8933-3549b97b492b")
+  )
+  (label
+    "GND"
+    (at 152.62 150 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "06add5e4-8e9c-4b27-9539-39a62af1defe")
+  )
+  (label
+    "GND"
+    (at 15 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c270861d-6ac8-4519-89d2-6c642c011c1e")
+  )
+  (label
+    "+3V3"
+    (at 25 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ff32942c-8c71-49dc-8f97-f52735195845")
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:ESP32-C6-WROOM-1")
+    (at 100 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d1e0c7f0-22c2-4f81-8ed6-640059bab337")
+    (property
+      "Reference"
+      "U1"
+      (at 100 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-C6-WROOM-1"
+      (at 100 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "gardenprobe-c6:ESP32-C6-WROOM-1"
+      (at 100 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
+      (at 100 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C5366877"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "0621a512-1fed-452a-9895-b54ad008b533")
+    )
+    (pin
+      "2"
+      (uuid "e5e6b30b-1971-4f9f-93b5-39679aa7fccd")
+    )
+    (pin
+      "3"
+      (uuid "5e072308-f911-4d02-a415-0968cff8a481")
+    )
+    (pin
+      "4"
+      (uuid "6d0ba8c0-5a9c-4e20-ac6a-49144ea4aec8")
+    )
+    (pin
+      "5"
+      (uuid "0b5ec630-7e61-4ea9-b7b1-68b6f92ad659")
+    )
+    (pin
+      "6"
+      (uuid "4979a993-8bc2-4df7-95c2-1d41441f7124")
+    )
+    (pin
+      "7"
+      (uuid "7c104b40-d728-4f1e-91d8-18e26f65046b")
+    )
+    (pin
+      "8"
+      (uuid "726794f1-a5a7-481c-8dff-24044c2e59b1")
+    )
+    (pin
+      "9"
+      (uuid "59e48a3d-17b4-420b-a468-750e3b202dea")
+    )
+    (pin
+      "10"
+      (uuid "6577b3af-9354-4551-b807-c749a5eea714")
+    )
+    (pin
+      "11"
+      (uuid "6071dcf8-55b4-49d1-af90-05346b5f150c")
+    )
+    (pin
+      "12"
+      (uuid "88143281-0827-41b0-97a7-f1cf36975946")
+    )
+    (pin
+      "13"
+      (uuid "67217247-698f-4d03-82fb-5c96f34879cf")
+    )
+    (pin
+      "14"
+      (uuid "3eddb828-d6db-466c-b269-d258574681d8")
+    )
+    (pin
+      "15"
+      (uuid "4b2ce6ae-aa45-4fe4-9fcf-370f97d41004")
+    )
+    (pin
+      "16"
+      (uuid "f88cd6f6-3ac7-4613-9a7d-325cb60b9883")
+    )
+    (pin
+      "17"
+      (uuid "729c5a05-ceab-45e1-8a75-f34454ecc074")
+    )
+    (pin
+      "18"
+      (uuid "5b12da82-9314-4336-a379-177232fe2def")
+    )
+    (pin
+      "19"
+      (uuid "ef187568-81eb-48b6-bf7c-e53b55442e93")
+    )
+    (pin
+      "20"
+      (uuid "9aed5321-57d3-4107-97b5-dbdb4a178a6a")
+    )
+    (pin
+      "21"
+      (uuid "a3bd45f0-09b1-45cf-9b02-3fbe73715910")
+    )
+    (pin
+      "22"
+      (uuid "73b8f1bb-8aeb-4873-8b27-f22e40e9346d")
+    )
+    (pin
+      "23"
+      (uuid "633eb05f-70ae-42f4-a56e-8802783ffe5d")
+    )
+    (pin
+      "24"
+      (uuid "6663ec33-35b8-42e0-a28e-e2c92d59d8ec")
+    )
+    (pin
+      "25"
+      (uuid "2d6edf32-b36d-4ce8-840f-f33362a4e3bf")
+    )
+    (pin
+      "26"
+      (uuid "14609164-6624-4c02-b33b-f3dc3e4d4ff6")
+    )
+    (pin
+      "27"
+      (uuid "6867132d-d1d1-46fb-a610-a6d2b737f634")
+    )
+    (pin
+      "28"
+      (uuid "e00714d0-9052-4e23-838e-07264faaacb7")
+    )
+    (pin
+      "29"
+      (uuid "eacbe02e-063b-458a-a1a1-f50a32d309dd")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:JST_PH_2")
+    (at 35 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b86553b6-1045-4ff9-901a-2bb1d126e716")
+    (property
+      "Reference"
+      "BT1"
+      (at 35 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "JST_PH_2"
+      (at 35 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "gardenprobe-c6:JST-PH-2"
+      (at 35 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+      (at 35 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C131337"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3f03d0d7-9c1d-4c6d-8e75-e436a25ba858")
+    )
+    (pin
+      "2"
+      (uuid "ca4c0095-6914-45c2-91a7-0c8631855c83")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "BT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:MCP1700-3302")
+    (at 65 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b42d53a8-30fd-44e6-ad24-4bb3f0bf6935")
+    (property
+      "Reference"
+      "U2"
+      (at 65 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MCP1700-3302"
+      (at 65 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23"
+      (at 65 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1700-Data-Sheet-20001826F.pdf"
+      (at 65 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C39051"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "c867185b-0649-421c-a1fd-a11ba8e2334e")
+    )
+    (pin
+      "2"
+      (uuid "4ebdb3c6-0bf0-4cdc-a19d-a41aec436d9c")
+    )
+    (pin
+      "3"
+      (uuid "24c46545-5086-4212-b7fd-c9f6dd6b4019")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "U2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:AO3401A")
+    (at 95 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e3d41f9d-02f1-4ebd-80ed-5850db44d343")
+    (property
+      "Reference"
+      "Q1"
+      (at 95 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AO3401A"
+      (at 95 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23"
+      (at 95 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_1811151611_AOSMD-AO3401A_C15127.pdf"
+      (at 95 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15127"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a063415b-f470-4e2d-b610-edf3dd4a8f89")
+    )
+    (pin
+      "2"
+      (uuid "39e4cfdb-7a29-4922-b5c1-084f1c961f27")
+    )
+    (pin
+      "3"
+      (uuid "a256c377-7ae1-4cec-b83e-c28bc69704f3")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "Q1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:SHT31")
+    (at 140 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "a9fee95b-591a-487e-a526-cfdfc630e2f8")
+    (property
+      "Reference"
+      "U3"
+      (at 140 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SHT31"
+      (at 140 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "gardenprobe-c6:SHT31-DFN8"
+      (at 140 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf"
+      (at 140 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C80862"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5cef27d2-d9a2-4d2b-a985-c0afbff8c39f")
+    )
+    (pin
+      "2"
+      (uuid "4bf1bbb9-657d-4a85-aa14-31ecad9d54a6")
+    )
+    (pin
+      "3"
+      (uuid "633b90f4-bf59-4ec8-94a8-2439256d0fa5")
+    )
+    (pin
+      "4"
+      (uuid "42c5933f-cfe5-4205-b3f9-8f434b47ae66")
+    )
+    (pin
+      "5"
+      (uuid "7af66d10-8d0b-48cd-8075-7a29424c3a34")
+    )
+    (pin
+      "6"
+      (uuid "a17b6ef5-8e16-447f-9f79-0c0041cd1909")
+    )
+    (pin
+      "7"
+      (uuid "a67af6ce-9b92-42d1-999c-995e3e1f3c2d")
+    )
+    (pin
+      "8"
+      (uuid "852e9573-df3e-4a3a-8023-e1b917e8dad9")
+    )
+    (pin
+      "9"
+      (uuid "1f963417-c30c-4812-9665-9753b84ea894")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:SOIL_PROBE")
+    (at 180 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e5bc3fc3-36a2-46ac-a61c-67f7e7ed170e")
+    (property
+      "Reference"
+      "J2"
+      (at 180 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SOIL_PROBE"
+      (at 180 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "gardenprobe-c6:SoilProbe-BCu"
+      (at 180 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 180 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "—"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5210a9a7-3ab2-4f1f-97d8-a88bfd3fd673")
+    )
+    (pin
+      "2"
+      (uuid "89003b7f-8d88-4ee6-ad62-d255adf2f284")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "J2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:10k")
+    (at 210 40 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "13146297-513e-4dfb-9678-d1909a911719")
+    (property
+      "Reference"
+      "R1"
+      (at 210 34.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 210 45.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 210 40 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 40 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25804"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "eeee380f-b21b-4744-a424-e725333f7228")
+    )
+    (pin
+      "2"
+      (uuid "ee2bda20-329d-453d-9f16-eab55a157217")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "R1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:100k")
+    (at 210 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "fc47cc25-6acf-4084-89f6-cb860a2bf443")
+    (property
+      "Reference"
+      "R3"
+      (at 210 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100k"
+      (at 210 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 210 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25803"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "87877ab8-9041-4258-865c-403375e86d1c")
+    )
+    (pin
+      "2"
+      (uuid "8edb0198-1e3c-4f69-beb5-3e4d3f7162b6")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "R3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:100k")
+    (at 210 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2539e968-d8bb-455e-8f03-b50b40fa9d0d")
+    (property
+      "Reference"
+      "R4"
+      (at 210 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100k"
+      (at 210 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 210 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25803"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5a82794c-dba6-4992-8d8d-599c22c06030")
+    )
+    (pin
+      "2"
+      (uuid "1ad00522-bb26-474f-90b0-e0d13f2783bb")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "R4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:1M")
+    (at 210 100 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "23080808-19b9-48a1-b384-fa083f1789eb")
+    (property
+      "Reference"
+      "R5"
+      (at 210 94.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1M"
+      (at 210 105.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 210 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C269433"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b8bbbe27-13bc-4182-be61-2ed35fdcb327")
+    )
+    (pin
+      "2"
+      (uuid "e6a4026b-1f78-4457-9e5e-68a1953da50f")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "R5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:4.7k")
+    (at 210 120 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "4cb223e5-19e2-412e-a6cb-6c267dbce5c6")
+    (property
+      "Reference"
+      "R6"
+      (at 210 114.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 210 125.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 210 120 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 120 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "07dff795-9965-49d3-bba2-c96f94728795")
+    )
+    (pin
+      "2"
+      (uuid "bc021b7a-622c-4a8c-8978-41d9619371df")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "R6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:4.7k")
+    (at 210 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "6ce36083-7f77-4856-9f30-837062c958e3")
+    (property
+      "Reference"
+      "R7"
+      (at 210 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 210 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 210 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "92d140a7-cabc-440a-ba4a-5c1defdce299")
+    )
+    (pin
+      "2"
+      (uuid "3a4e97f9-358f-42f4-a022-8cb164c6b3c5")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "R7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:10uF")
+    (at 235 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "fbff76b6-a96d-444b-a28d-0e10b8565f8a")
+    (property
+      "Reference"
+      "C1"
+      (at 235 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 235 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 235 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 235 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "39dd7e7f-273f-4861-a299-88140d2633b1")
+    )
+    (pin
+      "2"
+      (uuid "f2c1f775-bcf2-4953-acb0-29906c902a50")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:100nF")
+    (at 235 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c97788ec-9a75-4dee-ad14-37fa78bffd91")
+    (property
+      "Reference"
+      "C2"
+      (at 235 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 235 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 235 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 235 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f891cc54-273c-438c-892d-3171b48547c6")
+    )
+    (pin
+      "2"
+      (uuid "6cb5ab38-4a59-4a9e-a108-10701995e849")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:100nF")
+    (at 235 100 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0b703a68-cefd-462a-90e6-8b3e13ee6984")
+    (property
+      "Reference"
+      "C3"
+      (at 235 94.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 235 105.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 235 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 235 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "bb9fa36d-8330-4833-a6aa-560660d43d45")
+    )
+    (pin
+      "2"
+      (uuid "e7d5bb9e-1cf6-4624-8a89-8e627ac46afe")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:100nF")
+    (at 235 120 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "27773df9-520b-422a-914b-3c974277ad3b")
+    (property
+      "Reference"
+      "C4"
+      (at 235 114.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 235 125.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 235 120 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 235 120 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "11305863-f9c3-4b42-8df6-76a123a196f8")
+    )
+    (pin
+      "2"
+      (uuid "2ad2fdd0-7227-4e12-9206-138d2c2d8b12")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:Conn_01x04")
+    (at 145 150 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3d04556a-e587-46c3-8f4c-2c7efb1020b9")
+    (property
+      "Reference"
+      "J1"
+      (at 145 144.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x04"
+      (at 145 155.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+      (at 145 150 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 145 150 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C49258"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "0b1883d4-f49c-4e3f-b955-7cec62662729")
+    )
+    (pin
+      "2"
+      (uuid "afca3989-8b0c-4bb5-ad08-42bea37ee64d")
+    )
+    (pin
+      "3"
+      (uuid "24353451-ddae-41aa-9a3b-743d7e1de45b")
+    )
+    (pin
+      "4"
+      (uuid "24b3682a-70b8-4926-ab45-86c18d148024")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "J1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:GND")
+    (at 15 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ee20eaff-f480-408d-879e-5f0cd9410ac6")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 15 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 15 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 15 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 15 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "724ef477-67da-4b90-8a8d-5abe96861c3a")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "gardenprobe-c6-lib:+3V3")
+    (at 25 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5e7a4bc7-889e-42c5-9b12-744a3b55a997")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 25 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 25 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 25 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 25 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "86203275-ad31-4cec-8307-fe006d9cdf4d")
+    )
+    (instances
+      (project
+        "gardenprobe-c6"
+        (path
+          "/1ab04e37-e287-4cb4-9567-6ef549aadc05"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
