@@ -1,0 +1,3016 @@
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10uF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C15849"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10uF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:10uF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:10uF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:100nF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100nF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C14663"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100nF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:100nF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:100nF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:LED_RED"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "LED_RED"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "LED_SMD:LED_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2286"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "LED_RED (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:LED_RED_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:LED_RED_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:LED_GRN"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "LED_GRN"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "LED_SMD:LED_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2297"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "LED_GRN (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:LED_GRN_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:LED_GRN_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:SW_PUSH"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "BT"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SW_PUSH"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "sensenode-c6:Tactile-6x6-SMD"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C139797"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SW_PUSH (BT)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:SW_PUSH_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:SW_PUSH_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "A1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "A2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "B1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "B2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:Conn_01x03"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x03"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C49257"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x03 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:Conn_01x03_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:Conn_01x03_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:Conn_01x04"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x04"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C49258"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x04 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:Conn_01x04_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:Conn_01x04_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:GND"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol GND"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.905 -2.54)
+            (xy 1.905 -2.54)
+            (xy 0 0)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:GND_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 270)
+          (length 0)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:+3V3"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+3V3"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +3V3"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:+3V3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:+3V3_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "sensenode-c6-lib:VBUS"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "VBUS"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol VBUS"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:VBUS_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "sensenode-c6-lib:VBUS_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 92.38 72.38)
+    (uuid "40aa3243-631c-4c71-b91e-771f70bd8eea")
+  )
+  (no_connect
+    (at 92.38 80)
+    (uuid "f515e10e-c2ef-4325-9773-33b621b01b59")
+  )
+  (no_connect
+    (at 92.38 82.54)
+    (uuid "aa7ccbd2-2e13-494a-a4f0-ef090e82648c")
+  )
+  (no_connect
+    (at 92.38 87.62)
+    (uuid "25878067-359e-45fb-a197-8b9baaa723fb")
+  )
+  (no_connect
+    (at 92.38 90.16)
+    (uuid "1f428d03-6b8d-4ea9-b6f7-de18f9d669a3")
+  )
+  (no_connect
+    (at 107.62 92.7)
+    (uuid "94f30faf-4adb-4776-8431-4d98d8bd7752")
+  )
+  (no_connect
+    (at 107.62 90.16)
+    (uuid "a61870b1-cdbd-4bc7-a64f-c817775388f6")
+  )
+  (no_connect
+    (at 107.62 87.62)
+    (uuid "54764d0b-242b-48c9-962f-3627614a6e34")
+  )
+  (no_connect
+    (at 107.62 85.08)
+    (uuid "a6d7a2a0-9343-42f8-bc46-71a83d7593a0")
+  )
+  (no_connect
+    (at 107.62 82.54)
+    (uuid "024951a1-721d-4322-9260-318133021089")
+  )
+  (no_connect
+    (at 107.62 80)
+    (uuid "bc89eaa5-4324-4c8f-8b3e-49b919e1620f")
+  )
+  (no_connect
+    (at 107.62 77.46)
+    (uuid "652e4232-741a-4580-aca7-74832238f717")
+  )
+  (no_connect
+    (at 107.62 74.92)
+    (uuid "ae82a441-23fb-433b-8042-4ac83be54ac9")
+  )
+  (no_connect
+    (at 107.62 67.3)
+    (uuid "7297dc6e-56fa-4d90-8945-0b95f1edba81")
+  )
+  (no_connect
+    (at 107.62 64.76)
+    (uuid "dc3b6e5b-268d-4e32-b9a1-687ff2c3a4bf")
+  )
+  (no_connect
+    (at 191.11 82.54)
+    (uuid "0472b509-1408-4351-8c93-8a2e86a847af")
+  )
+  (no_connect
+    (at 208.89 74.92)
+    (uuid "c8a22505-b828-447b-a9f8-d3a343925220")
+  )
+  (no_connect
+    (at 47.62 126.19)
+    (uuid "eb4f8eab-f071-4be8-a64e-909d4481a5a6")
+  )
+  (no_connect
+    (at 72.38 160)
+    (uuid "afc9e93d-4da7-41d9-b930-99caa87375d5")
+  )
+  (no_connect
+    (at 87.62 157.46)
+    (uuid "034bf2cb-440b-4ab5-a09e-a1070bc51fdc")
+  )
+  (no_connect
+    (at 87.62 160)
+    (uuid "fb78776f-4959-4dde-a31e-835cb95f61bb")
+  )
+  (label
+    "GND"
+    (at 92.38 62.22 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fd8a687a-c6f4-4b5a-8e63-6a1f0c7b2006")
+  )
+  (label
+    "+3V3"
+    (at 92.38 64.76 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fe1c624b-9f29-417a-b23a-40ffbf00b481")
+  )
+  (label
+    "EN"
+    (at 92.38 67.3 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ead18c02-cb31-485a-b273-4b8a91293232")
+  )
+  (label
+    "PIR_OUT"
+    (at 92.38 69.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4a9fd6b8-5e6c-4264-b53b-b8b244e6acfb")
+  )
+  (label
+    "I2C_SDA"
+    (at 92.38 74.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cb727793-ce55-40c6-a653-2577e9604e10")
+  )
+  (label
+    "I2C_SCL"
+    (at 92.38 77.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "53ec39c0-19ad-4433-99c3-a5e609adc616")
+  )
+  (label
+    "STAT_LED"
+    (at 92.38 85.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "410b4e1d-5f1c-4310-a220-39de7559b11f")
+  )
+  (label
+    "USB_DM"
+    (at 92.38 92.7 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "19cd8184-80ff-4843-8580-b63416aa977c")
+  )
+  (label
+    "USB_DP"
+    (at 92.38 95.24 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f1b821a9-3aa4-47a1-b248-dcd61f4db8a9")
+  )
+  (label
+    "BOOT"
+    (at 107.62 95.24 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5aa74e28-6a36-4623-993d-02957a762a8a")
+  )
+  (label
+    "RX0"
+    (at 107.62 72.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0cbd222b-16a7-4701-946b-df55d7e25f69")
+  )
+  (label
+    "TX0"
+    (at 107.62 69.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "aa933a17-8dc4-4a5f-ae82-3a73c05bdfdb")
+  )
+  (label
+    "GND"
+    (at 107.62 62.22 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "efdbed1c-5956-45d4-85a0-9baff5475130")
+  )
+  (label
+    "GND"
+    (at 100 101.59 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9261cff0-6f34-4226-b446-3891bb64a38c")
+  )
+  (label
+    "GND"
+    (at 191.11 69.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a94b6818-3b6c-441d-8348-83c40ac23ba6")
+  )
+  (label
+    "VBUS"
+    (at 191.11 72.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "54c819c1-da23-454e-9ad2-d18eee9ffe24")
+  )
+  (label
+    "USB_CC1"
+    (at 191.11 74.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7dc9edba-0134-43ea-8efb-cc071fa1c9b0")
+  )
+  (label
+    "USB_DP_CON"
+    (at 191.11 77.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9af6b62c-a40a-456c-9b86-321ab2f14f59")
+  )
+  (label
+    "USB_DM_CON"
+    (at 191.11 80 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d2ca1e5f-e2ff-4ee1-8739-cc4dcdb65dad")
+  )
+  (label
+    "VBUS"
+    (at 191.11 85.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4f37cfb4-7b9a-4d92-8038-e60743ed96e2")
+  )
+  (label
+    "GND"
+    (at 191.11 87.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fa1f63f3-d2df-4097-b722-ccf393f07054")
+  )
+  (label
+    "GND"
+    (at 208.89 69.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "911efa28-acb2-4d31-8392-e83ee25ac082")
+  )
+  (label
+    "VBUS"
+    (at 208.89 72.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2fb252fd-d781-451e-87e7-73160df943c8")
+  )
+  (label
+    "USB_DM_CON"
+    (at 208.89 77.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3356fe28-fb47-4838-82a7-d7be71e7a575")
+  )
+  (label
+    "USB_DP_CON"
+    (at 208.89 80 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "54d80d0d-f95e-4099-afba-90db54631898")
+  )
+  (label
+    "USB_CC2"
+    (at 208.89 82.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b46839e5-b394-4fa7-aade-e381fe763e55")
+  )
+  (label
+    "VBUS"
+    (at 208.89 85.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a355b3af-df40-40ce-890b-41d8ed77e0d1")
+  )
+  (label
+    "GND"
+    (at 208.89 87.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "66cff314-2834-4cc6-a92b-4573b1d5acdf")
+  )
+  (label
+    "GND"
+    (at 196.19 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5be3f2d9-64a9-4153-a3e9-a959a77fc43a")
+  )
+  (label
+    "GND"
+    (at 198.73 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6a5ecfc6-7f22-400c-a6c0-4249bbde7a7a")
+  )
+  (label
+    "GND"
+    (at 201.27 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "75ab852f-d4c6-4742-a0be-8e542cb71e32")
+  )
+  (label
+    "GND"
+    (at 203.81 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "722ebd6e-2cfc-4ba8-ae66-c2dd41fbe275")
+  )
+  (label
+    "VBUS"
+    (at 32.38 126.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a6108cca-92ae-44e6-a953-d92755d7bd74")
+  )
+  (label
+    "GND"
+    (at 32.38 128.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b0564b56-f8a9-4595-8fc7-fad2f3779eb4")
+  )
+  (label
+    "VBUS"
+    (at 32.38 131.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6a295146-e0ef-41d1-96a3-105649a4d2ab")
+  )
+  (label
+    "+3V3"
+    (at 47.62 128.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "686fb3c1-2ef5-4b75-b2ae-3af2018b7cab")
+  )
+  (label
+    "I2C_SDA"
+    (at 72.38 154.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "19f0561c-b53d-473c-a94c-25c94380d1b3")
+  )
+  (label
+    "GND"
+    (at 72.38 157.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "da21ba58-66f6-4c7c-9fe7-3f13135c76a2")
+  )
+  (label
+    "I2C_SCL"
+    (at 72.38 162.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "083b8b06-7f59-4c39-91f4-a80c2f5417f8")
+  )
+  (label
+    "+3V3"
+    (at 87.62 154.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "27f23be1-c1fb-4665-9d7b-76bb5a0965cf")
+  )
+  (label
+    "GND"
+    (at 87.62 162.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fb84de6d-0731-43c5-86d2-d93dde189888")
+  )
+  (label
+    "GND"
+    (at 80 168.89 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b1622403-3486-44b3-94d2-14eb5d4e9ebe")
+  )
+  (label
+    "+3V3"
+    (at 107.38 156.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "af147d99-ef07-4c34-87c6-b66724e644ef")
+  )
+  (label
+    "GND"
+    (at 107.38 158.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "08d14d2a-cf4c-43b4-b3c1-259de8b4870a")
+  )
+  (label
+    "GND"
+    (at 107.38 161.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0ced2848-bb0d-4b65-a69a-f0540a233007")
+  )
+  (label
+    "I2C_SDA"
+    (at 122.62 156.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7c94122b-c591-4f46-b0d4-0cc2042a22b0")
+  )
+  (label
+    "+3V3"
+    (at 122.62 158.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f821528d-0c45-4660-984d-7cec4ed91036")
+  )
+  (label
+    "I2C_SCL"
+    (at 122.62 161.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "53d232cd-f592-4146-96f1-afdc624c08bf")
+  )
+  (label
+    "GND"
+    (at 115 167.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3668963e-4950-47f1-97ce-c73dd44c422e")
+  )
+  (label
+    "GND"
+    (at 142.38 154.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ddf44566-dca5-456a-a0fa-28f5031b24c0")
+  )
+  (label
+    "+3V3"
+    (at 142.38 157.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "10acaefd-393c-4c8e-b373-9ccf25d62250")
+  )
+  (label
+    "I2C_SDA"
+    (at 142.38 160 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7d746a89-0e2a-4a02-a099-19e1a4f36d48")
+  )
+  (label
+    "I2C_SCL"
+    (at 142.38 162.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "42a02daf-8d40-46d9-a83e-310404fb4d66")
+  )
+  (label
+    "GND"
+    (at 157.62 154.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8a20a408-68db-48ba-aedf-a8af4139108c")
+  )
+  (label
+    "+3V3"
+    (at 157.62 157.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e02859b9-e5c2-4455-9b28-cefafc20ca5a")
+  )
+  (label
+    "GND"
+    (at 157.62 160 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1b236595-147e-4877-a378-12f13764203b")
+  )
+  (label
+    "+3V3"
+    (at 157.62 162.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0b734a86-6914-4cd0-a941-9db30d8f7e82")
+  )
+  (label
+    "+3V3"
+    (at 222.38 40.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "226538be-97c3-4f17-b14c-e6851516c012")
+  )
+  (label
+    "I2C_SDA"
+    (at 237.62 40.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1b884827-c2a7-4c2c-8b20-a76544de898e")
+  )
+  (label
+    "+3V3"
+    (at 222.38 52.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0e7893c5-13ff-402a-a480-22e12b52b8b8")
+  )
+  (label
+    "I2C_SCL"
+    (at 237.62 52.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "789c9cf5-9889-41ab-835c-def0b93068dd")
+  )
+  (label
+    "USB_CC1"
+    (at 222.38 64.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e35e2eb4-6d53-4fb5-9d56-2af1de9738f6")
+  )
+  (label
+    "GND"
+    (at 237.62 64.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b84eea97-be8e-4a9f-b332-afb34e62b824")
+  )
+  (label
+    "USB_CC2"
+    (at 222.38 76.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "99b25c5f-e91b-4092-8dce-2a557dcf612e")
+  )
+  (label
+    "GND"
+    (at 237.62 76.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "45250352-bd55-4b4f-8231-03074b11f7ac")
+  )
+  (label
+    "USB_DP_CON"
+    (at 222.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1dddd818-747c-4e5a-93bc-aabc6b0f5d8d")
+  )
+  (label
+    "USB_DP"
+    (at 237.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "37655216-f6d4-40fe-848d-f72f293ffdfc")
+  )
+  (label
+    "USB_DM_CON"
+    (at 222.38 100.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3ae0ef2f-93ca-4bd6-b82e-97030f468a8b")
+  )
+  (label
+    "USB_DM"
+    (at 237.62 100.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f2d30830-85be-4b8d-9ab4-1450687dc41f")
+  )
+  (label
+    "+3V3"
+    (at 222.38 112.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "462ae312-a40a-4db6-bcde-26716d3ce4bf")
+  )
+  (label
+    "EN"
+    (at 237.62 112.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b2f614da-fc66-4d38-afc7-41a44d894f02")
+  )
+  (label
+    "+3V3"
+    (at 222.38 124.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f1dbf647-7a2d-48b3-b2a9-351a234c9443")
+  )
+  (label
+    "LED1_A"
+    (at 237.62 124.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "31cd891d-2ce2-4084-bbb8-ab297d4f5ae8")
+  )
+  (label
+    "+3V3"
+    (at 222.38 136.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "485ee23f-6b7d-4b48-94da-af0cb009c10f")
+  )
+  (label
+    "LED2_A"
+    (at 237.62 136.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a870a9fc-3e38-44f7-ac7e-136751b72ef1")
+  )
+  (label
+    "VBUS"
+    (at 252.38 40.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e50a7feb-de0a-42c2-8305-3d150d0df984")
+  )
+  (label
+    "GND"
+    (at 267.62 40.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "16436ff4-e528-4472-b7f1-c57c631b4425")
+  )
+  (label
+    "+3V3"
+    (at 252.38 52.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "91e64b12-e181-440f-9250-23eb34091027")
+  )
+  (label
+    "GND"
+    (at 267.62 52.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6edd7adc-0e9d-48c3-a57d-e95120394453")
+  )
+  (label
+    "+3V3"
+    (at 252.38 64.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0f424bad-362e-4bfe-8483-a12392d16359")
+  )
+  (label
+    "GND"
+    (at 267.62 64.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "02cdba9e-70ba-43aa-bd4c-6db4f0b90760")
+  )
+  (label
+    "+3V3"
+    (at 252.38 76.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "563121f0-105b-4dcd-a4f7-5da84e893d64")
+  )
+  (label
+    "GND"
+    (at 267.62 76.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "996c89e5-d1df-4a26-ae06-26203c777434")
+  )
+  (label
+    "+3V3"
+    (at 252.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "788dc14e-b605-4473-8740-532e50e497e5")
+  )
+  (label
+    "GND"
+    (at 267.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7493dcec-9e1a-48a7-899a-cd5569b81e74")
+  )
+  (label
+    "+3V3"
+    (at 252.38 100.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7bf06b98-0769-48d3-a502-ba5c1745c7b9")
+  )
+  (label
+    "GND"
+    (at 267.62 100.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3205a7c8-dd49-468b-9c5f-504f36f0ec27")
+  )
+  (label
+    "EN"
+    (at 252.38 112.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e98c6bb5-1e6f-4d1f-b6aa-50474de4a539")
+  )
+  (label
+    "GND"
+    (at 267.62 112.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "135fa59b-7711-47be-b644-0fa4278de6d1")
+  )
+  (label
+    "LED1_A"
+    (at 282.38 40.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0c5c697b-4f1f-4bc9-bcb6-d269ee18e23c")
+  )
+  (label
+    "GND"
+    (at 297.62 40.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0b9511da-31b0-4dcd-997c-5d22e416656c")
+  )
+  (label
+    "LED2_A"
+    (at 282.38 52.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "716bec14-b01a-4475-b31e-67bad7034e48")
+  )
+  (label
+    "STAT_LED"
+    (at 297.62 52.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3a5aeabf-30c4-4f08-b642-ad6eeb828ef3")
+  )
+  (label
+    "EN"
+    (at 312.38 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4a522870-d5d1-4c1a-b7c6-815e835bd4ba")
+  )
+  (label
+    "GND"
+    (at 312.38 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "005f9cc2-37a1-4bf9-b97c-7268fda8a1a6")
+  )
+  (label
+    "EN"
+    (at 327.62 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "936de233-b2b7-4a15-8037-2c621f0ef2e3")
+  )
+  (label
+    "GND"
+    (at 327.62 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f58ce3d4-4bbd-4c77-8949-af561e9803a4")
+  )
+  (label
+    "BOOT"
+    (at 312.38 97.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1822a601-8152-44e6-821f-6f52c517e692")
+  )
+  (label
+    "GND"
+    (at 312.38 100 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0f3b59d3-75bb-42d8-8ee0-b7dfc367347f")
+  )
+  (label
+    "BOOT"
+    (at 327.62 97.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0fe83c13-3ee3-4940-88ae-cf9a0b2272dd")
+  )
+  (label
+    "GND"
+    (at 327.62 100 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "beb3e1cf-7209-4d24-a308-7ce7915f37db")
+  )
+  (label
+    "+3V3"
+    (at 342.38 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6b0e8a3d-0f19-44db-a366-f6db0fc9cecf")
+  )
+  (label
+    "PIR_OUT"
+    (at 342.38 60 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "56ccd0fb-5b29-4aff-8e02-3938baaff64c")
+  )
+  (label
+    "GND"
+    (at 357.62 57.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d2b66ec7-ca5e-4030-aed2-55db6dab2048")
+  )
+  (label
+    "+3V3"
+    (at 342.38 97.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "be63ca55-632c-458c-9a04-4e6bf1f48b6c")
+  )
+  (label
+    "TX0"
+    (at 342.38 100 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "66c8e5f7-8527-4929-9390-6f6f2c6773a3")
+  )
+  (label
+    "RX0"
+    (at 357.62 97.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e3591d48-3f8c-442e-9d67-4548eeda120b")
+  )
+  (label
+    "GND"
+    (at 357.62 100 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "62cafff2-7a13-4043-8614-f2cbafe3c41f")
+  )
+  (label
+    "GND"
+    (at 20 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "037c51a8-9f77-42a5-aaec-dc0fd95bafdf")
+  )
+  (label
+    "GND"
+    (at 30 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3e02b12e-98c9-4a53-b439-237e32232204")
+  )
+  (label
+    "+3V3"
+    (at 40 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "137af0e5-a456-4aca-9e4c-815e7dbaa0c9")
+  )
+  (label
+    "+3V3"
+    (at 50 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "95d1a840-91dd-4eff-8689-6691d305d456")
+  )
+  (label
+    "VBUS"
+    (at 60 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0681179c-dae3-4f77-bff0-8914660db9a5")
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:ESP32-C6-WROOM-1")
+    (at 100 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "18d2f560-5e2c-455a-8ef4-2c6ab91e94e9")
+    (property
+      "Reference"
+      "U1"
+      (at 100 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-C6-WROOM-1"
+      (at 100 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "sensenode-c6:ESP32-C6-WROOM-1"
+      (at 100 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf"
+      (at 100 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C32020546"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "2b9009e5-e4d0-4aed-87ee-7722c39170f1")
+    )
+    (pin
+      "2"
+      (uuid "9c6b6eb7-59db-483a-92e9-5414f4fd71bb")
+    )
+    (pin
+      "3"
+      (uuid "ccb471ab-f72a-46ec-b0a0-ffa9afbf8f86")
+    )
+    (pin
+      "4"
+      (uuid "63ebd152-a7c2-4928-97d4-5ebeadaa79e4")
+    )
+    (pin
+      "5"
+      (uuid "b67e8894-40d6-48d4-b580-c24eac840403")
+    )
+    (pin
+      "6"
+      (uuid "7ddc54bb-30b9-4879-ad0a-d64f6148b7de")
+    )
+    (pin
+      "7"
+      (uuid "5300fb9d-b6ab-4464-a2fd-3619f3202bd8")
+    )
+    (pin
+      "8"
+      (uuid "a02408d0-4242-4eac-9a90-ca7c2c6bed23")
+    )
+    (pin
+      "9"
+      (uuid "a4e9c65f-8fbd-4aa3-8c16-692dbeba62ba")
+    )
+    (pin
+      "10"
+      (uuid "ec4f3bff-f7d4-4f3c-a640-f26c03f4e4a8")
+    )
+    (pin
+      "11"
+      (uuid "69ec839e-762a-430c-82be-01c2efcc008a")
+    )
+    (pin
+      "12"
+      (uuid "ab9681b3-2213-4f15-9393-afee7f71936c")
+    )
+    (pin
+      "13"
+      (uuid "4983186a-8532-453e-8675-da8b23653baf")
+    )
+    (pin
+      "14"
+      (uuid "c3b5cefb-8d8c-46c4-80d9-17cb8e78411e")
+    )
+    (pin
+      "28"
+      (uuid "6ec5a767-ae11-41dc-b246-8dd3dea8e8e0")
+    )
+    (pin
+      "27"
+      (uuid "2a382bf4-fc6d-468b-85ef-ea53b05ff3d6")
+    )
+    (pin
+      "26"
+      (uuid "eba59626-3cfe-4f97-800b-1babefeb5c99")
+    )
+    (pin
+      "25"
+      (uuid "df9e44c2-5328-49e9-b5aa-c9793af96c8d")
+    )
+    (pin
+      "24"
+      (uuid "b50e1226-28c6-4502-bb50-917a9d2682ea")
+    )
+    (pin
+      "23"
+      (uuid "30ccffc6-e199-45fe-bafd-1536bec7e6a1")
+    )
+    (pin
+      "22"
+      (uuid "8cf4ec10-d872-4d33-aee6-0a018e4cabd1")
+    )
+    (pin
+      "21"
+      (uuid "78364a63-9b50-4606-babf-1523d13d5866")
+    )
+    (pin
+      "20"
+      (uuid "55565964-5a95-4851-a6be-865e3c90c32a")
+    )
+    (pin
+      "19"
+      (uuid "6a05a0fc-31ab-44df-971e-27f6c1c31ac9")
+    )
+    (pin
+      "18"
+      (uuid "2124f7e3-4998-4629-9b02-85bd7ddfc3ad")
+    )
+    (pin
+      "17"
+      (uuid "e5fe8aa8-d623-4bd1-9fa6-6de55c94b036")
+    )
+    (pin
+      "16"
