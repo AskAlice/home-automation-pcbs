@@ -1,0 +1,69 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/sch.json",
+      "analysis/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/sch.json": "34a797763b53a949b9b8eedccca7e7291f420215f6069ef4c0601be24035c20e",
+      "analysis/pcb.json": "9c5145d19f9f20e2db8504f84586193ee61a17545d0db4e5f63024768ce5a17b"
+    },
+    "run_id": "20260815T064654Z-dcdb1c",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/sch.json",
+        "sha256": "34a797763b53a949b9b8eedccca7e7291f420215f6069ef4c0601be24035c20e",
+        "schema_version": "1.4.0",
+        "run_id": "20260815T064654Z-dcdb1c"
+      },
+      "pcb": {
+        "path": "analysis/pcb.json",
+        "sha256": "9c5145d19f9f20e2db8504f84586193ee61a17545d0db4e5f63024768ce5a17b",
+        "schema_version": "1.4.0",
+        "run_id": "20260815T064654Z-dcdb1c"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.074,
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "findings": [],
+  "assessments": [],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20260815T064654Z-dcdb1c"
+  }
+}
