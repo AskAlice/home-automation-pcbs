@@ -1,0 +1,82 @@
+# presencepro-c3 — ESPHome configuration (SPEC 4.2)
+# mmWave presence (HLK-LD2410B on UART) + BH1750 lux node, ESP32-C3.
+
+esphome:
+  name: presencepro-c3
+  friendly_name: "PresencePro C3"
+
+esp32:
+  board: esp32-c3-devkitm-1
+  variant: esp32c3
+  framework:
+    type: esp-idf
+
+logger:
+  # UART0 (GPIO21 TX0 / GPIO20 RX0) is on the J2 prog header; log there.
+  hardware_uart: UART0
+
+api:
+ota:
+  - platform: esphome
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+# ---------------- I2C: BH1750 (SDA=GPIO6, SCL=GPIO7, 4.7k R1/R2) ---------
+i2c:
+  sda: GPIO6
+  scl: GPIO7
+  scan: true
+
+sensor:
+  - platform: bh1750
+    name: "Illuminance"
+    address: 0x23
+  - platform: ld2410
+    moving_distance:
+      name: "Moving distance"
+    still_distance:
+      name: "Still distance"
+    moving_energy:
+      name: "Moving energy"
+    still_energy:
+      name: "Still energy"
+    detection_distance:
+      name: "Detection distance"
+
+# ---------------- HLK-LD2410(B) radar on J1 ------------------------------
+# MCU GPIO4 (RX) <- radar TX (J1 pin 2); MCU GPIO5 (TX) -> radar RX (pin 3).
+# Radar OUT (occupancy level) -> GPIO3 (RAD_OUT) as a fast binary path.
+uart:
+  - id: ld2410_uart
+    tx_pin: GPIO5
+    rx_pin: GPIO4
+    baud_rate: 256000
+    parity: NONE
+    stop_bits: 1
+
+ld2410:
+  uart_id: ld2410_uart
+
+binary_sensor:
+  - platform: ld2410
+    has_target:
+      name: "Presence"
+    has_moving_target:
+      name: "Moving target"
+    has_still_target:
+      name: "Still target"
+  - platform: gpio
+    pin: GPIO3            # LD2410 OUT pin (high = target present)
+    name: "Presence OUT pin"
+    device_class: occupancy
+
+# ---------------- Status LED (GPIO10 via R9 1k) --------------------------
+output:
+  - platform: ledc
+    pin: GPIO10
+    id: stat_led
+light:
+  - platform: monochromatic
+    output: stat_led
+    name: "Status LED"
