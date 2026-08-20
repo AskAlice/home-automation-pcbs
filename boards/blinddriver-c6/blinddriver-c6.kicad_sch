@@ -1,0 +1,8885 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7")
+  (paper "A4")
+  (title_block
+    (title "blinddriver-c6")
+    (date "2025-01-01")
+    (rev "1.0")
+    (comment 1 "v0.1 concept design -- verify before fabrication")
+  )
+  (lib_symbols
+    (symbol
+      "blinddriver-c6-lib:ESP32-C6-WROOM-1"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "ESP32-C6-WROOM-1"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "blinddriver-c6:ESP32-C6-WROOM-1"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C5366877"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "ESP32-C6-WROOM-1 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:ESP32-C6-WROOM-1_0_1"
+        (rectangle
+          (start -5.08 -20.32)
+          (end 5.08 20.32)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:ESP32-C6-WROOM-1_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 19.05 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 16.51 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 13.97 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 11.43 0)
+          (length 2.54)
+          (name
+            "IO4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 8.89 0)
+          (length 2.54)
+          (name
+            "IO5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 6.35 0)
+          (length 2.54)
+          (name
+            "IO6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "IO7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "IO0"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "IO1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -3.81 0)
+          (length 2.54)
+          (name
+            "IO8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -6.35 0)
+          (length 2.54)
+          (name
+            "IO10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -8.89 0)
+          (length 2.54)
+          (name
+            "IO11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -11.43 0)
+          (length 2.54)
+          (name
+            "IO12/USB_D-"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -13.97 0)
+          (length 2.54)
+          (name
+            "IO13/USB_D+"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -16.51 0)
+          (length 2.54)
+          (name
+            "IO9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 19.05 180)
+          (length 2.54)
+          (name
+            "IO18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 16.51 180)
+          (length 2.54)
+          (name
+            "IO19"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 13.97 180)
+          (length 2.54)
+          (name
+            "IO20"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "18"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 11.43 180)
+          (length 2.54)
+          (name
+            "IO21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "19"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 8.89 180)
+          (length 2.54)
+          (name
+            "IO22"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "20"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 6.35 180)
+          (length 2.54)
+          (name
+            "IO23"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "21"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "22"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "IO15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "23"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "RXD0/IO17"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "24"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -3.81 180)
+          (length 2.54)
+          (name
+            "TXD0/IO16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "25"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -6.35 180)
+          (length 2.54)
+          (name
+            "IO3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "26"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -8.89 180)
+          (length 2.54)
+          (name
+            "IO2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "27"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -11.43 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "28"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -13.97 180)
+          (length 2.54)
+          (name
+            "EP/GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "29"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:USB_C_16P"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "X"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "USB_C_16P"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C165948"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "USB_C_16P (X)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:USB_C_16P_0_1"
+        (rectangle
+          (start -5.08 -13.97)
+          (end 5.08 13.97)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:USB_C_16P_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 12.7 0)
+          (length 2.54)
+          (name
+            "GND1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 10.16 0)
+          (length 2.54)
+          (name
+            "VBUS1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 7.62 0)
+          (length 2.54)
+          (name
+            "CC1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 5.08 0)
+          (length 2.54)
+          (name
+            "DP1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "DM1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "SBU1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name
+            "VBUS2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -5.08 0)
+          (length 2.54)
+          (name
+            "GND2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -7.62 0)
+          (length 2.54)
+          (name
+            "GND3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -10.16 0)
+          (length 2.54)
+          (name
+            "VBUS3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 12.7 180)
+          (length 2.54)
+          (name
+            "SBU2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 10.16 180)
+          (length 2.54)
+          (name
+            "DM2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 7.62 180)
+          (length 2.54)
+          (name
+            "DP2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 5.08 180)
+          (length 2.54)
+          (name
+            "CC2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "VBUS4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "GND4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -2.54 180)
+          (length 2.54)
+          (name
+            "SH1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -5.08 180)
+          (length 2.54)
+          (name
+            "SH2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -7.62 180)
+          (length 2.54)
+          (name
+            "SH3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -10.16 180)
+          (length 2.54)
+          (name
+            "SH4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "S4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:AP2112K-3.3"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "AP2112K-3.3"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Package_TO_SOT_SMD:SOT-23-5"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C51115"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "AP2112K-3.3 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:AP2112K-3.3_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:AP2112K-3.3_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "VIN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "NC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "VOUT"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:AP63205"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "U"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "AP63205"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Package_TO_SOT_SMD:SOT-23-6"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2071056"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "AP63205 (U)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:AP63205_0_1"
+        (rectangle
+          (start -5.08 -5.08)
+          (end 5.08 5.08)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:AP63205_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 3.81 0)
+          (length 2.54)
+          (name
+            "FB"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -1.27 0)
+          (length 2.54)
+          (name
+            "VIN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 3.81 180)
+          (length 2.54)
+          (name
+            "SW"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -1.27 180)
+          (length 2.54)
+          (name
+            "BST"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:Conn_01x08"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x08"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C492407"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x08 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:Conn_01x08_0_1"
+        (rectangle
+          (start -5.08 -6.35)
+          (end 5.08 6.35)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:Conn_01x08_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 5.08 0)
+          (length 2.54)
+          (name
+            "EN"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "MS1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "MS2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name
+            "DIAG"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 5.08 180)
+          (length 2.54)
+          (name
+            "INDEX"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "PDN_UART"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "STEP"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 -2.54 180)
+          (length 2.54)
+          (name
+            "DIR"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:ScrewTerm_2P"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "ScrewTerm_2P"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "blinddriver-c6:ScrewTerm-5.08-2P"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C8465"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "ScrewTerm_2P (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:ScrewTerm_2P_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:ScrewTerm_2P_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:Conn_01x03"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "J"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "Conn_01x03"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C49257"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Conn_01x03 (J)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:Conn_01x03_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:Conn_01x03_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "SIG"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:SS34"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SS34"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Diode_SMD:D_SMA"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Guangdong-Hottech-SS34_C8678.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C8678"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SS34 (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:SS34_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:SS34_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:100uF_35V"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100uF_35V"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:CP_Electrolytic_5x5.3"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ROQANG-RVE100UF35V67RV0072_C2836437.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2836437"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100uF_35V (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:100uF_35V_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:100uF_35V_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:4.7uH"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "L"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "4.7uH"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "blinddriver-c6:IND-4040"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_cjiang-FNR4030S4R7MT_C167874.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C167874"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "4.7uH (L)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:4.7uH_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:4.7uH_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:22uF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "22uF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0805_2012Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C45783"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "22uF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:22uF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:22uF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:100nF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100nF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C14663"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100nF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:100nF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:100nF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:100k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "100k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C25803"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "100k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:100k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:100k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:SW_PUSH"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "BT"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "SW_PUSH"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "blinddriver-c6:Tactile-6x6-SMD"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C139797"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "SW_PUSH (BT)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:SW_PUSH_0_1"
+        (rectangle
+          (start -5.08 -3.81)
+          (end 5.08 3.81)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:SW_PUSH_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name
+            "A1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name
+            "A2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name
+            "B1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name
+            "B2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:LED_RED"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "D"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "LED_RED"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "LED_SMD:LED_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C2286"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "LED_RED (D)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:LED_RED_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:LED_RED_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:1k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "1k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C21190"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "1k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:1k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:1k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:5.1k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "5.1k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C23186"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "5.1k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:5.1k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:5.1k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:10k"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "R"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10k"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Resistor_SMD:R_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C25804"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10k (R)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:10k_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:10k_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:10uF"
+      (pin_numbers
+        (offset 1.016)
+      )
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "C"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "10uF"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        "Capacitor_SMD:C_0603_1608Metric"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "LCSC"
+        "C15849"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "10uF (C)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:10uF_0_1"
+        (rectangle
+          (start -5.08 -2.54)
+          (end 5.08 2.54)
+          (stroke
+            (width 0.254)
+            (type solid)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:10uF_1_1"
+        (pin
+          passive
+          line
+          (at -7.62 1.27 0)
+          (length 2.54)
+          (name
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin
+          passive
+          line
+          (at 7.62 1.27 180)
+          (length 2.54)
+          (name
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:GND"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol GND"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.905 -2.54)
+            (xy 1.905 -2.54)
+            (xy 0 0)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:GND_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 270)
+          (length 0)
+          (name
+            "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:+3V3"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+3V3"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +3V3"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:+3V3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:+3V3_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+3V3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:VBUS"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "VBUS"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol VBUS"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:VBUS_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:VBUS_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "VBUS"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:+5V"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "+5V"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol +5V"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:+5V_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:+5V_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "+5V"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+    (symbol
+      "blinddriver-c6-lib:VMOT"
+      (power)
+      (pin_numbers hide)
+      (pin_names hide)
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property
+        "Reference"
+        "#PWR"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Value"
+        "VMOT"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Datasheet"
+        "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property
+        "Description"
+        "Power symbol VMOT"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:VMOT_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 2.54)
+            (xy 1.905 2.54)
+          )
+          (stroke
+            (width 0)
+            (type solid)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol
+        "blinddriver-c6-lib:VMOT_1_1"
+        (pin
+          power_in
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            "VMOT"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 92.38 83.81)
+    (uuid "52e2e862-1834-4f71-8e56-8e0426dfa699")
+  )
+  (no_connect
+    (at 92.38 86.35)
+    (uuid "0dab1efa-d7c3-47c0-a43f-c252c1c333cf")
+  )
+  (no_connect
+    (at 92.38 88.89)
+    (uuid "6c1ad9b2-958f-405a-be1b-fc866700c2d7")
+  )
+  (no_connect
+    (at 92.38 96.51)
+    (uuid "b939c657-b9fb-47cd-bf51-2f26570f60ca")
+  )
+  (no_connect
+    (at 107.62 63.49)
+    (uuid "f25bebee-324f-4c1a-bdee-4e52f03a31eb")
+  )
+  (no_connect
+    (at 107.62 66.03)
+    (uuid "5c692ac8-10f2-4ddf-a48e-69287dc3fa68")
+  )
+  (no_connect
+    (at 107.62 68.57)
+    (uuid "1638dc92-5487-4301-854f-81e1fb733a6a")
+  )
+  (no_connect
+    (at 107.62 71.11)
+    (uuid "9589b143-7f8e-474d-a3cd-459670e10b17")
+  )
+  (no_connect
+    (at 107.62 73.65)
+    (uuid "9214a36e-961b-4fa9-8db4-6bcc72895699")
+  )
+  (no_connect
+    (at 107.62 76.19)
+    (uuid "c095a220-7ed7-4f90-8e50-48b5bb00554d")
+  )
+  (no_connect
+    (at 107.62 86.35)
+    (uuid "d637edf0-9e37-4a32-b325-4e9d08b41bb3")
+  )
+  (no_connect
+    (at 107.62 88.89)
+    (uuid "a34bc771-5b66-4fb1-89a4-d14971b09158")
+  )
+  (no_connect
+    (at 22.38 55)
+    (uuid "f9de49ab-e28c-4a92-9a99-6ee6e1b1aa59")
+  )
+  (no_connect
+    (at 37.62 42.3)
+    (uuid "a2f7178d-2ade-4c1e-843f-86d25de1636f")
+  )
+  (no_connect
+    (at 67.62 81.19)
+    (uuid "6e701734-6ba5-4015-af0a-2544914e1470")
+  )
+  (no_connect
+    (at 177.62 49.92)
+    (uuid "8dad432d-b008-4a1a-b041-29d29c32b4c1")
+  )
+  (label
+    "GND"
+    (at 92.38 60.95 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7f957182-55d4-4bc2-95b3-e15a902412d9")
+  )
+  (label
+    "+3V3"
+    (at 92.38 63.49 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d57a8e2a-aa12-4556-a23b-d604ae6cb905")
+  )
+  (label
+    "EN"
+    (at 92.38 66.03 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f238a8a1-e5ba-43af-87ba-ffd651696a9f")
+  )
+  (label
+    "STEP"
+    (at 92.38 68.57 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ea859eae-c2b2-445a-8066-47ba921da2f8")
+  )
+  (label
+    "DIR"
+    (at 92.38 71.11 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e6565fec-5588-4e88-af60-18fae8bb74a1")
+  )
+  (label
+    "TMC_EN"
+    (at 92.38 73.65 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a93358f2-c7a3-4d72-9427-01813b1db6f4")
+  )
+  (label
+    "DIAG"
+    (at 92.38 76.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "10e112db-ac90-44ed-86cf-83c87c30f6fb")
+  )
+  (label
+    "BOOT"
+    (at 92.38 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1e2d3653-438a-4996-87eb-e37c8c68d563")
+  )
+  (label
+    "STAT_LED"
+    (at 92.38 81.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "37046441-d027-491a-99bb-eb4a867e2385")
+  )
+  (label
+    "USB_DM"
+    (at 92.38 91.43 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fbbdd1f9-b9f8-4b87-a7cc-ce1fb2867dda")
+  )
+  (label
+    "USB_DP"
+    (at 92.38 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "09f208ae-a5fc-4e5d-bccf-f4dab3b4a106")
+  )
+  (label
+    "ENDSTOP"
+    (at 107.62 60.95 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e8466291-3364-487f-aab5-a528df62aeaa")
+  )
+  (label
+    "TMC_UART"
+    (at 107.62 78.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d09f2f43-ea4e-4acd-81ad-03b122b166e4")
+  )
+  (label
+    "RX0"
+    (at 107.62 81.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3c56d722-2d03-4a29-9b71-efe714503e17")
+  )
+  (label
+    "TX0"
+    (at 107.62 83.81 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "40de3c60-3a26-4deb-b181-95ac86fcf7db")
+  )
+  (label
+    "GND"
+    (at 107.62 91.43 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "79c5822c-2a73-4e3b-b9d5-7e945d034165")
+  )
+  (label
+    "GND"
+    (at 107.62 93.97 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "7b7e63b7-aa84-4b42-bbaf-6b8f4fb898b1")
+  )
+  (label
+    "GND"
+    (at 22.38 42.3 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d1175e55-cbd1-41d1-8c65-ab7962740aec")
+  )
+  (label
+    "VBUS"
+    (at 22.38 44.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "36f46d61-54c9-4522-8056-eb1fcca596a5")
+  )
+  (label
+    "USB_CC1"
+    (at 22.38 47.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "346cf308-6b98-45fa-86e0-9a76e3d3f3f2")
+  )
+  (label
+    "USB_DP"
+    (at 22.38 49.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3ab18c0a-bf11-4ec4-b336-e32eb186e378")
+  )
+  (label
+    "USB_DM"
+    (at 22.38 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0f796d67-1f59-4d8f-8057-299d1de5ff0a")
+  )
+  (label
+    "VBUS"
+    (at 22.38 57.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "34e21ab5-32f2-4082-a584-01590aba4996")
+  )
+  (label
+    "GND"
+    (at 22.38 60.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d7f40bfe-3c15-4c58-96f0-a43cecf89dbc")
+  )
+  (label
+    "GND"
+    (at 22.38 62.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ada436ca-8957-469f-a104-aa32282ec807")
+  )
+  (label
+    "VBUS"
+    (at 22.38 65.16 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0a523996-128b-48cb-9565-46690380830e")
+  )
+  (label
+    "USB_DM"
+    (at 37.62 44.84 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "34b3271c-f43c-4871-8ad4-6a1fae4a8075")
+  )
+  (label
+    "USB_DP"
+    (at 37.62 47.38 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "72362c33-4fa7-4e53-99a3-dcfe56f1404a")
+  )
+  (label
+    "USB_CC2"
+    (at 37.62 49.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "01bd6950-87ba-4938-a8cc-2a5885fcf54d")
+  )
+  (label
+    "VBUS"
+    (at 37.62 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "78bc1c61-16b4-4dca-97e6-e1ae01335128")
+  )
+  (label
+    "GND"
+    (at 37.62 55 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8f6da0d5-d82f-48cd-bc17-9a7198526cc5")
+  )
+  (label
+    "GND"
+    (at 37.62 57.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "771480e5-c5e4-4b50-93b8-8835b50cc5ea")
+  )
+  (label
+    "GND"
+    (at 37.62 60.08 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bf91f12b-b28d-47db-8c39-da22459e36da")
+  )
+  (label
+    "GND"
+    (at 37.62 62.62 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "21444083-d465-47ca-961a-b8b673c97840")
+  )
+  (label
+    "GND"
+    (at 37.62 65.16 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "151e035f-71e6-4d42-9b25-289cb3e38679")
+  )
+  (label
+    "+5V"
+    (at 52.38 81.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ef69a707-724f-4dba-90c9-19221f70f73f")
+  )
+  (label
+    "GND"
+    (at 52.38 83.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "aab7530f-85c0-43fa-a56d-1b360897d1de")
+  )
+  (label
+    "+5V"
+    (at 52.38 86.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3ff15cd0-f098-4283-b96e-d920d53b5ea5")
+  )
+  (label
+    "+3V3"
+    (at 67.62 83.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "04177ea7-9321-4784-ac66-df1c950dfc28")
+  )
+  (label
+    "FB"
+    (at 52.38 106.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9062850d-6d18-4389-b59e-3b4310b63a0f")
+  )
+  (label
+    "GND"
+    (at 52.38 108.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c949d008-e576-4551-866b-3f4ea509702b")
+  )
+  (label
+    "VMOT"
+    (at 52.38 111.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a30fdd73-4e34-40c5-b9ff-b814c206624c")
+  )
+  (label
+    "SW"
+    (at 67.62 106.19 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "92f80de1-9315-4ed3-9838-0f625ac2f5d5")
+  )
+  (label
+    "+5V"
+    (at 67.62 108.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4603076a-02d0-41fe-bd85-358ce6fc8f1a")
+  )
+  (label
+    "BST"
+    (at 67.62 111.27 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3e9f0e72-76a7-4cc2-854d-a8e67e1e3619")
+  )
+  (label
+    "TMC_EN"
+    (at 162.38 49.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "925d2ceb-dce3-4b96-9822-abb1735c9ad6")
+  )
+  (label
+    "+3V3"
+    (at 162.38 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "121b754d-79f8-450a-b3d7-f2c81432f361")
+  )
+  (label
+    "+3V3"
+    (at 162.38 55 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e3f1aa0c-ad30-4b10-a93d-054a7a35d6f0")
+  )
+  (label
+    "DIAG"
+    (at 162.38 57.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d40e05b9-a1e7-43e8-8a7a-8bcb9daae654")
+  )
+  (label
+    "TMC_UART"
+    (at 177.62 52.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4b06602f-b0fc-42be-a410-457c266a8ff3")
+  )
+  (label
+    "STEP"
+    (at 177.62 55 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a8eaa1ab-48f6-48e1-8f34-4d92f117b9cb")
+  )
+  (label
+    "DIR"
+    (at 177.62 57.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "ca1c0291-bc82-4624-8c26-2cfa8e22977d")
+  )
+  (label
+    "VMOT"
+    (at 162.38 79.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "35ba1d07-765d-46ef-a1e0-b3338ba46886")
+  )
+  (label
+    "GND"
+    (at 162.38 82.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "43fdb73d-ed91-403c-bffe-ac0c01b04cbb")
+  )
+  (label
+    "MOT_B2"
+    (at 162.38 85 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f2386cc2-a88b-4b72-8801-84501458da8f")
+  )
+  (label
+    "MOT_B1"
+    (at 162.38 87.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d15ec676-18ba-41ea-9eb0-35027b78347c")
+  )
+  (label
+    "MOT_A1"
+    (at 177.62 79.92 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "219e1408-305b-405b-a950-0ab315e0ea3f")
+  )
+  (label
+    "MOT_A2"
+    (at 177.62 82.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "01483633-e83d-4c42-8de0-82ef13c75a6d")
+  )
+  (label
+    "+3V3"
+    (at 177.62 85 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d0f877d7-20c5-4c18-8192-b6896a3db036")
+  )
+  (label
+    "GND"
+    (at 177.62 87.54 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "956565e6-4160-47a2-b37e-ac2adc5bdf8d")
+  )
+  (label
+    "VMOT_IN"
+    (at 162.38 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a1ec149d-0bc1-42af-a39e-27984731faa0")
+  )
+  (label
+    "GND"
+    (at 177.62 113.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "da3dde81-f15c-4d5a-ade3-43a1ad031c47")
+  )
+  (label
+    "MOT_A1"
+    (at 162.38 133.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b7093522-44f7-49ee-8c4b-05c59204eb7f")
+  )
+  (label
+    "MOT_A2"
+    (at 177.62 133.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "aa9be2b8-8bc0-4357-9efd-1ce718775b8c")
+  )
+  (label
+    "MOT_B1"
+    (at 162.38 153.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cea2ad26-660e-4f0b-91a7-af7d7f3e9882")
+  )
+  (label
+    "MOT_B2"
+    (at 177.62 153.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cdda7550-a468-4e21-84cb-8b3bfc4a7093")
+  )
+  (label
+    "+3V3"
+    (at 162.38 172.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "841b2139-c420-43ea-9a4c-b9e5a4d53639")
+  )
+  (label
+    "ENDSTOP"
+    (at 162.38 175 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0edefa2b-bdd4-44b5-a2ff-584dbd23ff1d")
+  )
+  (label
+    "GND"
+    (at 177.62 172.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e2b4cd42-dc49-4ae4-ab01-079bdbefb2a4")
+  )
+  (label
+    "VMOT"
+    (at 202.38 68.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "4b16ee9f-2bd4-4f52-ab1f-735dbd657ac4")
+  )
+  (label
+    "VMOT_IN"
+    (at 217.62 68.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a99f3fd8-534c-4de2-a91a-87f1eb75eead")
+  )
+  (label
+    "VBUS"
+    (at 202.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8c653ca8-c6f5-4d22-9f85-73c4d3343438")
+  )
+  (label
+    "+5V"
+    (at 217.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b69b2f14-c443-4309-bef8-4a6ad49088cb")
+  )
+  (label
+    "VMOT"
+    (at 202.38 108.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "0d45455c-e2ac-4bda-adf0-1eb3dcab6d6b")
+  )
+  (label
+    "GND"
+    (at 217.62 108.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f9564f76-477a-4c96-8e49-89b9541f19a2")
+  )
+  (label
+    "SW"
+    (at 202.38 128.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "74e01c00-bf43-40ad-8cfc-f713cc6d5d83")
+  )
+  (label
+    "+5V"
+    (at 217.62 128.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "5325bc13-52e6-4402-97b0-8c44a9570c04")
+  )
+  (label
+    "+5V"
+    (at 202.38 148.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "2e68e8d5-3cc3-4384-9050-0c61380fe923")
+  )
+  (label
+    "GND"
+    (at 217.62 148.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "cb1aa803-f1a8-4d19-994a-f03a34c9290b")
+  )
+  (label
+    "BST"
+    (at 202.38 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "bee2357d-956c-4ada-b8f6-d7d1cb5abb0e")
+  )
+  (label
+    "SW"
+    (at 217.62 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "aee7a1a6-814c-4c3b-88d7-10e50f9134ce")
+  )
+  (label
+    "+5V"
+    (at 222.38 68.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "d28f5a78-030a-437d-9a50-aba89aaae3a4")
+  )
+  (label
+    "FB"
+    (at 237.62 68.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "df865b95-29c5-405f-a7c0-657dd1ea040d")
+  )
+  (label
+    "FB"
+    (at 222.38 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f501c91b-d303-4a57-ae66-646dedf147cb")
+  )
+  (label
+    "GND"
+    (at 237.62 88.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "8b36b08a-e60f-4633-bc15-b64738ddb609")
+  )
+  (label
+    "EN"
+    (at 92.38 127.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f669aa5e-7e9d-4c7b-9d27-73d383d07f47")
+  )
+  (label
+    "GND"
+    (at 92.38 130 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "618e3d62-077b-4517-b6d4-0d571314e74a")
+  )
+  (label
+    "EN"
+    (at 107.62 127.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "a5900b3d-1077-442a-8ed7-848fbcb06ebf")
+  )
+  (label
+    "GND"
+    (at 107.62 130 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c23ab823-0219-44be-93df-2d018dc44011")
+  )
+  (label
+    "BOOT"
+    (at 122.38 127.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "002f1ee3-0ccc-4989-a4e1-210ba562bff2")
+  )
+  (label
+    "GND"
+    (at 122.38 130 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "f39a5e53-d82c-4720-b585-1d8fe09469f1")
+  )
+  (label
+    "BOOT"
+    (at 137.62 127.46 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b5cb9a76-2ab1-4379-a836-ecb83b066b4c")
+  )
+  (label
+    "GND"
+    (at 137.62 130 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1d92b299-22f2-4baa-99ca-254f9184e5e5")
+  )
+  (label
+    "LED1_A"
+    (at 92.38 153.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "49d66455-31db-44d4-adbc-7364cd8e9553")
+  )
+  (label
+    "STAT_LED"
+    (at 107.62 153.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "db1f693d-acdd-40e4-ac0f-29938b679d16")
+  )
+  (label
+    "+3V3"
+    (at 92.38 173.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "608d6013-f4e5-4e0a-b33d-e9e3761ce86e")
+  )
+  (label
+    "LED1_A"
+    (at 107.62 173.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "43878442-4507-489a-8b2f-cb075f3c1503")
+  )
+  (label
+    "USB_CC1"
+    (at 52.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fafe18ce-5da3-4ec6-9c21-af4cfd50ded8")
+  )
+  (label
+    "GND"
+    (at 67.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "fd17c6b8-5148-4d35-bccb-628081220e7e")
+  )
+  (label
+    "USB_CC2"
+    (at 72.38 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "47b0b670-dfc8-40fe-9d35-1d895ef37221")
+  )
+  (label
+    "GND"
+    (at 87.62 138.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "88b6fd71-c4f5-4483-937a-66a7bfb97c34")
+  )
+  (label
+    "+3V3"
+    (at 122.38 153.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "c8265cf8-0e21-4c5c-9d5a-f4a68bcc11d8")
+  )
+  (label
+    "EN"
+    (at 137.62 153.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "e40fceb8-bb71-4bae-8506-3479ace606e6")
+  )
+  (label
+    "VBUS"
+    (at 52.38 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "1e64f0eb-5938-4b67-b877-246d7a40db72")
+  )
+  (label
+    "GND"
+    (at 67.62 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6e638215-a5ab-44a2-86e7-bf5f47c59277")
+  )
+  (label
+    "+3V3"
+    (at 72.38 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3c068f93-c62c-47d4-a9db-33fa27cedd4c")
+  )
+  (label
+    "GND"
+    (at 87.62 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "9dbe70a7-da8a-49fb-b38f-338a15fc223d")
+  )
+  (label
+    "+3V3"
+    (at 92.38 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "dc32a2d9-31af-44ef-a3c5-f32d996cf567")
+  )
+  (label
+    "GND"
+    (at 107.62 168.73 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "6375f0e5-020b-401e-90ab-b23713f9ddf6")
+  )
+  (label
+    "GND"
+    (at 15 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "70049d0c-cfc9-44e7-ac90-ebe328456dcf")
+  )
+  (label
+    "+3V3"
+    (at 25 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "3ecde6ec-7d26-447a-8caa-5fd3f0f77115")
+  )
+  (label
+    "VBUS"
+    (at 35 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b9788926-9e70-47a2-85b9-f88c8a788478")
+  )
+  (label
+    "+5V"
+    (at 45 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "203e3394-fbca-455f-a1b9-3f2a95a8c514")
+  )
+  (label
+    "VMOT"
+    (at 55 25 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left bottom)
+    )
+    (uuid "b62074dc-7df7-4290-9fd1-1c43537c2474")
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:ESP32-C6-WROOM-1")
+    (at 100 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "87f5586d-e170-4a76-8e5c-9706493d4b03")
+    (property
+      "Reference"
+      "U1"
+      (at 100 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-C6-WROOM-1"
+      (at 100 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:ESP32-C6-WROOM-1"
+      (at 100 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
+      (at 100 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C5366877"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "19e6a72c-c962-4e23-a843-7d56d0ed1d00")
+    )
+    (pin
+      "2"
+      (uuid "de53dc51-9675-4442-96f3-5f5f4f2f9941")
+    )
+    (pin
+      "3"
+      (uuid "1e49a62e-6fac-4c9f-8a9f-f5f063b30b53")
+    )
+    (pin
+      "4"
+      (uuid "9f0b4788-d125-44b4-98dd-aef4a8cd0b11")
+    )
+    (pin
+      "5"
+      (uuid "484a583f-0532-460a-a3c4-dc36f7519b8a")
+    )
+    (pin
+      "6"
+      (uuid "6d8412c0-3a2d-400a-a9aa-70ef4dae2ef8")
+    )
+    (pin
+      "7"
+      (uuid "e0eb0a9c-5f3e-43b9-bbce-ab2054280836")
+    )
+    (pin
+      "8"
+      (uuid "fe720947-f972-4fdd-9875-32d3e2468c5d")
+    )
+    (pin
+      "9"
+      (uuid "1a5b74af-5d4a-46ef-a571-3e70a9cc1818")
+    )
+    (pin
+      "10"
+      (uuid "a2c5f915-2416-4bb0-9afe-80b2b95ed966")
+    )
+    (pin
+      "11"
+      (uuid "93f7c0f3-bad7-4a9a-9190-912cbacd3833")
+    )
+    (pin
+      "12"
+      (uuid "dffc1f58-def4-44a7-9863-d17fafe0e0ef")
+    )
+    (pin
+      "13"
+      (uuid "eaf2ea91-4240-435d-bbef-f701c6a337aa")
+    )
+    (pin
+      "14"
+      (uuid "df1405d9-0bd9-4171-981f-9785f00e7097")
+    )
+    (pin
+      "15"
+      (uuid "21ba698c-03a7-443a-9ec3-8be86292e35f")
+    )
+    (pin
+      "16"
+      (uuid "951e40d2-f57a-48ed-b128-beeb182b1394")
+    )
+    (pin
+      "17"
+      (uuid "bcf1c391-56a9-4b95-be94-c7fefe697a55")
+    )
+    (pin
+      "18"
+      (uuid "97ed361a-edb2-4d28-85cd-a6e81ba88e6f")
+    )
+    (pin
+      "19"
+      (uuid "b5793cc9-ba5a-4e2b-ae29-ed8cb9283d2d")
+    )
+    (pin
+      "20"
+      (uuid "a9ead15b-e518-495d-9df4-b2c45ea1e5be")
+    )
+    (pin
+      "21"
+      (uuid "1da78494-1fc1-4524-9f2a-792e59587b33")
+    )
+    (pin
+      "22"
+      (uuid "3bd71e8a-4ce3-4c40-9201-75db628d32b3")
+    )
+    (pin
+      "23"
+      (uuid "88ea7a2b-9835-4112-af15-0c38ceed55ae")
+    )
+    (pin
+      "24"
+      (uuid "b9e55f1a-ed9c-4a27-9eb7-671cc61a85c4")
+    )
+    (pin
+      "25"
+      (uuid "9e82f786-6fed-4e86-8114-b791906ff7e0")
+    )
+    (pin
+      "26"
+      (uuid "d3c6c6d6-1509-4373-a4f9-b5a171dba490")
+    )
+    (pin
+      "27"
+      (uuid "998cada0-7537-42de-81cd-1a30c2b910c7")
+    )
+    (pin
+      "28"
+      (uuid "9e20f71a-1bc7-4f29-a1cc-48552c890179")
+    )
+    (pin
+      "29"
+      (uuid "bdb979d4-635f-40fb-b183-836ecd2f46f0")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:USB_C_16P")
+    (at 30 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2e8e2d6d-e4b0-4e5d-9021-c0d8aab8380d")
+    (property
+      "Reference"
+      "X1"
+      (at 30 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "USB_C_16P"
+      (at 30 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+      (at 30 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+      (at 30 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C165948"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "967be7bd-c539-49e9-b4cd-6104026db930")
+    )
+    (pin
+      "2"
+      (uuid "33d5c16d-6b20-42f1-8c5e-54804c1d69ae")
+    )
+    (pin
+      "3"
+      (uuid "629d68b1-f460-43bb-87ad-de3d07a0766d")
+    )
+    (pin
+      "4"
+      (uuid "1eee398d-d373-4cab-8db6-b3f514cdba68")
+    )
+    (pin
+      "5"
+      (uuid "a80e607c-c9ab-4668-852b-4b48158ee3d0")
+    )
+    (pin
+      "6"
+      (uuid "61f22779-611b-4f2a-a076-43eebc67c0eb")
+    )
+    (pin
+      "7"
+      (uuid "9011dd68-2c7f-4088-94e7-ccae41ba4f96")
+    )
+    (pin
+      "8"
+      (uuid "0276ab2b-f63e-4a56-a069-cfa9b261b9cc")
+    )
+    (pin
+      "9"
+      (uuid "aee63c32-9a6d-4a30-a00b-37efc11bb6f5")
+    )
+    (pin
+      "10"
+      (uuid "3afe75e9-07a8-4438-a9f9-496aa8bb5a0d")
+    )
+    (pin
+      "11"
+      (uuid "4ff0ca23-d93d-41b9-a3d6-c26d208cfadc")
+    )
+    (pin
+      "12"
+      (uuid "f21ca5be-97cc-4fcf-b5ff-1c1d23bfd371")
+    )
+    (pin
+      "13"
+      (uuid "1e94eab6-0676-4b61-81e6-fb168888f1d8")
+    )
+    (pin
+      "14"
+      (uuid "d2944825-8fbb-4aa7-a7df-6a83a6cf4f84")
+    )
+    (pin
+      "15"
+      (uuid "b3f22b02-f4a7-43eb-9dbf-09ebd303af1b")
+    )
+    (pin
+      "16"
+      (uuid "42ac9824-cfbf-4ac5-9914-14873de58af3")
+    )
+    (pin
+      "S1"
+      (uuid "1ee9c2c6-a74c-4a63-a4fd-9963853328c3")
+    )
+    (pin
+      "S2"
+      (uuid "9e360de9-5cd8-4e34-8084-bcd9cb08bda6")
+    )
+    (pin
+      "S3"
+      (uuid "78835152-b472-4f10-aee6-7d6887ea3f71")
+    )
+    (pin
+      "S4"
+      (uuid "4245eb68-2c18-471f-89f3-9d9900b8f70b")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "X1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:AP2112K-3.3")
+    (at 60 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b2e1d38d-3e3b-4685-8ed9-f7f6171499c3")
+    (property
+      "Reference"
+      "U2"
+      (at 60 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP2112K-3.3"
+      (at 60 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-5"
+      (at 60 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+      (at 60 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C51115"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "9e97db8a-1102-453a-bed0-4afccadf85a9")
+    )
+    (pin
+      "2"
+      (uuid "f57ab934-abea-46ce-8f20-1c43f47fdd05")
+    )
+    (pin
+      "3"
+      (uuid "79aa2b46-d997-473f-9cb1-4c6fe0dea84e")
+    )
+    (pin
+      "4"
+      (uuid "7c6e68b4-5c2f-4976-bc8c-b670fdc57159")
+    )
+    (pin
+      "5"
+      (uuid "2fd3cff0-a977-44b1-8fe6-043fbc4170ef")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "U2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:AP63205")
+    (at 60 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2969a735-eeac-4b8e-afeb-382aa63c5bf7")
+    (property
+      "Reference"
+      "U3"
+      (at 60 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP63205"
+      (at 60 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-6"
+      (at 60 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+      (at 60 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2071056"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f104196e-d70b-4835-8938-3300acc5e4ed")
+    )
+    (pin
+      "2"
+      (uuid "17e02f9e-c02c-42ff-8aa5-057d5a41a575")
+    )
+    (pin
+      "3"
+      (uuid "ded2fabc-0f8d-423e-803d-bdad51bba35e")
+    )
+    (pin
+      "4"
+      (uuid "733cd867-916b-4010-b79b-e4c038cc99a6")
+    )
+    (pin
+      "5"
+      (uuid "0e29e42f-24cb-40c8-ac08-3b5bab3295dc")
+    )
+    (pin
+      "6"
+      (uuid "43ead974-f1c2-427e-a6ae-45c282c66722")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:Conn_01x08")
+    (at 170 55 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b757a1f4-1e48-4e42-827d-e8a26d55b9bf")
+    (property
+      "Reference"
+      "J3"
+      (at 170 49.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x08"
+      (at 170 60.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+      (at 170 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 170 55 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C492407"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ee35eefc-fd58-46ed-9a5c-1383ecb43e25")
+    )
+    (pin
+      "2"
+      (uuid "f2af260b-4c25-4acb-ae57-cbf3cf6efece")
+    )
+    (pin
+      "3"
+      (uuid "ecfd1daa-416b-4f80-9644-d4bb6eae0016")
+    )
+    (pin
+      "4"
+      (uuid "f299f21b-e2cf-44bc-9e51-5308891a72bb")
+    )
+    (pin
+      "5"
+      (uuid "3b439093-b311-44c8-869e-17cb1a7e1034")
+    )
+    (pin
+      "6"
+      (uuid "31a8bc3c-a2af-405c-8368-9c75a32221ec")
+    )
+    (pin
+      "7"
+      (uuid "b0ee872d-c86d-4dbc-81e5-a025482f7dc3")
+    )
+    (pin
+      "8"
+      (uuid "4d4ac252-be95-4fff-b31f-6a9be73058fe")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "J3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:Conn_01x08")
+    (at 170 85 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f388e5d1-b504-45cc-8542-4b1847d30559")
+    (property
+      "Reference"
+      "J4"
+      (at 170 79.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x08"
+      (at 170 90.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+      (at 170 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 170 85 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C492407"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "96b8838e-820a-45c7-8866-0b3d98734544")
+    )
+    (pin
+      "2"
+      (uuid "ffb787d3-faf6-4211-9564-1972e8f0894e")
+    )
+    (pin
+      "3"
+      (uuid "ace9fd2e-d75c-4a7e-b7c6-d6a4c6cf9da6")
+    )
+    (pin
+      "4"
+      (uuid "30bfbd7f-732c-4df5-a522-55e3f9cbb049")
+    )
+    (pin
+      "5"
+      (uuid "eb276391-27b3-458f-8349-2c2dfd60e19f")
+    )
+    (pin
+      "6"
+      (uuid "437ad429-8e3c-498e-a447-5ee8f4be70a6")
+    )
+    (pin
+      "7"
+      (uuid "d0e95281-9a18-4354-9e68-8f42e0eeb936")
+    )
+    (pin
+      "8"
+      (uuid "a93d3cd8-c43d-42df-bae3-7d85cafc640b")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "J4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:ScrewTerm_2P")
+    (at 170 115 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b9889c89-657c-487d-a8e8-b01e37ca6fa0")
+    (property
+      "Reference"
+      "J7"
+      (at 170 109.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ScrewTerm_2P"
+      (at 170 120.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:ScrewTerm-5.08-2P"
+      (at 170 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 170 115 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C8465"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d2a18870-39a2-487f-ab41-41bb9ed941e1")
+    )
+    (pin
+      "2"
+      (uuid "3c7daa6d-0698-4e78-9cb0-1e24c555688c")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "J7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:ScrewTerm_2P")
+    (at 170 135 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f12da6ad-3700-4175-bc70-5f368d55c0cf")
+    (property
+      "Reference"
+      "J5"
+      (at 170 129.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ScrewTerm_2P"
+      (at 170 140.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:ScrewTerm-5.08-2P"
+      (at 170 135 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 170 135 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C8465"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4977df12-7703-4c4d-b9c9-7bba74f53dd9")
+    )
+    (pin
+      "2"
+      (uuid "b3541cbe-56af-446e-ab68-73db3d00cd03")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "J5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:ScrewTerm_2P")
+    (at 170 155 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c88299d6-68fc-43a6-88bf-ab368e920113")
+    (property
+      "Reference"
+      "J6"
+      (at 170 149.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ScrewTerm_2P"
+      (at 170 160.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:ScrewTerm-5.08-2P"
+      (at 170 155 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 170 155 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C8465"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ddc7f274-5498-4f3f-bb43-d10ea8cf0ebe")
+    )
+    (pin
+      "2"
+      (uuid "327be3c9-f498-48cd-9874-b4f7653a13a2")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "J6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:Conn_01x03")
+    (at 170 175 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "7ecc72b1-39dd-43a7-aebb-d539c6ebd282")
+    (property
+      "Reference"
+      "J8"
+      (at 170 169.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x03"
+      (at 170 180.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+      (at 170 175 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 170 175 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C49257"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "1ded377a-6cbe-4eaa-9196-1050c39eabf6")
+    )
+    (pin
+      "2"
+      (uuid "5d436f53-5a70-4427-8ba4-d86e90c317e9")
+    )
+    (pin
+      "3"
+      (uuid "b3ca6b7e-4a48-4202-8d0f-0e6f1b584ea0")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "J8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:SS34")
+    (at 210 70 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2fb5e6f1-8e3a-469e-8331-d3eca51dece5")
+    (property
+      "Reference"
+      "D3"
+      (at 210 64.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SS34"
+      (at 210 75.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Diode_SMD:D_SMA"
+      (at 210 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Guangdong-Hottech-SS34_C8678.pdf"
+      (at 210 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C8678"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b3affd40-7e4e-4244-93fa-01c076595e84")
+    )
+    (pin
+      "2"
+      (uuid "f6962fd7-bd15-4dc0-90ba-e66eb52a5281")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "D3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:SS34")
+    (at 210 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "bd1c6169-6cf9-4a00-8863-baca5614016a")
+    (property
+      "Reference"
+      "D2"
+      (at 210 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SS34"
+      (at 210 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Diode_SMD:D_SMA"
+      (at 210 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Guangdong-Hottech-SS34_C8678.pdf"
+      (at 210 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C8678"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "01a9125e-cc81-438b-ae50-b1fc25618489")
+    )
+    (pin
+      "2"
+      (uuid "87e1806d-8d4e-4be7-a0cf-6ecae867c8e3")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "D2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:100uF_35V")
+    (at 210 110 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d1cecc24-c3ff-4752-ac21-9c73fb028765")
+    (property
+      "Reference"
+      "C8"
+      (at 210 104.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100uF_35V"
+      (at 210 115.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:CP_Electrolytic_5x5.3"
+      (at 210 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ROQANG-RVE100UF35V67RV0072_C2836437.pdf"
+      (at 210 110 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2836437"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "df9bb8bf-60dc-42c0-a868-1e7130b05baf")
+    )
+    (pin
+      "2"
+      (uuid "77c24960-d606-4541-a90c-855bffb90bdc")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "C8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:4.7uH")
+    (at 210 130 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ac20e01e-0e48-48b3-b266-1a395c8cf784")
+    (property
+      "Reference"
+      "L1"
+      (at 210 124.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7uH"
+      (at 210 135.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:IND-4040"
+      (at 210 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_cjiang-FNR4030S4R7MT_C167874.pdf"
+      (at 210 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C167874"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "65b1057a-778e-42de-ae9b-ce9c4d15e2cc")
+    )
+    (pin
+      "2"
+      (uuid "0b5eab6b-bc91-413a-98c4-8adb05080600")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "L1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:22uF")
+    (at 210 150 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "8d821623-7e1e-4683-9f13-d34422982157")
+    (property
+      "Reference"
+      "C6"
+      (at 210 144.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22uF"
+      (at 210 155.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0805_2012Metric"
+      (at 210 150 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 150 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C45783"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4b168697-4521-42d7-b030-97503e0e6055")
+    )
+    (pin
+      "2"
+      (uuid "64088e6f-65b9-4965-aec4-8dea025f41bf")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "C6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:100nF")
+    (at 210 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c6161dc0-cd3e-4bbd-bb4b-3a0e66ed7db4")
+    (property
+      "Reference"
+      "C7"
+      (at 210 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 210 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 210 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "2bcc74a9-83d8-4659-8f13-de2acb901858")
+    )
+    (pin
+      "2"
+      (uuid "b7fa6c38-9b52-4eee-b8f7-ec751c57a415")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "C7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:100k")
+    (at 230 70 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "aa065303-8c97-4c9e-9e76-24d17136ccb8")
+    (property
+      "Reference"
+      "R10"
+      (at 230 64.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100k"
+      (at 230 75.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 70 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25803"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3f310d8c-95f6-433f-a982-e98cf509fe78")
+    )
+    (pin
+      "2"
+      (uuid "970e8104-604a-4f2e-a1a5-2db87fcd5ee9")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "R10")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:100k")
+    (at 230 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "777276bd-c07b-43eb-9c07-cfcc31f7e6f5")
+    (property
+      "Reference"
+      "R11"
+      (at 230 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100k"
+      (at 230 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25803"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4fc9bc45-cb61-40bb-a0c0-f1896afbb5b1")
+    )
+    (pin
+      "2"
+      (uuid "e769531e-5496-4906-a8e4-f6ea064fb262")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "R11")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:SW_PUSH")
+    (at 100 130 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "305a5b94-88d1-41f6-9d1d-ca04f4d18871")
+    (property
+      "Reference"
+      "BT1"
+      (at 100 124.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 100 135.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:Tactile-6x6-SMD"
+      (at 100 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 100 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "dcd5c7cc-e265-4160-8005-8931fb5e732e")
+    )
+    (pin
+      "2"
+      (uuid "b0b6aa96-e05d-4f21-a517-5b2d6200fe6b")
+    )
+    (pin
+      "3"
+      (uuid "b4a5cceb-7d54-49d6-97a7-435b7d19b738")
+    )
+    (pin
+      "4"
+      (uuid "8a2840af-5ffb-4524-b500-d7cf32edc0ab")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "BT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:SW_PUSH")
+    (at 130 130 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "4899f7a2-de25-4927-9bfe-9f379a76f354")
+    (property
+      "Reference"
+      "BT2"
+      (at 130 124.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 130 135.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "blinddriver-c6:Tactile-6x6-SMD"
+      (at 130 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 130 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f627b337-f2ad-4168-b33e-c1cf556937a9")
+    )
+    (pin
+      "2"
+      (uuid "3913ec88-4fc4-49d6-9cde-c329630b1880")
+    )
+    (pin
+      "3"
+      (uuid "217ad4d8-4ca9-48ec-8819-7fa0fefdc1ef")
+    )
+    (pin
+      "4"
+      (uuid "aadb8c09-342d-4efd-ada4-6826ad087df4")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "BT2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:LED_RED")
+    (at 100 155 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "487bc3d7-5d37-47d5-a649-e1277324b145")
+    (property
+      "Reference"
+      "D1"
+      (at 100 149.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_RED"
+      (at 100 160.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 100 155 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 100 155 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2286"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "36f5a16d-dc12-4119-a90e-87a14cf96e5c")
+    )
+    (pin
+      "2"
+      (uuid "a76ea8e6-9c55-4e3b-a3b2-1081713bbb51")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "D1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:1k")
+    (at 100 175 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ad46e9f2-fc76-4541-b3c8-89dd99d127cf")
+    (property
+      "Reference"
+      "R8"
+      (at 100 169.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 100 180.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 100 175 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 100 175 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21190"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ed247045-61bd-4367-8d12-a607cddf32e6")
+    )
+    (pin
+      "2"
+      (uuid "4a350f6a-2a28-41ec-8eb9-13e7769fd293")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "R8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:5.1k")
+    (at 60 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "dfdff12f-56e8-417e-baec-8e49772c17e1")
+    (property
+      "Reference"
+      "R3"
+      (at 60 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 60 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 60 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d267a16c-f837-4cae-a90f-87d2180fa7d0")
+    )
+    (pin
+      "2"
+      (uuid "69beb724-e2e6-47e1-b206-9532c7f25861")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "R3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:5.1k")
+    (at 80 140 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "876e9008-ef67-4d6c-a422-bc2606a44d75")
+    (property
+      "Reference"
+      "R4"
+      (at 80 134.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 80 145.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 80 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 80 140 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7ee37686-4bd5-4083-9cfa-00fba2ba5bd7")
+    )
+    (pin
+      "2"
+      (uuid "33689ce7-a623-4b0d-a741-4fac4a7a3344")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "R4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:10k")
+    (at 130 155 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b94800ff-284e-4634-aabf-f961b0d9dbd5")
+    (property
+      "Reference"
+      "R7"
+      (at 130 149.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 130 160.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 130 155 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 130 155 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25804"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "28e8eb66-2f4c-44ea-903b-3558f1b1c794")
+    )
+    (pin
+      "2"
+      (uuid "825a19d8-eeb9-46ac-a705-4d7ea83c4b3f")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "R7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:10uF")
+    (at 60 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "72bdb3f7-9aae-4f15-9a0b-69fadba8381c")
+    (property
+      "Reference"
+      "C1"
+      (at 60 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 60 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 60 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "59d7cd8a-d20e-465e-9f94-39aded14697d")
+    )
+    (pin
+      "2"
+      (uuid "51ab3feb-3db7-4f39-8097-9aa4faf4b975")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:10uF")
+    (at 80 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "589a67ac-a968-4c15-bc74-a4fecac9b0cb")
+    (property
+      "Reference"
+      "C2"
+      (at 80 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 80 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 80 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 80 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "08418474-2e1f-4880-afc0-2abf8c07785c")
+    )
+    (pin
+      "2"
+      (uuid "c40c017d-f679-46c1-bca8-a2189f2dbc07")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:100nF")
+    (at 100 170 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "83b36236-013c-43a9-9455-75ae072c22b5")
+    (property
+      "Reference"
+      "C3"
+      (at 100 164.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 100 175.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 100 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 100 170 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "dd7c9127-ebb6-4f9c-a454-ab9aa47b5c01")
+    )
+    (pin
+      "2"
+      (uuid "f6f8ea91-a351-47a0-9cbc-a1909c474906")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:GND")
+    (at 15 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3c483e7b-5884-42b0-9534-ce5c24f90331")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 15 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 15 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 15 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 15 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e3f556d8-f93a-47d1-88f8-6f1148831c5e")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:+3V3")
+    (at 25 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ad42e360-8f9d-47c3-bfc4-04249ecf3632")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 25 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 25 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 25 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 25 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "20dfb69a-0a4b-40bb-8764-453006fc454d")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:VBUS")
+    (at 35 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "38539862-f714-4d10-bfc0-b52346c5adf1")
+    (property
+      "Reference"
+      "#PWR0003"
+      (at 35 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VBUS"
+      (at 35 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 35 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 35 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "75e8f388-73dc-4e76-bca5-a6db8c3cba48")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "#PWR0003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:+5V")
+    (at 45 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "612b84ed-17a2-4437-9e6c-624fcb9e0648")
+    (property
+      "Reference"
+      "#PWR0004"
+      (at 45 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+5V"
+      (at 45 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 45 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 45 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f5279d23-1be0-4de7-a294-4d1f363f5dfb")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "#PWR0004")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "blinddriver-c6-lib:VMOT")
+    (at 55 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "14d5b4fe-a333-45b9-9555-f9e8be42f26a")
+    (property
+      "Reference"
+      "#PWR0005"
+      (at 55 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VMOT"
+      (at 55 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 55 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 55 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "c31b9aa5-a744-45be-a466-9a3d35bbf104")
+    )
+    (instances
+      (project
+        "blinddriver-c6"
+        (path
+          "/c19ebf41-7c20-4ec4-baa2-5b2224ba0fe7"
+          (reference "#PWR0005")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
