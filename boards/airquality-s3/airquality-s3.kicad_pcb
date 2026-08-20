@@ -1,0 +1,2407 @@
+(kicad_pcb
+  (version 20240108)
+  (generator "pcbnew")
+  (generator_version "8.0")
+  (general
+    (thickness 1.6)
+    (legacy_teardrops no)
+  )
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user)
+    (47 "F.CrtYd" user)
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+  (setup
+    (pad_to_mask_clearance 0)
+    (allow_soldermask_bridges_in_footprints no)
+    (grid_origin 0 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svguseinch false)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (pdf_front_fp_property_popups true)
+      (pdf_back_fp_property_popups true)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotfptext true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "VBUS")
+  (net 3 "+3V3")
+  (net 4 "EN")
+  (net 5 "I2C_SDA")
+  (net 6 "I2C_SCL")
+  (net 7 "BOOT")
+  (net 8 "STAT_LED")
+  (net 9 "RX0")
+  (net 10 "TX0")
+  (net 11 "USB_DM")
+  (net 12 "USB_DP")
+  (net 13 "USB_CC1")
+  (net 14 "USB_CC2")
+  (net 15 "LED1_A")
+  (footprint
+    "airquality-s3:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "331f9671-f68b-4dc4-b9d2-1ee5e05c6d65")
+    (at 3.5 3.5)
+    (property
+      "Reference"
+      "H1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "4bbebf72-fe20-446c-99ba-3cbac4a63f21")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "a95922b7-a6ae-43c2-a6d1-37bff771e8bf")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/e7bf164b-324b-4294-a1f1-023c9856b309")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "a05235bc-b0b9-40f7-9368-b8c224765300")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "airquality-s3:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "0a00a09a-e42a-40c8-8256-0fcc62bbc331")
+    (at 56.5 3.5)
+    (property
+      "Reference"
+      "H2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f3d589a5-2493-4fd0-9aed-42262d0e5a00")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "e0f9f7c2-7e9e-4346-a5a3-c2eb1daf22cc")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/17140869-2062-4d8b-b1c7-6f1fd1730eed")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "0eb30e5c-e6c2-439d-9b41-613f9c9143e8")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "airquality-s3:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "a2a8c44f-4c44-4f6a-a0d4-73e8f0577a03")
+    (at 3.5 36.5)
+    (property
+      "Reference"
+      "H3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "369ad47b-3f0e-48c2-bddd-d0bec3acdd1f")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "7325e103-192c-4b18-b118-a5aaf288e26a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/b7005380-d481-4113-a34b-c36afef05b2c")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "0333473f-81f2-4baa-819d-0ec57defadf9")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "airquality-s3:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "dadfce66-6622-49b4-b3fe-0547126e1a5a")
+    (at 56.5 36.5)
+    (property
+      "Reference"
+      "H4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "8a890517-da35-4df1-9f33-123aaf91925c")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "5875c19c-4906-433b-86ac-1a553472ee81")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/c00f45d0-37ca-4723-8207-2ad99b3af5f7")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "a09757da-87d7-4383-9a56-b83e6b2c6f1f")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "airquality-s3:ESP32-S3-WROOM-1"
+    (layer "F.Cu")
+    (uuid "05800e4f-3f3c-42ed-8bab-f45fc93e6e8a")
+    (at 20 15)
+    (property
+      "Reference"
+      "U1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "9e340e57-527b-411b-aa8e-8d61bf7fa984")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-S3-WROOM-1"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "42c06bf9-aa46-4858-863e-b83f576e0de6")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/213a95a8-1d60-4666-ad9e-f2eda97c5b3c")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -9 -12.75)
+      (end 9 12.75)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "bd0fd93d-ef75-4ac7-97e9-87171d7d7c5e")
+    )
+    (fp_rect
+      (start -9.5 -13.25)
+      (end 9.5 13.25)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "38ef453c-b373-4381-9041-c8678a108cd3")
+    )
+    (fp_line
+      (start -9 -12.75)
+      (end 9 -12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "1792e7e8-85ff-43d6-afa1-4dc5a6a8dba7")
+    )
+    (fp_line
+      (start -9 -12.75)
+      (end -9 -9.6)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "eff8d3f7-6341-46be-a11a-59979c5be196")
+    )
+    (fp_line
+      (start 9 -12.75)
+      (end 9 -9.6)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "d551d05f-8e40-4764-91db-c01807348ba8")
+    )
+    (fp_line
+      (start -9 11)
+      (end -9 12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e3d2313e-6ba9-441c-bdca-a611229b5729")
+    )
+    (fp_line
+      (start 9 11)
+      (end 9 12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "b38f65ee-561a-4054-9017-87133bcd5844")
+    )
+    (fp_line
+      (start -9 12.75)
+      (end 9 12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "64c0d187-72d9-42cf-812f-a53dd1fcfefe")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -8.75 -8.26)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -8.75 -6.99)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -8.75 -5.72)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 4 "EN")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -8.75 -4.45)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at -8.75 -3.18)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at -8.75 -1.91)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at -8.75 -0.64)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at -8.75 0.63)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at -8.75 1.9)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "10"
+      smd
+      rect
+      (at -8.75 3.17)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "11"
+      smd
+      rect
+      (at -8.75 4.44)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "12"
+      smd
+      rect
+      (at -8.75 5.71)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 5 "I2C_SDA")
+    )
+    (pad
+      "13"
+      smd
+      rect
+      (at -8.75 6.98)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "14"
+      smd
+      rect
+      (at -8.75 8.25)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "15"
+      smd
+      rect
+      (at -6.985 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 6 "I2C_SCL")
+    )
+    (pad
+      "16"
+      smd
+      rect
+      (at -5.715 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "17"
+      smd
+      rect
+      (at -4.445 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "18"
+      smd
+      rect
+      (at -3.175 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "19"
+      smd
+      rect
+      (at -1.905 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "20"
+      smd
+      rect
+      (at -0.635 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "21"
+      smd
+      rect
+      (at 0.635 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "22"
+      smd
+      rect
+      (at 1.905 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "23"
+      smd
+      rect
+      (at 3.175 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "24"
+      smd
+      rect
+      (at 4.445 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "25"
+      smd
+      rect
+      (at 5.715 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 7 "BOOT")
+    )
+    (pad
+      "26"
+      smd
+      rect
+      (at 6.985 9.5)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "27"
+      smd
+      rect
+      (at 8.75 8.25)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "28"
+      smd
+      rect
+      (at 8.75 6.98)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "29"
+      smd
+      rect
+      (at 8.75 5.71)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "STAT_LED")
+    )
+    (pad
+      "30"
+      smd
+      rect
+      (at 8.75 4.44)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "31"
+      smd
+      rect
+      (at 8.75 3.17)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "32"
+      smd
+      rect
+      (at 8.75 1.9)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "33"
+      smd
+      rect
+      (at 8.75 0.63)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "34"
+      smd
+      rect
+      (at 8.75 -0.64)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 9 "RX0")
+    )
+    (pad
+      "35"
+      smd
+      rect
+      (at 8.75 -1.91)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 10 "TX0")
+    )
+    (pad
+      "36"
+      smd
+      rect
+      (at 8.75 -3.18)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "37"
+      smd
+      rect
+      (at 8.75 -4.45)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "38"
+      smd
+      rect
+      (at 8.75 -5.72)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "39"
+      smd
+      rect
+      (at 8.75 -6.99)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 11 "USB_DM")
+    )
+    (pad
+      "40"
+      smd
+      rect
+      (at 8.75 -8.26)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 12 "USB_DP")
+    )
+    (pad
+      "41"
+      smd
+      rect
+      (at 0 0)
+      (size 5.8 4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/ESP32-S3-WROOM-1.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+    (layer "F.Cu")
+    (uuid "205447c7-d378-4df3-898d-643b7b3bc14f")
+    (at 44 36.6 180)
+    (property
+      "Reference"
+      "X1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "59544e98-f707-494a-ae56-62ef3291c8b5")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "USB_C_16P"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "4af4d627-6a2e-439f-a842-c8e8210fb8f2")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/06cbe768-d891-4aff-a90f-b4d92de9cca1")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -4.45 -1.5)
+      (end 4.45 3.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "6d18558c-44d5-41d0-a0db-42d18d00eb1c")
+    )
+    (fp_rect
+      (start -5.6 -2.2)
+      (end 5.6 4.4)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "a3c70f25-167e-4ad2-98c5-861b7c1e508e")
+    )
+    (fp_line
+      (start -4.45 -1.6)
+      (end 4.45 -1.6)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "5def69e3-df8d-4a08-8ac3-e5e34477a67c")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -3.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -3.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "VBUS")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -2.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 13 "USB_CC1")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -2.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 12 "USB_DP")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at -1.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 11 "USB_DM")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at -1.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at -0.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "VBUS")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at -0.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at 0.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "10"
+      smd
+      rect
+      (at 0.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "VBUS")
+    )
+    (pad
+      "11"
+      smd
+      rect
+      (at 1.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "12"
+      smd
+      rect
+      (at 1.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 11 "USB_DM")
+    )
+    (pad
+      "13"
+      smd
+      rect
+      (at 2.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 12 "USB_DP")
+    )
+    (pad
+      "14"
+      smd
+      rect
+      (at 2.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "USB_CC2")
+    )
+    (pad
+      "15"
+      smd
+      rect
+      (at 3.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "VBUS")
+    )
+    (pad
+      "16"
+      smd
+      rect
+      (at 3.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S1"
+      thru_hole
+      circle
+      (at -4.32 0.1)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S2"
+      thru_hole
+      circle
+      (at 4.32 0.1)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S3"
+      thru_hole
+      circle
+      (at -4.32 2.7)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S4"
+      thru_hole
+      circle
+      (at 4.32 2.7
+    )
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SOT-23-5.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Package_TO_SOT_SMD:SOT-23-5"
+    (layer "F.Cu")
+    (uuid "237f62ab-7e54-4767-8832-573394abd763")
+    (at 35 30)
+    (property
+      "Reference"
+      "U2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f500565e-91b4-4173-8bbc-926276063a26")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP2112K-3.3"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "b0f18dec-6fd9-40a0-b906-851085e8f9df")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/bac482a7-5de3-45c4-8b3a-9df6a780e486")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -1.5 -0.75)
+      (end 1.5 0.75)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "12c557a1-1481-4c04-92b4-ba00833db7a3")
+    )
+    (fp_rect
+      (start -1.7 -1.5)
+      (end 1.7 1.5)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "bb938653-55ea-437b-97a2-65eace338f76")
+    )
+    (fp_line
+      (start -0.6 -0.85)
+      (end 0.6 -0.85)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "de07b761-274d-49c7-b0e2-341d92b72604")
+    )
+    (fp_line
+      (start -0.6 0.85)
+      (end 0.6 0.85)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "a8e8f5d0-2257-4481-a760-27905191c3f3")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.95 -0.95)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "VBUS")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -0.95 0)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -0.95 0.95)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "VBUS")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 0.95 0.475)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at 0.95 -0.475)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SOT-23-5.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "airquality-s3:SCD40"
+    (layer "F.Cu")
+    (uuid "6bbbe4fb-7feb-49f3-854b-f35dbd5efa5b")
+    (at 48 9)
+    (property
+      "Reference"
+      "U3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "6e1e657d-4c78-461f-96a0-e9438d5f92dc")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "SCD40"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "f2aa11a3-67e6-4a50-8a68-d1aa9661d604")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/f530352e-dc55-4b81-ac6c-4d970031742a")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -5.05 -5.05)
+      (end 5.05 5.05)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "1cfd081d-7946-4b73-b5a3-4a0c31e1c5e0")
+    )
+    (fp_rect
+      (start -5.6 -5.6)
+      (end 5.6 5.6)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "6ff3afd9-8e0f-40c5-b599-d4c7b2c53bd3")
+    )
+    (fp_rect
+      (start -5.05 -5.05)
+      (end 5.05 5.05)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "c8289285-92e0-4746-8989-27cb051e95f5")
+    )
+    (fp_circle
+      (center -3.5 -3.9)
+      (end -3.2 -3.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "fc1d6d5b-8819-4860-8983-9c9b82b79637")
+    )
+    (fp_text
+      user
+      "CO2"
+      (at 0 0 0)
+      (layer "F.SilkS")
+      (uuid "6e82b3c0-a358-4de4-89e8-0b072facb0f5")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -2.5 -1.5)
+      (size 1.4 1.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 6 "I2C_SCL")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -2.5 1.5)
+      (size 1.4 1.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at 2.5 1.5)
+      (size 1.4 1.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 2.5 -1.5)
+      (size 1.4 1.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 5 "I2C_SDA")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SCD40.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "airquality-s3:SGP40-DFN6"
+    (layer "F.Cu")
+    (uuid "13505bd3-652b-47d0-82fd-6d3554689af5")
+    (at 47 20)
+    (property
+      "Reference"
+      "U4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "ba5173b4-1ff3-4980-a9cb-af043778040a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "SGP40"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "3ff74c8d-e034-4fe6-b7db-0dcf3a754acd")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/bff5c6d7-074b-4c1c-806a-7f4e4b86a773")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -1.22 -1.22)
+      (end 1.22 1.22)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "26d8aac7-8014-4113-bb34-d4ca5fbec202")
+    )
+    (fp_rect
+      (start -1.52 -1.52)
+      (end 1.52 1.52)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "60906918-d3aa-445e-b90f-db7fb771b883")
+    )
+    (fp_line
+      (start -1.22 -1.22)
+      (end 1.22 -1.22)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "c049dff5-0168-4b33-a8ac-9b39dab2b643")
+    )
+    (fp_line
+      (start -1.22 1.22)
+      (end 1.22 1.22)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "128edd7e-a77e-4894-a711-010a66abca7b")
+    )
+    (fp_line
+      (start -1.22 -1.22)
+      (end -1.22 0.78)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "7e6bce0e-e60e-4aa2-82ff-b4e96d7898a2")
+    )
+    (fp_line
+      (start 1.22 -1.22)
+      (end 1.22 0.78)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "148c7163-d1a5-4d03-89c4-858578e5ac1f")
+    )
+    (fp_line
+      (start -1.22 -0.78)
+      (end -1.22 1.22)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "382b2eb0-aaad-4b9a-ba38-d5966a7f5c12")
+    )
+    (fp_line
+      (start 1.22 -0.78)
+      (end 1.22 1.22)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "0636f2e2-0486-4052-b5bf-d389db095891")
+    )
+    (fp_circle
+      (center -1.5 -1.1)
+      (end -1.3 -1.1)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "f2656136-018c-4861-a908-582149a5a5c3")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -1 -0.65)
+      (size 0.6 0.35)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -1 0)
+      (size 0.6 0.35)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -1 0.65)
+      (size 0.6 0.35)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 5 "I2C_SDA")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at 1 0.65)
+      (size 0.6 0.35)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 6 "I2C_SCL")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at 1 0)
+      (size 0.6 0.35)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 1 -0.65)
+      (size 0.6 0.35)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SGP40-DFN6.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "airquality-s3:SHT40-DFN4"
+    (layer "F.Cu")
+    (uuid "6f4f09ec-dabf-4d15-b34a-189681817638")
+    (at 53 20)
+    (property
+      "Reference"
+      "U5"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "aec445c6-4b29-4636-adc2-70eb197bb822")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "SHT40"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "9aaf808d-a979-47c0-8d98-9c5da3905975")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/32cf7733-025f-4249-a00f-66d8ccdd6057")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.75 -0.75)
+      (end 0.75 0.75)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "943a75ba-d799-4fa0-96d9-8e40a8a68cb7")
+    )
+    (fp_rect
+      (start -1.05 -1.05)
+      (end 1.05 1.05)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "0cbd0895-5ab5-4eb5-b243-d28e336bdc8b")
+    )
+    (fp_line
+      (start -0.75 -0.75)
+      (end 0.75 -0.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "89e2ff39-9496-468b-8a51-e60aa584eed0")
+    )
+    (fp_line
+      (start -0.75 0.75)
+      (end 0.75 0.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "952bf38f-ea0f-4ea8-b6ce-8b781f6cad1f")
+    )
+    (fp_line
+      (start -0.75 -0.75)
+      (end -0.75 1.25)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "32f07d56-2c02-415d-8b5b-d0fa335baaba")
+    )
+    (fp_line
+      (start 0.75 -0.75)
+      (end 0.75 1.25)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "fa65c4a5-0423-4524-864f-9d4aa62a783e")
+    )
+    (fp_line
+      (start -0.75 -1.25)
+      (end -0.75 0.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "df14f451-1891-40ba-a072-16b306629f1f")
+    )
+    (fp_line
+      (start 0.75 -1.25)
+      (end 0.75 0.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "865dd99f-28a2-4235-b31e-56756bed004a")
+    )
+    (fp_circle
+      (center -1.2 -0.9)
+      (end -1 -0.9)
+      (stroke
+        (width 0.12
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "a93d11a0-9c6f-4031-8cce-50ca922d8210")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.55 -0.4)
+      (size 0.4 0.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 5 "I2C_SDA")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -0.55 0.4)
+      (size 0.4 0.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 6 "I2C_SCL")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at 0.55 0.4)
+      (size 0.4 0.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 0.55 -0.4)
+      (size 0.4 0.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SHT40-DFN4.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "airquality-s3:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "bcd64c38-5c75-454b-8d26-58e1470aa355")
+    (at 5.5 14.6 90)
+    (property
+      "Reference"
+      "BT1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "bd6716c6-52c9-4737-bc09-10c35fc169eb")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "7ef19035-0d0c-4818-9b8d-feba05684d84")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/6e94c22a-1a94-440e-9707-52278a359903")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "9cede4ff-5480-4690-b692-f1e13eda6ed1")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "da2ca892-f714-4a89-9a92-eef55f11e54b")
+    )
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "2ae3c81c-fb29-45fe-9d39-9ca731b04138")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 7 "BOOT")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 7 "BOOT")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "airquality-s3:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "faaed71c-9cc5-4e09-8896-65092a4fa020")
+    (at 5.5 26.2 90)
+    (property
+      "Reference"
+      "BT2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "051de6ae-3b57-4979-bf25-39d23673d9d7")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "74657952-f87f-4f33-a42c-b93573a3400a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/366d0e0e-b8b9-4d0a-97ed-78aaa15875b8")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "9cede4ff-5480-4690-b692-f1e13eda6ed1")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "da2ca892-f714-4a89-9a92-eef55f11e54b")
+    )
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "2ae3c81c-fb29-45fe-9d39-9ca731b04138")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 7 "BOOT")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 7 "BOOT")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/LED_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "LED_SMD:LED_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "d5a55870-a6a0-4933-9e4a-6f189f06fb91")
+    (at 36 6)
+    (property
+      "Reference"
+      "D1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "83820d31-1f1e-449d-bddd-4ded7b4ae497")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_GRN"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "7057731e-f732-42df-8321-bcf6393352a0")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (path "/8d0c3009-d3ae-4bfd-acea-55527d2bbad6")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "487a4b65-4ecd-4797-aeec-f1b89db6510f")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "ef6bf47f-0536-4e51-969f-b956674b519f")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "038f9b00-fe0d-463d-bad8-58116cb9d107")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "9416282e-f469-4f08-a3ac-06d19af87948")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 15 "LED1_A")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "STAT_LED")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "61b0d26b-d7a9-4f25-af5c-18ec2904baf5")
+    (at 33 6)
+    (property
+      "Reference"
+      "R8"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "499c47a7-ca9f-4cfd-824a-7e272c9d9f2d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "b7ada82f-2902-4ff2-a679-883fe312040e")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/1534eb13-1af9-4b3d-9ba2-b3480a70a51f")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "3de38c9f-13cd-4f36-aaac-da9bb6f0678b")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "c21e0ee5-309d-4a4d-be44-f6d4c024b0b7")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "7eb1e530-8253-45da-b46e-f7510ec447c5")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "da4cc6e4-f79b-45d8-88c3-c45a69a2ed20")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 15 "LED1_A")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "b47c1c06-bf90-4234-8e2b-88b717ab9d46")
+    (at 40 30)
+    (property
+      "Reference"
+      "R3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "e2a71d12-2e86-4544-98b2-87459e43d857")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "914fa4cd-10bf-43fe-a962-65d2427f6b0b")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/8f812566-b754-4d10-966a-b4acaa42a292")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "c11a0f0e-c97b-4fe7-bdd6-41707db680ae")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "d76c2f16-c74b-4c2d-80dc-4797f4b49860")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "dd3ac260-2e64-4bd5-9866-fd09b4d82c2c")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "b5e2f7f9-8335-4b4a-88e5-c9c322dcc0f0")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 13 "USB_CC1")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "0cd7e1b8-0e4e-4c54-b8ec-4de4a254e2b3")
+    (at 40 32)
+    (property
+      "Reference"
+      "R4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f15f4d22-48ad-4e5c-8f19-e1bfb25ee8c1")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "3259b6e4-1d2f-48c5-a02b-8a46e1af3a07")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/2b7b83e9-a23a-4d8a-a54e-813dc2e618f2")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "93dd4b0e-2f0e-4b6b-a6a4-8f52c5a8bd3d")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "4e5c91e9-6e7f-41b8-a847-3fb41a2e0f0c")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "63eb25cd-83f9-4f53-893e-23c95d99d31d")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "cff97da1-17a6-4475-a4df-daf66f8f4669")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "USB_CC2")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "8de4b4de-3a11-4c1e-975f-0af415c53d22")
+    (at 14 12.5)
+    (property
+      "Reference"
+      "R7"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "7f8edbfd-f14a-4bdb-b0c7-d4f8a5a1ecab")
+      (effects
+        (font
+          (size 1 1
+    )
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "a1a3c5c7-3a2e-4e1a-9b7d-3d8f7e4d1a2f")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/4f8e5a2c-1d3b-4c5e-8a6f-2b9d7e5c3a1f")
+    (sheetname "")
+    (sheetfile "airquality-s3.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "6b8f4d2a-3c1e-4f5a-9d7b-8e2c6a4f1d3b")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "7a6b5c4d-3e2f-4a1b-9c8d-7e6f5a4b3c2d")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "9f8e7d6c-5b4a-4f3e-8d2c-1b0a9f8e7d6c")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 4 "EN")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
