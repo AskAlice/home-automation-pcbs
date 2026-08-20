@@ -1,0 +1,2767 @@
+      (uuid "a54254e3-da06-478a-bb43-5afd4a637040")
+    )
+    (pin
+      "15"
+      (uuid "7f179994-7b8f-436f-8832-15a369c7931b")
+    )
+    (pin
+      "29"
+      (uuid "7b0defdb-1773-40fa-bf06-c94aa6613917")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:USB_C_16P")
+    (at 200 80 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "fc44a907-6d25-4419-9b22-bdae06cdd611")
+    (property
+      "Reference"
+      "X1"
+      (at 200 74.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "USB_C_16P"
+      (at 200 85.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+      (at 200 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/lcsc_datasheet_2410252104_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+      (at 200 80 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C165948"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "485d27a2-08bb-48b2-b5c2-83e1e8fc5584")
+    )
+    (pin
+      "2"
+      (uuid "be8c151e-219d-4f37-9820-2fd6f73368d3")
+    )
+    (pin
+      "3"
+      (uuid "f7cfb2ae-62c4-4830-8cd8-263fd654b527")
+    )
+    (pin
+      "4"
+      (uuid "0875fbb6-ea6a-4856-92ba-b3d6ab319598")
+    )
+    (pin
+      "5"
+      (uuid "fcaf1e23-983b-4488-96be-dc6ba6768b2c")
+    )
+    (pin
+      "6"
+      (uuid "85952dff-5b15-47bc-a699-39357c9b6135")
+    )
+    (pin
+      "7"
+      (uuid "5384cbc9-78a0-4ae4-8b89-5ab18f352935")
+    )
+    (pin
+      "8"
+      (uuid "133fd8c5-a9d2-4a7e-a276-eb023a937164")
+    )
+    (pin
+      "9"
+      (uuid "cbb4f280-bef7-4712-8d74-771b809ed207")
+    )
+    (pin
+      "10"
+      (uuid "3c0b66ac-fe05-4789-b98c-fa6cc6205b8e")
+    )
+    (pin
+      "11"
+      (uuid "8855db4f-890d-47cb-9e6f-370425a59851")
+    )
+    (pin
+      "12"
+      (uuid "b5efd979-387b-4660-866e-0d6f5ac73f2f")
+    )
+    (pin
+      "13"
+      (uuid "5755011f-d630-48dd-ad54-96e0b21fa315")
+    )
+    (pin
+      "14"
+      (uuid "b979dcfa-382a-416b-86a0-1584cdc01b6a")
+    )
+    (pin
+      "15"
+      (uuid "663ca9f3-6ecb-4d40-922e-e031ebfdd241")
+    )
+    (pin
+      "16"
+      (uuid "f551e3e8-15b1-48c0-be8a-44e4b6a45d5b")
+    )
+    (pin
+      "S1"
+      (uuid "c3a49771-e116-485c-b9cb-5dc911761038")
+    )
+    (pin
+      "S2"
+      (uuid "9afb3cf3-b3cf-4e44-88b0-37767a71a8bf")
+    )
+    (pin
+      "S3"
+      (uuid "ce7ee224-29b6-4385-89f7-e3c5efba3721")
+    )
+    (pin
+      "S4"
+      (uuid "2c03c6cb-fb48-4a34-ae9f-de4012a85a97")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "X1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:AP2112K-3.3")
+    (at 40 130 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "28d77c3b-d577-499d-b2d6-2bfecc078f61")
+    (property
+      "Reference"
+      "U2"
+      (at 40 124.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP2112K-3.3"
+      (at 40 135.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-5"
+      (at 40 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+      (at 40 130 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C51115"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "57fef299-64ac-440b-90fa-c6232157cc1d")
+    )
+    (pin
+      "2"
+      (uuid "727909e4-a8a3-474f-b235-c2e661884218")
+    )
+    (pin
+      "3"
+      (uuid "5a38eda5-b787-41c8-b34b-00137cad2a36")
+    )
+    (pin
+      "4"
+      (uuid "8d450fc5-9040-44d4-86f8-13ac37eaac06")
+    )
+    (pin
+      "5"
+      (uuid "07b877ce-5bb9-4434-bf83-9a265367a15b")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "U2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:SHT31")
+    (at 80 160 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5134bfea-4d49-4ebe-b505-b9f45dfba028")
+    (property
+      "Reference"
+      "U3"
+      (at 80 154.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SHT31"
+      (at 80 165.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "sensenode-c6:SHT31-DFN8"
+      (at 80 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf"
+      (at 80 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C194656"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f895dbc4-8d91-4581-b859-6ebb8fc4e885")
+    )
+    (pin
+      "2"
+      (uuid "12b698cd-b6f7-4f20-bce0-2ab7ed48729a")
+    )
+    (pin
+      "3"
+      (uuid "35f939ea-25f3-4d20-a629-01bf79036179")
+    )
+    (pin
+      "4"
+      (uuid "00297dec-d02d-4a9a-981b-8b966f6bf936")
+    )
+    (pin
+      "5"
+      (uuid "ac0878d9-d500-4246-ba87-0d828a0759ed")
+    )
+    (pin
+      "6"
+      (uuid "7ffbeda6-0798-44d7-bdd2-8ef7c1648265")
+    )
+    (pin
+      "7"
+      (uuid "3405721c-a078-4049-a9d7-821ff38f4ec0")
+    )
+    (pin
+      "8"
+      (uuid "ddc70e03-f38b-4539-97fc-92afedd726fc")
+    )
+    (pin
+      "9"
+      (uuid "bee10f12-0fa9-4d5b-98c4-6c1c86b02293")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:BH1750")
+    (at 115 160 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0794ced3-0c4b-4bbc-9810-8c7ec4b8eb0f")
+    (property
+      "Reference"
+      "U4"
+      (at 115 154.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "BH1750"
+      (at 115 165.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "sensenode-c6:BH1750-WSOF6"
+      (at 115 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.mouser.com/datasheet/2/348/bh1750fvi-e-1868571.pdf"
+      (at 115 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C78960"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "fc28b18f-b396-4f92-9098-b708ce568537")
+    )
+    (pin
+      "2"
+      (uuid "3b6e8efd-6767-41a0-ac9b-0b872661b36b")
+    )
+    (pin
+      "3"
+      (uuid "49b0aecb-2835-47ca-b11a-0f9ada0cf58b")
+    )
+    (pin
+      "4"
+      (uuid "6d8b05ea-1e02-4bf2-8494-4b456c89ea12")
+    )
+    (pin
+      "5"
+      (uuid "7d3b46b5-04ad-476f-9879-3a8071e804ca")
+    )
+    (pin
+      "6"
+      (uuid "5e8d8829-a4d7-432a-99e8-f8d4a7bbc5f2")
+    )
+    (pin
+      "7"
+      (uuid "4a693d49-6e08-4186-9ff7-2f6ad4a91e5b")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "U4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:BMP280")
+    (at 150 160 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ce26931b-9def-4cce-be6f-bdfabdff7113")
+    (property
+      "Reference"
+      "U5"
+      (at 150 154.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "BMP280"
+      (at 150 165.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "sensenode-c6:BMP280-LGA8"
+      (at 150 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf"
+      (at 150 160 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C92466"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e073df26-7bd0-48e5-be40-be7ba2b452dd")
+    )
+    (pin
+      "2"
+      (uuid "5261f0a9-264a-496d-9b1b-8efcad18cdc6")
+    )
+    (pin
+      "3"
+      (uuid "13cb5199-4ff9-4d53-91ee-b9ad72256a8e")
+    )
+    (pin
+      "4"
+      (uuid "fa40c4d9-d9da-4ee9-90aa-b6e02f6b4398")
+    )
+    (pin
+      "5"
+      (uuid "67fe1310-faac-422b-90c4-74e7177f7695")
+    )
+    (pin
+      "6"
+      (uuid "f45c2931-81dc-4dec-a39a-2e7acdf385a6")
+    )
+    (pin
+      "7"
+      (uuid "5fadadc4-49c3-484d-9e84-101cf6f7a284")
+    )
+    (pin
+      "8"
+      (uuid "07b18ecc-9ea5-4cce-b34b-71b26099f2f9")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "U5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:4.7k")
+    (at 230 42 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c02b39f3-63a2-4682-ba40-94c149511220")
+    (property
+      "Reference"
+      "R1"
+      (at 230 36.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 230 47.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "9b55c7d6-1893-4f79-be38-69d260da5093")
+    )
+    (pin
+      "2"
+      (uuid "2c36b516-1966-457b-8952-a5c7e69fae88")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:4.7k")
+    (at 230 54 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "4b027618-c4f6-4e09-bc41-be9f8dc560de")
+    (property
+      "Reference"
+      "R2"
+      (at 230 48.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 230 59.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23162"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b86bcd2d-6a02-485c-a10a-628851191963")
+    )
+    (pin
+      "2"
+      (uuid "2d89589d-3420-468f-8d8d-304c98d66bba")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:5.1k")
+    (at 230 66 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "62c1b179-41f8-43c3-b9bd-2bea9dee701c")
+    (property
+      "Reference"
+      "R3"
+      (at 230 60.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 230 71.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "67b82b31-7675-4357-ac0d-6c255bd58723")
+    )
+    (pin
+      "2"
+      (uuid "55889ac2-4064-4b85-83b1-163821bdad37")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:5.1k")
+    (at 230 78 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "170adb5c-8097-4c21-9cbb-12138e9fbaa4")
+    (property
+      "Reference"
+      "R4"
+      (at 230 72.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 230 83.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 78 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 78 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C23186"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "4381f3fa-f814-423d-ac04-2a31173260c6")
+    )
+    (pin
+      "2"
+      (uuid "eee03f39-a032-4622-9f4f-697888575839")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:22R")
+    (at 230 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "8dcdd9d1-0937-4c91-be01-909b15d37167")
+    (property
+      "Reference"
+      "R5"
+      (at 230 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22R"
+      (at 230 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C22926"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a3641f16-8375-496c-9a95-fc8586d21750")
+    )
+    (pin
+      "2"
+      (uuid "5201a606-2072-4314-a49a-4f21020e1f72")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:22R")
+    (at 230 102 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c5d2a704-a859-44b0-96ae-840f01bc4791")
+    (property
+      "Reference"
+      "R6"
+      (at 230 96.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22R"
+      (at 230 107.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 102 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 102 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C22926"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "35b9af44-bd4e-4243-9a4d-8e2dab37c7d5")
+    )
+    (pin
+      "2"
+      (uuid "87066bf7-dc8f-444a-9c75-d8b61e6f8f70")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:10k")
+    (at 230 114 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "6ee8b7bb-f345-400c-86cd-4dbb377fcdce")
+    (property
+      "Reference"
+      "R7"
+      (at 230 108.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 230 119.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 114 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 114 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25804"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e1ff8115-b26e-4258-99bd-b891b979ccbb")
+    )
+    (pin
+      "2"
+      (uuid "37ff19d0-736d-4d71-93ea-61cfcd3d7e6e")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:1k")
+    (at 230 126 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "1c576ab0-8a70-4e44-a8fe-09ccf239b99d")
+    (property
+      "Reference"
+      "R8"
+      (at 230 120.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 230 131.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 126 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 126 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21190"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "43deb8e0-593f-45f2-8737-a7e7285bc50d")
+    )
+    (pin
+      "2"
+      (uuid "130df372-9baf-488a-b7ab-e88a3a042683")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:1k")
+    (at 230 138 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ffdfa057-2b35-4e62-9a65-5f19f09c1ba7")
+    (property
+      "Reference"
+      "R9"
+      (at 230 132.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 230 143.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 230 138 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 138 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C21190"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f7da312f-3a3a-4988-9d5f-714027ce5422")
+    )
+    (pin
+      "2"
+      (uuid "9ba0f044-aeef-49a2-a4cb-262a5dfc325a")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "R9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:10uF")
+    (at 260 42 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ead03d60-1230-42e7-90aa-5b12c10ed2c0")
+    (property
+      "Reference"
+      "C1"
+      (at 260 36.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 260 47.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "21f2df18-811a-4d7a-8da1-dc7dee0fef8b")
+    )
+    (pin
+      "2"
+      (uuid "1a819d38-468e-45ae-9f21-7989e13fe239")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:10uF")
+    (at 260 54 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5e4a9809-8331-4ebe-b98a-7ae364d28148")
+    (property
+      "Reference"
+      "C2"
+      (at 260 48.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 260 59.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "815b9ec1-d62f-4b3b-92f0-46cf5e2fbcb8")
+    )
+    (pin
+      "2"
+      (uuid "889f5db1-a5e5-4528-a75b-7b9e97213af5")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:100nF")
+    (at 260 66 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "73a26204-8330-4bfd-95fc-062da5fd82a0")
+    (property
+      "Reference"
+      "C3"
+      (at 260 60.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 71.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "a5cd510d-ca06-4328-9807-f4a250e9dfe9")
+    )
+    (pin
+      "2"
+      (uuid "01748587-d072-4756-b7ba-a7533b5bc177")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:100nF")
+    (at 260 78 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "15ba7b82-65ac-4928-bc60-f1bae62b9503")
+    (property
+      "Reference"
+      "C4"
+      (at 260 72.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 83.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 78 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 78 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "01bda2a7-8ee1-4b42-b661-d3aad5e0dc92")
+    )
+    (pin
+      "2"
+      (uuid "91f13f30-61b7-44b3-b821-c0c39078f888")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:100nF")
+    (at 260 90 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "835536d4-d720-47ec-9cde-8dce55e37d57")
+    (property
+      "Reference"
+      "C5"
+      (at 260 84.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 95.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 90 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b857e8d0-b9a3-4f14-a7c9-55521aac1618")
+    )
+    (pin
+      "2"
+      (uuid "11088b63-c991-4578-8457-8793538a6fe0")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:100nF")
+    (at 260 102 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d9ee92e6-91c2-4f33-97af-64bf5ca7dbd7")
+    (property
+      "Reference"
+      "C6"
+      (at 260 96.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 107.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 102 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 102 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "fa7bb3a3-dcf9-4ccd-a859-b06b369ddd12")
+    )
+    (pin
+      "2"
+      (uuid "6d9d8494-0842-43c3-95f9-265973c5397c")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:100nF")
+    (at 260 114 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "93e0bf6b-af04-45c7-947b-07b87f0f3259")
+    (property
+      "Reference"
+      "C7"
+      (at 260 108.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 260 119.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 260 114 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 260 114 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "6a294326-0d89-49f9-8bd7-a994b0cea829")
+    )
+    (pin
+      "2"
+      (uuid "e34871d6-07cb-4a4d-8c6a-2920e8f2c35e")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "C7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:LED_RED")
+    (at 290 42 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c92080d1-9e18-493f-8015-3eb0464c754a")
+    (property
+      "Reference"
+      "D1"
+      (at 290 36.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_RED"
+      (at 290 47.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 290 42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 290 42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2286"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d0d99565-bc28-4dc6-87e3-ebdc08795dd6")
+    )
+    (pin
+      "2"
+      (uuid "1cb2a833-b6a8-4a7a-8f93-41fa0997944c")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "D1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:LED_GRN")
+    (at 290 54 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3acaeb7c-5ff7-4e64-858d-a8090da2ceaf")
+    (property
+      "Reference"
+      "D2"
+      (at 290 48.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_GRN"
+      (at 290 59.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "LED_SMD:LED_0603_1608Metric"
+      (at 290 54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 290 54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C2297"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "be7ae1f0-5d13-424a-9b0a-0bcff5eca7d5")
+    )
+    (pin
+      "2"
+      (uuid "773b4ee0-54a4-4f91-a7f9-4735ac134bd2")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "D2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:SW_PUSH")
+    (at 320 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "7e776dd8-b48a-461c-974b-0f90891597bd")
+    (property
+      "Reference"
+      "BT1"
+      (at 320 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 320 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "sensenode-c6:Tactile-6x6-SMD"
+      (at 320 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 320 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "da80ea0f-0c82-486b-92d8-bdfc066b26aa")
+    )
+    (pin
+      "2"
+      (uuid "f7855219-6981-4c0b-b6b1-74591d01dd5c")
+    )
+    (pin
+      "3"
+      (uuid "27276b4d-539e-4fde-aaa7-6a7ac2999232")
+    )
+    (pin
+      "4"
+      (uuid "2828d80e-a103-47d2-be72-c8f9eaa1d804")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "BT1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:SW_PUSH")
+    (at 320 100 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "733f5587-1f79-4edd-8142-3a0a08bc03d9")
+    (property
+      "Reference"
+      "BT2"
+      (at 320 94.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 320 105.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "sensenode-c6:Tactile-6x6-SMD"
+      (at 320 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 320 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C139797"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "0fb85988-2b2f-41fc-b5ca-69342b1182c1")
+    )
+    (pin
+      "2"
+      (uuid "a1a39564-0796-4262-a8ae-1f9de9285db2")
+    )
+    (pin
+      "3"
+      (uuid "bd4b54fc-383f-4712-9046-ed15375016d4")
+    )
+    (pin
+      "4"
+      (uuid "b82bed76-25f6-458e-8264-31c33513472e")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "BT2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:Conn_01x03")
+    (at 350 60 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0b57a845-e90b-4fdc-abf9-1aa7c8e8726f")
+    (property
+      "Reference"
+      "J1"
+      (at 350 54.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x03"
+      (at 350 65.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+      (at 350 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 350 60 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C49257"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b252a91f-9ca9-4f1a-b3b9-367b3a6b5034")
+    )
+    (pin
+      "2"
+      (uuid "d08c4e52-e386-4620-8c7f-ebe5b0a324cd")
+    )
+    (pin
+      "3"
+      (uuid "6248ee76-eba4-4e52-bd5e-2ae7603b8b7a")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "J1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:Conn_01x04")
+    (at 350 100 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0f3ddea7-2e46-4ec7-9fb5-d40afb72cc78")
+    (property
+      "Reference"
+      "J2"
+      (at 350 94.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x04"
+      (at 350 105.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+      (at 350 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 350 100 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C49258"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5dcf715b-5997-4a34-a66a-738bf7beb2ba")
+    )
+    (pin
+      "2"
+      (uuid "d1d3fc5e-d35b-49da-a3eb-8fd97e77b06e")
+    )
+    (pin
+      "3"
+      (uuid "7af62901-e6a2-4e07-8bc0-aeeb231f31fe")
+    )
+    (pin
+      "4"
+      (uuid "03ed7c7e-6818-4488-99f5-6a9a533cc342")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "J2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:GND")
+    (at 20 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d18bd5f4-632e-444d-9412-c311bee907c1")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 20 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 20 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "c0555167-a2bc-45af-a6ea-00496e409085")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:GND")
+    (at 30 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "75bdf5d1-99df-4271-906e-53cbb31460dc")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 30 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 30 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "41dd8398-e03f-4b66-be95-7329601d6a17")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:+3V3")
+    (at 40 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e5d44e5a-042d-4e7f-b145-c10b9e28d4e5")
+    (property
+      "Reference"
+      "#PWR0003"
+      (at 40 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 40 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "1c58e0ac-d5ad-4ab4-8b2e-3944daf27cf3")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "#PWR0003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:+3V3")
+    (at 50 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "983ebde6-8685-4864-93da-0fd03acbad9e")
+    (property
+      "Reference"
+      "#PWR0004"
+      (at 50 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 50 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5f1b66a3-e53f-4248-ab3b-eaf0dc49f075")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "#PWR0004")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "sensenode-c6-lib:VBUS")
+    (at 60 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b58f64f8-cd0e-4f35-b7bc-143b43bacafe")
+    (property
+      "Reference"
+      "#PWR0005"
+      (at 60 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VBUS"
+      (at 60 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f32a5133-b240-4314-b165-9b93677eb8d2")
+    )
+    (instances
+      (project
+        "sensenode-c6"
+        (path
+          "/eedb1c5d-e436-4602-9d3b-73432a94f717"
+          (reference "#PWR0005")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
