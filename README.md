@@ -126,7 +126,6 @@ isolation slot, opto-isolated metering, and a SELV-side programming header.
 | Function | GPIO |
 |---|---|
 | Relay driver (→ K1 coil) | GPIO6 |
-
 | BL0942 UART RX / TX | GPIO4 / GPIO5 |
 | User button (active low) | GPIO9 |
 | Status LED (active low) | GPIO8 |
