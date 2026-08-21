@@ -36,7 +36,7 @@ generator script (`gen_*.py`).
 
 ### 🌡️ [SenseNode C6](boards/sensenode-c6) — environmental multisensor
 
-![SenseNode C6](boards/sensenode-c6/render3d_top.png)
+![SenseNode C6 — 360° turntable](boards/sensenode-c6/turntable.gif)
 
 One-per-room environmental node. ESP32-C6 gives you Wi-Fi 6 + BLE5 **and**
 802.15.4, so the same SKU can run ESPHome today and Matter-over-Thread tomorrow.
@@ -60,7 +60,7 @@ One-per-room environmental node. ESP32-C6 gives you Wi-Fi 6 + BLE5 **and**
 
 ### 🚶 [PresencePro C3](boards/presencepro-c3) — mmWave presence + lux
 
-![PresencePro C3](boards/presencepro-c3/render3d_top.png)
+![PresencePro C3 — 360° turntable](boards/presencepro-c3/turntable.gif)
 
 True still-presence detection (sitting at a desk, sleeping) where PIR fails,
 with lux gating so automations only fire when it's dark.
@@ -85,7 +85,7 @@ with lux gating so automations only fire when it's dark.
 
 ### 💡 [LEDQuad C3](boards/ledquad-c3) — 4-ch 12–24 V PWM LED driver
 
-![LEDQuad C3](boards/ledquad-c3/render3d_top.png)
+![LEDQuad C3 — 360° turntable](boards/ledquad-c3/turntable.gif)
 
 Analog RGBW strip driver for 12/24 V strips — the classic ESPHome `light.rgbw`
 board, sized to hide behind furniture.
@@ -109,7 +109,7 @@ board, sized to hide behind furniture.
 
 ### 🔌 [RelayMini C3](boards/relaymini-c3) — mains switch + energy metering
 
-![RelayMini C3](boards/relaymini-c3/render3d_top.png)
+![RelayMini C3 — 360° turntable](boards/relaymini-c3/turntable.gif)
 
 > ⚠ **110–240 VAC mains board. Lethal voltages. Qualified builders only —
 > read the safety section in its README before anything else.**
@@ -135,7 +135,7 @@ isolation slot, opto-isolated metering, and a SELV-side programming header.
 
 ### 🕹️ [LEDHub C6](boards/ledhub-c6) — all-in-one display LED controller (flagship)
 
-![LEDHub C6](boards/ledhub-c6/render3d_top.png)
+![LEDHub C6 — 360° turntable](boards/ledhub-c6/turntable.gif)
 
 A complete addressable-LED control station: status display, physical controls,
 presence-aware switching and environmental telemetry, running **WLED** with a
@@ -164,7 +164,7 @@ custom usermod (`firmware/wled-usermod-ledhub`).
 
 ### 🚪 [ThreadNode H2](boards/threadnode-h2) — battery Thread contact/button node
 
-![ThreadNode H2](boards/threadnode-h2/render3d_top.png)
+![ThreadNode H2 — 360° turntable](boards/threadnode-h2/turntable.gif)
 
 ESP32-H2 = 802.15.4 only, built for deep sleep: a CR2032 door/window sensor or
 smart button on a Matter-over-Thread or Zigbee network.
@@ -186,7 +186,7 @@ smart button on a Matter-over-Thread or Zigbee network.
 
 ### 🌫️ [AirQuality S3](boards/airquality-s3) — CO₂ / VOC / temp / humidity
 
-![AirQuality S3](boards/airquality-s3/render3d_top.png)
+![AirQuality S3 — 360° turntable](boards/airquality-s3/turntable.gif)
 
 Full indoor-air-quality node with photoacoustic CO₂ and metal-oxide VOC on one
 I2C bus, plus a header for a 0.96" SSD1306 OLED readout.
@@ -207,7 +207,7 @@ I2C bus, plus a header for a 0.96" SSD1306 OLED readout.
 
 ### 🪟 [BlindDriver C6](boards/blinddriver-c6) — TMC2209 roller-blind controller
 
-![BlindDriver C6](boards/blinddriver-c6/render3d_top.png)
+![BlindDriver C6 — 360° turntable](boards/blinddriver-c6/turntable.gif)
 
 Quiet Trinamic stepper control for roller blinds, with ESPHome `cover`
 semantics and Wi-Fi 6 + Thread on tap.
@@ -230,7 +230,7 @@ semantics and Wi-Fi 6 + Thread on tap.
 
 ### 📡 [IRBlaster C3](boards/irblaster-c3) — IR climate bridge
 
-![IRBlaster C3](boards/irblaster-c3/render3d_top.png)
+![IRBlaster C3 — 360° turntable](boards/irblaster-c3/turntable.gif)
 
 Give any dumb IR AC/heater a brain: ESPHome `climate_ir` with transmit and
 receive (learn your remote's codes).
@@ -252,7 +252,7 @@ receive (learn your remote's codes).
 
 ### 🌱 [GardenProbe C6](boards/gardenprobe-c6) — battery soil-moisture stick
 
-![GardenProbe C6](boards/gardenprobe-c6/render3d_top.png)
+![GardenProbe C6 — 360° turntable](boards/gardenprobe-c6/turntable.gif)
 
 Plant sensor built as a 70 × 25 mm stick: the probe is the PCB — a capacitive
 copper area on the bottom tip, corrosion-free versus resistive probes.
@@ -275,7 +275,7 @@ copper area on the bottom tip, corrosion-free versus resistive probes.
 
 ### 🧵 [ThreadRCP H2](boards/threadrcp-h2) — OpenThread border-router dongle
 
-![ThreadRCP H2](boards/threadrcp-h2/render3d_top.png)
+![ThreadRCP H2 — 360° turntable](boards/threadrcp-h2/turntable.gif)
 
 35 × 20 mm USB-C dongle that turns a Home Assistant box into an OpenThread
 Border Router — the missing piece for all the H2/C6 Thread boards above.
@@ -309,10 +309,11 @@ Border Router — the missing piece for all the H2/C6 Thread boards above.
   packages3D mirror) referenced from every PCB (`${KIPRJMOD}/../../3dmodels/…`)
   + `manifest.json` (re-fetch: `python3 tools/fetch_3d.py`).
 
-> **Note:** binary payloads (datasheet PDFs, STEP/WRL models, render PNGs) are
-> not committed to git — they are fully regenerable: `tools/fetch_datasheets.py`,
-> `tools/fetch_3d.py` (+ `tools/fix_3d.py`), and `tools/render_pcb.py` rebuild
-> everything from the manifests in this repo.
+> **Note:** binary payloads (datasheet PDFs, STEP/WRL models, render PNGs,
+> turntable GIF/WebM/MP4) are not committed to git — they are fully regenerable:
+> `tools/fetch_datasheets.py`, `tools/fetch_3d.py` (+ `tools/fix_3d.py`),
+> `tools/render_pcb.py`, `tools/render3d.sh`, and `tools/turntable.sh --all`
+> rebuild everything from the manifests in this repo.
 
 ## Tools
 
@@ -324,6 +325,10 @@ Border Router — the missing piece for all the H2/C6 Thread boards above.
   board) via `kicad-cli pcb render --quality high` (KiCad ≥ 9.0; use 10.0.0,
   9.0.9/10.0.1 drop component models in CLI renders — CPU raytracer, no X
   server needed).
+- `tools/turntable.sh <board-dir>` — 360° turntable animation for one board;
+  `--all` to render every board. Outputs `turntable.gif` (animated GIF, embeds
+  inline on GitHub), `turntable.webm` (VP9, compact), and `turntable.mp4`
+  (H.264 fallback). Requires KiCad CLI + ffmpeg.
 
 ## Design rules
 
