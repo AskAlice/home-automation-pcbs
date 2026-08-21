@@ -2,7 +2,7 @@
   (version 20230121)
   (generator "eeschema")
   (generator_version "8.0")
-  (uuid "dbaedbc4-09d7-4e98-b397-e4b85e48958e")
+  (uuid "518a14f6-88c3-42fc-914b-ea000245c276")
   (paper "A4")
   (title_block
     (title "ledhub-c6")
@@ -6848,87 +6848,87 @@
   )
   (no_connect
     (at 82.38 80.08)
-    (uuid "3b61b866-2d34-41cf-9e08-7f24a95bbf4c")
+    (uuid "9d76bd1d-69c3-41e5-af5d-68f798964902")
   )
   (no_connect
     (at 82.38 82.62)
-    (uuid "b60c733d-180a-4eb7-b4d8-af96390a4c54")
+    (uuid "69877218-6b75-43a4-af15-9dd33889bd8b")
   )
   (no_connect
     (at 82.38 85.16)
-    (uuid "0ce2b6a0-1a2d-499c-982f-4ad2c536eed0")
+    (uuid "84238d88-6407-4f9f-8837-3f626000d9c5")
   )
   (no_connect
     (at 97.62 72.46)
-    (uuid "61cbf5a9-fcd9-4a7f-9ee8-f34311f16dca")
+    (uuid "33320f37-0979-472c-a25e-972d6d22f22f")
   )
   (no_connect
     (at 186.11 77.54)
-    (uuid "f266a114-97e7-437c-928a-8b785817b882")
+    (uuid "f0c1bb8d-e2d6-4a75-b243-3f2f6095d06a")
   )
   (no_connect
     (at 203.89 69.92)
-    (uuid "693af072-2f45-4106-9dfb-37217f8b3c5e")
+    (uuid "392da102-726b-487d-ba99-89c7f5809de7")
   )
   (no_connect
     (at 47.62 121.19)
-    (uuid "3934c6f4-eec6-46bb-89d2-07572105d876")
+    (uuid "2884a82b-4bb4-485e-8c5f-5e5d51ea442f")
   )
   (no_connect
     (at 107.38 148.73)
-    (uuid "213f11f6-0b85-4e85-aed5-f57c343adee7")
+    (uuid "2e2e6f58-32a6-47e5-a6f3-1114ddad7cf2")
   )
   (no_connect
     (at 122.62 143.65)
-    (uuid "a1ffa885-50aa-4480-82fd-ccc618fbb7aa")
+    (uuid "fbc385e9-1719-456d-8758-a44c8597fcb0")
   )
   (no_connect
     (at 122.62 146.19)
-    (uuid "786d0e21-b18e-4ddb-909e-b674bca34ebc")
+    (uuid "15424511-0cb6-460c-bfeb-bea9c07d73b2")
   )
   (no_connect
     (at 82.38 193.81)
-    (uuid "e7a6472b-205d-4b5f-8c34-b0a0da7f5cb9")
+    (uuid "dbfe943b-55ee-4286-a87e-0cf4b8fdc816")
   )
   (no_connect
     (at 97.62 181.11)
-    (uuid "3de387b2-f07c-45b1-994f-95ff6eacf921")
+    (uuid "f0e9e686-e84c-440c-82cf-95109200f5dd")
   )
   (no_connect
     (at 97.62 188.73)
-    (uuid "1ee74902-f1e9-44cd-b530-2b3ffdee0857")
+    (uuid "316c4d59-4e40-4ede-adec-4817f80de364")
   )
   (no_connect
     (at 157.62 186.19)
-    (uuid "1b70d1de-56b7-4bf0-9024-0ac09bf43aaa")
+    (uuid "0a27e476-81d7-4498-91af-f5a10f5c3208")
   )
   (no_connect
     (at 157.62 188.73)
-    (uuid "627db436-e8f1-4f71-8268-bc640b35b266")
+    (uuid "ed1020b5-0975-413a-9f38-11f7f471d833")
   )
   (no_connect
     (at 247.62 103.65)
-    (uuid "db31f955-da4a-4041-805c-e84a073cf913")
+    (uuid "404086dc-6f41-4d14-adfb-a3de2cb40546")
   )
   (no_connect
     (at 247.62 106.19)
-    (uuid "eff63ab7-4f38-4e92-9b0f-1f047414ea35")
+    (uuid "7cec6875-b9b0-43e9-b9e9-d86cbd2e80bb")
   )
   (no_connect
     (at 247.62 108.73)
-    (uuid "9126125b-7442-40f8-8b7d-9b265ca43a23")
+    (uuid "81f71f8c-7270-4dcf-9139-6d8abf5f56de")
   )
   (no_connect
     (at 247.62 111.27)
-    (uuid "3d55132a-4f63-4aff-ac25-d140e2bd8d87")
+    (uuid "8f21e565-a716-4a84-be06-fdbac87cf74a")
   )
   (no_connect
     (at 247.62 113.81)
-    (uuid "e6aa50a0-5cd5-4e02-b25c-41410614da13")
+    (uuid "7f8c8afe-2fe7-4fec-bee1-3d13f18cfef3")
   )
   (no_connect
     (at 247.62 116.35)
-    (uuid "386f0814-fe1d-4fed-a23a-bc055255daeb")
+    (uuid "a7e9f67c-edc4-4a57-9daa-eda67476ce3b")
   )
   (label
     "GND"
@@ -6940,7 +6940,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e9dc98a4-53e8-474d-b987-020adec34a75")
+    (uuid "f7e167ed-036c-4c4b-8ddf-7ddcdc918d48")
   )
   (label
     "+3V3"
@@ -6952,7 +6952,7 @@
       )
       (justify left bottom)
     )
-    (uuid "92b880a9-74dd-42cd-982c-6cdebd6b0361")
+    (uuid "b61373f0-9c8f-46af-acde-85e1534678d6")
   )
   (label
     "EN"
@@ -6964,7 +6964,7 @@
       )
       (justify left bottom)
     )
-    (uuid "62cbb7bb-25a1-4551-90e0-3a6d896e726e")
+    (uuid "6e0d3d8e-c9f1-4e6b-96c0-e18b0e101ccd")
   )
   (label
     "TFT_DC"
@@ -6976,7 +6976,7 @@
       )
       (justify left bottom)
     )
-    (uuid "7a4fd3e3-da19-4b55-9edd-4568a1675357")
+    (uuid "0ae102dc-82a9-4c3b-850d-376a426380eb")
   )
   (label
     "TFT_CS"
@@ -6988,7 +6988,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9f48b783-8714-471f-9cf0-5305aa510a64")
+    (uuid "e57cdf25-67bf-4df5-9022-e8c7fb32615b")
   )
   (label
     "TFT_SCK"
@@ -7000,7 +7000,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1e684a2c-daa4-4c22-989b-6cc79b4749db")
+    (uuid "aa6bb246-ad48-45a6-ac4c-70c08ebd6f4c")
   )
   (label
     "TFT_MOSI"
@@ -7012,7 +7012,7 @@
       )
       (justify left bottom)
     )
-    (uuid "563f7f1f-850b-4c58-aa89-f6a1b45ea760")
+    (uuid "01e19c12-de1a-42fa-8d5a-44deb483f731")
   )
   (label
     "BTN_ADC"
@@ -7024,7 +7024,7 @@
       )
       (justify left bottom)
     )
-    (uuid "39c048cc-9e72-4913-9a2e-2b91c29ee0c1")
+    (uuid "cfec0086-4ce7-4bd6-b021-9dc6e19b0dfb")
   )
   (label
     "TFT_RST"
@@ -7036,7 +7036,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8da77c3e-0233-4fd7-b641-e7626b3ea0ff")
+    (uuid "8dfa6cfe-588c-4b0b-bbe0-202643e082c3")
   )
   (label
     "USB_DM"
@@ -7048,7 +7048,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6130709a-8cf5-4806-abbf-cd7470f74d19")
+    (uuid "df93ff9f-c478-4d78-9ca9-cc46bf45b236")
   )
   (label
     "USB_DP"
@@ -7060,7 +7060,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e4afeff2-2b1e-4aa0-a0f5-e1e8b1bc88c0")
+    (uuid "8982e1e5-a51b-4a49-976f-1c8b7f7395a5")
   )
   (label
     "BOOT"
@@ -7072,7 +7072,7 @@
       )
       (justify left bottom)
     )
-    (uuid "948cde86-c927-48f1-a525-f43151998cb0")
+    (uuid "6c8c9ed4-1a9e-4a81-9008-71b65dee993a")
   )
   (label
     "I2S_WS"
@@ -7084,7 +7084,7 @@
       )
       (justify left bottom)
     )
-    (uuid "81a9c4c4-99bd-432a-bc76-d78aa8b07b99")
+    (uuid "47d8b8d8-ad6b-43c6-a9c4-a8fefb8148ce")
   )
   (label
     "I2S_SD"
@@ -7096,7 +7096,7 @@
       )
       (justify left bottom)
     )
-    (uuid "cc683235-c132-4995-9121-fa81e1be2bc4")
+    (uuid "d72d22b7-8ef7-4d3e-9991-41321b991628")
   )
   (label
     "I2C_SDA"
@@ -7108,7 +7108,7 @@
       )
       (justify left bottom)
     )
-    (uuid "dec6acb2-2bd6-4c9f-b3e8-698e77c67238")
+    (uuid "7aba1a76-111c-4611-958c-12b472859521")
   )
   (label
     "I2C_SCL"
@@ -7120,7 +7120,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d4a07a45-19b3-4949-ab33-d2226d66d3a7")
+    (uuid "9eba66f3-a184-4195-b348-3dac950519b9")
   )
   (label
     "RAD_RX"
@@ -7132,7 +7132,7 @@
       )
       (justify left bottom)
     )
-    (uuid "978d6e90-50ad-4ccf-9a72-2c4089de3706")
+    (uuid "1bcafaaf-0367-42f9-91ae-1c65dbea3b7f")
   )
   (label
     "RAD_TX"
@@ -7144,7 +7144,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9d1d3d4f-7acc-43a7-a65b-7a5a529a58f9")
+    (uuid "ecbf992b-6e50-4757-8afc-3594913ec832")
   )
   (label
     "ENC_A"
@@ -7156,7 +7156,7 @@
       )
       (justify left bottom)
     )
-    (uuid "0220f717-74b8-4d8c-ada9-51a2bc16e90b")
+    (uuid "d5e1b3d3-dd41-4426-a507-0079d754b770")
   )
   (label
     "I2S_SCK"
@@ -7168,7 +7168,7 @@
       )
       (justify left bottom)
     )
-    (uuid "fa6ee48d-bb5a-48cc-98d6-a9950fd87452")
+    (uuid "dd729281-1e35-452a-a85c-8eb5c2c94dc2")
   )
   (label
     "ENC_B"
@@ -7180,7 +7180,7 @@
       )
       (justify left bottom)
     )
-    (uuid "058a6cf0-abd0-445a-adae-ff762266bea9")
+    (uuid "1753e18c-a6a7-485c-a911-419931f953cd")
   )
   (label
     "LED_DIN"
@@ -7192,7 +7192,7 @@
       )
       (justify left bottom)
     )
-    (uuid "47a059ec-378d-46bd-8256-6a0efca60f15")
+    (uuid "ffdd7097-ef4c-47a3-a297-38fcf5d1c77a")
   )
   (label
     "TFT_BL"
@@ -7204,7 +7204,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ceb0a94e-f4ef-4c0a-8fcd-e76a6dca89bd")
+    (uuid "beda9f87-faf9-4ef3-95ca-3dd7fab5e087")
   )
   (label
     "GND"
@@ -7216,7 +7216,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d0d25cd8-7ffd-4305-86fe-f7f3079f580e")
+    (uuid "12764030-4c07-43ad-be5d-80e03b7ef66b")
   )
   (label
     "GND"
@@ -7228,7 +7228,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e4044b64-6914-4cff-9088-fa1a82bab19c")
+    (uuid "cba64400-694d-4332-8611-27f0ba21372c")
   )
   (label
     "GND"
@@ -7240,7 +7240,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b2781d20-4de5-4d3e-9234-41254d23e3a9")
+    (uuid "390cd895-8380-4bf8-9ebf-2da15d435b9c")
   )
   (label
     "VBUS"
@@ -7252,7 +7252,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1345574a-131e-41a4-9c6e-e6cbbe7dbf54")
+    (uuid "c78ce8a1-22d4-4365-bdcc-a122f3b3d47c")
   )
   (label
     "USB_CC1"
@@ -7264,7 +7264,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d66ff884-b6a6-4c73-9a96-2710c3f34918")
+    (uuid "48743545-59f8-465c-8986-1c5d18d62c23")
   )
   (label
     "USB_DP_CON"
@@ -7276,7 +7276,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6dc876af-57a0-4fab-a90d-046fbe9a39b8")
+    (uuid "19d293b7-06fa-4718-94d1-bd101dde4aac")
   )
   (label
     "USB_DM_CON"
@@ -7288,7 +7288,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9704cfa8-9b8f-4f42-8677-85a13e837fea")
+    (uuid "c4384548-63b2-4a94-bdd4-c70d36535ff8")
   )
   (label
     "VBUS"
@@ -7300,7 +7300,7 @@
       )
       (justify left bottom)
     )
-    (uuid "4fe34693-6870-4058-8687-41709b48d4b8")
+    (uuid "58a18589-d83a-4458-b1e3-3c15052c7fdc")
   )
   (label
     "GND"
@@ -7312,7 +7312,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c485c68c-293e-489f-818e-7f4a85d37205")
+    (uuid "158548d8-43c5-4210-a424-2af74b55e0d4")
   )
   (label
     "GND"
@@ -7324,7 +7324,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d5a3d76b-b46d-4498-b9ba-a362da47254e")
+    (uuid "469e3730-004a-4e24-b1a6-a6bfc0aaa4c9")
   )
   (label
     "VBUS"
@@ -7336,7 +7336,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c903df5a-964f-4356-b809-52967d444564")
+    (uuid "415c95dc-1045-42b9-a938-9b2749de38ee")
   )
   (label
     "USB_DM_CON"
@@ -7348,7 +7348,7 @@
       )
       (justify left bottom)
     )
-    (uuid "871daa5c-7655-445e-b4b6-9fa1dcb0a2f4")
+    (uuid "0ff8d38d-fef8-4c56-9ca0-394b2312e023")
   )
   (label
     "USB_DP_CON"
@@ -7360,7 +7360,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6f7af586-6381-45cf-9881-208a75fed081")
+    (uuid "7ff39919-f0d4-4094-98e4-e19fb84d75f0")
   )
   (label
     "USB_CC2"
@@ -7372,7 +7372,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8fffc010-a930-440d-8439-b724ac9d7f39")
+    (uuid "1bba3a8a-9187-43a7-9595-3450aa443b1d")
   )
   (label
     "VBUS"
@@ -7384,7 +7384,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c959cc31-6216-4eed-a30a-0dbb3c737342")
+    (uuid "9119619e-00e2-48df-83e8-5ac8bad43828")
   )
   (label
     "GND"
@@ -7396,7 +7396,7 @@
       )
       (justify left bottom)
     )
-    (uuid "4f44741b-95bf-4f2d-9cda-e035e3bd3f78")
+    (uuid "0dd68551-c04d-466e-bb77-b85e5273620f")
   )
   (label
     "GND"
@@ -7408,7 +7408,7 @@
       )
       (justify left bottom)
     )
-    (uuid "08097612-46ee-4766-ab17-9a383207910d")
+    (uuid "dbc083b6-ec8b-41b3-9177-0dc42734042d")
   )
   (label
     "GND"
@@ -7420,7 +7420,7 @@
       )
       (justify left bottom)
     )
-    (uuid "349d386f-9780-4fab-a26a-810c8888044c")
+    (uuid "9a172e7c-b909-4bfc-b278-f272c4380734")
   )
   (label
     "GND"
@@ -7432,7 +7432,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6dc3976a-f6bd-4e20-a832-a104dd9b8e43")
+    (uuid "d52631ef-7ffe-46c5-babf-a47fcca5e21d")
   )
   (label
     "GND"
@@ -7444,7 +7444,7 @@
       )
       (justify left bottom)
     )
-    (uuid "58abcc25-077e-4eb6-918a-2220af8946b6")
+    (uuid "88076cb2-6f07-4bfa-851a-5f395bafa34e")
   )
   (label
     "VBUS"
@@ -7456,7 +7456,7 @@
       )
       (justify left bottom)
     )
-    (uuid "aeeff8a5-da13-4789-9c28-a49806b78ef5")
+    (uuid "651eaf8b-2ac0-41ad-8953-ec96254dd585")
   )
   (label
     "GND"
@@ -7468,7 +7468,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5bd9b846-e168-4fd0-866f-136db4eb9c87")
+    (uuid "ca1a7be1-9736-4c00-b3a3-d96066aa82f8")
   )
   (label
     "VBUS"
@@ -7480,7 +7480,7 @@
       )
       (justify left bottom)
     )
-    (uuid "de2b35a9-063f-4a76-8a57-919923ccef84")
+    (uuid "df11a1d5-14a2-41ef-ae8f-9dcba4e4e0f0")
   )
   (label
     "+3V3"
@@ -7492,7 +7492,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8c9c67c1-15de-46a2-b764-eb4935675af9")
+    (uuid "e76f60f0-7549-49b4-bddf-ce4e6843715c")
   )
   (label
     "I2S_SCK"
@@ -7504,7 +7504,7 @@
       )
       (justify left bottom)
     )
-    (uuid "17a1b90e-b684-43b6-864e-9fa7197f3c78")
+    (uuid "c8351ac1-69dc-4dae-853d-db8e451aa7ad")
   )
   (label
     "I2S_SD"
@@ -7516,7 +7516,7 @@
       )
       (justify left bottom)
     )
-    (uuid "09501c60-41ab-48ce-8335-4cbdbd736ac2")
+    (uuid "af4760b0-7a6f-4519-a003-7be43f4ea6c2")
   )
   (label
     "I2S_WS"
@@ -7528,7 +7528,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b5dd5290-28bd-4189-8e33-f47fd7b920f0")
+    (uuid "95ac7caf-1cc3-4f2c-8c86-56a134a8b5e5")
   )
   (label
     "GND"
@@ -7540,7 +7540,7 @@
       )
       (justify left bottom)
     )
-    (uuid "a1b8bcb2-d7cf-47fd-8a24-7a2c8d841351")
+    (uuid "d987b134-7196-4a8f-a0ce-aeab8b5d676a")
   )
   (label
     "GND"
@@ -7552,7 +7552,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c5fc684a-8bfc-4d10-8c10-4842d7a5d2fb")
+    (uuid "167f9251-9ac6-4433-975e-9e4678f40a77")
   )
   (label
     "GND"
@@ -7564,7 +7564,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5fd9039e-c18f-4df9-aa93-163f0da5386a")
+    (uuid "3ba3a3c1-3f2d-46d8-96e9-dea50ba513d8")
   )
   (label
     "+3V3"
@@ -7576,7 +7576,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d0e7a3fb-6501-4c73-9dc3-342d3adb84a9")
+    (uuid "6e4e225c-d9a6-41b6-800b-20adde6286d9")
   )
   (label
     "+3V3"
@@ -7588,7 +7588,7 @@
       )
       (justify left bottom)
     )
-    (uuid "98eebaf5-c19d-412f-807e-2c5aaf454d63")
+    (uuid "eee574e5-65fc-42e1-be62-15b9b9b8f132")
   )
   (label
     "GND"
@@ -7600,7 +7600,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ab0043bd-5d8b-4053-a7e7-a69a5617f2aa")
+    (uuid "97fd6cfa-1c9e-4c1d-965e-eb799e30ce98")
   )
   (label
     "I2C_SDA"
@@ -7612,7 +7612,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9527ea87-a8ec-424e-baf1-95eb95b8ef32")
+    (uuid "b7e68898-b263-4e1e-82c8-abd8fee5badf")
   )
   (label
     "GND"
@@ -7624,7 +7624,7 @@
       )
       (justify left bottom)
     )
-    (uuid "cc4a1b00-7419-476d-a87d-141ee37a361c")
+    (uuid "ccc68a5a-7b36-4e35-9fcb-f70373ec702d")
   )
   (label
     "I2C_SCL"
@@ -7636,7 +7636,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f830589e-66a5-48bf-8ebe-d3a7944324f5")
+    (uuid "ad5cc239-c3a4-4e41-a2af-f476da7e8fa2")
   )
   (label
     "+3V3"
@@ -7648,7 +7648,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bf77067c-6a21-4504-8ba0-0cff02d57ccd")
+    (uuid "b6818489-7cf8-4437-92be-23817195276d")
   )
   (label
     "GND"
@@ -7660,7 +7660,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d141689a-ab2d-4c9b-b16d-ccc7b5492918")
+    (uuid "1f0c80b7-4347-42d5-b01c-8bc0825d4488")
   )
   (label
     "GND"
@@ -7672,7 +7672,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f829f4f8-d472-4791-93d8-97d3201271d6")
+    (uuid "7eb60153-5207-483e-95f7-6545450b99f9")
   )
   (label
     "+3V3"
@@ -7684,7 +7684,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e349e53b-9958-4c50-bb13-9418b82168ee")
+    (uuid "ad7057bc-dee8-4fa8-b59d-e1cd7caae10e")
   )
   (label
     "GND"
@@ -7696,7 +7696,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1cf5bd44-8cfc-4f05-a349-2b55ea074370")
+    (uuid "3116c509-9023-48a4-be0a-7c6cbd95386e")
   )
   (label
     "GND"
@@ -7708,7 +7708,7 @@
       )
       (justify left bottom)
     )
-    (uuid "34de0801-18d8-4200-aa7a-151d82553228")
+    (uuid "535cd777-2e99-4056-9015-2cc0dadd9062")
   )
   (label
     "I2C_SDA"
@@ -7720,7 +7720,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d6e12e3a-032b-4574-9643-4aa42a93e742")
+    (uuid "74430312-b856-4378-aa6c-17dc2c47bb2e")
   )
   (label
     "+3V3"
@@ -7732,7 +7732,7 @@
       )
       (justify left bottom)
     )
-    (uuid "a21c242e-13b7-4f19-bb06-5c96fdd84594")
+    (uuid "032deac6-eba4-4b51-97f6-84d9c15e9bfe")
   )
   (label
     "I2C_SCL"
@@ -7744,7 +7744,7 @@
       )
       (justify left bottom)
     )
-    (uuid "024b583d-8b1b-4f34-ac9f-57153db23336")
+    (uuid "fff07953-5e09-475e-98d2-5a3b3a4d3075")
   )
   (label
     "GND"
@@ -7756,7 +7756,7 @@
       )
       (justify left bottom)
     )
-    (uuid "0efb598f-2eb2-4bba-92eb-da5fe1b519ee")
+    (uuid "25c8a17a-fb60-47c0-9c65-2787cd00d6a9")
   )
   (label
     "GND"
@@ -7768,7 +7768,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bc16bfa4-34ee-4a8e-b5e8-a1828602ebb6")
+    (uuid "8d36e2bb-1c57-4ddb-9d69-4e9b42f63b9f")
   )
   (label
     "LED_DINB"
@@ -7780,7 +7780,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e19b5dc0-9a32-4290-853b-b62dd1298ed1")
+    (uuid "e34a4457-f8ff-4592-b1af-ae4b3f975801")
   )
   (label
     "LED_PRE"
@@ -7792,7 +7792,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f6234a22-c64a-41b9-a1c1-eb0a043d09c7")
+    (uuid "67d2db2c-9c00-42bc-a6d0-290309826bbe")
   )
   (label
     "+5V"
@@ -7804,7 +7804,7 @@
       )
       (justify left bottom)
     )
-    (uuid "239c0a37-8911-4cad-9460-e760ceeee208")
+    (uuid "1bc36672-4b9f-4ab5-a75b-ef59225fd44f")
   )
   (label
     "GND"
@@ -7816,7 +7816,7 @@
       )
       (justify left bottom)
     )
-    (uuid "36b60237-58b3-48b5-b136-345e4b51a6dd")
+    (uuid "3f897fe5-5989-4929-8d2d-80b3bc0462fe")
   )
   (label
     "GND"
@@ -7828,7 +7828,7 @@
       )
       (justify left bottom)
     )
-    (uuid "30002c59-10b3-4e17-b9fe-8adac3e40b6f")
+    (uuid "df0f39b2-d9b3-40a1-9459-8cbf6fb5c4d9")
   )
   (label
     "GND"
@@ -7840,7 +7840,7 @@
       )
       (justify left bottom)
     )
-    (uuid "db97208b-152b-4262-865f-21483998c977")
+    (uuid "11d01795-8821-40f9-9672-de197d9945e9")
   )
   (label
     "+5V"
@@ -7852,7 +7852,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d86056b2-7131-487e-8f20-c59c35f70fb3")
+    (uuid "c36bf570-cecc-418d-b9db-75aa59bc3ec3")
   )
   (label
     "GND"
@@ -7864,7 +7864,7 @@
       )
       (justify left bottom)
     )
-    (uuid "056464cb-a2e3-4db1-ae33-1505c31d5611")
+    (uuid "3554f65c-9c23-4b83-841e-a722d361c1a3")
   )
   (label
     "+5V"
@@ -7876,7 +7876,7 @@
       )
       (justify left bottom)
     )
-    (uuid "a83c2dd1-9382-44d3-bb6a-6860eb15f323")
+    (uuid "ecafe0e6-3580-4139-adf5-10a15741ac6b")
   )
   (label
     "+5V"
@@ -7888,7 +7888,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8adf5ed8-5a3a-4270-a0f7-760814852d86")
+    (uuid "0fe3f113-0ecf-4d79-a42e-a9ab10a9fd60")
   )
   (label
     "ENC_A"
@@ -7900,7 +7900,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5462f1dd-badd-4aba-ae7d-316fdb634e4c")
+    (uuid "44b5154f-7a97-468a-a6b6-38cd4567669e")
   )
   (label
     "GND"
@@ -7912,7 +7912,7 @@
       )
       (justify left bottom)
     )
-    (uuid "7b5c441c-dc5d-4272-9a8b-90ec4bdb9b1c")
+    (uuid "b001f8f3-ef8c-48dd-a292-afd61d8648c6")
   )
   (label
     "ENC_B"
@@ -7924,7 +7924,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f984f52b-9273-4938-9603-a3e673b9463f")
+    (uuid "01542279-1ed3-4b7f-8404-c5cbd9d7a4a1")
   )
   (label
     "+3V3"
@@ -7936,7 +7936,7 @@
       )
       (justify left bottom)
     )
-    (uuid "2197150b-7c7e-4783-addf-8b1213302d68")
+    (uuid "a0ef6841-5217-47af-908a-3de88b9a653b")
   )
   (label
     "GND"
@@ -7948,7 +7948,7 @@
       )
       (justify left bottom)
     )
-    (uuid "174df66a-d715-4d20-8458-208f4c2df4e6")
+    (uuid "6e9ab1fc-ec93-4bfc-9f4b-230c3f3f24e0")
   )
   (label
     "TFT_CS"
@@ -7960,7 +7960,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e4f6f319-f9df-4617-bab3-2f0263301fcc")
+    (uuid "012078ea-7285-4151-aa6e-e2e83b053075")
   )
   (label
     "TFT_RST"
@@ -7972,7 +7972,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6b92bef7-e645-44af-95c9-989397e60c64")
+    (uuid "fdec5e1c-14d5-4e1f-8bfb-83c949ccbe2e")
   )
   (label
     "TFT_DC"
@@ -7984,7 +7984,7 @@
       )
       (justify left bottom)
     )
-    (uuid "907870b2-3fdf-4413-b598-6bbe398fd1fc")
+    (uuid "ca1e8752-c8bd-4b65-9abc-bfee4eeed9a6")
   )
   (label
     "TFT_MOSI"
@@ -7996,7 +7996,7 @@
       )
       (justify left bottom)
     )
-    (uuid "97de4211-c6bd-4ce5-bc19-ef9cc1d7f10c")
+    (uuid "3f0eea42-25c5-42f5-ae62-20adc4102082")
   )
   (label
     "TFT_SCK"
@@ -8008,7 +8008,7 @@
       )
       (justify left bottom)
     )
-    (uuid "15f14fef-e54c-489d-a2ab-e053f5dcc689")
+    (uuid "2e37243c-7b54-488f-a471-e1aaa6e2bc5d")
   )
   (label
     "TFT_BLP"
@@ -8020,7 +8020,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ad048f3c-11d5-4e92-ad55-2888ce5a4d7e")
+    (uuid "75404a6f-4d9d-4605-938e-548405e42993")
   )
   (label
     "+5V"
@@ -8032,7 +8032,7 @@
       )
       (justify left bottom)
     )
-    (uuid "83f9677a-3c4c-4642-b4cf-dc37c8507916")
+    (uuid "580edc80-84f4-4b75-a2e3-d7d807005f6e")
   )
   (label
     "RAD_RX"
@@ -8044,7 +8044,7 @@
       )
       (justify left bottom)
     )
-    (uuid "467b2040-7c17-49fc-a86f-5ff10bfd7653")
+    (uuid "995587c5-4de3-40d4-b924-b825ac14e9c4")
   )
   (label
     "RAD_TX"
@@ -8056,7 +8056,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f9491e11-d31a-4887-aa07-1e39e5616519")
+    (uuid "4c444231-2962-4b71-a9a8-b65605632220")
   )
   (label
     "GND"
@@ -8068,7 +8068,7 @@
       )
       (justify left bottom)
     )
-    (uuid "28181772-e33d-474d-92b6-7ac19b4e8508")
+    (uuid "212925ee-de80-4e4b-8e73-f358a0f0e207")
   )
   (label
     "GND"
@@ -8080,7 +8080,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b9f490c1-1d03-4e5c-bca2-aa298c430966")
+    (uuid "8a61475b-991f-4841-9be9-1ed1b52cb626")
   )
   (label
     "LED_5V"
@@ -8092,7 +8092,7 @@
       )
       (justify left bottom)
     )
-    (uuid "917c2499-1701-468a-aa2a-76d11d82edca")
+    (uuid "1d3a7b8b-16e1-461c-b3cf-2ed50c9b0244")
   )
   (label
     "LED_DATA"
@@ -8104,7 +8104,7 @@
       )
       (justify left bottom)
     )
-    (uuid "0def3b35-d4ab-49cd-b804-07d468c6ae34")
+    (uuid "762b40c0-0591-4ce7-a5aa-4dc6087428d6")
   )
   (label
     "GND"
@@ -8116,7 +8116,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b44f8853-4e95-4036-b927-57a90fce67ec")
+    (uuid "14166970-17ca-458e-bca5-3e8e77ff23c0")
   )
   (label
     "LED_5V"
@@ -8128,7 +8128,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d70a8076-fb5c-4633-8daf-22c1ed050b69")
+    (uuid "7e489120-731a-43e4-9706-09c9ecf6425c")
   )
   (label
     "GND"
@@ -8140,7 +8140,7 @@
       )
       (justify left bottom)
     )
-    (uuid "52099bd8-88ad-4934-bf39-91b412f2b017")
+    (uuid "173a764b-9aaa-4eef-ab7e-35a4b4ada0d5")
   )
   (label
     "+3V3"
@@ -8152,7 +8152,7 @@
       )
       (justify left bottom)
     )
-    (uuid "34d3caf6-92bc-4bbd-be34-5642fb7225ad")
+    (uuid "9f078f14-b07b-44b0-b073-768e242a3b55")
   )
   (label
     "TX0"
@@ -8164,7 +8164,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bd9c6cf0-b514-4009-ba80-1aa5b46f88fc")
+    (uuid "1ebd526a-1c54-409f-825f-fa704c4a5a16")
   )
   (label
     "RX0"
@@ -8176,7 +8176,7 @@
       )
       (justify left bottom)
     )
-    (uuid "156763d7-18f7-4a3b-b830-d7873c510d3b")
+    (uuid "668deedf-31e5-42a8-b794-b5f1a86e7d1a")
   )
   (label
     "GND"
@@ -8188,7 +8188,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d745f539-4ddb-454f-9bb9-d64374315f84")
+    (uuid "6d9ea5bd-df67-4779-8b69-884ea5c4455a")
   )
   (label
     "+3V3"
@@ -8200,7 +8200,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bb26e1c5-14bd-464d-baf4-9c84823e58b6")
+    (uuid "c211918e-626f-48a5-a20f-f630525f50fc")
   )
   (label
     "I2C_SDA"
@@ -8212,7 +8212,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8b19ecc4-c9d8-4b38-abfe-df1a479616af")
+    (uuid "313d3e7f-a784-4816-897a-483219ee4a4f")
   )
   (label
     "+3V3"
@@ -8224,7 +8224,7 @@
       )
       (justify left bottom)
     )
-    (uuid "33c267cf-7789-4bf9-9d38-e63c8447be3b")
+    (uuid "8d6cb671-e3ca-4fb6-8dde-d31bf0b54b73")
   )
   (label
     "I2C_SCL"
@@ -8236,7 +8236,7 @@
       )
       (justify left bottom)
     )
-    (uuid "38648f6b-988a-42ff-85c0-ffdc580e3748")
+    (uuid "2697669e-f37b-4ec1-ab23-1805c0eef88b")
   )
   (label
     "USB_CC1"
@@ -8248,7 +8248,7 @@
       )
       (justify left bottom)
     )
-    (uuid "cdfb54ef-0203-4656-ad51-d83f61c77453")
+    (uuid "93dc710a-76dc-40ea-9791-f39dba940d43")
   )
   (label
     "GND"
@@ -8260,7 +8260,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b94df042-b078-44d3-b1d1-e1c58afdc2b0")
+    (uuid "b3200997-4165-48e6-a51a-0df80222fb41")
   )
   (label
     "USB_CC2"
@@ -8272,7 +8272,7 @@
       )
       (justify left bottom)
     )
-    (uuid "aab64937-8fc1-44c6-8bf0-df7bc1078b2c")
+    (uuid "2f760f29-e8b7-4cc9-b6f7-259aa449eae2")
   )
   (label
     "GND"
@@ -8284,7 +8284,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b63de8db-8e0b-41b5-88d8-c88b808a7919")
+    (uuid "276bda52-f839-4faf-bb95-4c0cb22fe0ce")
   )
   (label
     "USB_DP_CON"
@@ -8296,7 +8296,7 @@
       )
       (justify left bottom)
     )
-    (uuid "89b9d086-bf1c-412a-af22-866d1350e24d")
+    (uuid "7baf9414-67b5-4349-bafb-38557e1f97cd")
   )
   (label
     "USB_DP"
@@ -8308,7 +8308,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9a8318cc-3b46-4272-8d83-60cd3f8ec032")
+    (uuid "4ce6e805-21c9-4c2b-abe8-7721098c9fec")
   )
   (label
     "USB_DM_CON"
@@ -8320,7 +8320,7 @@
       )
       (justify left bottom)
     )
-    (uuid "49f7023c-9817-4bdd-949c-0807797bb70d")
+    (uuid "c316f4ae-25b9-44ec-bfca-976b9151830b")
   )
   (label
     "USB_DM"
@@ -8332,7 +8332,7 @@
       )
       (justify left bottom)
     )
-    (uuid "99aa80fd-1fad-4cd9-a67d-276a0af3001d")
+    (uuid "55c25a8f-0178-4432-95d1-ff2b4a014869")
   )
   (label
     "+3V3"
@@ -8344,7 +8344,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f18cb63b-84d0-466b-a81e-0e83be2aa90b")
+    (uuid "cbc854ae-5ea8-4332-97df-0880acb99963")
   )
   (label
     "EN"
@@ -8356,7 +8356,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c4a927fa-0c51-48c8-9d4f-c9b65054dfd9")
+    (uuid "a2527cf3-754e-43ae-9178-2160d8523e3c")
   )
   (label
     "+3V3"
@@ -8368,7 +8368,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ec266ca7-d773-433a-b1cd-5dd8fc9022eb")
+    (uuid "d0033fd6-7876-4c42-b9a4-029392052365")
   )
   (label
     "LED1_A"
@@ -8380,7 +8380,7 @@
       )
       (justify left bottom)
     )
-    (uuid "328c36be-6028-4ad2-acec-7551625496c2")
+    (uuid "68764fb5-0e54-4190-b901-86081db14649")
   )
   (label
     "TFT_BL"
@@ -8392,7 +8392,7 @@
       )
       (justify left bottom)
     )
-    (uuid "341bee77-5881-4f39-b45f-e6299fb646b0")
+    (uuid "8fd58377-96ea-471f-b51b-df0433137790")
   )
   (label
     "TFT_BLP"
@@ -8404,7 +8404,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9c72919b-bb5f-434d-8295-b54ee0846c1f")
+    (uuid "1fbba34c-1092-488a-8e93-369f32aff6b7")
   )
   (label
     "TFT_BLP"
@@ -8416,7 +8416,7 @@
       )
       (justify left bottom)
     )
-    (uuid "7f68228b-0147-46e2-aaeb-ce418b63bae9")
+    (uuid "44cba9ad-511a-47e5-88d7-a8a339da2f6b")
   )
   (label
     "GND"
@@ -8428,7 +8428,7 @@
       )
       (justify left bottom)
     )
-    (uuid "da59296e-0d83-4675-bcb1-bbb5587c964a")
+    (uuid "7d4eb7c8-7b92-4004-8b87-159c4a16176d")
   )
   (label
     "+3V3"
@@ -8440,7 +8440,7 @@
       )
       (justify left bottom)
     )
-    (uuid "33337f5c-6139-424c-9b17-7904fdb87c4d")
+    (uuid "a49ccf47-54d4-40de-b4d6-ac430ca13940")
   )
   (label
     "BTN_ADC"
@@ -8452,7 +8452,7 @@
       )
       (justify left bottom)
     )
-    (uuid "64bdc727-fc68-4a8f-b67b-1f16311b59cd")
+    (uuid "e4aa332c-7004-459c-bd77-f19a633ffbfc")
   )
   (label
     "BTN_ADC"
@@ -8464,7 +8464,7 @@
       )
       (justify left bottom)
     )
-    (uuid "42cac669-fd2f-49ef-9865-2609d44f6a6e")
+    (uuid "d0253e9e-0f76-41b7-8ca1-9fd7287de880")
   )
   (label
     "B_UP"
@@ -8476,7 +8476,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8a506b85-87ac-4970-9ac8-c2da1fd8988d")
+    (uuid "4c1aa76d-6839-45f6-a0fd-d2ae51e260b3")
   )
   (label
     "BTN_ADC"
@@ -8488,7 +8488,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8c151f31-c737-4a4e-9eae-b4965834ed03")
+    (uuid "c297e5c8-8060-4d03-b1c2-c8dabec1aab8")
   )
   (label
     "B_DN"
@@ -8500,7 +8500,7 @@
       )
       (justify left bottom)
     )
-    (uuid "83447c4a-9f64-4b88-ae64-f7a7deed69a7")
+    (uuid "f153c1e5-168d-42d2-ae85-0df0e8ec96b1")
   )
   (label
     "BTN_ADC"
@@ -8512,7 +8512,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bcffe193-6f80-40b7-8e89-598e2814735c")
+    (uuid "ae9f9bf6-6a16-4a20-9c7d-678793bbaa01")
   )
   (label
     "B_LF"
@@ -8524,7 +8524,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6475abd0-4776-42ac-ab2a-69fdb4bedc59")
+    (uuid "55619fba-ea3f-4154-acd0-4e12b65b4e8e")
   )
   (label
     "BTN_ADC"
@@ -8536,7 +8536,7 @@
       )
       (justify left bottom)
     )
-    (uuid "70d94918-7e53-4825-a216-d886ba53610f")
+    (uuid "4815a713-baf6-4d0d-a42f-061d4cfa9459")
   )
   (label
     "B_RT"
@@ -8548,7 +8548,7 @@
       )
       (justify left bottom)
     )
-    (uuid "807af5b4-a6ca-42a8-8f90-463a63a569d4")
+    (uuid "87012406-a196-4e79-9efb-2cf9a9ea646a")
   )
   (label
     "ENC_B"
@@ -8560,7 +8560,7 @@
       )
       (justify left bottom)
     )
-    (uuid "15620cce-3067-40ee-b651-f4687ed9b05b")
+    (uuid "70e9529b-6f6f-4d77-812e-ece6f7a99fce")
   )
   (label
     "TX0"
@@ -8572,7 +8572,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c87cdd47-9813-45f0-a265-14f78061fc3b")
+    (uuid "724243fb-0e06-4da4-97af-383bc1717d77")
   )
   (label
     "I2S_SCK"
@@ -8584,7 +8584,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f6d9e0ff-3b43-4fe9-8293-eac2294ca5d9")
+    (uuid "3912fda5-5f52-450c-940c-c185523b7c41")
   )
   (label
     "RX0"
@@ -8596,7 +8596,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d1ad1cc6-3464-4093-914d-7a2b9dc78866")
+    (uuid "cde518ac-9125-43fd-8e2d-ae7aa4878135")
   )
   (label
     "BTN_ADC"
@@ -8608,7 +8608,7 @@
       )
       (justify left bottom)
     )
-    (uuid "4912130c-0063-4575-a45a-20ed19b4ef96")
+    (uuid "40ddc9ae-91c4-4c34-b6b8-b3b14dce6e9b")
   )
   (label
     "B_OK"
@@ -8620,7 +8620,7 @@
       )
       (justify left bottom)
     )
-    (uuid "a2a12efa-3f68-459b-8899-c86c0a54a3c7")
+    (uuid "6a45c3dc-4d40-495f-a669-2af24da4620a")
   )
   (label
     "LED_DIN"
@@ -8632,7 +8632,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d8dd9460-6c3d-454b-bab8-2db4d988fe70")
+    (uuid "7d9b05ea-3139-4975-94e2-de131903c4fd")
   )
   (label
     "LED_DINB"
@@ -8644,7 +8644,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5b9bd546-e687-48e2-91ca-e0d14d92df64")
+    (uuid "d97e9b2a-7172-4ef7-a596-cba99968c62d")
   )
   (label
     "LED_PRE"
@@ -8656,7 +8656,7 @@
       )
       (justify left bottom)
     )
-    (uuid "34140765-2e54-4762-93ba-d99195a2b3db")
+    (uuid "fd9b5264-77a7-4b4d-a481-de1e26f421a4")
   )
   (label
     "LED_DATA"
@@ -8668,7 +8668,7 @@
       )
       (justify left bottom)
     )
-    (uuid "a617750f-78b9-4fa4-8054-0837db63e7cb")
+    (uuid "8c2299dd-ca5d-4843-bf76-11372c3db600")
   )
   (label
     "VBUS"
@@ -8680,7 +8680,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f57ee328-b58a-45fa-877c-4f4b5fbe35f4")
+    (uuid "a4c11a1e-7c61-4059-87f9-92584cfe61af")
   )
   (label
     "+5V"
@@ -8692,7 +8692,7 @@
       )
       (justify left bottom)
     )
-    (uuid "6db7e1b3-5537-438c-8eb9-e815335710a1")
+    (uuid "fe6efebd-82e6-46aa-85bb-099fab33e9d6")
   )
   (label
     "VBUS"
@@ -8704,7 +8704,7 @@
       )
       (justify left bottom)
     )
-    (uuid "8a04d6de-fcd5-4e3b-a3b0-2a3b6b045eeb")
+    (uuid "cf9d6ca2-2b53-4f69-bdac-8ec2662fb69e")
   )
   (label
     "GND"
@@ -8716,7 +8716,7 @@
       )
       (justify left bottom)
     )
-    (uuid "289b145f-7ce4-45d8-bcd6-ff14e0864580")
+    (uuid "dd7584a9-0dd3-4bc8-8799-153e17fed2f4")
   )
   (label
     "+3V3"
@@ -8728,7 +8728,7 @@
       )
       (justify left bottom)
     )
-    (uuid "010198f7-9bae-4c78-b174-a5158202a126")
+    (uuid "577e59d6-9267-4be7-8a32-126ba17f9fdc")
   )
   (label
     "GND"
@@ -8740,7 +8740,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b8ce58b5-99fe-4ac0-a456-0a904dcf937d")
+    (uuid "f8dd7193-d115-49b2-81d2-63634a98a5c2")
   )
   (label
     "+3V3"
@@ -8752,7 +8752,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9b9504ef-a135-487e-9a2a-3a6709ae30fb")
+    (uuid "05c5e1d4-4180-4945-b8ff-f2370ed481d9")
   )
   (label
     "GND"
@@ -8764,7 +8764,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e91d3537-6150-4268-925a-193b0c88975e")
+    (uuid "afaf6b52-35ad-4819-872c-7d5c852aea19")
   )
   (label
     "EN"
@@ -8776,7 +8776,7 @@
       )
       (justify left bottom)
     )
-    (uuid "fa367cd6-e0b8-4577-bf40-1c2733fe0bfe")
+    (uuid "ae2c24fd-3e80-4b85-a422-50f22df618f9")
   )
   (label
     "GND"
@@ -8788,7 +8788,7 @@
       )
       (justify left bottom)
     )
-    (uuid "166f28ff-dc8e-4359-9160-2f3dc5cc33eb")
+    (uuid "a26f5f6b-5101-4c19-b0b3-6a06c3c16f91")
   )
   (label
     "+3V3"
@@ -8800,7 +8800,7 @@
       )
       (justify left bottom)
     )
-    (uuid "590122c8-4e09-42a8-8490-074159566b71")
+    (uuid "2f4ae0ee-b46d-4638-951a-84d84f2c68f2")
   )
   (label
     "GND"
@@ -8812,7 +8812,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5b39a28a-0c77-4420-880b-cdfa6cecc5fc")
+    (uuid "afd3687a-2361-47fd-950a-5f1b2ec27ba0")
   )
   (label
     "+3V3"
@@ -8824,7 +8824,7 @@
       )
       (justify left bottom)
     )
-    (uuid "0f7952a0-926b-47a3-964c-1a9a9c0b7a0c")
+    (uuid "ff80f050-7fa6-4909-b9ad-ae7a384bbe99")
   )
   (label
     "GND"
@@ -8836,7 +8836,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c2a6ddb5-ef62-4a6d-9bfd-3ccd55ef90be")
+    (uuid "15658da3-99d3-45e3-af7b-69940512ed3f")
   )
   (label
     "+3V3"
@@ -8848,7 +8848,7 @@
       )
       (justify left bottom)
     )
-    (uuid "838426b6-26c5-4770-91a9-080cc94622c7")
+    (uuid "21a10fbb-611f-44f4-a2a8-e4c0c832b563")
   )
   (label
     "GND"
@@ -8860,7 +8860,7 @@
       )
       (justify left bottom)
     )
-    (uuid "357d0422-de91-45fd-b7a0-798332c01d0a")
+    (uuid "139fd797-e05e-41b0-bf9d-fa6cbfd90d30")
   )
   (label
     "+3V3"
@@ -8872,7 +8872,7 @@
       )
       (justify left bottom)
     )
-    (uuid "fd7b7162-9325-4bae-b4f1-6be8ddd80a5d")
+    (uuid "58772852-c6af-449d-b16c-189c3f90624d")
   )
   (label
     "GND"
@@ -8884,7 +8884,7 @@
       )
       (justify left bottom)
     )
-    (uuid "cea61762-69f6-45ea-bc0f-ea7e8caf991d")
+    (uuid "63d80cc6-6833-48ea-a222-494dab5cab5d")
   )
   (label
     "+5V"
@@ -8896,7 +8896,7 @@
       )
       (justify left bottom)
     )
-    (uuid "a6f5ad68-5ce2-4d39-a208-9e8679b59eda")
+    (uuid "b7156a4f-0b3e-42e1-8543-dd060ac5b0a5")
   )
   (label
     "GND"
@@ -8908,7 +8908,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5062be4f-5177-4e80-905b-22a4ca64c8a0")
+    (uuid "a7f04a1c-c5be-447d-b75b-ad164a8833cf")
   )
   (label
     "+3V3"
@@ -8920,7 +8920,7 @@
       )
       (justify left bottom)
     )
-    (uuid "4348c5ac-7fd1-40ac-9bbe-17532ae26eb4")
+    (uuid "6b7f2a51-b3be-4322-ada9-09ec7e18d56b")
   )
   (label
     "GND"
@@ -8932,7 +8932,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d812c2aa-bcf0-4c08-a3b7-bef9a66521b9")
+    (uuid "e6ab25de-0a4d-4a52-a7b5-43bfe7fe62c4")
   )
   (label
     "LED1_A"
@@ -8944,7 +8944,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9e4b14a8-c678-42f1-b928-2952b1718bba")
+    (uuid "40772706-5f63-4877-8d73-3c65f9ef3170")
   )
   (label
     "GND"
@@ -8956,7 +8956,7 @@
       )
       (justify left bottom)
     )
-    (uuid "14dc72f5-c9b9-4234-af3b-602c0a010275")
+    (uuid "40609fa6-2349-4537-bbd6-c2255e149ca6")
   )
   (label
     "EN"
@@ -8968,7 +8968,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b0e22051-5293-48e5-a3d8-5c61f79787e9")
+    (uuid "a10fcb95-c588-46a2-a6ba-ed6b5998fde9")
   )
   (label
     "GND"
@@ -8980,7 +8980,7 @@
       )
       (justify left bottom)
     )
-    (uuid "fac1b4fb-4a87-4455-b658-c9c75107329d")
+    (uuid "7872a02f-3076-4cb6-82d7-6e44c3eeb590")
   )
   (label
     "EN"
@@ -8992,7 +8992,7 @@
       )
       (justify left bottom)
     )
-    (uuid "3e00986f-648a-4f04-90e2-279b9a917147")
+    (uuid "8d16f12a-3fa9-4b3f-8628-bad5ecd8053c")
   )
   (label
     "GND"
@@ -9004,7 +9004,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1cf7e56b-7e58-4f4c-914a-e0b5b0101258")
+    (uuid "abef570b-1ea3-4ae9-b991-667353cabe72")
   )
   (label
     "BOOT"
@@ -9016,7 +9016,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9adb70f6-5620-4890-b780-7afbe60d95ae")
+    (uuid "12c3f466-556a-40fa-a4ce-d76a9cacc3ea")
   )
   (label
     "GND"
@@ -9028,7 +9028,7 @@
       )
       (justify left bottom)
     )
-    (uuid "fc05d588-93b5-4ce6-96d8-8130c72281f5")
+    (uuid "1cab74d9-2533-4e74-b00f-ce241cb528da")
   )
   (label
     "BOOT"
@@ -9040,7 +9040,7 @@
       )
       (justify left bottom)
     )
-    (uuid "5bf9ff45-16a8-4160-914c-6122e27d9923")
+    (uuid "1b00dfd7-7b75-42b6-b20a-154d95231844")
   )
   (label
     "GND"
@@ -9052,7 +9052,7 @@
       )
       (justify left bottom)
     )
-    (uuid "59cbea14-16cb-459a-b543-d01303c2c769")
+    (uuid "6fba4c69-db90-4ae4-b10f-2b639175f9e1")
   )
   (label
     "B_UP"
@@ -9064,7 +9064,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9f47f249-8031-498c-8a3a-2274a8c9dfd2")
+    (uuid "7f6e583f-c4f2-4f87-bdbf-039b0aa4188d")
   )
   (label
     "GND"
@@ -9076,7 +9076,7 @@
       )
       (justify left bottom)
     )
-    (uuid "0a4d28b2-29c7-4a34-9beb-002f18cbb927")
+    (uuid "bba7f7aa-dcd4-4a3d-b8a4-9015f866c418")
   )
   (label
     "B_UP"
@@ -9088,7 +9088,7 @@
       )
       (justify left bottom)
     )
-    (uuid "76979b86-0cd4-468d-9cf2-8f1d88e61dfa")
+    (uuid "11c01d40-01d9-43df-a3c7-a8ce627b14bc")
   )
   (label
     "GND"
@@ -9100,7 +9100,7 @@
       )
       (justify left bottom)
     )
-    (uuid "3b7f2857-7100-48fd-9b23-0e3992778677")
+    (uuid "28f2fedc-ad99-4d03-a284-a5e30b2fd38c")
   )
   (label
     "B_DN"
@@ -9112,7 +9112,7 @@
       )
       (justify left bottom)
     )
-    (uuid "c9964ab2-53b0-4cbe-be3b-27f38b9031ca")
+    (uuid "a6dece7d-d6bc-484d-ae15-f140d9ae0dd7")
   )
   (label
     "GND"
@@ -9124,7 +9124,7 @@
       )
       (justify left bottom)
     )
-    (uuid "31eb5af8-1f4d-452e-bb5a-bd7b0ee8cb45")
+    (uuid "a8b1a5c7-c43f-4f1e-84f9-a7a2fb89eced")
   )
   (label
     "B_DN"
@@ -9136,7 +9136,7 @@
       )
       (justify left bottom)
     )
-    (uuid "026cd281-217d-4716-8f25-cad8b9dc625f")
+    (uuid "35875ab3-930b-4fa1-b987-471f52339502")
   )
   (label
     "GND"
@@ -9148,7 +9148,7 @@
       )
       (justify left bottom)
     )
-    (uuid "42ed64ca-af48-41ab-be77-ac2c0a847517")
+    (uuid "67782064-ca6a-4829-8f62-99761bf2d03e")
   )
   (label
     "B_LF"
@@ -9160,7 +9160,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e6b4b862-24bb-4bf7-bd11-01ecd627465f")
+    (uuid "57944809-6873-4d53-a177-ab55f4e5b304")
   )
   (label
     "GND"
@@ -9172,7 +9172,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1df2de1a-b2d8-410c-a23e-2e4c306ad337")
+    (uuid "ad96f3e2-2586-42cd-aeaa-92ba9eed6e25")
   )
   (label
     "B_LF"
@@ -9184,7 +9184,7 @@
       )
       (justify left bottom)
     )
-    (uuid "429f2419-deda-4a11-a0e6-354477355487")
+    (uuid "f5c05104-d993-4efa-b11c-d15594e326e4")
   )
   (label
     "GND"
@@ -9196,7 +9196,7 @@
       )
       (justify left bottom)
     )
-    (uuid "b72d7b0f-de2a-4388-a3b2-8902c8f1bb88")
+    (uuid "4eff51c6-b866-44b6-8637-19eb6893ae49")
   )
   (label
     "B_RT"
@@ -9208,7 +9208,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1ce88748-8568-45ff-9518-64b2abc443c9")
+    (uuid "a339226a-1392-4e7d-9c25-511c2e150648")
   )
   (label
     "GND"
@@ -9220,7 +9220,7 @@
       )
       (justify left bottom)
     )
-    (uuid "38b843aa-efcd-4ac7-b44c-3c1a1aa793c9")
+    (uuid "28ec7d36-f774-4129-affc-4f1d351c51ea")
   )
   (label
     "B_RT"
@@ -9232,7 +9232,7 @@
       )
       (justify left bottom)
     )
-    (uuid "68838da0-8930-4ad5-8c03-ad07a2bfc68a")
+    (uuid "9a38e9c8-ad2c-44ee-b3c1-f8406e2e3439")
   )
   (label
     "GND"
@@ -9244,7 +9244,7 @@
       )
       (justify left bottom)
     )
-    (uuid "fc2c7326-175f-4c03-8bf0-467212914606")
+    (uuid "9ddd8919-b8b4-45a4-9318-af9d9434c7eb")
   )
   (label
     "B_OK"
@@ -9256,7 +9256,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bceaea40-516a-42db-b6bf-83d5961592cb")
+    (uuid "da66119f-07d4-4d53-a846-55868a0ac4a5")
   )
   (label
     "GND"
@@ -9268,7 +9268,7 @@
       )
       (justify left bottom)
     )
-    (uuid "bef38deb-73bb-429b-bf25-435dd7be1108")
+    (uuid "9f24c688-11fc-44cb-9ea4-6966b097555a")
   )
   (label
     "B_OK"
@@ -9280,7 +9280,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ad347f04-aa67-478e-a568-253e6512fa5a")
+    (uuid "da7f16d2-b14f-445f-8da9-272139da2b55")
   )
   (label
     "GND"
@@ -9292,7 +9292,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e3daeda9-467d-4b01-b415-073656aea926")
+    (uuid "ff6cc4b4-26f1-48d5-88fd-77804c4e3ce1")
   )
   (label
     "GND"
@@ -9304,7 +9304,7 @@
       )
       (justify left bottom)
     )
-    (uuid "f17a734f-e770-4158-846c-7fb45ade8eac")
+    (uuid "44b04b85-0d63-4039-b6e6-ffa1e8bb9fb1")
   )
   (label
     "GND"
@@ -9316,7 +9316,7 @@
       )
       (justify left bottom)
     )
-    (uuid "73c5547b-06eb-4241-b2eb-299933cd4a24")
+    (uuid "c994ebcf-dc3f-4dfb-9273-4973cdf89bb8")
   )
   (label
     "+3V3"
@@ -9328,7 +9328,7 @@
       )
       (justify left bottom)
     )
-    (uuid "9bd0d863-a2d8-440c-8083-f5fb52c55dbb")
+    (uuid "058fd3ec-ba6d-495c-840e-eb2da31a5e17")
   )
   (label
     "+3V3"
@@ -9340,7 +9340,7 @@
       )
       (justify left bottom)
     )
-    (uuid "851c3e21-0afd-4261-8d01-59d3ad53c433")
+    (uuid "d08c2fd3-ac03-4783-b7bd-352d9437cad2")
   )
   (label
     "+5V"
@@ -9352,7 +9352,7 @@
       )
       (justify left bottom)
     )
-    (uuid "d14f8f3e-c019-4b26-8926-fed6be9ec111")
+    (uuid "0947725e-28ce-4a76-8bdb-3f65e12a387e")
   )
   (label
     "VBUS"
@@ -9364,7 +9364,7 @@
       )
       (justify left bottom)
     )
-    (uuid "37e87d2e-d750-401e-b0ea-ec83920080c7")
+    (uuid "d8e3c607-f6cb-47ec-87a3-32f140a3bebc")
   )
   (label
     "LED_5V"
@@ -9376,7 +9376,7 @@
       )
       (justify left bottom)
     )
-    (uuid "08dc304d-106a-4d92-8f20-f8a9dd767a74")
+    (uuid "f0d9eec6-36c5-404b-9be6-467ccd865cd6")
   )
   (symbol
     (lib_id "ledhub-c6-lib:ESP32-C6-WROOM-1")
@@ -9387,7 +9387,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "e56b0990-c0fd-4294-9f40-5042a897d48b")
+    (uuid "6aa96b86-dda3-4dc8-bf07-a668a59e2cbe")
     (property
       "Reference"
       "U1"
@@ -9454,125 +9454,125 @@
     )
     (pin
       "1"
-      (uuid "525403d4-903b-439e-81bf-a1ee89f9b77d")
+      (uuid "5f2d550b-561a-4451-a8ae-4877b3081c9e")
     )
     (pin
       "2"
-      (uuid "7e720bbe-fcbf-41e2-8cde-02d05e2565e2")
+      (uuid "927f34bf-5baf-4704-888e-61c2776dee01")
     )
     (pin
       "3"
-      (uuid "07ff771f-a4b1-42bf-b35e-a1d8ac4f509d")
+      (uuid "9213fcd7-664c-401c-b72b-0db073a5f0dd")
     )
     (pin
       "4"
-      (uuid "a7fbb98c-d926-4976-b8e9-13c9b0c2860b")
+      (uuid "a88eb975-3a20-4b7f-99dc-6b82943f2b59")
     )
     (pin
       "5"
-      (uuid "98acf83f-cff0-420c-bdfc-6210a9879dd8")
+      (uuid "035f192d-c5fb-4817-bb59-15025b025a93")
     )
     (pin
       "6"
-      (uuid "4b7a17bc-d0cc-4f7e-96ac-090eb0ed49f5")
+      (uuid "a021f346-e4be-48a1-bad4-661c49ea46a9")
     )
     (pin
       "7"
-      (uuid "9d5bdae8-f155-4147-84b5-f3fc8c323912")
+      (uuid "4a7224fd-5fc5-4474-ad2f-328ad6ce562b")
     )
     (pin
       "8"
-      (uuid "c6000ce3-11d3-4032-9ace-fc4ffb12434a")
+      (uuid "5cfe0aef-0ea6-4c49-8f5a-72aa6519b9ef")
     )
     (pin
       "9"
-      (uuid "f02bae8b-5002-47d1-9ba4-2562028feddb")
+      (uuid "d83ed787-c431-4342-9d3d-0b75918f7e7b")
     )
     (pin
       "10"
-      (uuid "c2b71ac4-9d62-42c0-ade3-9f803a84e558")
+      (uuid "001e3f03-9da5-40da-a298-17cbe07859bb")
     )
     (pin
       "11"
-      (uuid "eaa6f018-c828-4708-8e79-113f35201cf7")
+      (uuid "9b7a0733-9992-4931-ac23-3e8c2ac272d8")
     )
     (pin
       "12"
-      (uuid "1c356cbb-ef97-48b7-8800-46227c0e9317")
+      (uuid "413c6fd1-b3ff-4bde-b2ea-d9beed4b4d44")
     )
     (pin
       "13"
-      (uuid "ad688395-ace3-4435-af99-fffad674f614")
+      (uuid "5b8155f5-de82-473f-8469-80dc92b3df9d")
     )
     (pin
       "14"
-      (uuid "15ebd376-d76c-4163-9c88-8a845a6266f4")
+      (uuid "73b2e5f0-9e4e-425b-aaec-e88656d19344")
     )
     (pin
       "28"
-      (uuid "f4446e7d-517a-4896-93da-4a5183879413")
+      (uuid "376fa397-f9e1-4449-8659-3ac50a6e160e")
     )
     (pin
       "27"
-      (uuid "11b77a1b-70c9-4d59-8fef-17837f876560")
+      (uuid "f6a6b265-2218-4ef7-bad7-e548e9574057")
     )
     (pin
       "26"
-      (uuid "79bf0621-2fae-447a-9c15-bb4d79e4e3bf")
+      (uuid "09881c8b-3331-4a01-bd71-b8a0d036c78c")
     )
     (pin
       "25"
-      (uuid "b68d8d1d-fe6d-4409-a6ba-1da82dd0f8dd")
+      (uuid "f779e856-dbed-444d-9b69-d521d0030e5b")
     )
     (pin
       "24"
-      (uuid "366f8350-6f77-4deb-b528-1a7d5c9c43bb")
+      (uuid "aa8d2d57-dee6-4d7e-8fa6-5b4f56498ac6")
     )
     (pin
       "23"
-      (uuid "2f2533d1-ea05-44e2-9905-73f361251f48")
+      (uuid "aebf0cc0-0000-4423-be63-70a83e68bebd")
     )
     (pin
       "22"
-      (uuid "f425da3d-512e-4a22-931b-8754742d67b2")
+      (uuid "2996f89c-549d-499f-94f0-eb951c663762")
     )
     (pin
       "21"
-      (uuid "1dff47ae-5425-454e-8695-f46ccdc6a330")
+      (uuid "02a2e686-50a9-4a7f-8a05-f6280e718b83")
     )
     (pin
       "20"
-      (uuid "8d86ee82-3ca5-48bb-8bf5-c2951e383d9d")
+      (uuid "e54efa66-e8e2-4b76-b104-ae8bc6ae18ad")
     )
     (pin
       "19"
-      (uuid "3556227e-5b39-4088-800f-44a5666b3d6e")
+      (uuid "fd0cce88-ef29-4c5d-9453-3f79ae6e722f")
     )
     (pin
       "18"
-      (uuid "f4135206-34ae-479e-8e3f-219aa7e71903")
+      (uuid "68f57563-ea71-4bee-8ae9-046360eb7d0a")
     )
     (pin
       "17"
-      (uuid "9cab64d2-d849-4f43-a1b2-28cb51606b1d")
+      (uuid "8da49bba-3979-4d91-9677-d3b183baf04c")
     )
     (pin
       "16"
-      (uuid "5297748b-57d7-4e79-97aa-749cd7faaff6")
+      (uuid "0e425e63-2979-4d3f-b314-968e68fa3141")
     )
     (pin
       "15"
-      (uuid "a201d42f-8de3-41a1-a74a-b3ad20f0fdae")
+      (uuid "720061f6-3541-45e9-bd13-0147131d0d6f")
     )
     (pin
       "29"
-      (uuid "5ce9066f-9faa-44a9-a2f3-20304a3049d7")
+      (uuid "8ca24ebd-f374-48c6-98ed-2973b4407b68")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "U1")
           (unit 1)
         )
@@ -9588,7 +9588,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "af751392-8c2b-43e1-ad2e-484a8790ebbe")
+    (uuid "77e4baf6-20f3-4b86-bfa6-14380ed353a1")
     (property
       "Reference"
       "X1"
@@ -9655,89 +9655,89 @@
     )
     (pin
       "1"
-      (uuid "3c1ba5fa-ee4e-4ca3-8b09-2aeae77f8ddb")
+      (uuid "988b41bc-a4dc-4762-9075-37ae53b45459")
     )
     (pin
       "2"
-      (uuid "8474014d-d204-4881-8727-841bacee6df0")
+      (uuid "ac55d0d3-f1f4-4b46-9cb7-89cba542d0ff")
     )
     (pin
       "3"
-      (uuid "bd610fdf-3365-4fd3-80cc-eb37ecec9647")
+      (uuid "f9b0bd18-95aa-43c9-a15f-26a9783a368f")
     )
     (pin
       "4"
-      (uuid "ae97d9d5-86bc-4681-bea4-ba28b571c585")
+      (uuid "c3b62a29-1b49-43af-8b64-895358fd4703")
     )
     (pin
       "5"
-      (uuid "a6f36f83-fc85-40c0-a86c-b8b6407f704b")
+      (uuid "9b29170b-28f3-48f6-a3bd-120fea3b3a8b")
     )
     (pin
       "6"
-      (uuid "90ed4473-8029-455a-96d9-50234ad02847")
+      (uuid "113c7651-6aeb-4a76-9aed-450bf1df7cfe")
     )
     (pin
       "7"
-      (uuid "91b750e8-85a0-4507-ace3-b6a99087fd64")
+      (uuid "d1f4326f-03d7-429e-93c9-2c5f0f7f8133")
     )
     (pin
       "8"
-      (uuid "5782c841-0740-4177-8848-6284b9d4d7e1")
+      (uuid "141a2878-a66b-4152-b854-5fe752c313d4")
     )
     (pin
       "9"
-      (uuid "01f4318e-09cd-464d-a1e9-fcee4aa7b34d")
+      (uuid "ffa0e28c-c1bb-42e8-bb03-4d146c5eef44")
     )
     (pin
       "10"
-      (uuid "f82fe5f9-f2c2-4b49-9717-39e3ecb8faf5")
+      (uuid "2775890e-9db2-4483-9ea1-e2af8f2c4bb0")
     )
     (pin
       "11"
-      (uuid "fdb7c8f6-6ac9-47a4-a7f5-f14cf1d634b7")
+      (uuid "a6605771-b653-40b9-9e2c-73a784194237")
     )
     (pin
       "12"
-      (uuid "57b9bd26-be88-4cb4-b01b-596e9aa66d27")
+      (uuid "73ba36b1-501b-4ec9-a386-6631dd62a3cd")
     )
     (pin
       "13"
-      (uuid "d4339db3-76e3-4920-aa88-309bb53b78ca")
+      (uuid "38fa4fd5-e648-4d10-9a60-2bb81b59e680")
     )
     (pin
       "14"
-      (uuid "bcd6eb48-99e8-454d-9813-b3f177c71e01")
+      (uuid "651f0e74-576d-40df-b7bc-c230971f30a5")
     )
     (pin
       "15"
-      (uuid "1fa3ad53-8446-4ab8-a5a5-d28211b08f70")
+      (uuid "0bd9b686-c77a-4ca6-a309-ae46af9a5a7c")
     )
     (pin
       "16"
-      (uuid "a3e2bf59-1a91-43d6-9628-90e2fbe620d5")
+      (uuid "fd5a7d98-128e-474a-94ab-0591575aa827")
     )
     (pin
       "S1"
-      (uuid "b5d35e54-e398-40fa-b5dd-0982e163a189")
+      (uuid "64f9155b-ac4b-414d-b70e-f4f8fd1452e9")
     )
     (pin
       "S2"
-      (uuid "c47b840c-c425-4995-afd0-997e04baf8ee")
+      (uuid "99426a85-5b07-46d4-93ab-f7b29406c3fa")
     )
     (pin
       "S3"
-      (uuid "637342f3-1196-4a09-8ec8-33ed7e4d6cfd")
+      (uuid "5fb15f28-bcac-4fc2-b153-d3d0a84d308a")
     )
     (pin
       "S4"
-      (uuid "19c76b4d-0a86-45f8-867e-c26b52113ccd")
+      (uuid "b5ce9dbf-66a2-45ca-a12f-6c719a4a03e8")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "X1")
           (unit 1)
         )
@@ -9753,7 +9753,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "1edca2ad-2e64-4736-ad09-4783b8b2acbd")
+    (uuid "94e51a83-83d4-4528-a66c-8b67ca7efd76")
     (property
       "Reference"
       "U6"
@@ -9820,29 +9820,29 @@
     )
     (pin
       "1"
-      (uuid "53bbcc08-0578-400d-a321-02eec6babb13")
+      (uuid "93b5af0c-00b3-4333-9493-4710297fcda8")
     )
     (pin
       "2"
-      (uuid "d85dbdb1-384e-4120-aae9-28e8eec4d05d")
+      (uuid "b60aeee0-14e8-45d6-b4e6-73529272b146")
     )
     (pin
       "3"
-      (uuid "0c231ba2-a6ad-463c-866b-6cf7c17cfdc7")
+      (uuid "93bbd760-0f66-41bf-9fe4-0e468454a8d2")
     )
     (pin
       "4"
-      (uuid "ce374de5-5a5f-466d-80e0-7c6d19170339")
+      (uuid "a4cd629d-893b-4423-b42c-c1a3804774fc")
     )
     (pin
       "5"
-      (uuid "c0e45db6-a75c-48ad-9142-5458e3fafb1b")
+      (uuid "267e941c-474e-401e-908e-9945161fe2c7")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "U6")
           (unit 1)
         )
@@ -9858,7 +9858,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "46b653a6-98e9-4ed2-b9a0-927d0bdd01ea")
+    (uuid "faca1a02-4da7-40ea-a0a3-b4f96a645a24")
     (property
       "Reference"
       "U2"
@@ -9925,45 +9925,45 @@
     )
     (pin
       "1"
-      (uuid "ff696e9a-c78a-4741-b799-06b6b9fb1c76")
+      (uuid "4a166591-3d9b-4f24-868d-03d75521a056")
     )
     (pin
       "2"
-      (uuid "76148908-4464-4ae4-89ac-d5a496a4e572")
+      (uuid "67daa9bd-d65b-44e2-a901-55299f32e858")
     )
     (pin
       "3"
-      (uuid "927338ec-82db-4219-b537-7d2666e31653")
+      (uuid "53da98fa-4562-4a14-b7b3-c83b07128172")
     )
     (pin
       "4"
-      (uuid "7a879cdd-a196-4442-94e4-6bca56872437")
+      (uuid "32892b77-2c93-42b6-a6df-1f0fb3ba79d5")
     )
     (pin
       "5"
-      (uuid "0cbc7883-dd23-443c-8955-22fbc1494861")
+      (uuid "19e558e5-abcd-4e5c-9d8b-07916b45825b")
     )
     (pin
       "6"
-      (uuid "5326ec81-acf2-4a2e-8ceb-c64cf20af994")
+      (uuid "2ff2c06f-f619-42c8-aa4a-0cfa2f02cfac")
     )
     (pin
       "7"
-      (uuid "80f66be1-bb6a-48d0-a4dd-423333c6dfb2")
+      (uuid "5fb6d554-d4fb-4e96-9ec6-1d966a437c8b")
     )
     (pin
       "8"
-      (uuid "9afe4c93-3e4e-4758-a3a9-07aa8d384e5f")
+      (uuid "79218816-54b7-488a-a899-c45788fecdad")
     )
     (pin
       "9"
-      (uuid "d7a578c2-39c0-48f9-892b-6db3a05334ed")
+      (uuid "783d16e4-0fcd-499a-811b-60c2d1ffa270")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "U2")
           (unit 1)
         )
@@ -9979,7 +9979,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "b0827d75-cb6e-45f8-ab5e-4e5c1083b94f")
+    (uuid "a69fd065-33dc-4282-8c31-00d11503008e")
     (property
       "Reference"
       "U3"
@@ -10046,45 +10046,45 @@
     )
     (pin
       "1"
-      (uuid "cfc66be7-13ca-46a0-8106-c746ce4ce55b")
+      (uuid "c6b045ef-d06c-49ed-8b18-1ca099a95bd6")
     )
     (pin
       "2"
-      (uuid "c99d437a-bc94-436f-a061-d49d1c07afce")
+      (uuid "df42e5bd-5a23-43f4-b2e3-6acb2513f91d")
     )
     (pin
       "3"
-      (uuid "9b660edf-d6a7-4b3a-be4b-49bf68ae39f1")
+      (uuid "39f1d02a-8ab3-4de2-906b-7468a83734f4")
     )
     (pin
       "4"
-      (uuid "282fcfd2-b837-43da-ac99-157854e5ec78")
+      (uuid "4a19c4c4-03f9-413e-9c2c-d6a425be9cdd")
     )
     (pin
       "5"
-      (uuid "d1145124-36fa-4156-9e6e-bed7be25ff53")
+      (uuid "e15855c2-c842-402d-82ab-ad675b67745f")
     )
     (pin
       "6"
-      (uuid "7111e8f4-30ec-4bba-b403-4d2cd2f4aba7")
+      (uuid "f72f01d6-2c39-4e72-9023-84f4c747a544")
     )
     (pin
       "7"
-      (uuid "ccb2596b-8da2-4c29-a328-e11ad7b6a50f")
+      (uuid "74720043-7a73-4e74-85dc-8dc1de1588e7")
     )
     (pin
       "8"
-      (uuid "c84fdeee-072f-4939-86c7-919f35f123f8")
+      (uuid "a7567a59-9546-4929-97bb-1b2bfd3a073d")
     )
     (pin
       "9"
-      (uuid "c939440d-b1d3-48b8-8e8f-06bad2e2eb05")
+      (uuid "1fcb101b-95c1-4264-a336-416003186152")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "U3")
           (unit 1)
         )
@@ -10100,7 +10100,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "39b988d5-6633-4a29-8e91-ee3989e21068")
+    (uuid "4af4fb7a-9103-4846-ad4f-e46bd7544142")
     (property
       "Reference"
       "U4"
@@ -10167,37 +10167,37 @@
     )
     (pin
       "1"
-      (uuid "717d6bb2-be93-441a-b797-3d2321b9a8ed")
+      (uuid "eaf358d5-831a-4a3a-84b9-53861779801f")
     )
     (pin
       "2"
-      (uuid "90231f5a-257f-4e9f-989a-37e102282fa5")
+      (uuid "05a4661a-dd6b-4970-8697-34386f0bcc22")
     )
     (pin
       "3"
-      (uuid "10ebb6ec-d885-4dbe-ab94-69e0faf191e2")
+      (uuid "bb380bcf-ed32-40b4-8e57-b33053ea7f0c")
     )
     (pin
       "4"
-      (uuid "f202902d-3833-421a-b8ac-7c3739439fef")
+      (uuid "0c40aaec-c7eb-450e-bff6-a8c2c9807373")
     )
     (pin
       "5"
-      (uuid "d3c46d0d-ebd3-467b-9bf7-fb677a54c6ff")
+      (uuid "6a6ff1ed-71dc-4864-89c9-1650f67a244d")
     )
     (pin
       "6"
-      (uuid "f9b7396b-7ea5-4f86-89e1-1c250e73ed97")
+      (uuid "ac7db957-ae57-4e6e-8616-8b1d36387cbc")
     )
     (pin
       "7"
-      (uuid "2c326fba-4aff-4de2-95ba-a4369641593e")
+      (uuid "b2053a90-6738-4c06-a82b-42e2753bd475")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "U4")
           (unit 1)
         )
@@ -10213,7 +10213,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "13adf294-72ef-4fac-a09f-e26630dcd967")
+    (uuid "e5231289-9031-4fcc-a0ab-6fa4d443b649")
     (property
       "Reference"
       "U5"
@@ -10280,65 +10280,65 @@
     )
     (pin
       "1"
-      (uuid "cffa2737-e7f5-4f26-aadc-4d91e197d507")
+      (uuid "3e6a3847-7c81-42e0-bde9-526cc33a3d70")
     )
     (pin
       "2"
-      (uuid "133bb37a-49d8-48d1-929c-70f9a25c92b7")
+      (uuid "2405305e-cb24-4e3e-ad92-5bd167872409")
     )
     (pin
       "3"
-      (uuid "f883d81c-ff64-4cb2-bdc2-9b6b6e666ce2")
+      (uuid "32653a24-31a6-4922-bf43-4df0c046fb22")
     )
     (pin
       "4"
-      (uuid "b44a8ccc-998b-4a16-9388-a22f2b8370f9")
+      (uuid "64871c44-afe8-4c8a-9730-43e017758e51")
     )
     (pin
       "5"
-      (uuid "90b670a0-1899-494a-a901-f95ff6dd8e40")
+      (uuid "2d3ce567-180a-4f17-bfad-885f1a96768d")
     )
     (pin
       "6"
-      (uuid "ab8406bb-7545-4efe-94b7-98c9897061d7")
+      (uuid "1d9ff678-8af2-435a-a0c0-b32408f820ab")
     )
     (pin
       "7"
-      (uuid "1e8adf01-96d9-4018-84e2-e12ee84fcce6")
+      (uuid "e7de80a7-9b26-4fda-8318-ed401bf4652d")
     )
     (pin
       "8"
-      (uuid "1bfdeb19-3db7-401d-98a0-74c6affbb872")
+      (uuid "836e0769-96e9-4bb5-b28f-4c6108422efc")
     )
     (pin
       "9"
-      (uuid "e1ce7d92-d76e-46b0-8d2e-eb5255828029")
+      (uuid "f291a2f3-a779-4070-8207-fe02ae5f5206")
     )
     (pin
       "10"
-      (uuid "7eac27b1-b935-426a-8ae0-b1581fea5e38")
+      (uuid "27b03d08-81bb-4cbb-8ea0-243b13ba54c1")
     )
     (pin
       "11"
-      (uuid "a5b50eda-a6dc-4317-b270-5d21b1b16735")
+      (uuid "bd91b3bc-8ca4-4eec-b968-8cafa1d25f03")
     )
     (pin
       "12"
-      (uuid "34d402dd-5d32-4ae4-a44a-72da1f43052c")
+      (uuid "de6fa968-93fc-4adc-bff5-2289e3088ba5")
     )
     (pin
       "13"
-      (uuid "c1d7ae99-27f3-43ff-b72a-6a92617e3a73")
+      (uuid "c99f7c5d-1c5f-42d7-b37f-09c74efc78bd")
     )
     (pin
       "14"
-      (uuid "5bf097bc-ac4e-49d5-9289-5ddf671cbcdf")
+      (uuid "28d21b0a-2736-4d63-86ba-7de2b7e9754d")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "U5")
           (unit 1)
         )
@@ -10354,7 +10354,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "c0f2197c-3346-4ebb-a525-e44d95e78724")
+    (uuid "5f8b6a41-874f-4734-9c6c-edcdea0421f1")
     (property
       "Reference"
       "ENC1"
@@ -10421,29 +10421,29 @@
     )
     (pin
       "1"
-      (uuid "5a1b533b-b98e-404f-a5b8-9d4f62f6c8be")
+      (uuid "cc65ccfc-0f43-44b7-a590-2dd1a49a88e6")
     )
     (pin
       "2"
-      (uuid "9d614ec2-ec39-4b23-8592-8a9438d5c2ee")
+      (uuid "425a34ec-3134-427a-bf35-d13119b580a1")
     )
     (pin
       "3"
-      (uuid "8e385b7c-6102-48c1-a4b9-b456d3b165e4")
+      (uuid "79c0a600-5140-4fb0-af6a-1a05bedf3866")
     )
     (pin
       "4"
-      (uuid "a6fff30d-4671-4541-8ff2-bc8923bfd589")
+      (uuid "582cedbc-9e62-48f5-955c-be4b82b83651")
     )
     (pin
       "5"
-      (uuid "28cc268d-a27c-4d19-993f-7005ba33053a")
+      (uuid "0654ea80-781d-4dd9-846a-b2215f86a0bb")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "ENC1")
           (unit 1)
         )
@@ -10459,7 +10459,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "5144642c-d132-47b1-89fb-307f237f11c8")
+    (uuid "b8d3c204-eac3-42d3-aa09-480cf7369783")
     (property
       "Reference"
       "J1"
@@ -10526,65 +10526,65 @@
     )
     (pin
       "1"
-      (uuid "c3615d39-71fe-48a2-8147-24d7512c6926")
+      (uuid "25ad10f0-4778-4677-a525-1f4882ba4881")
     )
     (pin
       "2"
-      (uuid "77120df5-5a78-4ea2-9d57-deb7e7abf47f")
+      (uuid "15b642c4-f545-4b68-acbf-408ca01362d9")
     )
     (pin
       "3"
-      (uuid "b5dc3825-8b9d-40aa-9f4e-75cdde7cf841")
+      (uuid "f8c44004-ce81-4fa2-989c-f2a993de0c23")
     )
     (pin
       "4"
-      (uuid "45348a8f-e3e0-439b-9469-b7407ee1c862")
+      (uuid "a6cf0142-e3c2-4a17-8d73-1795b05c8517")
     )
     (pin
       "5"
-      (uuid "db22a132-0267-4605-9faa-0293429a68d4")
+      (uuid "b60bdb4f-72ff-4152-a7f7-aec77b525173")
     )
     (pin
       "6"
-      (uuid "f43beb16-2975-43c0-b1f6-cc2ea139b073")
+      (uuid "8499d3ea-e404-44ce-bdfe-d78f10510679")
     )
     (pin
       "7"
-      (uuid "516e7334-0f6b-4bfb-883a-21c3a243b370")
+      (uuid "3a1d64d5-1e44-40ec-b66c-9bea156d51fd")
     )
     (pin
       "8"
-      (uuid "6d85094c-e3b1-453b-a973-2915e49f25b1")
+      (uuid "cbd82be2-6909-45bd-bc4f-bc3ae86ff520")
     )
     (pin
       "9"
-      (uuid "2269741a-1048-4522-8c21-a197f2bed216")
+      (uuid "c073819a-795a-4a16-9c7c-276aad285905")
     )
     (pin
       "10"
-      (uuid "06d60e8f-f2cf-465d-b5dc-899e58d85e04")
+      (uuid "478f4e9b-116e-456f-864c-6d538c9898b0")
     )
     (pin
       "11"
-      (uuid "82fd744d-b6a7-4cc7-9fde-a0d0ad4369ef")
+      (uuid "c2dd1652-ddab-4483-a666-511a87c876fa")
     )
     (pin
       "12"
-      (uuid "1328955e-4d9f-470f-8415-83f1feceedc0")
+      (uuid "302b2745-f097-489f-8e5d-7fa134e2f477")
     )
     (pin
       "13"
-      (uuid "b9b130cd-54da-4a29-b7e6-ac6ddd721654")
+      (uuid "c1220184-2b05-43c6-8994-9313fca6c7d8")
     )
     (pin
       "14"
-      (uuid "7394abab-420c-4d75-a5ab-accaa5613be6")
+      (uuid "2cc2a515-4c96-4579-9a9e-ddc0628e7d06")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "J1")
           (unit 1)
         )
@@ -10600,7 +10600,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "4d878d7b-a662-4021-a841-f73e94aaa20f")
+    (uuid "d2a2709c-3d93-43cf-8a7a-18c543a0182a")
     (property
       "Reference"
       "J2"
@@ -10667,29 +10667,29 @@
     )
     (pin
       "1"
-      (uuid "4f2ab534-fbf1-4b25-a524-2be9fc99a696")
+      (uuid "d83c49a4-d818-4764-82f5-7406ecbaee88")
     )
     (pin
       "2"
-      (uuid "3cd5830f-37af-4d9b-b456-4c3fa582cf9f")
+      (uuid "e4dffb57-0801-426a-bca6-822ab258c300")
     )
     (pin
       "3"
-      (uuid "4f0f4541-bdb1-48b0-a9db-80378b53c744")
+      (uuid "5b488e2c-efc0-4e95-a373-65289999bf2a")
     )
     (pin
       "4"
-      (uuid "ba6990e0-af09-429b-88fd-14c57d9f2e81")
+      (uuid "8341a926-1305-4260-a843-a2e6bcd7d82e")
     )
     (pin
       "5"
-      (uuid "1db7fd7d-2d77-4b51-bb6d-a93bbaa1e9b9")
+      (uuid "3e8ef002-bb89-4532-9acc-50da7e2a92da")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "J2")
           (unit 1)
         )
@@ -10705,7 +10705,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "17c8565e-6326-427e-8c8f-cc0b9fdeffe5")
+    (uuid "9d5070ac-ae88-4b47-aff8-91c6e9114e78")
     (property
       "Reference"
       "J3"
@@ -10772,21 +10772,21 @@
     )
     (pin
       "1"
-      (uuid "4d16c3c1-4fdc-4212-92a2-3c18305ce190")
+      (uuid "7f03e7dc-b88e-4522-8a6f-a2e569445a1f")
     )
     (pin
       "2"
-      (uuid "c0479e2f-eb66-4cff-9884-9d5c943357d7")
+      (uuid "10c227bf-4d7e-48e0-b0c9-aa3f8e69d71b")
     )
     (pin
       "3"
-      (uuid "6944f9ca-afd5-488a-9b2b-9ef3382c218a")
+      (uuid "8bfc8fb1-190c-469e-801a-cc25ce38203a")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "J3")
           (unit 1)
         )
@@ -10802,7 +10802,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "d572427f-b205-4cb8-9b38-045a6de39c38")
+    (uuid "ca54f590-fb17-4338-820d-8a12beb60a55")
     (property
       "Reference"
       "J4"
@@ -10869,17 +10869,17 @@
     )
     (pin
       "1"
-      (uuid "2f48767d-47f9-4788-bbb3-626df0717298")
+      (uuid "4e37f8a8-5d46-4c86-8aff-2d7dc1819712")
     )
     (pin
       "2"
-      (uuid "49fc60f1-740a-42bf-aab8-5231945048bb")
+      (uuid "a8af67a8-0123-40db-897f-b2c6c99a2984")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "J4")
           (unit 1)
         )
@@ -10895,7 +10895,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "02745ea2-d51d-494e-8a84-9291af6fdb24")
+    (uuid "665c71ce-3420-4911-871d-6432343c4f1b")
     (property
       "Reference"
       "J5"
@@ -10962,25 +10962,25 @@
     )
     (pin
       "1"
-      (uuid "9ccf624b-45ba-482f-b7d6-5df113724f9f")
+      (uuid "555d4649-0148-4650-a37f-cf6054237721")
     )
     (pin
       "2"
-      (uuid "c6cc5477-e8d9-4494-89d0-e8af9f039967")
+      (uuid "2b3b5f8f-7b2c-41e1-a612-b350acb053a6")
     )
     (pin
       "3"
-      (uuid "95fd7756-deaf-422c-af42-84683e19a005")
+      (uuid "17d6acc3-b787-4cdc-b047-709be2bdec09")
     )
     (pin
       "4"
-      (uuid "36f8fce5-6bcd-4997-89b3-946a0170bf0d")
+      (uuid "5daa8daa-9232-4950-90cc-08b0b30b40f5")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "J5")
           (unit 1)
         )
@@ -10996,7 +10996,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "4e292eb8-aa28-4a7c-bd51-a4d64ed1a6e2")
+    (uuid "bad5ca93-7fdd-4ea1-8b7a-c7f22f821bd0")
     (property
       "Reference"
       "R1"
@@ -11063,17 +11063,17 @@
     )
     (pin
       "1"
-      (uuid "d0acef69-0b1c-418a-b0c8-f3394e07b3b6")
+      (uuid "8ab8a210-e590-4fd6-81ff-baa7821668f5")
     )
     (pin
       "2"
-      (uuid "d72b058e-695c-4d33-affe-f1e1fd3d7ad4")
+      (uuid "f98d1b40-2f22-480e-91e6-ae1e705f26c7")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R1")
           (unit 1)
         )
@@ -11089,7 +11089,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "766e4a2b-c2e4-4ac6-9a31-edbbb41f30ba")
+    (uuid "1c47a338-4777-4e31-b7ce-470c75bdc84c")
     (property
       "Reference"
       "R2"
@@ -11156,17 +11156,17 @@
     )
     (pin
       "1"
-      (uuid "5703f2ee-d7bf-49dc-bec0-225bed5c1588")
+      (uuid "193ffb6e-6461-41ec-8966-6c6517e7a788")
     )
     (pin
       "2"
-      (uuid "a5e49e6e-5fc7-483c-8462-d496589013d6")
+      (uuid "965ee13f-fc76-4fa5-afca-df284cef5c6d")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R2")
           (unit 1)
         )
@@ -11182,7 +11182,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "321384ba-99e5-4a0f-b05b-eef9057723a3")
+    (uuid "5e53c14d-d2f1-48d7-82d0-ef2804f78020")
     (property
       "Reference"
       "R3"
@@ -11249,17 +11249,17 @@
     )
     (pin
       "1"
-      (uuid "e086ea6b-8adf-4fd8-a081-4499463813cc")
+      (uuid "ae149f94-9a47-432b-aef2-e9d934661610")
     )
     (pin
       "2"
-      (uuid "3e15ec03-01bf-46a1-b6e2-46b53cba71bc")
+      (uuid "a253340a-9ee2-4191-8a37-651ea8ff3e9d")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R3")
           (unit 1)
         )
@@ -11275,7 +11275,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "067a288a-d6aa-4e33-bb12-7bae38931430")
+    (uuid "726871da-9c8a-405b-8a61-5cf3dfc15bb8")
     (property
       "Reference"
       "R4"
@@ -11342,17 +11342,17 @@
     )
     (pin
       "1"
-      (uuid "89d7c5a1-b47b-4a81-80e1-ebaa59b02b5e")
+      (uuid "25d007b9-7f35-4568-849a-d05fd99a4a88")
     )
     (pin
       "2"
-      (uuid "d1c88a43-2bf5-4e83-817f-745809d79584")
+      (uuid "2af29ef5-8906-4d2a-9133-01414ec2da00")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R4")
           (unit 1)
         )
@@ -11368,7 +11368,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "b45175ad-12e9-4308-9b1a-9acd0b7448ca")
+    (uuid "e8ab3c76-673c-4f03-9c3e-13d0c6a89bfa")
     (property
       "Reference"
       "R5"
@@ -11435,17 +11435,17 @@
     )
     (pin
       "1"
-      (uuid "d6ebeee1-fa2d-4b73-b331-5661766ebdbe")
+      (uuid "d6f9d149-542e-42fc-af93-bbe583ed994b")
     )
     (pin
       "2"
-      (uuid "fab46b0b-f94e-4878-9df6-a1673ba19273")
+      (uuid "8c3cb57d-c6e7-41a4-a4dc-6bbc7fc070f7")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R5")
           (unit 1)
         )
@@ -11461,7 +11461,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "60f4f430-cad8-45bb-93c4-08dae2ce5135")
+    (uuid "bbef8290-6c1b-4794-95b4-edb14ee48997")
     (property
       "Reference"
       "R6"
@@ -11528,17 +11528,17 @@
     )
     (pin
       "1"
-      (uuid "74c65b70-79c1-4f71-a742-f49bc48a0b13")
+      (uuid "872e1260-dc76-4a2f-964a-59bbc428c704")
     )
     (pin
       "2"
-      (uuid "7798f038-7641-4949-ae07-519e6c12734b")
+      (uuid "0dbdd61c-851a-4f87-94c6-50aebbdad8df")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R6")
           (unit 1)
         )
@@ -11554,7 +11554,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "6ac53181-ec15-4e63-86bc-d995ca23edf1")
+    (uuid "a00779e4-41b7-41e0-9534-f5c84c175ae3")
     (property
       "Reference"
       "R7"
@@ -11621,17 +11621,17 @@
     )
     (pin
       "1"
-      (uuid "10d0fab1-c7a7-4c16-9c28-3d1c08ff7304")
+      (uuid "bda1df76-71f7-478c-817b-ae471615be71")
     )
     (pin
       "2"
-      (uuid "2a9afd1a-f5eb-47fd-80be-972454845e10")
+      (uuid "4da44c5c-d005-4ae2-83fd-a35156cc3db9")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R7")
           (unit 1)
         )
@@ -11647,7 +11647,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "73ddb37e-af75-4861-8a4b-da41cc414bf3")
+    (uuid "cce35491-6c48-4520-bfd7-fde4cfe15dc3")
     (property
       "Reference"
       "R8"
@@ -11714,17 +11714,17 @@
     )
     (pin
       "1"
-      (uuid "63e61eb8-9f54-4e5a-b5f8-0890c41328ca")
+      (uuid "fd33e1b7-b34d-4d1a-8577-4ad99ecfcd21")
     )
     (pin
       "2"
-      (uuid "7fc93767-4566-4f3c-8b11-5090d727ff01")
+      (uuid "90b2a764-e4ea-4fc1-ad7e-3febf240511c")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R8")
           (unit 1)
         )
@@ -11740,7 +11740,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "362a854d-3f5f-4d57-87e2-35e7e21b2a64")
+    (uuid "f0a8c8d2-382f-4afb-b187-0d19141e35d5")
     (property
       "Reference"
       "R9"
@@ -11807,17 +11807,17 @@
     )
     (pin
       "1"
-      (uuid "eba45a5a-c5bd-4aa0-a537-9be954522220")
+      (uuid "21cf749f-a073-4026-a6e8-b18cc268d4ef")
     )
     (pin
       "2"
-      (uuid "8193f14b-5fa0-4a53-afb4-22a686c398c2")
+      (uuid "b1b2e959-be41-4fab-9a4b-53791b857edf")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R9")
           (unit 1)
         )
@@ -11833,7 +11833,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "fafbb5e2-3a6d-4814-9dcc-be4db64b3664")
+    (uuid "78bcfaa8-9180-4cef-814c-c419e0b4cb83")
     (property
       "Reference"
       "R10"
@@ -11900,17 +11900,17 @@
     )
     (pin
       "1"
-      (uuid "08552573-71d8-44ae-a21f-22555839f33d")
+      (uuid "e6a17482-3652-405e-a6a7-d61f0621ad16")
     )
     (pin
       "2"
-      (uuid "b7cdf896-1e8e-4b16-baaa-c32e47a6fa28")
+      (uuid "d0a59d58-ff2c-4082-915d-3d316b30a915")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R10")
           (unit 1)
         )
@@ -11926,7 +11926,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "8cc1fcba-ada6-4c94-81bc-72101e6edaa4")
+    (uuid "4e31f1f2-4650-473a-b9ad-079c3c570e81")
     (property
       "Reference"
       "R11"
@@ -11993,17 +11993,17 @@
     )
     (pin
       "1"
-      (uuid "ecb441f7-196d-4cda-833a-5f12279b7082")
+      (uuid "f41eb760-c568-4614-9de7-3e51d4f34e6b")
     )
     (pin
       "2"
-      (uuid "2b937ced-8b93-4f4f-ad05-6509fb561eb0")
+      (uuid "40e63505-0e1f-475a-a125-faea48ea8006")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R11")
           (unit 1)
         )
@@ -12019,7 +12019,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "6e367999-bbc4-40a8-8cbd-8111ee7feb28")
+    (uuid "5e2fe568-f7a7-41a4-95ca-1da31a797e5d")
     (property
       "Reference"
       "R12"
@@ -12086,17 +12086,17 @@
     )
     (pin
       "1"
-      (uuid "a761f8eb-461d-4dba-b8de-1df643e18410")
+      (uuid "cb69c1ff-492b-42c9-a5a1-3aa850ee456f")
     )
     (pin
       "2"
-      (uuid "9f686e10-847c-4feb-8dc0-b3ab5f137f1b")
+      (uuid "732250c4-2608-41d4-ac26-e171c92c2b78")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R12")
           (unit 1)
         )
@@ -12112,7 +12112,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "3cbdd0f9-439c-4ecd-8fc7-a5d2b8fab260")
+    (uuid "0a39fe79-eac8-4216-bbb3-50b8e010118c")
     (property
       "Reference"
       "R13"
@@ -12179,17 +12179,17 @@
     )
     (pin
       "1"
-      (uuid "2ef252a4-0237-4e88-bcb6-e7745d3c8074")
+      (uuid "b5fa10da-b34a-448a-bef4-a46123939d37")
     )
     (pin
       "2"
-      (uuid "224d6163-eeaa-4e11-85e1-b2c3a41e561c")
+      (uuid "0dc9bed2-95ea-42ea-974f-bccea6ffd3fc")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R13")
           (unit 1)
         )
@@ -12205,7 +12205,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "399e02e7-44f5-48e5-a67c-071fffc72296")
+    (uuid "a1e6fe2b-690c-4d65-a62a-a6dd1f9e6f61")
     (property
       "Reference"
       "R14"
@@ -12272,17 +12272,17 @@
     )
     (pin
       "1"
-      (uuid "94f07eca-f1ea-4aac-aa60-4436d40b14bd")
+      (uuid "77abb12e-f74d-4bf5-8ea0-7e431d133097")
     )
     (pin
       "2"
-      (uuid "59200c27-0ad9-4aa9-891a-99d40631ea34")
+      (uuid "fbce6d06-f3e7-461f-ba6d-f13bfe3e13e4")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R14")
           (unit 1)
         )
@@ -12298,7 +12298,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "1635fa45-a274-444b-96df-f11b99b44228")
+    (uuid "1ad9c8d5-7412-47fc-97a3-355b7f0f2443")
     (property
       "Reference"
       "R15"
@@ -12365,17 +12365,17 @@
     )
     (pin
       "1"
-      (uuid "39e00b46-9f46-4628-9bd8-1b624d5be2c1")
+      (uuid "75cb3e99-e868-4e87-945e-0e9bb7a59b53")
     )
     (pin
       "2"
-      (uuid "73f846ea-7724-411a-9ea1-e0cd4d57297b")
+      (uuid "f25c189d-ed67-4b1d-8f49-29abcea29f3e")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R15")
           (unit 1)
         )
@@ -12391,7 +12391,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "9be24943-dfbe-4312-9610-4ee5077d9d52")
+    (uuid "13ebdc55-d6d5-42b6-8b4b-b9d1a226ba23")
     (property
       "Reference"
       "R16"
@@ -12458,17 +12458,17 @@
     )
     (pin
       "1"
-      (uuid "91d45207-47fa-4e1a-b958-94f50e2e1f76")
+      (uuid "614de05d-e1f5-4e4f-bd2a-152e16ad57bb")
     )
     (pin
       "2"
-      (uuid "127ec83e-bbc6-487e-8b17-c49cd4aa4e30")
+      (uuid "7dbad42c-74bd-438d-99dc-20f36e5ddbc0")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R16")
           (unit 1)
         )
@@ -12484,7 +12484,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "c8f41963-0f6d-4991-a1fd-97536f0acc43")
+    (uuid "4cdf10d8-28e4-4a74-a3b7-ebeeec5b5e5d")
     (property
       "Reference"
       "R17"
@@ -12551,17 +12551,17 @@
     )
     (pin
       "1"
-      (uuid "aab38f0f-b872-4ab1-b681-c8e2d957460e")
+      (uuid "cb384d4b-d105-4deb-9974-2b4a42e1f7c7")
     )
     (pin
       "2"
-      (uuid "02375609-6b2e-4506-ba41-73ddc6dbc65d")
+      (uuid "53e104ec-be07-4c30-9c7f-ae793ec2d6c2")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R17")
           (unit 1)
         )
@@ -12577,7 +12577,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "e2570c22-ae7b-4fa3-b57b-da8036e2a2c5")
+    (uuid "65f4f334-fd4d-41c4-ab17-03045c05f8bb")
     (property
       "Reference"
       "R18"
@@ -12644,17 +12644,17 @@
     )
     (pin
       "1"
-      (uuid "3e3a199b-2eee-4083-8825-5d7576a4470c")
+      (uuid "60322e99-e88e-41ce-9158-c3c1eeb3a1fd")
     )
     (pin
       "2"
-      (uuid "cf1cfffb-67e0-4c25-b71a-5b510b402f64")
+      (uuid "8e412f79-57ef-49c3-a94c-577cdba869bd")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R18")
           (unit 1)
         )
@@ -12670,7 +12670,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "e679f322-43b1-4927-9441-b887517334e4")
+    (uuid "05b76aae-29ef-4497-b663-44e11db3ab72")
     (property
       "Reference"
       "R21"
@@ -12737,17 +12737,17 @@
     )
     (pin
       "1"
-      (uuid "b575507a-fa84-4d59-b9b4-d69543a59117")
+      (uuid "508b64bd-8afa-43f3-ae78-d4a199e74de6")
     )
     (pin
       "2"
-      (uuid "5bb025e6-dcb2-4876-a330-9f5eef4a9563")
+      (uuid "d15321c9-409f-4afc-bcc4-eb2c1a558952")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R21")
           (unit 1)
         )
@@ -12763,7 +12763,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "afcd25e0-2898-4578-841b-db1ff7f41d72")
+    (uuid "ba795390-a1c9-48ea-b5aa-834af0cd69fe")
     (property
       "Reference"
       "R19"
@@ -12830,17 +12830,17 @@
     )
     (pin
       "1"
-      (uuid "5a9add2e-34a4-4327-96c6-61535fd86cb2")
+      (uuid "0b77dae3-0717-47a1-84c2-955fe6c4b737")
     )
     (pin
       "2"
-      (uuid "ac6d8fe9-9bb9-4e6a-b586-3952c02a579d")
+      (uuid "1aec5963-73bf-484c-81ae-441c5f722888")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R19")
           (unit 1)
         )
@@ -12856,7 +12856,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "b651d293-fabb-49d5-934a-925aa1988082")
+    (uuid "4bb40459-d183-400c-a04c-ca3cd38483cf")
     (property
       "Reference"
       "R20"
@@ -12923,17 +12923,17 @@
     )
     (pin
       "1"
-      (uuid "3ff4d2f3-cdbf-4747-a1fe-b05ba7312a32")
+      (uuid "92f23827-8605-41a4-a1f2-1242c0c143e3")
     )
     (pin
       "2"
-      (uuid "2a6e86db-4c52-45c5-b1f7-fb10ad856441")
+      (uuid "289c0e63-7060-4947-88bf-8576fd80fc60")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "R20")
           (unit 1)
         )
@@ -12949,7 +12949,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "b1bf23e8-c4f1-43ef-8c4d-3a8ace1fbaa5")
+    (uuid "9f9f3229-ac25-481d-8b72-ddb44a3429dc")
     (property
       "Reference"
       "C1"
@@ -13016,17 +13016,17 @@
     )
     (pin
       "1"
-      (uuid "24c84562-02d2-4bc0-a041-12223bdb19bc")
+      (uuid "fccccae2-cc99-4e8e-9162-7e9d4c8776d3")
     )
     (pin
       "2"
-      (uuid "8b73760d-2ac3-41a0-b5a6-f78b93e4b16a")
+      (uuid "93579f1f-7d2a-4957-a612-61c814bce2f4")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C1")
           (unit 1)
         )
@@ -13042,7 +13042,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "d1e27652-ff30-4e8f-9fcd-e0c76172df28")
+    (uuid "efd7ff3e-a12a-43ec-9cbc-4f01e3dc570f")
     (property
       "Reference"
       "C2"
@@ -13109,17 +13109,17 @@
     )
     (pin
       "1"
-      (uuid "43580a88-9ba7-4ca1-9efb-baf45b96a5ad")
+      (uuid "12b4ccd6-39e1-49af-912d-a4520e95a86c")
     )
     (pin
       "2"
-      (uuid "c1bd29c7-16ca-4050-8c52-873a10a67860")
+      (uuid "5f213c4c-ee44-4215-a061-93e009228005")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C2")
           (unit 1)
         )
@@ -13135,7 +13135,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "5f4d8e18-d045-4887-b850-bafda1ace6ee")
+    (uuid "f14fab07-a828-48b4-9d47-cfc3b8b1a9ee")
     (property
       "Reference"
       "C3"
@@ -13202,17 +13202,17 @@
     )
     (pin
       "1"
-      (uuid "be1d4e06-2856-4d49-a281-31c794ebcd6e")
+      (uuid "f7838f3b-ad27-4b78-8a26-9b26eb30a77d")
     )
     (pin
       "2"
-      (uuid "825dc600-0bea-4f35-bda5-d15a663eb328")
+      (uuid "2ae24d82-c0a4-4afd-9d0a-c80329719853")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C3")
           (unit 1)
         )
@@ -13228,7 +13228,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "22920d88-49c8-4821-9311-08a70a21bd03")
+    (uuid "3a546606-b18e-4b2f-bae8-a401e1547d24")
     (property
       "Reference"
       "C4"
@@ -13295,17 +13295,17 @@
     )
     (pin
       "1"
-      (uuid "6e96be2d-c267-451e-9029-87086380f4d4")
+      (uuid "13d14cdc-fe15-4a62-bbc1-f4ba86624641")
     )
     (pin
       "2"
-      (uuid "300fb0ef-06bd-4bd4-996c-c58139fc7c41")
+      (uuid "bd73d0c4-b71e-437d-8f2b-e4488575de01")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C4")
           (unit 1)
         )
@@ -13321,7 +13321,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "b2fbc299-0bc7-47cb-9625-2379c7e84a50")
+    (uuid "035739aa-9eff-4b98-883c-7ac14da9f14c")
     (property
       "Reference"
       "C5"
@@ -13388,17 +13388,17 @@
     )
     (pin
       "1"
-      (uuid "3f72ec7f-af77-4bc9-ae58-b978654d4860")
+      (uuid "988a9108-0beb-423a-bb83-870a1319c4eb")
     )
     (pin
       "2"
-      (uuid "48e93036-6c18-4c82-b0e1-d69f184e798c")
+      (uuid "accee3d0-c069-46a8-89c5-02c4497a716d")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C5")
           (unit 1)
         )
@@ -13414,7 +13414,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "c423e896-0e4a-4b4a-b33c-bbba8310027f")
+    (uuid "f4400da5-9d28-4124-a4ef-3531806da86f")
     (property
       "Reference"
       "C6"
@@ -13481,17 +13481,17 @@
     )
     (pin
       "1"
-      (uuid "2ccafd4b-16bd-44e4-9d4e-0045acba6f44")
+      (uuid "5df7ad3a-b9ee-4ad6-8c1d-d0b1eb791999")
     )
     (pin
       "2"
-      (uuid "8fa86c61-65a8-46a2-94b9-d50c8bb7edbe")
+      (uuid "99e4f5b6-ef4b-4634-8fb9-c2cf7977a211")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C6")
           (unit 1)
         )
@@ -13507,7 +13507,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "7f0514e7-c2e3-4c47-ba77-4ba6c118ff2d")
+    (uuid "84e8d647-e72a-4e90-96ca-76703d9b5467")
     (property
       "Reference"
       "C7"
@@ -13574,17 +13574,17 @@
     )
     (pin
       "1"
-      (uuid "4c9c7e24-07ff-43cf-ac22-34a9970a6adc")
+      (uuid "01d4021a-aa6a-4ead-afc8-80e70203790c")
     )
     (pin
       "2"
-      (uuid "5a70ae0a-4ede-4690-8214-297e9d810f21")
+      (uuid "3cf34afc-5cb8-4bc0-9e44-a5bdb4664f20")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C7")
           (unit 1)
         )
@@ -13600,7 +13600,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "501ee8d8-0532-4446-ae89-b58b66b17f45")
+    (uuid "208274f1-1186-4030-808d-da80fea5dc00")
     (property
       "Reference"
       "C8"
@@ -13667,17 +13667,17 @@
     )
     (pin
       "1"
-      (uuid "ef4b063b-8add-4553-ac0c-41c48eb2b46b")
+      (uuid "5f3cb299-0b78-49ee-91a2-97b1a56a36cb")
     )
     (pin
       "2"
-      (uuid "c0156518-4745-41dd-b881-a19f8989675a")
+      (uuid "fb8946eb-e0d9-41ec-9643-fe0d91106da1")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C8")
           (unit 1)
         )
@@ -13693,7 +13693,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "052231fa-33c9-490e-8ad0-ec9d86b4004b")
+    (uuid "60762618-4f65-432d-883f-7d79df9ef328")
     (property
       "Reference"
       "C9"
@@ -13760,17 +13760,17 @@
     )
     (pin
       "1"
-      (uuid "ca07de42-9cbd-43b1-bf4e-b36b6f4e0f26")
+      (uuid "9954d8c0-a1f9-457f-b944-67516f24a0a0")
     )
     (pin
       "2"
-      (uuid "f22a27f8-1035-4412-b752-60c17541e121")
+      (uuid "76c1bbd0-a969-4154-9950-fa2b75f6583e")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C9")
           (unit 1)
         )
@@ -13786,7 +13786,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "87516e44-aada-4802-b798-492354f513bd")
+    (uuid "d80f6743-134f-4d08-ae09-1d35c666673f")
     (property
       "Reference"
       "C10"
@@ -13853,17 +13853,17 @@
     )
     (pin
       "1"
-      (uuid "33fe6e42-6300-428a-89c6-387c3ae9ff74")
+      (uuid "05177e1a-cc0f-4367-950c-6a7284d127d9")
     )
     (pin
       "2"
-      (uuid "2dc87316-0b45-4618-bb2f-4fb2d7fad0dc")
+      (uuid "d65b8078-9289-4d39-9b06-e6b921f6cdc5")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "C10")
           (unit 1)
         )
@@ -13879,7 +13879,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "14717a67-795d-4b2c-bc65-316e91a2ada9")
+    (uuid "678da94c-d369-4be5-bab0-c3ee909780b3")
     (property
       "Reference"
       "D1"
@@ -13946,17 +13946,17 @@
     )
     (pin
       "1"
-      (uuid "3e338a1f-c974-4cba-845d-09d33adb0640")
+      (uuid "9c3e1697-d6d5-4b2c-a78c-ed535bc4a7b4")
     )
     (pin
       "2"
-      (uuid "aa78de04-0a13-4fe9-bcc5-7c31310dd575")
+      (uuid "083332da-a6b5-48c3-9dc9-410c30f43c8c")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "D1")
           (unit 1)
         )
@@ -13972,7 +13972,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "86bb2ff4-8bd8-472d-bf64-142dccc14852")
+    (uuid "43bab46c-e8fe-4012-9cdc-ab90bcb51fbf")
     (property
       "Reference"
       "BT1"
@@ -14039,25 +14039,25 @@
     )
     (pin
       "1"
-      (uuid "515fbaa8-9bee-49f3-91db-969e9bccfad5")
+      (uuid "1f6dab7e-c9cb-4c2e-a22e-244174ab740d")
     )
     (pin
       "2"
-      (uuid "9517cb47-b547-4dc1-80ae-233c18f815ff")
+      (uuid "777ec0df-248d-410c-9e99-7585031721de")
     )
     (pin
       "3"
-      (uuid "792ad34f-05a3-44ce-82f1-53cb9529a622")
+      (uuid "5e0ddf00-d75b-4a47-9653-1f3cfaf1d4fd")
     )
     (pin
       "4"
-      (uuid "38c22881-e7f6-4f39-8f28-6172b3f4ee0e")
+      (uuid "e8a89258-f5f6-4f8c-beea-8033cca43d77")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT1")
           (unit 1)
         )
@@ -14073,7 +14073,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "00832d6b-cfc3-4622-a65a-2a7a31898c61")
+    (uuid "bf7019cd-1d31-49d7-a46d-9f06b4a5c7f9")
     (property
       "Reference"
       "BT2"
@@ -14140,25 +14140,25 @@
     )
     (pin
       "1"
-      (uuid "d8d93416-30b3-49f4-b1c9-b78ae6436e00")
+      (uuid "371a18f4-3e05-4cb0-905a-df1d14b08e75")
     )
     (pin
       "2"
-      (uuid "58797109-fc76-421d-a02f-6455419efe6c")
+      (uuid "1375f71c-b1ef-4473-8a91-be0d22af747b")
     )
     (pin
       "3"
-      (uuid "41085eb8-3bef-42d7-bb1c-05522a0b6381")
+      (uuid "e04995d5-c53c-4fb3-ae3b-3dbb9fbd6d6f")
     )
     (pin
       "4"
-      (uuid "6979a95f-d831-442f-b243-f706b41974cc")
+      (uuid "4a1c13a3-d737-4342-9c17-79bf1f1e37c4")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT2")
           (unit 1)
         )
@@ -14174,7 +14174,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "3591614d-3881-462b-9b07-afc620a75b5a")
+    (uuid "eadd2e1d-595f-4051-ac86-1824fcbed44c")
     (property
       "Reference"
       "BT_UP"
@@ -14241,25 +14241,25 @@
     )
     (pin
       "1"
-      (uuid "6bf3956a-32a2-45e5-8eed-ccd0d059820d")
+      (uuid "21d44e3e-0ebd-4084-804f-ec8a980f4edb")
     )
     (pin
       "2"
-      (uuid "9ddca790-df15-470b-b92b-71c6c3559dc4")
+      (uuid "b0b07b41-7c99-44a4-a670-d7f45d338d78")
     )
     (pin
       "3"
-      (uuid "127c53af-4770-47cd-8740-77d06f49d363")
+      (uuid "37dd164d-b1ee-4322-b778-1d34d91d3a04")
     )
     (pin
       "4"
-      (uuid "271403eb-b90a-44da-b894-2342ad95620a")
+      (uuid "ea4d9bb5-4ecb-4ccf-83b1-b5c5260d956f")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT_UP")
           (unit 1)
         )
@@ -14275,7 +14275,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "3f9c490b-d4f8-451f-9476-71827eb0046a")
+    (uuid "0ed3031b-1148-4fbd-82e2-bf4ef6ed5c8d")
     (property
       "Reference"
       "BT_DN"
@@ -14342,25 +14342,25 @@
     )
     (pin
       "1"
-      (uuid "9a7519e5-8168-4ca6-9ae2-12cc988b9a15")
+      (uuid "3f09c5d8-bbda-4fa5-acf9-f5d4db57c730")
     )
     (pin
       "2"
-      (uuid "c2907ca1-ff73-4bd9-a6aa-1292c7a97a80")
+      (uuid "34bcb281-26e8-43dd-b0a3-186e1b3490df")
     )
     (pin
       "3"
-      (uuid "71cfa0ba-b663-4ed9-a37d-7d724a2d1128")
+      (uuid "7a4d734f-dd13-4bf8-8764-0cfc4bc411b0")
     )
     (pin
       "4"
-      (uuid "4b31c6f5-9abe-474e-b704-f3f870f59227")
+      (uuid "0499dd3c-6697-497d-b92e-af89a219b13f")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT_DN")
           (unit 1)
         )
@@ -14376,7 +14376,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "46ee0d5e-347a-443c-a21d-b05921873654")
+    (uuid "5990caa6-ba55-469a-bfb0-908152c35529")
     (property
       "Reference"
       "BT_LF"
@@ -14443,25 +14443,25 @@
     )
     (pin
       "1"
-      (uuid "88e4573f-8b3a-48be-afdc-de4f04f168e6")
+      (uuid "a3414378-d2fe-4656-be29-b6b98773e806")
     )
     (pin
       "2"
-      (uuid "36714ecd-1220-4f50-a5d1-7bccd9761d02")
+      (uuid "3f6e6429-b152-497f-865d-223a44564704")
     )
     (pin
       "3"
-      (uuid "e36387a4-c9b5-4714-9720-132c679271f7")
+      (uuid "671dcd7d-2c48-4ca0-a9f5-29690ccf6383")
     )
     (pin
       "4"
-      (uuid "382841f4-1ed9-42c6-a972-e060f3b09ff6")
+      (uuid "90bbb543-0ea6-4674-a0f5-bb2267b7b996")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT_LF")
           (unit 1)
         )
@@ -14477,7 +14477,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "3355cfcc-13fc-40f2-9d67-0fbe0a9ab184")
+    (uuid "88de3509-3f05-47e8-8c83-a83a7d881d50")
     (property
       "Reference"
       "BT_RT"
@@ -14544,25 +14544,25 @@
     )
     (pin
       "1"
-      (uuid "d1f5cffc-861a-4f09-aa60-1d70f27f99c5")
+      (uuid "f4ffe90c-efc9-4cec-8dc3-85b01a720623")
     )
     (pin
       "2"
-      (uuid "4defd98e-c66f-45cf-ab30-06af3e0b29d6")
+      (uuid "31b554f7-a06c-454c-944e-be5cdf97db0e")
     )
     (pin
       "3"
-      (uuid "c14170cb-78a4-4dab-84cd-ac3adf8c31a9")
+      (uuid "80be75e5-d0da-40c7-98ca-b6db0456d107")
     )
     (pin
       "4"
-      (uuid "f387d2b5-33bc-4891-a961-10fe2af179b8")
+      (uuid "17e01528-a14f-4116-bb14-8230a190ccda")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT_RT")
           (unit 1)
         )
@@ -14578,7 +14578,7 @@
     (on_board yes)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "66e6f620-361c-4749-9dce-ad38b38e41bc")
+    (uuid "43fc90a6-1a3d-4169-b340-ea00fd833d9f")
     (property
       "Reference"
       "BT_OK"
@@ -14645,25 +14645,25 @@
     )
     (pin
       "1"
-      (uuid "eb9083ab-6925-4c52-b97c-22704907d308")
+      (uuid "bb5bb431-6261-462b-9a50-9073f30822a9")
     )
     (pin
       "2"
-      (uuid "60fb433f-0102-45cb-abed-d5f247440ab6")
+      (uuid "cf8d12a2-9323-4b05-b028-2352cdef1183")
     )
     (pin
       "3"
-      (uuid "98e462c7-8c69-43b1-b545-90386e016f45")
+      (uuid "d4eca240-c2fb-497f-9d93-fa9146b37367")
     )
     (pin
       "4"
-      (uuid "8476615a-33d5-4e07-acb6-0d09b797b85c")
+      (uuid "84ae16d9-3683-4f02-9857-aa0ebe339d06")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "BT_OK")
           (unit 1)
         )
@@ -14679,7 +14679,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "90984d81-bde8-4807-9ea0-61a185958d29")
+    (uuid "26845a96-1b0b-4cf4-bec8-7c9d9f11c623")
     (property
       "Reference"
       "#PWR0001"
@@ -14725,13 +14725,13 @@
     )
     (pin
       "1"
-      (uuid "90497c17-411f-499e-a5f6-9f689985706e")
+      (uuid "6a4d5569-ce16-4ae1-aca2-b3f0bdc0f0a8")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0001")
           (unit 1)
         )
@@ -14747,7 +14747,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "1389bc17-6903-47d0-8a8e-152b6e1d6080")
+    (uuid "3ad57bce-8bf2-4ba6-b6dc-220cb4968774")
     (property
       "Reference"
       "#PWR0002"
@@ -14793,13 +14793,13 @@
     )
     (pin
       "1"
-      (uuid "9b272021-32fa-4da3-926f-5e1e8a4e1b0f")
+      (uuid "c31d3322-2c64-49a8-a401-b2ea861aa727")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0002")
           (unit 1)
         )
@@ -14815,7 +14815,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "9ea8c74e-5b8d-4535-b4b9-0a95a6f407f3")
+    (uuid "d9117cd2-1ddf-42b4-af18-269a5a752b79")
     (property
       "Reference"
       "#PWR0003"
@@ -14861,13 +14861,13 @@
     )
     (pin
       "1"
-      (uuid "d43c5edd-6304-476d-9b7c-fd06d135b448")
+      (uuid "d1cf8417-0486-48b5-be30-a84e4b222974")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0003")
           (unit 1)
         )
@@ -14883,7 +14883,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "7b6464a6-eb94-4b40-84c0-727595848eb3")
+    (uuid "455f5674-0ea4-42f5-bef8-f566c8769f86")
     (property
       "Reference"
       "#PWR0004"
@@ -14929,13 +14929,13 @@
     )
     (pin
       "1"
-      (uuid "41ed23e5-b3fa-4144-acb3-d62501d58674")
+      (uuid "21ed3a67-47ba-4ffd-bdf3-1bbd77882042")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0004")
           (unit 1)
         )
@@ -14951,7 +14951,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "13175c09-975d-4065-94b9-6f4ae08021a0")
+    (uuid "ead634c0-a1b4-4549-ad63-e6d72d11d3cd")
     (property
       "Reference"
       "#PWR0005"
@@ -14997,13 +14997,13 @@
     )
     (pin
       "1"
-      (uuid "df6318d1-bca5-47db-8428-b9e0354ecb4d")
+      (uuid "8c8e3886-769e-4c9f-9746-ba523e22c03b")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0005")
           (unit 1)
         )
@@ -15019,7 +15019,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "59257d53-6ce0-4268-8142-cc84d22731a1")
+    (uuid "e6133602-ceca-4d4b-ab50-0e78834a03ed")
     (property
       "Reference"
       "#PWR0006"
@@ -15065,13 +15065,13 @@
     )
     (pin
       "1"
-      (uuid "4d33784b-2556-4a80-ad5a-6567a7eba815")
+      (uuid "8ebee5ed-81a8-4c5f-b3cc-2ec1a024f811")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0006")
           (unit 1)
         )
@@ -15087,7 +15087,7 @@
     (on_board no)
     (dnp no)
     (fields_autoplaced yes)
-    (uuid "b7aa261c-a773-424e-a55a-6755203f4043")
+    (uuid "d576b6fe-6011-4d92-8faf-ec4c92326128")
     (property
       "Reference"
       "#PWR0007"
@@ -15133,13 +15133,13 @@
     )
     (pin
       "1"
-      (uuid "c20f6f63-711e-4a62-9c20-de58562c0b7c")
+      (uuid "83cabe23-5196-4d70-a8c6-40ba36e1793c")
     )
     (instances
       (project
         "ledhub-c6"
         (path
-          "/dbaedbc4-09d7-4e98-b397-e4b85e48958e"
+          "/518a14f6-88c3-42fc-914b-ea000245c276"
           (reference "#PWR0007")
           (unit 1)
         )
