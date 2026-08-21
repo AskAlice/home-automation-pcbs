@@ -1,0 +1,8105 @@
+(kicad_pcb
+  (version 20240108)
+  (generator "pcbnew")
+  (generator_version "8.0")
+  (general
+    (thickness 1.6)
+    (legacy_teardrops no)
+  )
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user)
+    (47 "F.CrtYd" user)
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+  (setup
+    (pad_to_mask_clearance 0)
+    (allow_soldermask_bridges_in_footprints no)
+    (grid_origin 0 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svguseinch false)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (pdf_front_fp_property_popups true)
+      (pdf_back_fp_property_popups true)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotfptext true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "+3V3")
+  (net 3 "EN")
+  (net 4 "TFT_DC")
+  (net 5 "TFT_CS")
+  (net 6 "TFT_SCK")
+  (net 7 "TFT_MOSI")
+  (net 8 "BTN_ADC")
+  (net 9 "TFT_RST")
+  (net 10 "USB_DM")
+  (net 11 "USB_DP")
+  (net 12 "BOOT")
+  (net 13 "I2S_WS")
+  (net 14 "I2S_SD")
+  (net 15 "I2C_SDA")
+  (net 16 "I2C_SCL")
+  (net 17 "RAD_RX")
+  (net 18 "RAD_TX")
+  (net 19 "ENC_A")
+  (net 20 "I2S_SCK")
+  (net 21 "ENC_B")
+  (net 22 "LED_DIN")
+  (net 23 "TFT_BL")
+  (net 24 "VBUS")
+  (net 25 "USB_CC1")
+  (net 26 "USB_DP_CON")
+  (net 27 "USB_DM_CON")
+  (net 28 "USB_CC2")
+  (net 29 "LED_DINB")
+  (net 30 "LED_PRE")
+  (net 31 "+5V")
+  (net 32 "TFT_BLP")
+  (net 33 "LED_5V")
+  (net 34 "LED_DATA")
+  (net 35 "TX0")
+  (net 36 "RX0")
+  (net 37 "LED1_A")
+  (net 38 "B_UP")
+  (net 39 "B_DN")
+  (net 40 "B_LF")
+  (net 41 "B_RT")
+  (net 42 "B_OK")
+  (footprint
+    "ledhub-c6:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "51c249ae-f37c-4046-855d-41bd3620fad8")
+    (at 3.5 3.5)
+    (property
+      "Reference"
+      "H1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "fc68e8c8-4079-438a-ae10-e2248239649e")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "2ded7747-46c2-4c32-b309-cff169aab218")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/3c33185c-5df7-4ac8-aaf4-c9b0ea3206a9")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "8912cf61-eca2-43be-9661-74ec1e467173")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "ledhub-c6:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "c3e05fcc-7750-435b-a7d9-164ee518e8e2")
+    (at 76.5 3.5)
+    (property
+      "Reference"
+      "H2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "250f7d82-d7b5-4526-bbcb-99606b8c32f8")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "5e398f44-1e72-40cb-a86d-eb61d98b29be")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/d8174c14-7722-416f-bda0-430709057862")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "528bb240-69bf-4a1c-ac77-38cec5c7e048")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "ledhub-c6:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "460b77e4-30ea-4253-8191-bcd63806c521")
+    (at 3.5 46.5)
+    (property
+      "Reference"
+      "H3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "b53c24b8-c819-4232-9c6e-43b6b53ec219")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "88b7a7a2-4dcd-4760-84e7-c07f8e5c7bb4")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/c8f3c10a-2c8b-48b6-8ba9-9536dea953c8")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "bb190918-f2da-4d11-9acc-369526f282c3")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "ledhub-c6:MountingHole_M2.5"
+    (layer "F.Cu")
+    (uuid "31276aca-6f20-47d5-8e0a-c409ee9addca")
+    (at 76.5 46.5)
+    (property
+      "Reference"
+      "H4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f57094b2-2681-4148-aca1-f0e856470bf4")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "MountingHole_M2.5"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "1d381a9c-99e8-4164-9ad7-98355f4b16da")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/222ffa0e-644c-4f2d-beed-dcc386c055e6")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_circle
+      (center 0 0)
+      (end 2.6 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "8a6723df-b156-45b9-8ed5-0a99320e0e0a")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 0)
+      (size 3.2 3.2)
+      (drill 2.7)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "ledhub-c6:ESP32-C6-WROOM-1"
+    (layer "F.Cu")
+    (uuid "b38704bc-094e-4de8-be73-e3eabb9ab442")
+    (at 22 16)
+    (property
+      "Reference"
+      "U1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "3084de11-244f-46a6-b12e-df2a0f529d76")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "ESP32-C6-WROOM-1"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "90a78ea3-dbbd-4984-8c6c-cc8d6b2b4e44")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/ba2f20ed-4023-4aa9-9268-e25940f00bb8")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -9 -12.75)
+      (end 9 12.75)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "edded3be-e0f9-46d6-97e1-6e72cfa05b73")
+    )
+    (fp_rect
+      (start -9.5 -13.25)
+      (end 9.5 13.25)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "af9fc10b-46ee-4ec6-86e7-7a6597b97a2f")
+    )
+    (fp_line
+      (start -9 -12.75)
+      (end 9 -12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "9bc59280-432d-4081-9b63-21f5fafc5ff0")
+    )
+    (fp_line
+      (start -9 -12.75)
+      (end -9 -5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "64da9688-072c-45d4-bbe0-fa24828a41d3")
+    )
+    (fp_line
+      (start 9 -12.75)
+      (end 9 -5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "b9e8b335-d44f-426e-97a6-3b6152b79dd2")
+    )
+    (fp_line
+      (start -9 5)
+      (end -9 12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "5747a9c9-573a-4d30-9ab2-8266fdc61f44")
+    )
+    (fp_line
+      (start 9 5)
+      (end 9 12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "75a2b580-5d01-42d2-9550-22e838470fe4")
+    )
+    (fp_line
+      (start -9 12.75)
+      (end 9 12.75)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "1bd46064-2403-4054-9ff0-7702857aaa40")
+    )
+    (fp_text
+      user
+      "ANT"
+      (at 0 -11 0)
+      (layer "F.SilkS")
+      (uuid "01207a33-01dc-4da3-bf5a-1d996545f89e")
+      (effects
+        (font
+          (size 1.2 1.2)
+          (thickness 0.18)
+        )
+      )
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -8.75 -8.255)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -8.75 -6.985)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -8.75 -5.715)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "EN")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -8.75 -4.445)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 4 "TFT_DC")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at -8.75 -3.175)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 5 "TFT_CS")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at -8.75 -1.905)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 6 "TFT_SCK")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at -8.75 -0.635)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 7 "TFT_MOSI")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at -8.75 0.635)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at -8.75 1.905)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 9 "TFT_RST")
+    )
+    (pad
+      "10"
+      smd
+      rect
+      (at -8.75 3.175)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "11"
+      smd
+      rect
+      (at -8.75 4.445)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "12"
+      smd
+      rect
+      (at -8.75 5.715)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "13"
+      smd
+      rect
+      (at -8.75 6.985)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 10 "USB_DM")
+    )
+    (pad
+      "14"
+      smd
+      rect
+      (at -8.75 8.255)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 11 "USB_DP")
+    )
+    (pad
+      "28"
+      smd
+      rect
+      (at 8.75 -8.255)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "27"
+      smd
+      rect
+      (at 8.75 -6.985)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 23 "TFT_BL")
+    )
+    (pad
+      "26"
+      smd
+      rect
+      (at 8.75 -5.715)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 22 "LED_DIN")
+    )
+    (pad
+      "25"
+      smd
+      rect
+      (at 8.75 -4.445)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 21 "ENC_B")
+    )
+    (pad
+      "24"
+      smd
+      rect
+      (at 8.75 -3.175)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 20 "I2S_SCK")
+    )
+    (pad
+      "23"
+      smd
+      rect
+      (at 8.75 -1.905)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 19 "ENC_A")
+    )
+    (pad
+      "22"
+      smd
+      rect
+      (at 8.75 -0.635)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "21"
+      smd
+      rect
+      (at 8.75 0.635)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 18 "RAD_TX")
+    )
+    (pad
+      "20"
+      smd
+      rect
+      (at 8.75 1.905)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 17 "RAD_RX")
+    )
+    (pad
+      "19"
+      smd
+      rect
+      (at 8.75 3.175)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 16 "I2C_SCL")
+    )
+    (pad
+      "18"
+      smd
+      rect
+      (at 8.75 4.445)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 15 "I2C_SDA")
+    )
+    (pad
+      "17"
+      smd
+      rect
+      (at 8.75 5.715)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "I2S_SD")
+    )
+    (pad
+      "16"
+      smd
+      rect
+      (at 8.75 6.985)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 13 "I2S_WS")
+    )
+    (pad
+      "15"
+      smd
+      rect
+      (at 8.75 8.255)
+      (size 1.5 0.9)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 12 "BOOT")
+    )
+    (pad
+      "29"
+      smd
+      rect
+      (at 0 0)
+      (size 7.5 12.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  )
+  (footprint
+    "Connector_USB:USB_C_Receptacle_USB2.0_16P"
+    (layer "F.Cu")
+    (uuid "dc102154-6efe-411f-9b58-c0b731610d4f")
+    (at 12 46.4 180)
+    (property
+      "Reference"
+      "X1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "3faf712f-1186-4bd2-87dc-73451805d48e")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "USB_C_16P"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "a3b2cd2c-09ba-44e9-a4d9-d43e02c58024")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/3aaa8255-c4b2-4060-bc9a-dfc4493c2410")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -4.45 -1.5)
+      (end 4.45 3.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "41611652-51af-453e-850d-cefced1e26cd")
+    )
+    (fp_rect
+      (start -5.6 -2.2)
+      (end 5.6 4.4)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "e291ba8e-03bd-46a2-8b5f-3f8a8dd56a42")
+    )
+    (fp_line
+      (start -4.45 -1.6)
+      (end 4.45 -1.6)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "bc282885-8fc5-4468-972d-5d7614718bb5")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -3.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -3.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -2.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 25 "USB_CC1")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -2.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 26 "USB_DP_CON")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at -1.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 27 "USB_DM_CON")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at -1.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at -0.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at -0.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at 0.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "10"
+      smd
+      rect
+      (at 0.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "11"
+      smd
+      rect
+      (at 1.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "12"
+      smd
+      rect
+      (at 1.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 27 "USB_DM_CON")
+    )
+    (pad
+      "13"
+      smd
+      rect
+      (at 2.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 26 "USB_DP_CON")
+    )
+    (pad
+      "14"
+      smd
+      rect
+      (at 2.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 28 "USB_CC2")
+    )
+    (pad
+      "15"
+      smd
+      rect
+      (at 3.25 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "16"
+      smd
+      rect
+      (at 3.75 2.6)
+      (size 0.3 1.25)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S1"
+      thru_hole
+      circle
+      (at -4.32 0.1)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S2"
+      thru_hole
+      circle
+      (at 4.32 0.1)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S3"
+      thru_hole
+      circle
+      (at -4.32 2.7)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "S4"
+      thru_hole
+      circle
+      (at 4.32 2.7)
+      (size 1.1 1.1)
+      (drill 0.6)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Connector_USB.3dshapes/USB_C_Receptacle_USB2.0_16P.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Package_TO_SOT_SMD:SOT-23-5"
+    (layer "F.Cu")
+    (uuid "d7719f17-96a4-4c3a-92cf-dbf64a669ec4")
+    (at 31 35)
+    (property
+      "Reference"
+      "U6"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "af79a7d8-52fa-4784-a3ea-93ac8b21ba4a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AP2112K-3.3"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "87fb1df0-861b-4cbc-a4a1-961047a12ea6")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/08f90b9a-e785-4e98-b37a-6211584ac5b7")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -1.5 -0.75)
+      (end 1.5 0.75)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "68708592-585a-4728-b193-66c6027dd88f")
+    )
+    (fp_rect
+      (start -1.7 -1.5)
+      (end 1.7 1.5)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "fc41fedc-00b1-403d-af6d-8a8954d96d1e")
+    )
+    (fp_line
+      (start -0.6 -0.85)
+      (end 0.6 -0.85)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "0a933c70-c710-4553-9c53-0603ee850c4f")
+    )
+    (fp_line
+      (start -0.6 0.85)
+      (end 0.6 0.85)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "5a7eafde-e4a8-446a-8e02-c5e04b918893")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.95 -0.95)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -0.95 0)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -0.95 0.95)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 0.95 0.475)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at 0.95 -0.475)
+      (size 0.95 0.8)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SOT-23-5.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "3d659628-c039-4ec3-aeee-72c4cd6ed69c")
+    (at 6.7 12)
+    (property
+      "Reference"
+      "BT1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "56465047-556d-4d1d-92d4-a831503c4ed7")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "962c024e-02e2-4f48-98d8-059c0a01cff6")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/f67e4e33-a842-4ce1-ba34-ada1e2c7436a")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask"
+    )
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "3b0ac815-30c0-429f-bf7e-932187d1c2db")
+    (at 6.7 20)
+    (property
+      "Reference"
+      "BT2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "334cc26e-8541-418d-a942-bf569ae79c32")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "b5b688ab-ef21-4d7d-a0f1-00915d6b6bf8")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/9466a111-2b2c-47d6-b099-352151bcd3a7")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5
+    )
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "e4c20267-13eb-4577-aa14-dadfed96d683")
+    (at 24 41)
+    (property
+      "Reference"
+      "BT_LF"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "da56604f-fb43-44c8-ad52-ba5dc44ac2c8")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "3c83b14c-f952-405d-8db7-3428e188fb5e")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/dbf7a4c5-158f-4077-8450-ba49954aa0ae")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "a219307a-202f-400f-9e14-0ee9345e8d4b")
+    (at 35.9 41)
+    (property
+      "Reference"
+      "BT_UP"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "3e0a487b-e365-4794-8c55-7a07bdf6933a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "b4016c3d-b8e8-48dd-9d11-44a819095a86")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/42dac2ef-a5a3-4420-9fb7-199e24edab31")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "4724db13-a70a-4956-94cd-37acb0ae15b7")
+    (at 47.8 41)
+    (property
+      "Reference"
+      "BT_OK"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "fa307dd2-ef1d-4181-ae44-fff03014661b")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "30a46c95-8f72-415d-8a24-388f5fa8dadd")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/797882c5-c490-4f3b-bba7-758fb84ee1d1")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "916b7f92-357a-4039-87c2-c2ab77b7b802")
+    (at 59.7 41)
+    (property
+      "Reference"
+      "BT_DN"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "2917847d-3b08-4953-8d07-8dc53b8a201a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "d3e4ad69-bec1-4eed-b29a-a84864f51605")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/0f5a7438-41de-4084-990c-7e277980ebe5")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:Tactile-6x6-SMD"
+    (layer "F.Cu")
+    (uuid "0f8842e8-4908-4a6a-9381-71be842aa56d")
+    (at 71.6 41)
+    (property
+      "Reference"
+      "BT_RT"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "70ad9397-3e90-4699-b098-bcb08ba0b8e7")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SW_PUSH"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "c34184ea-f5a3-4c41-9bf3-5e39ced2dd64")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/7731819c-a7a9-475b-83b9-36eb10ceffa3")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -3 -3)
+      (end 3 3)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "786789b7-cbb9-4c65-880e-b307804c6123")
+    )
+    (fp_rect
+      (start -5.95 -3.15)
+      (end 5.95 3.15)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "503e34da-e77e-4624-9ce7-ac10a97af870")
+    )
+    (fp_rect
+      (start -2.9 -2.9)
+      (end 2.9 2.9)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5e767842-18d6-48d3-beb7-15963c3b3f46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 4.5 -2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 4.5 2.25)
+      (size 2.3 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+    (layer "F.Cu")
+    (uuid "d7ba420c-9bfa-4625-906e-c38093b555a1")
+    (at 3.5 33)
+    (property
+      "Reference"
+      "J5"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "632c4116-39b2-49a6-9f66-d088ae470709")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x04"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "65c5e853-10a2-4e8f-90b5-576f2e6c767f")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/4d1465ef-7764-4c9a-916e-f4eaccd9a1a4")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -1.27 -1.27
+    )
+      (end 1.27 8.89)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "264d86d8-c5f8-4061-a01b-529ed1a9977e")
+    )
+    (fp_rect
+      (start -1.52 -1.52)
+      (end 1.52 9.14)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "398a6dc3-bdf3-4902-970a-f04b706ebe6d")
+    )
+    (fp_rect
+      (start -1.27 -1.27)
+      (end 1.27 8.89)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "5ca1f6dc-be8e-443e-8a47-2c24ccdebfe3")
+    )
+    (pad
+      "1"
+      thru_hole
+      rect
+      (at 0 0)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      thru_hole
+      circle
+      (at 0 2.54)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 35 "TX0")
+    )
+    (pad
+      "3"
+      thru_hole
+      circle
+      (at 0 5.08)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 36 "RX0")
+    )
+    (pad
+      "4"
+      thru_hole
+      circle
+      (at 0 7.62)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/PinHeader_2x07_P2.54mm_Vertical.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
+    (layer "F.Cu")
+    (uuid "ecbca7cd-c2e0-4f8b-8706-c198c12f570d")
+    (at 74 8)
+    (property
+      "Reference"
+      "J1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "55a198b0-163a-4eae-b67a-2ed5636d8f91")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_02x07"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "bb3da194-c38d-4280-8c33-2c2305e63370")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/8838fecd-af48-48b4-86f8-477577ace11f")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -2.54 -1.27)
+      (end 2.54 16.51)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "a006f83e-cd83-4315-8a2b-104ff0faf461")
+    )
+    (fp_rect
+      (start -2.79 -1.52)
+      (end 2.79 16.76)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "7f26b8db-8de0-463a-a799-91b4ae934198")
+    )
+    (fp_rect
+      (start -2.54 -1.27)
+      (end 2.54 16.51)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "d419787d-50f2-4d56-8a02-6351be1cce24")
+    )
+    (pad
+      "1"
+      thru_hole
+      rect
+      (at -1.27 0)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      thru_hole
+      circle
+      (at -1.27 2.54)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      thru_hole
+      circle
+      (at -1.27 5.08)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 5 "TFT_CS")
+    )
+    (pad
+      "4"
+      thru_hole
+      circle
+      (at -1.27 7.62)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask"
+    )
+      (net 9 "TFT_RST")
+    )
+    (pad
+      "5"
+      thru_hole
+      circle
+      (at -1.27 10.16)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 4 "TFT_DC")
+    )
+    (pad
+      "6"
+      thru_hole
+      circle
+      (at -1.27 12.7)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 7 "TFT_MOSI")
+    )
+    (pad
+      "7"
+      thru_hole
+      circle
+      (at -1.27 15.24)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 6 "TFT_SCK")
+    )
+    (pad
+      "8"
+      thru_hole
+      circle
+      (at 1.27 0)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 32 "TFT_BLP")
+    )
+    (pad
+      "9"
+      thru_hole
+      circle
+      (at 1.27 2.54)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      "10"
+      thru_hole
+      circle
+      (at 1.27 5.08)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      "11"
+      thru_hole
+      circle
+      (at 1.27 7.62)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      "12"
+      thru_hole
+      circle
+      (at 1.27 10.16)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      "13"
+      thru_hole
+      circle
+      (at 1.27 12.7)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      "14"
+      thru_hole
+      circle
+      (at 1.27 15.24)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+    (layer "F.Cu")
+    (uuid "9ab08b0c-ab8f-4d83-9fe5-f4d9104dc262")
+    (at 41 10)
+    (property
+      "Reference"
+      "J2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "603205f5-b36f-454f-ab7c-53d246d0f1de")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Conn_01x05"
+      (at 0 2 0)
+      (layer "F.Fab"
+    )
+      (uuid "a06b3df9-1b51-4a03-8a34-033ef22cb9b8")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/d0f657d9-8043-4a06-b263-927211037cfa")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -1.27 -1.27)
+      (end 1.27 11.43)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "b701a0d1-1a05-45a2-8d78-890667c642cd")
+    )
+    (fp_rect
+      (start -1.52 -1.52)
+      (end 1.52 11.68)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "dd766ad6-55b4-4aae-b96d-0ef09407bcf9")
+    )
+    (fp_rect
+      (start -1.27 -1.27)
+      (end 1.27 11.43)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "f4fa387a-d83d-4770-82f9-4dd6011e2397")
+    )
+    (pad
+      "1"
+      thru_hole
+      rect
+      (at 0 0)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 31 "+5V")
+    )
+    (pad
+      "2"
+      thru_hole
+      circle
+      (at 0 2.54)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 17 "RAD_RX")
+    )
+    (pad
+      "3"
+      thru_hole
+      circle
+      (at 0 5.08)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 18 "RAD_TX")
+    )
+    (pad
+      "4"
+      thru_hole
+      circle
+      (at 0 7.62)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "5"
+      thru_hole
+      circle
+      (at 0 10.16)
+      (size 1.7 1.7)
+      (drill 1)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/KF128-5.08-3P.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:KF128-5.08-3P"
+    (layer "F.Cu")
+    (uuid "f320aed7-768a-415c-bcf2-ff6549205e9c")
+    (at 52 4.7 90)
+    (property
+      "Reference"
+      "J3"
+      (at 0 -2 0
+    )
+      (layer "F.SilkS")
+      (uuid "97b3cf27-b994-4bf8-bac4-9a5eec3ecb3d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Term_3P"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "317b8283-5d76-4d7e-bfb0-d5feb0281ce9")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/a3477f7f-8592-430a-8426-35a074315f62")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -3.5 -8.28)
+      (end 3.5 8.28)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "56467561-2518-4629-9be5-ae2fb4d219b7")
+    )
+    (fp_rect
+      (start -3.6 -6.28)
+      (end 3.6 6.28)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "f2291416-ca03-4bf9-8ecd-4ec3d2c8d08c")
+    )
+    (fp_rect
+      (start -3.5 -8.28)
+      (end 3.5 8.28)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "2b6b02bf-32d5-4529-a99a-34c7f39477e9")
+    )
+    (fp_line
+      (start -2 -9.08)
+      (end 2 -9.08)
+      (stroke
+        (width 0.15)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "036f1f0b-ef40-4c69-9c68-dcd5cb049566")
+    )
+    (pad
+      "1"
+      thru_hole
+      circle
+      (at 0 0)
+      (size 2.2 2.2)
+      (drill 1.3)
+      (layers "*.Cu" "*.Mask")
+      (net 33 "LED_5V")
+    )
+    (pad
+      "2"
+      thru_hole
+      circle
+      (at 0 5.08)
+      (size 2.2 2.2)
+      (drill 1.3)
+      (layers "*.Cu" "*.Mask")
+      (net 34 "LED_DATA"
+    )
+    )
+    (pad
+      "3"
+      thru_hole
+      circle
+      (at 0 10.16)
+      (size 2.2 2.2)
+      (drill 1.3)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/KF128-5.08-2P.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:KF128-5.08-2P"
+    (layer "F.Cu")
+    (uuid "21f0823b-54a7-4a0f-8cb2-aa84b3d0dfc2")
+    (at 39 4.7 90)
+    (property
+      "Reference"
+      "J4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "ee20a709-7d32-4938-aaf8-b94e7f7bb4ea")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Term_2P"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "27f45c14-e442-4f57-9eaa-fe30f971df89")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/cb47e225-2e6f-458e-b634-265bbc79f6db")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -3.5 -5.74)
+      (end 3.5 5.74)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "7aaf08ff-c9ca-4154-8b4d-d7671f67a7ab")
+    )
+    (fp_rect
+      (start -3.6 -3.74)
+      (end 3.6 3.74)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "675c4988-4934-498d-93ae-66e6491e80b6")
+    )
+    (fp_rect
+      (start -3.5 -5.74)
+      (end 3.5 5.74)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "c0e75397-8c13-4dda-a655-b12a16da8b63")
+    )
+    (fp_line
+      (start -2 -6.54)
+      (end 2 -6.54)
+      (stroke
+        (width 0.15)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "9213d38b-7edb-45ec-bf0f-84e2091a1ff4")
+    )
+    (pad
+      "1"
+      thru_hole
+      circle
+      (at 0 0)
+      (size 2.2 2.2)
+      (drill 1.3)
+      (layers "*.Cu" "*.Mask")
+      (net 33 "LED_5V")
+    )
+    (pad
+      "2"
+      thru_hole
+      circle
+      (at 0 5.08)
+      (size 2.2 2.2)
+      (drill 1.3)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/KF128-5.08-2P.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "ledhub-c6:EC11-Encoder"
+    (layer "F.Cu")
+    (uuid "caff87f1-1530-47bd-bca2-4701f7e51739")
+    (at 64 30.9)
+    (property
+      "Reference"
+      "ENC1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "fcfe59d2-73f8-4673-b470-76cad25c541d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "EC11"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "65c643b4-46e8-4d67-be21-64a1fd87e530")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/0f35e895-60aa-49fa-8078-dc21d9acb80f")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -6 -6)
+      (end 6 6)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "d4cd156c-197c-4142-9401-6dc8a3484b1c")
+    )
+    (fp_rect
+      (start -7 -6.6)
+      (end 7 6.6)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "8bd30234-1101-4be8-9066-dfe9209cd0b5")
+    )
+    (fp_circle
+      (center 0 0)
+      (end 3 0)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "2526f54f-a581-4250-baa6-2ffc2e1aa2d6")
+    )
+    (fp_rect
+      (start -6 -6)
+      (end 6 6)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "51576a88-1023-4752-95c5-b07b0c343625")
+    )
+    (pad
+      "1"
+      thru_hole
+      circle
+      (at -2.5 -4.5)
+      (size 1.8 1.8)
+      (drill 0.9)
+      (layers "*.Cu" "*.Mask")
+      (net 19 "ENC_A")
+    )
+    (pad
+      "2"
+      thru_hole
+      circle
+      (at 0 -4.5)
+      (size 1.8 1.8)
+      (drill 0.9)
+      (layers "*.Cu" "*.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      thru_hole
+      circle
+      (at 2.5 -4.5)
+      (size 1.8 1.8)
+      (drill 0.9)
+      (layers "*.Cu" "*.Mask")
+      (net 21 "ENC_B")
+    )
+    (pad
+      "4"
+      thru_hole
+      circle
+      (at -2.5 4.5)
+      (size 1.8 1.8)
+      (drill 0.9)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      "5"
+      thru_hole
+      circle
+      (at 2.5 4.5)
+      (size 1.8 1.8)
+      (drill 0.9)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at -6.5 0)
+      (size 2.4 2.4)
+      (drill 1.7)
+      (layers "*.Cu" "*.Mask")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 6.5 0)
+      (size 2.4 2.4)
+      (drill 1.7)
+      (layers "*.Cu" "*.Mask")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/EC11-Encoder.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "ledhub-c6:INMP441-LGA9"
+    (layer "F.Cu")
+    (uuid "e02259e9-7844-4322-ad62-e4df37533410")
+    (at 56 11.5)
+    (property
+      "Reference"
+      "U2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "461ade0c-0b8b-4dcd-9526-198b80c77129")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "INMP441"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "74e7b16f-8aac-4ff2-b391-52d0fabd91da")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/81f34e19-3a70-4e2a-963c-9718c35e43f4")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr through_hole)
+    (fp_rect
+      (start -2.36 -1.88)
+      (end 2.36 1.88)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "41c47a99-5625-4378-8f1a-e1cde9b53ce1")
+    )
+    (fp_rect
+      (start -2.6 -2.1)
+      (end 2.6 2.1)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "aab59128-847e-44f9-a10a-cbf50981e2b8")
+    )
+    (fp_line
+      (start -2.36 -1.88)
+      (end 2.36 -1.88)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e0c981fb-6704-4005-94e8-69ed87d80b3a")
+    )
+    (fp_line
+      (start -2.36 1.88)
+      (end 2.36 1.88)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e01a9738-ef8b-4cbc-af50-a1e31c68351a")
+    )
+    (fp_circle
+      (center -1.8 -2.3)
+      (end -1.55 -2.3)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "456f3c96-0203-447f-9a85-ba3718eab216")
+    )
+    (fp_text
+      user
+      "PORT"
+      (at 0 -2.8 0)
+      (layer "F.SilkS")
+      (uuid "8834862a-55bd-494f-a82c-de021809f445")
+      (effects
+        (font
+          (size 0.7 0.7
+    )
+          (thickness 0.105)
+        )
+      )
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -1.33 -1.575)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -1.33 -0.525)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 13 "I2S_WS")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -1.33 0.525)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "I2S_SD")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -1.33 1.575)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 20 "I2S_SCK")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at 1.33 -1.575)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at 1.33 -0.525)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at 1.33 0.525)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at 1.33 1.575)
+      (size 0.4 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at 0 0.75)
+      (size 0.9 0.6)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      ""
+      np_thru_hole
+      circle
+      (at 0 -1.1)
+      (size 0.9 0.9)
+      (drill 0.8)
+      (layers "*.Cu" "*.Mask")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SHT31-DFN8.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:SHT31-DFN8"
+    (layer "F.Cu")
+    (uuid "3f5a2ca6-7c77-4187-9700-1991ad2aa355")
+    (at 62 17)
+    (property
+      "Reference"
+      "U3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f9d3d311-4396-43c1-b05f-a202cb9ec2a9")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "SHT31"
+      (at 0 2 0
+    )
+      (layer "F.Fab")
+      (uuid "bb447770-bbb8-4429-8f83-c6d0220e2f5d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/6ba01b04-a1c2-4024-94dd-125a8e6e93c7")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -1.25 -1.25)
+      (end 1.25 1.25)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "fcc50bda-f6ab-4635-9604-11806e201bf6")
+    )
+    (fp_rect
+      (start -1.5 -1.7)
+      (end 1.5 1.7)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "5c5e21bd-2314-4ba3-8e9b-701e2e7f9652")
+    )
+    (fp_line
+      (start -1.25 -1.25)
+      (end 1.25 -1.25)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "eb554d0f-1383-442b-969d-1a9e9c6e7eb8")
+    )
+    (fp_line
+      (start -1.25 1.25)
+      (end 1.25 1.25)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e044c993-a3de-4ec2-bf36-d978db49f51e")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.75 -1.2)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 15 "I2C_SDA")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -0.75 -0.4)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -0.75 0.4)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -0.75 1.2)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 16 "I2C_SCL")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at 0.75 1.2)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at 0.75 0.4)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at 0.75 -0.4)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at 0.75 -1.2)
+      (size 0.5 0.3)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at 0 0)
+      (size 1.8 1.1)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND"
+    )
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/BH1750-WSOF6.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "ledhub-c6:BH1750-WSOF6"
+    (layer "F.Cu")
+    (uuid "38766ac2-03a1-4903-bbe7-ce7a0a6e20d8")
+    (at 62 23)
+    (property
+      "Reference"
+      "U4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "5880f9a5-53cb-48c5-91cb-b9047766cf5e")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "BH1750"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "46db44fa-4252-4a1e-bdc3-8760e8a64524")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/fe25565b-b461-4d5e-82d5-c51700a44c35")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -1.6 -0.8)
+      (end 1.6 0.8)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "1361a5ff-a350-4db6-b9f4-26b06e56e2cd")
+    )
+    (fp_rect
+      (start -1.75 -1)
+      (end 1.75 1)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "a7fb9726-aede-4694-aca7-4a1681722c55")
+    )
+    (fp_line
+      (start -1.6 -0.8)
+      (end 1.6 -0.8)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "71a6ba27-2309-4780-8891-3ad692949cb6")
+    )
+    (fp_line
+      (start -1.6 0.8)
+      (end 1.6 0.8)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "a0b7bc15-a288-4df1-ac84-81a541328766")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -1.43 -0.5)
+      (size 0.85 0.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -1.43 0)
+      (size 0.85 0.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -1.43 0.5)
+      (size 0.85 0.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at 1.43 0.5)
+      (size 0.85 0.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 16 "I2C_SCL")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at 1.43 0)
+      (size 0.85 0.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at 1.43 -0.5)
+      (size 0.85 0.4)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 15 "I2C_SDA")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at 0 0)
+      (size 1.5 1.2)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/BH1750-WSOF6.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+    (layer "F.Cu")
+    (uuid "d61399d7-3e62-47fc-95a1-e881ceb9774d")
+    (at 46 31)
+    (property
+      "Reference"
+      "U5"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "8003e4b7-15c4-4eed-a507-1d9a538b9274")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "74AHCT125"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "3ceb7f8c-753e-4ca3-a380-97279eef6797")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/e2ece05c-6132-426f-b044-c22ca648efdd")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -1.95 -4.35)
+      (end 1.95 4.35)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "337d7e8b-0166-4397-9ca3-bfa0fba6d346")
+    )
+    (fp_rect
+      (start -3.45 -5)
+      (end 3.45 5)
+      (stroke
+        (width 0.05
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "ce06b1f1-e2a7-452c-9915-fde7e1628592")
+    )
+    (fp_line
+      (start -1.95 -4.5)
+      (end 1.95 -4.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "332d22d3-47bb-4ae6-9d6a-89f84cc7cc82")
+    )
+    (fp_line
+      (start -1.95 4.5)
+      (end 1.95 4.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "d0f1cb18-0598-48ec-bb92-a3225eb3cd29")
+    )
+    (fp_circle
+      (center -2.7 -4.6)
+      (end -2.45 -4.6)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.SilkS")
+      (uuid "b30f5f63-0c96-4344-a71c-bb151db42a0c")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -2.7 -3.81)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "14"
+      smd
+      rect
+      (at 2.7 -3.81)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 31 "+5V")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at -2.7 -2.54)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 29 "LED_DINB")
+    )
+    (pad
+      "13"
+      smd
+      rect
+      (at 2.7 -2.54)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 31 "+5V")
+    )
+    (pad
+      "3"
+      smd
+      rect
+      (at -2.7 -1.27)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 30 "LED_PRE")
+    )
+    (pad
+      "12"
+      smd
+      rect
+      (at 2.7 -1.27)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "4"
+      smd
+      rect
+      (at -2.7 0)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 31 "+5V")
+    
+    )
+    (pad
+      "11"
+      smd
+      rect
+      (at 2.7 0)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "5"
+      smd
+      rect
+      (at -2.7 1.27)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "10"
+      smd
+      rect
+      (at 2.7 1.27)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 31 "+5V")
+    )
+    (pad
+      "6"
+      smd
+      rect
+      (at -2.7 2.54)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+    (pad
+      "9"
+      smd
+      rect
+      (at 2.7 2.54)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "7"
+      smd
+      rect
+      (at -2.7 3.81)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+    (pad
+      "8"
+      smd
+      rect
+      (at 2.7 3.81)
+      (size 0.6 1.5)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "869734ec-53c1-4f26-ae9f-09947c586eab")
+    (at 29 45.5)
+    (property
+      "Reference"
+      "C1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "cc6d29bf-d58b-4be1-a4d4-ee1394a12fd1")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "2b2d022d-6932-4c94-af34-175a99b1abbf")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/458e39a3-8c3f-4e97-9124-f81e246068e6")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "3d5e9e66-58f0-472f-ae88-a921bcbd8e74")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "03b0f560-c3eb-4edc-9842-5fb3256649bc")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "7daa65a4-8657-4518-a624-cc6c96ebcd5e")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "60ec9c14-381e-4dbc-8950-115b86b8b758")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "89ed96c5-4181-481e-ae2e-c162aa507b3e")
+    (at 26 34 180)
+    (property
+      "Reference"
+      "C2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "7f3801e7-cf54-4526-8c7d-071644a1fc32")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "9e7d6067-cda8-4ac2-b697-da951258e96c")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/f7334c01-f411-409a-b867-43b2ac1368cd")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "6ebfa16e-e496-46dd-9e91-9dcb7d28c08a")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "293eb7ea-aa00-474f-ac4d-042e0b44c032")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "3dc31434-78d1-46a5-9c72-4130041c5b59")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "89f299c6-bd16-44b0-a6d2-641c4ffecc46")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "aba6ea50-ae20-4c55-8a55-797579755aa4")
+    (at 11.5 28.5)
+    (property
+      "Reference"
+      "C3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "4a326d87-683d-449a-ad4a-1382bd55d30b")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "4c21741a-5418-43e1-a341-5705042626a0")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/ffdb4684-303a-47ae-a740-1da79ca540ff")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "ed99c073-200d-4ea4-aeae-3bc26976361a")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "d7f34777-a74c-4e22-a691-a79fc912b4ee")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e645a70b-9906-46de-8333-7d94082953ec")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "8ecac92a-e76a-4407-8b54-474088ace2d5")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "e6eb21c4-9db3-4d18-b863-bce3411319f0")
+    (at 6 29)
+    (property
+      "Reference"
+      "C4"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f7aa6af4-7955-4cb6-a477-60aac4981ee9")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "b999c602-41bc-44da-ad15-9e31fb735dad")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/bf673588-d961-41d4-9af4-4ced21280bef")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "43d977d3-89f9-4d5a-a826-fb6e5b593e3d")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "59bfdefa-2a47-4eed-9b94-b91cb2574b35")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "66d945f1-bb12-4c7b-bacd-a2eae073a606")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e1d31726-5c4a-49db-9138-3dda855c604e")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "EN")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "c4b9f3cd-394f-4ef3-bcf2-46a82dc1a9b1")
+    (at 58.5 17 180)
+    (property
+      "Reference"
+      "C5"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "6c3366c1-2a23-40aa-9bbe-a5b40e02fb50")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "97b9553c-ceb9-4ecc-94a9-f341dbfa7744")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/24ebd9d0-afeb-4346-87ca-581fb63446e4")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "ccfcac41-39ad-4b60-a823-369b1564e798")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "fcb5d678-aebc-4272-9ec4-f76e5912214f")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "4987715a-cf46-4d39-b9be-f294a6303ade")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "5d1b587e-68aa-41d1-bcda-4f3aa9b230ad")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "4e5887b8-8929-48f4-aeb9-5cce846a442e")
+    (at 58.5 23 180)
+    (property
+      "Reference"
+      "C6"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "d401db11-bf0f-450b-8939-7c6128931359")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "5ebfda1b-9997-44b2-b6d7-7e979227f134")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/7daf8488-7c3e-4527-8bdd-21c68f355fd9")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "c997fcaa-d631-44a1-9501-047371d02bd4")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "04a96244-7273-4dad-bcb6-80f587a4577b")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "6b2100c9-8532-42a5-9d7c-9a0674d94f41")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "712d4cd6-6508-44e7-9aa3-fa74acab738e")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "10908446-d197-4b0b-aed4-c774522126b9")
+    (at 52 9.2)
+    (property
+      "Reference"
+      "C7"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "237e47ac-7d0c-4311-a3e2-828d21ab2d4e")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "5869a6f7-e37a-4319-a761-4aaf55d99a10")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/360b0173-3988-4233-bc28-eb9076af4ce9")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "640ece3b-84c0-4044-b81f-8f4c2ed58470")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "c37fceaf-98ca-4beb-ad2a-73f2d55678b6")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "147041c1-2956-4a25-8ddd-222c18949c61")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "20a44be3-60ef-4157-a5af-6c1e1dd2082a")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "ad628370-8e16-40f2-a823-7362871aaf78")
+    (at 52 11.5)
+    (property
+      "Reference"
+      "C8"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "bd290695-1503-474b-973c-ae266dd1d8c2")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "a47825d6-8b32-400f-96ea-b3cbc531ede9")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/30c3592d-1fef-4762-8338-aa7cee064d68")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "450f6e96-a9a0-45ea-8d08-abd818aab67c")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "1d6a6845-b0be-43e3-a463-fd633fb7ffc3")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "f253c946-6a70-4a2d-9303-c53e8f2e1b08")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "fcf7b9fc-1de1-407f-9a42-98b24ff8a514")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "fc563e58-fb1f-486f-82d4-dd123b433e82")
+    (at 41 27 180)
+    (property
+      "Reference"
+      "C9"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "6642de64-81d3-4156-ad14-3248c81f1d4c")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "8690e6dd-631e-48ce-a88c-dc493dcbd6d9")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/613800f3-b848-4aa6-a233-f51af509b16b")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "f51c1a49-1364-48e2-bda8-ebfb17dc087e")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "c085f1e3-37a5-4ac1-8678-b3712513c4bf")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "39781f26-4fa9-479d-8b3f-1c03b09ff1b9")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "a11bd021-985e-47f3-8b87-31974b3bc7a3")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 31 "+5V")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Capacitor_SMD:C_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "e371a276-6234-4df2-b6fa-aaf2ef00a292")
+    (at 9 25)
+    (property
+      "Reference"
+      "C10"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "0bfb31f0-4a7c-4a2e-a804-e59568d45b2d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "1e9f9c00-62f5-4f01-bcd3-44bbc349dfaa")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/d2c921db-acea-4247-9b0d-9e88694713da")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "79301b63-2866-4f2d-9b17-321db38e0562")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "01106f88-7935-4f9b-882a-883e48cb5e2b")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "9550ebe3-8b5a-474d-a905-286f19339e11")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "14901ac9-9cce-443a-aa12-f42560972261")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "fecf6cff-83e3-4d2c-97fd-281fdd763819")
+    (at 59 15)
+    (property
+      "Reference"
+      "R1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "27af246f-72d5-4c04-81b6-82a522ca85b3")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "04255f09-7055-4fc1-8776-819f7b408af2")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/476bd6e1-2544-427c-90ca-8cc94a4f8f6e")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "0c7efa7c-2dde-41d6-879d-a3007c07302a")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "29ed7138-a39c-435a-a6b9-14b8f34e431e")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "289c28bb-ef64-48c4-a3dc-50b2abb31b79")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "888e9140-13aa-4981-8b2a-7c7c62e498a2")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 15 "I2C_SDA")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "a12832d9-c1f1-4a4d-bb2a-86f19a71c734")
+    (at 55.5 26.5)
+    (property
+      "Reference"
+      "R2"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f20207e7-2799-4719-8b09-fcd6b1fdb288")
+      (effects
+        (font
+          (size 1 1
+    )
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 0 2 0
+    )
+      (layer "F.Fab")
+      (uuid "f1bcc60c-f68e-417d-9c0f-22f3dd4d7fc5")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/05cf0c31-e76d-4b16-a6ce-aad64a8d9b12")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "8eaffddf-db1c-4938-b100-26d108b644bf")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "64b83b62-e85a-4f08-b9f6-6297ec9ad632")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "854574db-c958-4385-a39f-52a207bbbd17")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "cce1149a-62e0-44f2-b0a6-c6f325116e70")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 16 "I2C_SCL")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "9b20a0d9-02f3-48cd-b2ed-67c5251c7d22")
+    (at 34 35.5)
+    (property
+      "Reference"
+      "R3"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "7c4152e4-09a3-4151-9ae7-3d0e0ab6cbdf"
+    )
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "9f201b7a-b11a-4b74-9dff-e3fcdb5f9f2c")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/2ae7c73c-b532-4454-90c3-0ee6bd621b03")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "e0ce12c5-f2a2-459e-ab41-4daf6f8d9c08")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "2b7bb30b-f34f-468b-85a7-745b4c6d0ed3")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "600b50e1-c29c-4d06-a59b-5bd67ad0999a")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "c34ed44c-b632-42e4-9aad-30008f7be942")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 25 "USB_CC1")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "088ab9c8-59e9-431b-9f99-2a5b2cc1ae03")
+    (at 37 35.5)
+    (property
+      "Reference"
+      "R4"
+      (at 0 -2 0
+    )
+      (layer "F.SilkS")
+      (uuid "abe85f24-6142-4c29-8386-00548c1f4b43")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "5.1k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "a14f98a5-b281-41a0-8401-7f1e9a8af77d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/731c5cf3-4f6d-42d9-b238-756b4532b2b5")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "72491e7c-e5e7-4c12-b94d-b297dfa9823a")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "7fe2cd58-9077-40aa-a332-14ce5d1a5ba7")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "771c1c2f-c33a-4fce-97fa-072d4765d18c")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "eab829b9-1b2b-4cbc-a624-5307ed4fe5c9")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 28 "USB_CC2")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0
+    )
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "869e0919-152c-4764-88ff-72ab24269cf1")
+    (at 7 27.1 90)
+    (property
+      "Reference"
+      "R5"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "45865d3c-7814-401d-a96c-f4b2d6aff4d2")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "3f7acaae-16b7-4b78-8cac-c20fe59a128d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/587fd636-58ed-4a46-9447-717d31955203")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "0f9a96be-1c34-45c9-9fc7-d815c59c4dd7")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "09a76e5d-6fc6-46b3-ab74-199c1d2a3bb6")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "87444d5d-55cb-4fe0-88f3-7188acca3f52")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "6bf699e3-ab7f-480f-9c65-cb99ab94adc2")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0
+    )
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 26 "USB_DP_CON")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 11 "USB_DP")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "89c1a0c7-9a63-4521-b02b-125fe70810a8")
+    (at 7 24.5 90)
+    (property
+      "Reference"
+      "R6"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f34b6f8f-0f05-4044-b7a9-088420752565")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "db6963ff-5ec1-48c0-99f3-71586a230a9d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/f9f41544-d7c8-4864-a20f-c15ce3b63e50")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "378ad8b3-16c1-4e6d-b862-880338788a51")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "bf6ddae7-c512-42fb-aca0-cedbc8ef37fd")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "624ed492-0eea-460b-a4c6-e7334e64b282")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12
+    )
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "296a91c8-77d7-4526-9eaa-38086fb533b0")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 27 "USB_DM_CON")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 10 "USB_DM")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "a1b86deb-cd3b-405a-848c-f4d0efba19ef")
+    (at 7 33.5)
+    (property
+      "Reference"
+      "R7"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "6e97c8e6-a510-4dd8-b291-ebe5746f4176")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "e38ca0f9-d0c8-45cb-8b02-160d71658bb3")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/f605d2da-02f6-4e78-b6a1-9ef38f597298")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "04e750b0-24d8-4e90-a07d-6677bb473b02")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "736c77ba-c187-4d0c-8e75-69294eb9fd34")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12
+    )
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "255489ca-d4d0-489a-a9b5-6404b009df10")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "db80e648-4c37-4fd4-b831-77dee6c9c5d3")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 3 "EN")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "623ad5f3-f311-4ada-81fa-1a8799b881ab")
+    (at 10 32.5)
+    (property
+      "Reference"
+      "R8"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "9853d8a6-823f-4b6c-b4a2-996e03215e8a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "1k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "9b6770e4-97c8-4b84-a7fb-8ae7664becec")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/db38367f-882e-494d-afd3-5ba50c804c9a")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "7ab55f36-1382-46c4-9c68-b201c64eca9d")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "b6cb2dfb-9b72-45b4-b456-a166bac97127")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "f9e87f4d-07e5-493e-adf1-9bf1f5b34eb2")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "f72d5da1-a6e1-4bbb-80bf-61c191a597ff")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 37 "LED1_A")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "54af9bff-151d-4d5f-bec0-61dd7907df35")
+    (at 75.5 28)
+    (property
+      "Reference"
+      "R9"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "8815360a-7416-4900-a733-701fd0bad3a1")
+      (effects
+        (font
+          (size 1 1
+    )
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "64c75ba7-bea9-41cc-83c0-b3b90316a383")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/40b7f052-9657-44d4-9266-85650eb83404")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "ecb8bfff-c847-457a-b833-f3a1078867e6")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05
+    )
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "d1679572-72b9-4328-bd44-68a064a26ca8")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "70ccae0c-ea8e-42f3-b3e5-7336b9b339e7")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "b1e762ed-0ada-417d-bbca-f59c2dbf2bd9")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 23 "TFT_BL")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 32 "TFT_BLP")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "6ef5c865-f108-45ce-ae2d-21590317e369")
+    (at 75.5 31)
+    (property
+      "Reference"
+      "R10"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "5d2b2466-f2f1-4109-ba7c-2219d18b6ed3")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "da10faf5-9371-4c1a-895b-426b9c9658c2")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/72dd2700-ab9b-4176-b69e-555cf9ceb48f")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4
+    )
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "a0bdf5e4-5559-4734-b357-12b0ec180615")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "82f1cf06-20af-42bc-85fe-0ecead8d5b52")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "851adcf9-2162-465e-bbc7-2de5b917f4f7")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "a9693d47-45a9-495d-becf-d59394e326c6")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 32 "TFT_BLP")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "0956e472-0217-4e47-97c3-3c4a0df32e50")
+    (at 40.5 48)
+    (property
+      "Reference"
+      "R11"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "827da822-9739-4368-a7b1-8d7de4e17dbd")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "aca1370e-d1a7-4cdd-9bb2-a5a52bffa58c")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (path "/74a70c80-6211-4799-9519-46bf714503b8")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "33b3e2f1-0241-46ce-8391-0bd96826234b")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "606919db-b85c-4c58-b1bf-57337a110743")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "a747116b-3513-4842-9391-e69ce353cddc")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "266eb84e-6f27-49b4-a65b-5256bcda0dec")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 2 "+3V3")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "a28c7b10-366c-4939-8c0b-cebc9021aaa5")
+    (at 20.5 48)
+    (property
+      "Reference"
+      "R12"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "819af423-45d0-43f9-9bea-883745b1c1b1")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "0421aafb-e696-4079-839a-374ac7110a2a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/8f383fc3-fb88-463e-8b0a-4a2f9da89c11")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "0c86ed09-9404-4590-b662-87bf6913d954")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "bc90edd6-f517-4d52-9fb0-3f9b27df24b0")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "19c6b75b-83a1-482b-9a64-dd566a2d0b71")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "ffb4d14d-da34-4c22-b362-14f05ef67b8a")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 38 "B_UP")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "fc6aafb6-dcce-40a0-b2f4-b4fd2ad4bbd4")
+    (at 24.5 48)
+    (property
+      "Reference"
+      "R13"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "53d47a5a-bb00-4653-b0b8-d65343e79829")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "2.2k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "0372530f-f84b-43e3-a56c-364f938d3d56")
+      (effects
+        (font
+          (size 1 1
+    )
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/ac17f2e6-a609-413b-a2ff-1952ad3d62b4")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "8aff5713-91c9-4cff-9db5-bac6b8baf8f1")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "01108d5b-891e-4219-803a-6cf7d5199433")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "37a6d493-7cb9-40e5-b92f-d54b55843e59")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "c4f04feb-9708-45d3-929b-264ef1179b7c")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 39 "B_DN")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "4a148aa2-0f97-45c3-b33e-066e3827298f")
+    (at 28.5 48)
+    (property
+      "Reference"
+      "R14"
+      (at 0 -2 0
+    )
+      (layer "F.SilkS")
+      (uuid "592d7869-bf7b-479c-9e65-f9d54d214786")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "4.7k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "4e75ef8f-ece9-4f24-ba9c-fe8b2386df9b")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/e08f3561-6d82-4f74-aabc-356ea55ef5d6")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "c23c7532-8c72-40a0-a321-1651637ba18a")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "e213965d-79c9-4698-811c-a9c35d67f38d")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e1a43c70-30f0-4a9e-9373-a13fbf902468")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "9b6b9115-5df8-4607-b32b-279644c2f2e8")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 40 "B_LF")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "0a443239-fe4b-4f05-abb5-788ee6667977")
+    (at 32.5 48)
+    (property
+      "Reference"
+      "R15"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "443ebf17-d476-4d59-af97-46dedc991704")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "10k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "0f0db05f-6375-405b-ac85-67d4ba39414a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/a33b3055-d003-4bd6-8dfe-5a8aed4ad42f")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "f074cfd7-7709-417b-8c5c-4c8ccaa1a85a")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "cb7451f9-6dea-402f-9c01-69d0081cbadc")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "1abc0ed2-4a58-4faa-b1da-45b4fa5ebb90")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "fc6a6a99-1b71-4973-a1e3-59eb77bca947")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 41 "B_RT")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "052fed2b-0d89-4dcf-921d-81d9cc01df99")
+    (at 13 32)
+    (property
+      "Reference"
+      "R16"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "1554c68f-ae57-49da-ae1d-79d9168e40ec")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "909521b2-eac3-4b17-af8b-63b41b0210fd")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/7c480a4a-a034-444e-8a98-cb98cfcfba9a")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "fa9a0644-0b47-42aa-bb0b-cfbd6ee63906")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "1e662b0f-1bd8-4aee-b40a-9be96c23d804")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "4a5cab61-d4d7-4873-b654-feda006463dc")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "c866713d-6f0f-4380-9abf-d7c83a8985d9")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 21 "ENC_B")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 35 "TX0")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "6d853a00-b41b-4b4e-9fc5-1189220928fe")
+    (at 17 32)
+    (property
+      "Reference"
+      "R17"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "972f9a09-de5e-4821-8dec-9253272d6482")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        
+    )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "820e95f2-111d-48e9-93ca-79bc213dfe03")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/dffb8154-a1ec-490b-8c76-adbc402cb1ec")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "bb2d8936-3193-4841-bee7-56df50e13fc7")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "0443cc96-ccfa-4a69-8505-546a4a24cc5a")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "f79751ec-3e3b-4e58-8a77-f7a6382b1c97")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12
+    )
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "b423aefc-4ac9-40d2-b676-5a2ac39a6f79")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 20 "I2S_SCK")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 36 "RX0")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "cfd8a8fd-77cf-4fc6-a479-cbb16bcd5c81")
+    (at 36.5 48)
+    (property
+      "Reference"
+      "R18"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "3565c265-b477-4f66-a5b2-8eac9f0cf3eb")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22k"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "e3e059b0-80d0-44f8-ad46-8b6849967531")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/96ccf4cd-8067-482d-81ac-5a2589b3ef9f")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "fcb0559a-8857-4743-9ad8-46882d5f7a23")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "ae6fcfa4-9432-48aa-90a3-89c1ba306564")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "74d41664-882c-4a1f-839e-2bdad1369685")
+    
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "ea7a8604-7831-4aa5-8694-478269ea392c")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 8 "BTN_ADC")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 42 "B_OK")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/LED_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0)))
+  )
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "793acbe9-083f-41de-bdb0-bfe27d9debda")
+    (at 52 31)
+    (property
+      "Reference"
+      "R19"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "ad885da1-64c6-4d80-a362-d9038b710c8d")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "470R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "3e3c8cdc-33eb-497f-86f7-a3c2b10bd8bd")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/21c6255c-b3b0-402b-8079-20c1a6cfd91c")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "99f571fc-4407-4b10-8c4e-cbe0e7744c74")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "d7ea8616-d52f-4be4-a9fe-a6d2b23cfacf")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "a9ce373e-0a8e-47ca-b509-05ad6eb07d81")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "d4ca2e91-231c-4f87-a467-eccbff8a9563")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 30 "LED_PRE")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 34 "LED_DATA")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "0a783079-17b6-4366-b0aa-f8b3d6938add")
+    (at 38 24.3)
+    (property
+      "Reference"
+      "R21"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "f9481c4f-6b0f-485f-8331-07b5c41c2140")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "4899e564-0927-45c7-8aa9-8aae4fd43ad7")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/02aa8bb8-c815-42ff-84c6-12b24a070e06")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "21ac62f9-b64f-4992-80cc-f111778513f1")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "9083d871-64f9-480b-8064-e8d6073ccbd8")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "d650ec6d-12ff-46e3-9615-302c5be98a32")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "54d6f278-3b41-49b3-bfac-c0c203d688ff")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 22 "LED_DIN")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 29 "LED_DINB")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "Resistor_SMD:R_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "c3eb79d9-23ce-4827-8255-2a0a6938a00e")
+    (at 37 36.8)
+    (property
+      "Reference"
+      "R20"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "897c82f6-d1ca-4e8a-b908-721800adeb9a")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "0R"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "db3f208d-ec18-4cb1-8579-3858cf54d1ea")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/c375c369-638d-4039-bd0d-845f46135e6e")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "6e721a64-18ff-4f14-93c9-bb218a10aa76")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "0bb0c7b7-162b-4160-bf3b-799e2eb9b7f1")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "25dd2599-5396-4160-8fc6-3a7fd036f709")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "b8f19249-ee77-48e4-9093-3af5ddeaccac")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "VBUS")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 31 "+5V")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "LED_SMD:LED_0603_1608Metric"
+    (layer "F.Cu")
+    (uuid "d8957717-e47d-4792-a658-2f601c247e0d")
+    (at 8 30.5)
+    (property
+      "Reference"
+      "D1"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "4b1206e5-f8f4-410e-a529-c81e96c17e86")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "LED_RED"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "4ee9c291-0918-4deb-a935-9d1057b2d9ea")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/c342979c-d5b6-4eeb-bb95-70f35fe5d501")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_rect
+      (start -0.8 -0.4)
+      (end 0.8 0.4)
+      (stroke
+        (width 0.1)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.Fab")
+      (uuid "14b6e41d-38e9-4d13-8288-3e5fb143f2d8")
+    )
+    (fp_rect
+      (start -1.05 -0.65)
+      (end 1.05 0.65)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "bd94f17f-0d05-48e0-a2aa-33476865bf38")
+    )
+    (fp_line
+      (start -1 -0.5)
+      (end 1 -0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "e8a99620-b3bc-4011-8c54-c1810e4e31d0")
+    )
+    (fp_line
+      (start -1 0.5)
+      (end 1 0.5)
+      (stroke
+        (width 0.12)
+        (type solid)
+      )
+      (layer "F.SilkS")
+      (uuid "28804ad0-a14d-44a4-89bf-2e6697c80b55")
+    )
+    (pad
+      "1"
+      smd
+      rect
+      (at -0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 37 "LED1_A")
+    )
+    (pad
+      "2"
+      smd
+      rect
+      (at 0.775 0)
+      (size 0.85 0.95)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 1 "GND")
+    )
+  
+    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/LED_0603_1608Metric.wrl"
+      (hide yes)
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))))
+  (footprint
+    "ledhub-c6:Fiducial_1mm"
+    (layer "F.Cu")
+    (uuid "682fd899-94d8-4f8e-8256-e8e22a94b295")
+    (at 36 12)
+    (property
+      "Reference"
+      "H5"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "6e575786-b335-40dd-949a-3185bfc76501")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Fiducial"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "2e425372-7463-4534-86ec-7f2562fc2622")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/2aa04486-bba3-422d-9ea9-f2280a7637c6")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_circle
+      (center 0 0)
+      (end 1.5 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "06b7e3c2-8cdf-408d-97e8-eb19fed2d473")
+    )
+    (pad
+      "1"
+      smd
+      circle
+      (at 0 0)
+      (size 1 1)
+      (layers "F.Cu" "F.Mask")
+    )
+  )
+  (footprint
+    "ledhub-c6:Fiducial_1mm"
+    (layer "F.Cu")
+    (uuid "1916b58f-bca4-4748-ac6d-0509daa00d5c")
+    (at 36 20)
+    (property
+      "Reference"
+      "H6"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "b8b2cfcb-bef7-49de-afdc-caa14f2ffa32")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Fiducial"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "01542ac3-77e1-40c9-b217-0da1018a0ffa")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/25a46bee-bccb-416b-8673-cb374736ef86")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_circle
+      (center 0 0)
+      (end 1.5 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "56b336c5-6f02-43fc-b298-dc60c4e83eea")
+    )
+    (pad
+      "1"
+      smd
+      circle
+      (at 0 0)
+      (size 1 1)
+      (layers "F.Cu" "F.Mask")
+    )
+  )
+  (footprint
+    "ledhub-c6:Fiducial_1mm"
+    (layer "F.Cu")
+    (uuid "f9e873f9-8c83-409a-830c-de9b2e9a63a1")
+    (at 50 20)
+    (property
+      "Reference"
+      "H7"
+      (at 0 -2 0)
+      (layer "F.SilkS")
+      (uuid "a672a2f8-f6dd-479a-9501-320c870335c2")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (property
+      "Value"
+      "Fiducial"
+      (at 0 2 0)
+      (layer "F.Fab")
+      (uuid "5d283133-b352-4aa9-82ba-5dd22adf6b27")
+      (effects
+        (font
+          (size 1 1)
+          (thickness 0.15)
+        )
+      )
+    )
+    (path "/b9e67103-33e9-43f8-b498-38b97d3b9624")
+    (sheetname "")
+    (sheetfile "ledhub-c6.kicad_sch")
+    (attr smd)
+    (fp_circle
+      (center 0 0)
+      (end 1.5 0)
+      (stroke
+        (width 0.05)
+        (type solid)
+      )
+      (fill none)
+      (layer "F.CrtYd")
+      (uuid "5090ec59-bf80-4444-a867-943eb1c5af6d")
+    )
+    (pad
+      "1"
+      smd
+      circle
+      (at 0 0)
+      (size 1 1)
+      (layers "F.Cu" "F.Mask")
+    )
+  )
+  (gr_rect
+    (start 0 0)
+    (end 80 50)
+    (stroke
+      (width 0.1)
+      (type solid)
+    )
+    (fill none)
+    (layer "Edge.Cuts")
+    (uuid "3154dee3-0694-446d-803d-d4cec7d0ad1d")
+  )
+  (gr_text
+    "ESP32-C6 antenna keepout - no copper"
+    (at 23.5 3.25 0)
+    (layer "Dwgs.User")
+    (uuid "047f5149-89a3-4b93-99b1-6d002565c26f")
+    (effects
+      (font
+        (size 1.5 1.5)
+        (thickness 0.2)
+      )
+    )
+  )
+  (gr_text
+    "ledhub-c6"
+    (at 48 48.6 0)
+    (layer "F.SilkS")
+    (uuid "aa676208-a391-4d58-9ccd-ca7ddde4d6d6")
+    (effects
+      (font
+        (size 1.6 1.6)
+        (thickness 0.24)
+      )
+    )
+  )
+  (gr_text
+    "EN"
+    (at 6 8 0)
+    (layer "F.SilkS")
+    (uuid "3c1e5c4e-b6d6-4fd8-a523-029b39f59cdd")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "BOOT"
+    (at 6 16 0)
+    (layer "F.SilkS")
+    (uuid "c36614e1-4abe-4fa1-9dd2-19b8290af807")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "TFT 2.8in"
+    (at 74 27.5 0)
+    (layer "F.SilkS")
+    (uuid "ceda4827-2e3b-497a-bc5c-b2955264e364")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "LD2450"
+    (at 45 21.5 0)
+    (layer "F.SilkS")
+    (uuid "a9172d40-a2e4-4c29-8671-1796cc6e7c9d")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "LED OUT"
+    (at 52 9.3 0)
+    (layer "F.SilkS")
+    (uuid "9358f89b-277e-4817-bc0a-a5200548df04")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "LED 5V IN"
+    (at 39 9.3 0)
+    (layer "F.SilkS")
+    (uuid "f9353cab-2cb0-47f8-97f8-c3eb1cd22256")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "3V3 TX RX GND"
+    (at 8.5 36.5 0)
+    (layer "F.SilkS")
+    (uuid "d6d80c42-8d3c-4b8e-8f21-2baaac605614")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (gr_text
+    "LF UP OK DN RT"
+    (at 47 37.3 0)
+    (layer "F.SilkS")
+    (uuid "108c32a7-6865-44e2-ba7d-3c1bc74cde61")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15)
+      )
+    )
+  )
+  (zone
+    (net 0)
+    (net_name "")
+    (layers "F.Cu" "B.Cu")
+    (uuid "57bbdc42-767d-4779-a24f-b6e41f925c22")
+    (name "ESP32-C6 antenna keepout - no copper")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (keepout
+      (tracks not_allowed)
+      (vias not_allowed)
+      (pads not_allowed)
+      (copperpour not_allowed)
+      (footprints allowed)
+    )
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 12.5 0)
+        (xy 34.5 0)
+        (xy 34.5 6.5)
+        (xy 12.5 6.5)
+      )
+    )
+  )
+  (zone
+    (net 2)
+    (net_name "+3V3")
+    (layer "F.Cu")
+    (uuid "3eb65eeb-3d6f-4be2-b336-9045e180b97e")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 43 45.3)
+        (xy 44.6 45.3)
+        (xy 44.6 46.9)
+        (xy 43 46.9)
+      )
+    )
+  )
+  (zone
+    (net 31)
+    (net_name "+5V")
+    (layer "F.Cu")
+    (uuid "e5b85250-9db1-4e1f-9a7a-1c1f399b0f15")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 43 47.3)
+        (xy 44.6 47.3)
+        (xy 44.6 48.9)
+        (xy 43 48.9)
+      )
+    )
+  )
+  (zone
+    (net 12)
+    (net_name "BOOT")
+    (layer "F.Cu")
+    (uuid "16c2053b-a2ae-48ca-a2d2-8bc301dde728")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 45 45.3)
+        (xy 46.6 45.3)
+        (xy 46.6 46.9)
+        (xy 45 46.9)
+      )
+    )
+  )
+  (zone
+    (net 8)
+    (net_name "BTN_ADC")
+    (layer "F.Cu")
+    (uuid "c620b087-311d-4c69-bf79-340183605cdc")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 45 47.3)
+        (xy 46.6 47.3)
+        (xy 46.6 48.9)
+        (xy 45 48.9)
+      )
+    )
+  )
+  (zone
+    (net 39)
+    (net_name "B_DN")
+    (layer "F.Cu")
+    (uuid "39908a10-56a5-425f-810f-cde6941e8f1a")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 47 45.3)
+        (xy 48.6 45.3)
+        (xy 48.6 46.9)
+        (xy 47 46.9)
+      )
+    )
+  )
+  (zone
+    (net 40)
+    (net_name "B_LF")
+    (layer "F.Cu")
+    (uuid "05d07624-3f28-4263-bcb1-96c3ecf41721")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 47 47.3)
+        (xy 48.6 47.3)
+        (xy 48.6 48.9)
+        (xy 47 48.9)
+      )
+    )
+  )
+  (zone
+    (net 42)
+    (net_name "B_OK")
+    (layer "F.Cu")
+    (uuid "d2a4d27c-d603-4211-827d-e132adaff141")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 49 45.3)
+        (xy 50.6 45.3)
+        (xy 50.6 46.9)
+        (xy 49 46.9)
+      )
+    )
+  )
+  (zone
+    (net 41)
+    (net_name "B_RT")
+    (layer "F.Cu")
+    (uuid "650bf215-928c-4b1e-b2ff-a1db4970509d")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 49 47.3)
+        (xy 50.6 47.3)
+        (xy 50.6 48.9)
+        (xy 49 48.9)
+      )
+    )
+  )
+  (zone
+    (net 38)
+    (net_name "B_UP")
+    (layer "F.Cu")
+    (uuid "7cdf28c8-468b-4f67-bb6e-ab0cc88ca90f")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 51 45.3)
+        (xy 52.6 45.3)
+        (xy 52.6 46.9)
+        (xy 51 46.9)
+      )
+    )
+  )
+  (zone
+    (net 3)
+    (net_name "EN")
+    (layer "F.Cu")
+    (uuid "382c3ccc-1cbc-4662-9b89-58c7f79e1f1f")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 51 47.3)
+        (xy 52.6 47.3)
+        (xy 52.6 48.9)
+        (xy 51 48.9)
+      )
+    )
+  )
+  (zone
+    (net 19)
+    (net_name "ENC_A")
+    (layer "F.Cu")
+    (uuid "464577b0-ea50-45d3-a485-820580442e8a")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 53 45.3)
+        (xy 54.6 45.3)
+        (xy 54.6 46.9)
+        (xy 53 46.9)
+      )
+    )
+  )
+  (zone
+    (net 21)
+    (net_name "ENC_B")
+    (layer "F.Cu")
+    (uuid "1c0b52b7-8bcf-4fd0-99ee-017b45599ace")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 53 47.3)
+        (xy 54.6 47.3)
+        (xy 54.6 48.9)
+        (xy 53 48.9)
+      )
+    )
+  )
+  (zone
+    (net 16)
+    (net_name "I2C_SCL")
+    (layer "F.Cu")
+    (uuid "f13d27a7-21a6-4af1-84ce-18bd9e3de156")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 55 45.3)
+        (xy 56.6 45.3)
+        (xy 56.6 46.9)
+        (xy 55 46.9)
+      )
+    )
+  )
+  (zone
+    (net 15)
+    (net_name "I2C_SDA")
+    (layer "F.Cu")
+    (uuid "b9dee82d-babe-432e-9703-edcdd4708495")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 55 47.3)
+        (xy 56.6 47.3)
+        (xy 56.6 48.9)
+        (xy 55 48.9)
+      )
+    )
+  )
+  (zone
+    (net 20)
+    (net_name "I2S_SCK")
+    (layer "F.Cu")
+    (uuid "1f5c8cf1-fe71-45f1-84ea-bfb45ccc20bb")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 57 45.3)
+        (xy 58.6 45.3)
+        (xy 58.6 46.9)
+        (xy 57 46.9)
+      )
+    )
+  )
+  (zone
+    (net 14)
+    (net_name "I2S_SD")
+    (layer "F.Cu")
+    (uuid "5b7fae62-0f7d-4043-98f8-71708495a382")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 57 47.3)
+        (xy 58.6 47.3)
+        (xy 58.6 48.9)
+        (xy 57 48.9)
+      )
+    )
+  )
+  (zone
+    (net 13)
+    (net_name "I2S_WS")
+    (layer "F.Cu")
+    (uuid "0b8836d3-695f-4227-a0c9-2a8324ce53b4")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 59 45.3)
+        (xy 60.6 45.3)
+        (xy 60.6 46.9)
+        (xy 59 46.9)
+      )
+    )
+  )
+  (zone
+    (net 37)
+    (net_name "LED1_A")
+    (layer "F.Cu")
+    (uuid "a7aee53a-a151-4e65-8a9d-fbc957511f9c")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 59 47.3)
+        (xy 60.6 47.3)
+        (xy 60.6 48.9)
+        (xy 59 48.9)
+      )
+    )
+  )
+  (zone
+    (net 33)
+    (net_name "LED_5V")
+    (layer "F.Cu")
+    (uuid "a2f33eaa-0bab-453d-b04f-ad299a812078")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 61 45.3)
+        (xy 62.6 45.3)
+        (xy 62.6 46.9)
+        (xy 61 46.9)
+      )
+    )
+  )
+  (zone
+    (net 34)
+    (net_name "LED_DATA")
+    (layer "F.Cu")
+    (uuid "1a74d107-69e9-4275-b57b-1d3433bc1249")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 61 47.3)
+        (xy 62.6 47.3)
+        (xy 62.6 48.9)
+        (xy 61 48.9)
+      )
+    )
+  )
+  (zone
+    (net 22)
+    (net_name "LED_DIN")
+    (layer "F.Cu")
+    (uuid "4deaab22-2b75-4479-9851-eca18162bee2")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 63 45.3)
+        (xy 64.6 45.3)
+        (xy 64.6 46.9)
+        (xy 63 46.9)
+      )
+    )
+  )
+  (zone
+    (net 29)
+    (net_name "LED_DINB")
+    (layer "F.Cu")
+    (uuid "2261850d-c003-4b06-8379-0cd6c66d0140")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 63 47.3)
+        (xy 64.6 47.3)
+        (xy 64.6 48.9)
+        (xy 63 48.9)
+      )
+    )
+  )
+  (zone
+    (net 30)
+    (net_name "LED_PRE")
+    (layer "F.Cu")
+    (uuid "65daf00c-a180-4d98-ac89-c832501d8dc9")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 65 45.3)
+        (xy 66.6 45.3)
+        (xy 66.6 46.9)
+        (xy 65 46.9)
+      )
+    )
+  )
+  (zone
+    (net 17)
+    (net_name "RAD_RX")
+    (layer "F.Cu")
+    (uuid "926cb71e-826e-4026-8b7f-3d0a3378cbf8")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 65 47.3)
+        (xy 66.6 47.3)
+        (xy 66.6 48.9)
+        (xy 65 48.9)
+      )
+    )
+  )
+  (zone
+    (net 18)
+    (net_name "RAD_TX")
+    (layer "F.Cu")
+    (uuid "0b057fed-c214-45f9-a1ce-2ad26ebd9270")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 67 45.3)
+        (xy 68.6 45.3)
+        (xy 68.6 46.9)
+        (xy 67 46.9)
+      )
+    )
+  )
+  (zone
+    (net 36)
+    (net_name "RX0")
+    (layer "F.Cu")
+    (uuid "8c410bf5-c3e2-4abd-a385-acb15f5e5c4b")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 67 47.3)
+        (xy 68.6 47.3)
+        (xy 68.6 48.9)
+        (xy 67 48.9)
+      )
+    )
+  )
+  (zone
+    (net 23)
+    (net_name "TFT_BL")
+    (layer "F.Cu")
+    (uuid "d0aca332-32b1-47f7-be45-fb33c4e30ee3")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 13)
+        (xy 34.9 13)
+        (xy 34.9 14.6)
+        (xy 33.3 14.6)
+      )
+    )
+  )
+  (zone
+    (net 32)
+    (net_name "TFT_BLP")
+    (layer "F.Cu")
+    (uuid "76fa9382-b3d0-48d7-8830-927bde2c9a6f")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 15)
+        (xy 34.9 15)
+        (xy 34.9 16.6)
+        (xy 33.3 16.6)
+      )
+    )
+  )
+  (zone
+    (net 5)
+    (net_name "TFT_CS")
+    (layer "F.Cu")
+    (uuid "7ef298cf-1975-4950-8086-1b0245f605fa")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 17)
+        (xy 34.9 17)
+        (xy 34.9 18.6)
+        (xy 33.3 18.6)
+      )
+    )
+  )
+  (zone
+    (net 4)
+    (net_name "TFT_DC")
+    (layer "F.Cu")
+    (uuid "6b63c39e-9de1-4986-bbed-7c66d448e572")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 19)
+        (xy 34.9 19)
+        (xy 34.9 20.6)
+        (xy 33.3 20.6)
+      )
+    )
+  )
+  (zone
+    (net 7)
+    (net_name "TFT_MOSI")
+    (layer "F.Cu")
+    (uuid "acb6c340-02d7-44ef-b1f8-432ac200bd76")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 21)
+        (xy 34.9 21)
+        (xy 34.9 22.6)
+        (xy 33.3 22.6)
+      )
+    )
+  )
+  (zone
+    (net 9)
+    (net_name "TFT_RST")
+    (layer "F.Cu")
+    (uuid "9dd34cf8-f5c9-4c0f-babb-6f1837875bb8")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 23)
+        (xy 34.9 23)
+        (xy 34.9 24.6)
+        (xy 33.3 24.6)
+      )
+    )
+  )
+  (zone
+    (net 6)
+    (net_name "TFT_SCK")
+    (layer "F.Cu")
+    (uuid "7f0b9964-4c50-41b8-b7af-44a2dc98494c")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 33.3 25)
+        (xy 34.9 25)
+        (xy 34.9 26.6)
+        (xy 33.3 26.6)
+      )
+    )
+  )
+  (zone
+    (net 35)
+    (net_name "TX0")
+    (layer "F.Cu")
+    (uuid "dbcf1b17-0ff1-412a-9186-7511d08d4841")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 44.3 14.3)
+        (xy 45.9 14.3)
+        (xy 45.9 15.9)
+        (xy 44.3 15.9)
+      )
+    )
+  )
+  (zone
+    (net 25)
+    (net_name "USB_CC1")
+    (layer "F.Cu")
+    (uuid "33947fc4-bc99-4650-b0c4-f1a5de5d6da7")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 44.3 16.3)
+        (xy 45.9 16.3)
+        (xy 45.9 17.9)
+        (xy 44.3 17.9)
+      )
+    )
+  )
+  (zone
+    (net 28)
+    (net_name "USB_CC2")
+    (layer "F.Cu")
+    (uuid "8e20a051-e822-4b17-817d-01c809e0c85c")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 44.3 18.3)
+        (xy 45.9 18.3)
+        (xy 45.9 19.9)
+        (xy 44.3 19.9)
+      )
+    )
+  )
+  (zone
+    (net 10)
+    (net_name "USB_DM")
+    (layer "F.Cu")
+    (uuid "56faf687-c16d-45d0-8034-e787c33bf561")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 44.3 20.3)
+        (xy 45.9 20.3)
+        (xy 45.9 21.9)
+        (xy 44.3 21.9)
+      )
+    )
+  )
+  (zone
+    (net 27)
+    (net_name "USB_DM_CON")
+    (layer "F.Cu")
+    (uuid "a40271c5-034c-40da-943e-56e48043036c")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 44.3 22.3)
+        (xy 45.9 22.3)
+        (xy 45.9 23.9)
+        (xy 44.3 23.9)
+      )
+    )
+  )
+  (zone
+    (net 11)
+    (net_name "USB_DP")
+    (layer "F.Cu")
+    (uuid "2c98a46c-ddcd-460e-9467-b8ad361f79f3")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 46.3 14.3)
+        (xy 47.9 14.3)
+        (xy 47.9 15.9)
+        (xy 46.3 15.9)
+      )
+    )
+  )
+  (zone
+    (net 26)
+    (net_name "USB_DP_CON")
+    (layer "F.Cu")
+    (uuid "e20eafe4-3788-410e-b09c-73fcfa9325ac")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 46.3 16.3)
+        (xy 47.9 16.3)
+        (xy 47.9 17.9)
+        (xy 46.3 17.9)
+      )
+    )
+  )
+  (zone
+    (net 24)
+    (net_name "VBUS")
+    (layer "F.Cu")
+    (uuid "3777e2b8-4577-4c1d-bdb0-ed14fd33afef")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 46.3 18.3)
+        (xy 47.9 18.3)
+        (xy 47.9 19.9)
+        (xy 46.3 19.9)
+      )
+    )
+  )
+  (zone
+    (net 1)
+    (net_name "GND")
+    (layer "B.Cu")
+    (uuid "b138cdbd-38c2-4b2b-bde3-6dc0f32c4afe")
+    (hatch edge 0.5)
+    (connect_pads
+      (clearance 0.3)
+    )
+    (min_thickness 0.25)
+    (filled_areas_thickness no)
+    (fill
+      yes
+      (thermal_gap 0.4)
+      (thermal_bridge_width 0.5)
+    )
+    (polygon
+      (pts
+        (xy 0 0)
+        (xy 80 0)
+        (xy 80 50)
+        (xy 0 50)
+      )
+    )
+  )
+)
