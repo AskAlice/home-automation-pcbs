@@ -1,0 +1,1660 @@
+    (at 150 153 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c6557ce3-78b3-49b0-8b7f-92550344574c")
+    (property
+      "Reference"
+      "R16"
+      (at 150 147.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100k"
+      (at 150 158.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Resistor_SMD:R_0603_1608Metric"
+      (at 150 153 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 150 153 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C25803"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "8c330407-3a6c-4394-b5b5-9bf0e229836f")
+    )
+    (pin
+      "2"
+      (uuid "c624d9d3-4d18-4301-b503-ac44b6193569")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "R16")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:10uF")
+    (at 230 105 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f49c2352-a078-4d78-a26f-c57589b83fe7")
+    (property
+      "Reference"
+      "C1"
+      (at 230 99.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 230 110.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 230 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "70cef240-2d7d-4775-95b4-bb7e79c7e367")
+    )
+    (pin
+      "2"
+      (uuid "5b4ee3cc-3f48-4b38-b3a1-8b329cefba2e")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:100nF")
+    (at 255 105 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "42f00159-97ef-4c82-975a-6619469b6d42")
+    (property
+      "Reference"
+      "C2"
+      (at 255 99.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 255 110.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 255 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 255 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d1281011-f25c-4855-bf1e-231471e1784c")
+    )
+    (pin
+      "2"
+      (uuid "c8da8c10-75a9-440f-8f3a-ebd404a0e2bb")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:100nF")
+    (at 280 105 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e2b2eb5a-91ac-41f5-adc9-27ff4fd42035")
+    (property
+      "Reference"
+      "C3"
+      (at 280 99.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 280 110.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 280 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 280 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b719ebb3-2f38-4b36-a39e-de11acd6b2e5")
+    )
+    (pin
+      "2"
+      (uuid "d641050c-345a-40c6-903b-738cf2f33a95")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:22uF")
+    (at 305 105 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "3b6b929f-767a-4918-99bd-84e875619079")
+    (property
+      "Reference"
+      "C4"
+      (at 305 99.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22uF"
+      (at 305 110.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0805_2012Metric"
+      (at 305 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 305 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C45783"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ea71e311-7b59-48f8-8f8a-f347b6f1a98b")
+    )
+    (pin
+      "2"
+      (uuid "860722cd-d043-444c-909c-0372efb8b3ac")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:22uF")
+    (at 330 105 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "f19c2e6e-fb38-4b22-9f5a-c8232b7724cb")
+    (property
+      "Reference"
+      "C5"
+      (at 330 99.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "22uF"
+      (at 330 110.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0805_2012Metric"
+      (at 330 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 330 105 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C45783"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f6036544-edcb-4194-afdf-c6811835e80b")
+    )
+    (pin
+      "2"
+      (uuid "7e6153bc-7ae6-48b1-afe8-41ad8d9d3e8c")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:10uF")
+    (at 230 117 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "dd881cb3-3b98-4dcf-b80b-2ebab86ddf73")
+    (property
+      "Reference"
+      "C6"
+      (at 230 111.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 230 122.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 230 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 230 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "78a06e22-fef9-4134-8d0b-a1fd271c3d23")
+    )
+    (pin
+      "2"
+      (uuid "15bcfad0-ef85-469a-bb84-e1452358fce3")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:10uF")
+    (at 255 117 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e51b2fb7-48f3-4b11-85fb-9255f0ceedd8")
+    (property
+      "Reference"
+      "C7"
+      (at 255 111.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 255 122.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 255 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 255 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ac82e978-d52e-47ca-a165-055337923287")
+    )
+    (pin
+      "2"
+      (uuid "95f6d054-7552-4d2b-b6d9-f476bccc225e")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:100nF")
+    (at 280 117 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "67267729-9420-4e36-bc49-9ac70aa3e6ad")
+    (property
+      "Reference"
+      "C8"
+      (at 280 111.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 280 122.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 280 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 280 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "3fd4611f-7e8d-41ed-b7cc-8453621c3918")
+    )
+    (pin
+      "2"
+      (uuid "2854ab43-e56e-493d-a523-a44437a994c7")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:100nF")
+    (at 305 117 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "468baf90-991c-4e1d-9fd2-4c035f0c13dd")
+    (property
+      "Reference"
+      "C9"
+      (at 305 111.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "100nF"
+      (at 305 122.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 305 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 305 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C14663"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5a0cf065-6f6b-4d7e-8f3f-3ad4322bbb75")
+    )
+    (pin
+      "2"
+      (uuid "e945ce2d-c600-42f2-b862-4902b82c9f05")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C9")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:10uF")
+    (at 330 117 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "51231115-6167-4c9b-90dd-deb996516cc0")
+    (property
+      "Reference"
+      "C10"
+      (at 330 111.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "10uF"
+      (at 330 122.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Capacitor_SMD:C_0603_1608Metric"
+      (at 330 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 330 117 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C15849"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d272655d-f56b-4e31-a2e1-810c0b80f6c1")
+    )
+    (pin
+      "2"
+      (uuid "3f934c6b-a4b2-4806-aef1-effe5a01b41a")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "C10")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:AO3400A")
+    (at 278 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "084fed39-2b25-46e0-9ee8-d5ca69ba2c4e")
+    (property
+      "Reference"
+      "Q1"
+      (at 278 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AO3400A"
+      (at 278 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23"
+      (at 278 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "http://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+      (at 278 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C20917"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "1dcd762c-6d1f-4b61-9da0-0d641ea63252")
+    )
+    (pin
+      "2"
+      (uuid "e8b9fb9f-8fc6-4231-b7d8-50e5a7564b5a")
+    )
+    (pin
+      "3"
+      (uuid "fe89a3eb-1585-4e18-bfb8-91dbb2fe1e89")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "Q1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:AO3400A")
+    (at 296 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "68e12f12-d6df-4746-9cff-01d96fdf3485")
+    (property
+      "Reference"
+      "Q2"
+      (at 296 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AO3400A"
+      (at 296 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23"
+      (at 296 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "http://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+      (at 296 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C20917"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "73183f3b-73c0-4262-b620-21006d8189db")
+    )
+    (pin
+      "2"
+      (uuid "af6a1953-4796-49ac-8737-65bb3a26cb40")
+    )
+    (pin
+      "3"
+      (uuid "7f79fa03-2603-4819-a1c4-6d793c6a7afa")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "Q2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:AO3400A")
+    (at 314 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "a970d6d5-01ef-4730-9099-ef5a8efc0759")
+    (property
+      "Reference"
+      "Q3"
+      (at 314 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AO3400A"
+      (at 314 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23"
+      (at 314 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "http://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+      (at 314 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C20917"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "dde69f4a-0e4d-4e14-a759-8b057af567fa")
+    )
+    (pin
+      "2"
+      (uuid "6fb482ef-dc78-4306-89a7-bfbdbdac55a3")
+    )
+    (pin
+      "3"
+      (uuid "4e4817e6-6e02-457e-b27f-b2aab7d18193")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "Q3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:AO3400A")
+    (at 332 190 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "dcb73592-9728-4b1e-bbe4-a82e83efc449")
+    (property
+      "Reference"
+      "Q4"
+      (at 332 184.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Value"
+      "AO3400A"
+      (at 332 195.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23"
+      (at 332 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "http://www.aosmd.com/res/data_sheets/AO3400A.pdf"
+      (at 332 190 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "LCSC"
+      "C20917"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "fd59ba00-5f4c-4ef5-af5a-0ab679d4aafc")
+    )
+    (pin
+      "2"
+      (uuid "6db81569-f3be-47d9-b7c4-d58b19635ed8")
+    )
+    (pin
+      "3"
+      (uuid "780b91de-f61a-456c-9e0d-7a54ae9d904d")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "Q4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:GND")
+    (at 20 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "6137e763-0eb6-4263-b102-04d2a50b4867")
+    (property
+      "Reference"
+      "#PWR0001"
+      (at 20 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 20 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 20 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ff496b0d-c68d-48a5-8251-9e2e1e97c95d")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "#PWR0001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:GND")
+    (at 30 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "d97774a0-7e2a-4707-ab2f-9864944574b1")
+    (property
+      "Reference"
+      "#PWR0002"
+      (at 30 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "GND"
+      (at 30 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "f119f545-e684-437b-9b5a-05fae7517b2f")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "#PWR0002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:+3V3")
+    (at 40 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0d492ce5-0daa-4569-b0df-ef658deb8ebe")
+    (property
+      "Reference"
+      "#PWR0003"
+      (at 40 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+3V3"
+      (at 40 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 40 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "275b336f-a01d-471e-a7d1-e854cc9185d3")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "#PWR0003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:+5V")
+    (at 50 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "e3892a8e-f564-4b78-95e2-6e1b02b88d24")
+    (property
+      "Reference"
+      "#PWR0004"
+      (at 50 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+5V"
+      (at 50 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 50 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "6dc1083d-bc1e-47dd-80f4-8e42bd32d9fa")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "#PWR0004")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:VBUS")
+    (at 60 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "69489b3d-709f-4a86-9500-f2d48d8cfd88")
+    (property
+      "Reference"
+      "#PWR0005"
+      (at 60 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "VBUS"
+      (at 60 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 60 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "2e9bf905-a815-400e-859b-e77388836629")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "#PWR0005")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "ledquad-c3-lib:+5V")
+    (at 70 25 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "6ab69f1d-241b-4c45-ab5e-4a9a74dfd911")
+    (property
+      "Reference"
+      "#PWR0006"
+      (at 70 19.92 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "+5V"
+      (at 70 30.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 70 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 70 25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "bcc91773-39f3-46ce-bbe7-7f3267925ee1")
+    )
+    (instances
+      (project
+        "ledquad-c3"
+        (path
+          "/faefa13c-494c-4907-850c-368e9dd782a6"
+          (reference "#PWR0006")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
