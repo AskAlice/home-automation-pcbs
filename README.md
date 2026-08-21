@@ -328,7 +328,8 @@ Border Router — the missing piece for all the H2/C6 Thread boards above.
 - `tools/turntable.sh <board-dir>` — 360° turntable animation for one board;
   `--all` to render every board. Outputs `turntable.gif` (animated GIF, embeds
   inline on GitHub), `turntable.webm` (VP9, compact), and `turntable.mp4`
-  (H.264 fallback). Requires KiCad CLI + ffmpeg.
+  (H.264 fallback). Requires KiCad CLI + ffmpeg. Set `USE_DOCKER=1` to use the
+  `kicad/kicad:10.0.0` Docker image instead of a local KiCad install.
 
 ## Design rules
 
