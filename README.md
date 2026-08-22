@@ -36,7 +36,9 @@ generator script (`gen_*.py`).
 
 ### 🌡️ [SenseNode C6](boards/sensenode-c6) — environmental multisensor
 
-![SenseNode C6](boards/sensenode-c6/render3d_top.png)
+![SenseNode C6](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fc5f90c73955a963bbb35e9e37caed6f6c8c9f2c1668c7e08f342aa3b29bcdfce?filename=render3d_top.png&sig=v743dRqP8-Huv2l8bibCc_hVlG1G2RhnlkEIr7lJp5s=&t=o)
+
+![sensenode-c6 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F98df40ebf8b8aa0932a280c5d44b6a2b58ac1c26b4593a2ab6e72f75cc11a5aa?filename=turntable.gif&sig=wk-6bZLrkiubDkKiiFuGjlw7Ki9owYRWlglrk3_FxY4=&t=o)
 
 One-per-room environmental node. ESP32-C6 gives you Wi-Fi 6 + BLE5 **and**
 802.15.4, so the same SKU can run ESPHome today and Matter-over-Thread tomorrow.
@@ -60,7 +62,9 @@ One-per-room environmental node. ESP32-C6 gives you Wi-Fi 6 + BLE5 **and**
 
 ### 🚶 [PresencePro C3](boards/presencepro-c3) — mmWave presence + lux
 
-![PresencePro C3](boards/presencepro-c3/render3d_top.png)
+![PresencePro C3](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F89e408b564aa91e3f26f0477480a6f80cf91062b3a5051b64c85a8bf30cb3719?filename=render3d_top.png&sig=O5DqawM1gj9JcjtYc7bxRR7MkdfK8jgTxuiLxE6XHww=&t=o)
+
+![presencepro-c3 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Ffc7d685c373963083d0994a945b54dcdd5fed6e263d072ed7b3894a323fae7b9?filename=turntable.gif&sig=UTT45thgm2UilSJB0U8snzuLnqRWirdyegGS-ELW41Y=&t=o)
 
 True still-presence detection (sitting at a desk, sleeping) where PIR fails,
 with lux gating so automations only fire when it's dark.
@@ -85,7 +89,9 @@ with lux gating so automations only fire when it's dark.
 
 ### 💡 [LEDQuad C3](boards/ledquad-c3) — 4-ch 12–24 V PWM LED driver
 
-![LEDQuad C3](boards/ledquad-c3/render3d_top.png)
+![LEDQuad C3](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fe232b0ce82c78cec041e53d20b1c4884b987f41d2a5a51078722abff0eef9f68?filename=render3d_top.png&sig=6HfF9AtzjEvYExmAnT4UPomOJ3EFM55sJPlfFLKxhUc=&t=o)
+
+![ledquad-c3 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3ddf83a33417e728f4d586dedb0fad48aaab489f855e0d60aa1819ec52fee7f6?filename=turntable.gif&sig=1BFyKrBtok8wgEwT9Rx_1qFtqoXZWFkSnYCaZLQYjKU=&t=o)
 
 Analog RGBW strip driver for 12/24 V strips — the classic ESPHome `light.rgbw`
 board, sized to hide behind furniture.
@@ -109,7 +115,9 @@ board, sized to hide behind furniture.
 
 ### 🔌 [RelayMini C3](boards/relaymini-c3) — mains switch + energy metering
 
-![RelayMini C3](boards/relaymini-c3/render3d_top.png)
+![RelayMini C3](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fc886d17f170355d82368a6105f24842f6a4fc859573284764e3c17bf3a37b107?filename=render3d_top.png&sig=gzB8zbVjN11aQeKI0gomq-U1ftnz6i-ARLVYTnWdMr0=&t=o)
+
+![relaymini-c3 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fdcc6cd056ca6bdd4278c2f8a593c973410d1222d204e12d050049ce8d2b6dfe8?filename=turntable.gif&sig=nupzmwfJ7DH5C_C2BQ7kmEpofA78D6fSV3u4ldVTVpQ=&t=o)
 
 > ⚠ **110–240 VAC mains board. Lethal voltages. Qualified builders only —
 > read the safety section in its README before anything else.**
@@ -135,7 +143,9 @@ isolation slot, opto-isolated metering, and a SELV-side programming header.
 
 ### 🕹️ [LEDHub C6](boards/ledhub-c6) — all-in-one display LED controller (flagship)
 
-![LEDHub C6](boards/ledhub-c6/render3d_top.png)
+![LEDHub C6](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Ff6c8a0498d7a4d366d78385c9efb1b924a0ee0511f611ab6fabc8335d2111042?filename=render3d_top.png&sig=0N3ezRl8N-X_Jm0A5tbxO29IySvxLI7jx8ElefgM0Z8=&t=o)
+
+![ledhub-c6 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F4d1eab153d986d4195ba468de2c5d100bd213321e5990857e3facb3a2ac5d257?filename=turntable.gif&sig=VvIGlRberaxWYWprYXLx1sRILRJic0U3r8ctDbgz3bA=&t=o)
 
 A complete addressable-LED control station: status display, physical controls,
 presence-aware switching and environmental telemetry, running **WLED** with a
@@ -164,7 +174,9 @@ custom usermod (`firmware/wled-usermod-ledhub`).
 
 ### 🚪 [ThreadNode H2](boards/threadnode-h2) — battery Thread contact/button node
 
-![ThreadNode H2](boards/threadnode-h2/render3d_top.png)
+![ThreadNode H2](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F04d66ce5f2b0dbe1e9c6db6c3e84b6c38152a65a4af37fd8730e6938a6a78fa8?filename=render3d_top.png&sig=Pzl3YTlnlh4Np41Ok-vgE3r2Qjyf3Xp6AkvveJHdB6k=&t=o)
+
+![threadnode-h2 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3868b6a9635034c7d9e66121a65e45b7792a8fded938593a779566a7d890f282?filename=turntable.gif&sig=TVra3A1G-EXY_6SGJFgZT-twCwUq2cDF2RmxbsHQQsY=&t=o)
 
 ESP32-H2 = 802.15.4 only, built for deep sleep: a CR2032 door/window sensor or
 smart button on a Matter-over-Thread or Zigbee network.
@@ -186,7 +198,9 @@ smart button on a Matter-over-Thread or Zigbee network.
 
 ### 🌫️ [AirQuality S3](boards/airquality-s3) — CO₂ / VOC / temp / humidity
 
-![AirQuality S3](boards/airquality-s3/render3d_top.png)
+![AirQuality S3](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F8c3b2b191accf130c9fb5f328f5a3ff35cd1c1e6777501a74d20462d983698ad?filename=render3d_top.png&sig=sPqCwyLImqXCqc4-R9A9X1re6De5dO53jEOzOTtRgxQ=&t=o)
+
+![airquality-s3 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F822721e7d1e073f7a9bd6c9c50577ea3b809347c226a7a61ab4b787d2f9197d9?filename=turntable.gif&sig=7aGVbXIQtyfUvkIl5tvIN6i27Rog8MqGMSbidYgDbEY=&t=o)
 
 Full indoor-air-quality node with photoacoustic CO₂ and metal-oxide VOC on one
 I2C bus, plus a header for a 0.96" SSD1306 OLED readout.
@@ -207,7 +221,9 @@ I2C bus, plus a header for a 0.96" SSD1306 OLED readout.
 
 ### 🪟 [BlindDriver C6](boards/blinddriver-c6) — TMC2209 roller-blind controller
 
-![BlindDriver C6](boards/blinddriver-c6/render3d_top.png)
+![BlindDriver C6](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fe447e3be8870825bd9360b2faf80294eabfc63a85d3469c54beade14ea6915ca?filename=render3d_top.png&sig=7H0E7j9Hn66GJ7PAaqvp2T5XtopoTnaw0POVgIjmcMw=&t=o)
+
+![blinddriver-c6 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3f08486e6f0ff1068fbd53782de2cc1f1788525d00661842cc8fa46822fbf88f?filename=turntable.gif&sig=Q4LmRTQu2VYfwpUxshEzN1dt57n0WfRyKvzQsstAcRE=&t=o)
 
 Quiet Trinamic stepper control for roller blinds, with ESPHome `cover`
 semantics and Wi-Fi 6 + Thread on tap.
@@ -230,7 +246,9 @@ semantics and Wi-Fi 6 + Thread on tap.
 
 ### 📡 [IRBlaster C3](boards/irblaster-c3) — IR climate bridge
 
-![IRBlaster C3](boards/irblaster-c3/render3d_top.png)
+![IRBlaster C3](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fb6a7b2f9e2408a2529af1b709397fdf5d6cefdc62cfc958fd9f93a5487a59ade?filename=render3d_top.png&sig=gVPw3OFj_khtH47zdFpqs7SMl7y24TI2d0MKxoaXMHc=&t=o)
+
+![irblaster-c3 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F16be1ee68cc7be5881fd2046665a53df95e93b5e685ba6416a0ebb69660d8948?filename=turntable.gif&sig=HDd4zaS4mResVcyuo872xuVukVHZ3a5Bm3zeVyf1odc=&t=o)
 
 Give any dumb IR AC/heater a brain: ESPHome `climate_ir` with transmit and
 receive (learn your remote's codes).
@@ -252,7 +270,9 @@ receive (learn your remote's codes).
 
 ### 🌱 [GardenProbe C6](boards/gardenprobe-c6) — battery soil-moisture stick
 
-![GardenProbe C6](boards/gardenprobe-c6/render3d_top.png)
+![GardenProbe C6](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3acfabcea5a765ea5bc1c849cf162f617ae7ce632e19d1cd123c0edbc4772fbd?filename=render3d_top.png&sig=C6MKLdjD0rUvBoR9Grd7L-g9ULDs94t9Vjv3VyegZqo=&t=o)
+
+![gardenprobe-c6 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F4ac2e2f323faa94b68d611f76236c4973d634755f8f55330ad2cb576df0b9c13?filename=turntable.gif&sig=bwavthwIY5KeNMsptGdtvxAUFDBq8hS3c6cDmvnCd7Q=&t=o)
 
 Plant sensor built as a 70 × 25 mm stick: the probe is the PCB — a capacitive
 copper area on the bottom tip, corrosion-free versus resistive probes.
@@ -275,7 +295,9 @@ copper area on the bottom tip, corrosion-free versus resistive probes.
 
 ### 🧵 [ThreadRCP H2](boards/threadrcp-h2) — OpenThread border-router dongle
 
-![ThreadRCP H2](boards/threadrcp-h2/render3d_top.png)
+![ThreadRCP H2](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Ff99689844684393f7a77fae7e750f2ed2584eb9705f54050bc13e1f4c9baf68e?filename=render3d_top.png&sig=cYV-FLMw_vlUGoAcpensn2XKbJiHT5MVfe7lv-mNcX4=&t=o)
+
+![threadrcp-h2 360° turntable](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fbc5f8a3bdc6629bf273ce8f7345200b18e4753a673e8b11d3b84d9c2fdf6a495?filename=turntable.gif&sig=xnAggh_oVFbokjHlKjo9VA5f_fcy7GbVfFGvyF5Gj9Y=&t=o)
 
 35 × 20 mm USB-C dongle that turns a Home Assistant box into an OpenThread
 Border Router — the missing piece for all the H2/C6 Thread boards above.
