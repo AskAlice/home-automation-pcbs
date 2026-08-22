@@ -75,7 +75,7 @@ jurisdiction.
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fc886d17f170355d82368a6105f24842f6a4fc859573284764e3c17bf3a37b107?filename=render3d_top.png&sig=gzB8zbVjN11aQeKI0gomq-U1ftnz6i-ARLVYTnWdMr0=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3bf83759aa5573c5f83158447c86eca1d613318c6f259546aeb7d3aeee38358c?filename=render_top.png&sig=ud1CdhM4EADXcISwWA6y3uHfiXU9ER04jYqvxSCiOug=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F742d66b3c9b8c6f7836f73a5546f38d60b626d2f6a8644e2bbfc0d6e4022a52b?filename=render3d_bottom.png&sig=RC9qGo0v-INsfXpyEwpqtiXUjhbuLoyfu45Tqv8S0Bg=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F536ffb24e575a1628a6a5d88325e3f282fdcc93dbdfa458e5b9694fbd79bbc16?filename=render_bottom.png&sig=wrO0JTzFnJRr3PyY8PQDdQeL-QlLIStnaqWc3oWz26A=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fdcc6cd056ca6bdd4278c2f8a593c973410d1222d204e12d050049ce8d2b6dfe8?filename=turntable.gif&sig=nupzmwfJ7DH5C_C2BQ7kmEpofA78D6fSV3u4ldVTVpQ=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
