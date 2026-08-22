@@ -19,3 +19,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# 3D model binaries (regenerable: tools/attach_3d.py)
+3dmodels/*.3dshapes/

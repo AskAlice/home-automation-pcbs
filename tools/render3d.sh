@@ -1,19 +1,17 @@
 #!/bin/sh
 # Raytraced 3D renders for every board using the official KiCad CLI.
 #
-# Requirements: KiCad >= 9.0 with `kicad-cli pcb render`.
-#   Known-good: 10.0.0 AppImage (9.0.9 and 10.0.1 have a regression that
-#   drops component 3D models from CLI renders).
-#   AppImage: https://www.kicad.org/download/linux/ (previous releases dir).
+# Requirements: KiCad >= 9.0 with `kicad-cli pcb render` (10.0.5 known-good).
 #   No X server needed — the raytracer is CPU-based.
+#   macOS: the app bundle's kicad-cli is picked up automatically.
 #
-# 3D models must already be fetched (tools/fetch_3d.py + tools/fix_3d.py);
-# footprints reference them via ${KIPRJMOD}/../../3dmodels/...
+# 3D models must already be attached (python3 tools/attach_3d.py); footprints
+# reference them via ${KIPRJMOD}/../../3dmodels/...
 #
-# Usage: KICAD_CLI="path/to/kicad-cli" sh tools/render3d.sh
+# Usage: sh tools/render3d.sh [--force]      (KICAD_CLI=... to override)
 set -e
-KICAD_CLI=${KICAD_CLI:-kicad-cli}
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
+. "$ROOT/tools/kicad_cli.sh"
 for pcb in "$ROOT"/boards/*/*.kicad_pcb; do
     b=$(basename "$pcb" .kicad_pcb); d=$(dirname "$pcb")
     [ -f "$d/render3d_top.png" ] && [ "$1" != "--force" ] && continue

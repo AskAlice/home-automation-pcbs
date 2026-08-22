@@ -739,6 +739,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
+    (model "${KIPRJMOD}/../../3dmodels/espressif.3dshapes/ESP32-C6-WROOM-1.STEP"
+      (offset (xyz -9 -9.75 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Connector_USB:USB_C_Receptacle_USB2.0_16P"
@@ -989,12 +994,12 @@
       (layers "*.Cu" "*.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Connector_USB.3dshapes/USB_C_Receptacle_USB2.0_16P.wrl"
-      (hide yes)
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C165948.wrl"
+      (offset (xyz 0 -1.275 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 180))
+    )
+  )
   (footprint
     "Package_TO_SOT_SMD:SOT-23-5"
     (layer "F.Cu")
@@ -1116,12 +1121,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "+3V3")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SOT-23-5.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
     (layer "F.Cu")
@@ -1228,12 +1233,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
@@ -1340,12 +1344,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
@@ -1451,12 +1454,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
     (layer "F.Cu")
@@ -1563,12 +1566,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
@@ -1675,12 +1677,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
@@ -1787,12 +1788,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:Tactile-6x6-SMD"
@@ -1898,12 +1898,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/Tactile-6x6-SMD.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C139797.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
     (layer "F.Cu")
@@ -2013,12 +2013,11 @@
       (layers "*.Cu" "*.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/PinHeader_2x07_P2.54mm_Vertical.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
@@ -2223,12 +2222,11 @@
       (drill 1)
       (layers "*.Cu" "*.Mask")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
-      (hide yes)
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/../../3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x07_P2.54mm_Vertical.wrl"
+      (offset (xyz -1.27 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
@@ -2349,12 +2347,11 @@
       (layers "*.Cu" "*.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/KF128-5.08-3P.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:KF128-5.08-3P"
@@ -2466,12 +2463,11 @@
       (layers "*.Cu" "*.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/KF128-5.08-2P.wrl"
-      (hide yes)
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C474953.wrl"
+      (offset (xyz 0 -5.08 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 270))
+    )
   )
   (footprint
     "ledhub-c6:KF128-5.08-2P"
@@ -2571,12 +2567,12 @@
       (layers "*.Cu" "*.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/KF128-5.08-2P.wrl"
-      (hide yes)
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C474952.wrl"
+      (offset (xyz 0 -2.54 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 270))
+    )
+  )
   (footprint
     "ledhub-c6:EC11-Encoder"
     (layer "F.Cu")
@@ -2722,12 +2718,12 @@
       (drill 1.7)
       (layers "*.Cu" "*.Mask")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/EC11-Encoder.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C370970.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "ledhub-c6:INMP441-LGA9"
     (layer "F.Cu")
@@ -2920,12 +2916,11 @@
       (drill 0.8)
       (layers "*.Cu" "*.Mask")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/SHT31-DFN8.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C2682118.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "ledhub-c6:SHT31-DFN8"
@@ -3084,12 +3079,11 @@
       (net 1 "GND"
     )
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/BH1750-WSOF6.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C80862.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 270))
+    )
   )
   (footprint
     "ledhub-c6:BH1750-WSOF6"
@@ -3231,12 +3225,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/BH1750-WSOF6.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LCSC.3dshapes/C78960.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
     (layer "F.Cu")
@@ -3450,12 +3444,11 @@
       (size 0.6 1.5)
       (layers "F.Cu" "F.Paste" "F.Mask")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
@@ -3552,12 +3545,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -3653,12 +3646,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -3754,12 +3747,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -3855,12 +3848,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -3956,12 +3949,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -4057,12 +4050,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -4158,12 +4151,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -4259,12 +4252,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -4360,12 +4353,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Capacitor_SMD:C_0603_1608Metric"
     (layer "F.Cu")
@@ -4461,12 +4454,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/C_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
     (layer "F.Cu")
@@ -4562,12 +4555,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "I2C_SDA")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
     (layer "F.Cu")
@@ -4665,12 +4658,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "I2C_SCL")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -4768,12 +4760,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -4872,12 +4863,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -4975,12 +4965,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "USB_DP")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5078,12 +5067,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "USB_DM")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5181,12 +5169,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "EN")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5283,12 +5270,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 37 "LED1_A")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
     (layer "F.Cu")
@@ -5386,12 +5373,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 32 "TFT_BLP")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5489,12 +5475,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5592,12 +5577,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "BTN_ADC")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5694,12 +5678,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 38 "B_UP")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
     (layer "F.Cu")
@@ -5796,12 +5780,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 39 "B_DN")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -5899,12 +5882,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 40 "B_LF")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -6002,12 +5984,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 41 "B_RT")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -6105,12 +6086,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 35 "TX0")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -6209,12 +6189,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 36 "RX0")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -6312,12 +6291,11 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 42 "B_OK")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/LED_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0)))
+      (rotate (xyz 0 0 0))
+    )
   )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
@@ -6414,12 +6392,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "LED_DATA")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
     (layer "F.Cu")
@@ -6515,12 +6493,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "LED_DINB")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "Resistor_SMD:R_0603_1608Metric"
     (layer "F.Cu")
@@ -6616,12 +6594,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 31 "+5V")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/R_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "LED_SMD:LED_0603_1608Metric"
     (layer "F.Cu")
@@ -6717,12 +6695,12 @@
       (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND")
     )
-  
-    (model "${KIPRJMOD}/../../3dmodels/Shared.3dshapes/LED_0603_1608Metric.wrl"
-      (hide yes)
+    (model "${KIPRJMOD}/../../3dmodels/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))))
+      (rotate (xyz 0 0 0))
+    )
+  )
   (footprint
     "ledhub-c6:Fiducial_1mm"
     (layer "F.Cu")
