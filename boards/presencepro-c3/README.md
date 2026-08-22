@@ -100,7 +100,7 @@ boards/presencepro-c3/render --scale 22`).
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F89e408b564aa91e3f26f0477480a6f80cf91062b3a5051b64c85a8bf30cb3719?filename=render3d_top.png&sig=O5DqawM1gj9JcjtYc7bxRR7MkdfK8jgTxuiLxE6XHww=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F37554e1c2af3213b16bd426946af8666a2e3cfbf8d11dacd5b9f7c0eef2ffcaf?filename=render_top.png&sig=PouKrOMfIhnDkn-V6KrheVCyGBXzbYuhkYXv8lTAkT8=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fd70737db8f6457b2bc7d88fc09789dc3f0a79b679a4ea7365d18e0570346b0ec?filename=render3d_bottom.png&sig=Sh6jX9Pzq4Cuii1BSabn60bkKU3wUKoxOspxYUbgHQI=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F972fe688322dc309505906161e2c6ff7f16d03ce02df7c940e8f98e38ddd324f?filename=render_bottom.png&sig=IEDwFMCSSwCn6HIaOM6_EG8S3GW9HRKw329J2uO7Db8=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Ffc7d685c373963083d0994a945b54dcdd5fed6e263d072ed7b3894a323fae7b9?filename=turntable.gif&sig=UTT45thgm2UilSJB0U8snzuLnqRWirdyegGS-ELW41Y=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
