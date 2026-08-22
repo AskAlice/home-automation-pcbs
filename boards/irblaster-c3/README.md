@@ -69,7 +69,7 @@ BH1750 WSOF6 footprint uses 0.95 mm pitch (was fixed from 0.5 mm draft).
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fb6a7b2f9e2408a2529af1b709397fdf5d6cefdc62cfc958fd9f93a5487a59ade?filename=render3d_top.png&sig=gVPw3OFj_khtH47zdFpqs7SMl7y24TI2d0MKxoaXMHc=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F2472b2971da905dd3536b2d5136f2e0a47715aa62ad2f39fe48c2ce0d6819462?filename=render_top.png&sig=HA1M9LJXhM4IxM_aTLXQ7R_Eci8uh4L943LlmZfFYbo=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fbcab07a3397d6502f47de5696ad7bf2a62220d3e6948127a5ce078ec2e5af0c4?filename=render3d_bottom.png&sig=LfByJrZNRF_4kSPJVBQJCJVDPOzyWJ0BdgYZKHwWlIw=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F14bae08a95d29713d69cb37886554fbcc695bd8359cabe2be53e1a9a35b5cfa0?filename=render_bottom.png&sig=g-tda6Wuy_FJouPBox0wRt5N_s0y67AzR9CKhaW8y0w=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F16be1ee68cc7be5881fd2046665a53df95e93b5e685ba6416a0ebb69660d8948?filename=turntable.gif&sig=HDd4zaS4mResVcyuo872xuVukVHZ3a5Bm3zeVyf1odc=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
