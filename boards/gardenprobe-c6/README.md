@@ -69,7 +69,7 @@ SHT31 DFN-8 EP resized (1.4×1.0) to clear the 1.05 mm pad columns.
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3acfabcea5a765ea5bc1c849cf162f617ae7ce632e19d1cd123c0edbc4772fbd?filename=render3d_top.png&sig=C6MKLdjD0rUvBoR9Grd7L-g9ULDs94t9Vjv3VyegZqo=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Feea8292abb51e6c4a41932cfde0d4746f672ed2528fa8f47f6494b0460b9d0d8?filename=render_top.png&sig=VlqcPloSoB5wbslgUvI_DCrczMQiCzGrim_5Ydsi244=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F1c19e01aba41671237374c43cfc1a4947b9ff48aaad5db58657ed8cfac2d9b97?filename=render3d_bottom.png&sig=xqZkDLVsjLnOiR9nt6vMe7tk7pqL2E9XZ1NcMhbLZOU=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F5b265f8ba35bdbd72fc9599d7a89278f1e71b1303a1cd8de31e92c8a61c43ce8?filename=render_bottom.png&sig=4sp0EouFGp0xv1UzX4dRanP5TPeIP8RWCz-6KA62_q4=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F4ac2e2f323faa94b68d611f76236c4973d634755f8f55330ad2cb576df0b9c13?filename=turntable.gif&sig=bwavthwIY5KeNMsptGdtvxAUFDBq8hS3c6cDmvnCd7Q=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
