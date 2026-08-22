@@ -74,7 +74,7 @@ mounting copper — joined GND by design.
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Ff99689844684393f7a77fae7e750f2ed2584eb9705f54050bc13e1f4c9baf68e?filename=render3d_top.png&sig=cYV-FLMw_vlUGoAcpensn2XKbJiHT5MVfe7lv-mNcX4=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F9cab63336b5bb2b18a08e37d05f6c3deb5ffc90f6fab628e10975d6d44b9078c?filename=render_top.png&sig=Ibh1j73EFJoFJ5KTnzi3uQx-1dmzfn4JvHs-MmVcbK4=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F82bfb19ed6dca35e16a6881c56725ac51c346d48bff03e82fb6a9c71dbcbe836?filename=render3d_bottom.png&sig=4BnnXy_5oiemCbvY7TtKFCncH0wTTeH7ke4StbjacuA=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F701837e16d6a075835eb900ca3bb34f7147c37ac7648cf304d8a408a95395ad7?filename=render_bottom.png&sig=ABsrTjB6S7wt-6OcDo-YRoF4XnFpDBtRUB8fWDG3Gso=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fbc5f8a3bdc6629bf273ce8f7345200b18e4753a673e8b11d3b84d9c2fdf6a495?filename=turntable.gif&sig=xnAggh_oVFbokjHlKjo9VA5f_fcy7GbVfFGvyF5Gj9Y=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
