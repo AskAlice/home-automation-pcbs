@@ -68,7 +68,7 @@ module pad columns.
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F8c3b2b191accf130c9fb5f328f5a3ff35cd1c1e6777501a74d20462d983698ad?filename=render3d_top.png&sig=sPqCwyLImqXCqc4-R9A9X1re6De5dO53jEOzOTtRgxQ=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fe29ff8fe2320f1116fa9dc7518134ba07cb3db8ecd44022a9d501fa8dd282440?filename=render_top.png&sig=YWF9X0vY7IG9_nBYuFfSb6LjNoG1YLVC5Z7mLJfCzm4=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fb62652442e16478472d5e8c2b12cb3c8a0eb93784c93f6972f5ef79c0fc5ce8b?filename=render3d_bottom.png&sig=yxinB2xTpmJ4Rp-u0e5K3VqoAg8RrwMQkHdsn6rJXrc=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fa5f8c3e31b231fff85017a23562365b8a3b0876fa5280cc3dcaf6e072f9e3981?filename=render_bottom.png&sig=gHKXKJbvdj0WTp10aYK2ZQ_tpQt1CbX9KjfIkfRnK2k=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F822721e7d1e073f7a9bd6c9c50577ea3b809347c226a7a61ab4b787d2f9197d9?filename=turntable.gif&sig=7aGVbXIQtyfUvkIl5tvIN6i27Rog8MqGMSbidYgDbEY=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
