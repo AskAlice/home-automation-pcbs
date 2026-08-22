@@ -123,8 +123,8 @@ machine-generated.
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fc5f90c73955a963bbb35e9e37caed6f6c8c9f2c1668c7e08f342aa3b29bcdfce?filename=render3d_top.png&sig=v743dRqP8-Huv2l8bibCc_hVlG1G2RhnlkEIr7lJp5s=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F55786c166f438aeb3a3379efa6ed7247e1772bb2211c229d2829a0868ae2faa1?filename=render_top.png&sig=BCCjBbBb2h20-ci2p2Gs2F_V-byG7UjJ_vFoH38v7W8=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fa4bfbeb24028ccb3001c1ed29f93e0a5eeb35accadd22bd06823b0321c701d4f?filename=render3d_bottom.png&sig=0NmmJ--MCe0S5JxclQlYtC1WbaKtDa9YvPT4bdtDULw=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F8f4704162d112d401200af34540ed1690dcd3c9f40d32948f824185bce9e2fd0?filename=render_bottom.png&sig=_LAhwdgdlzx881vam6VDdlLJIu3axvB1GUudoJbjZQI=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F98df40ebf8b8aa0932a280c5d44b6a2b58ac1c26b4593a2ab6e72f75cc11a5aa?filename=turntable.gif&sig=wk-6bZLrkiubDkKiiFuGjlw7Ki9owYRWlglrk3_FxY4=&t=o) — 24 real KiCad raytraced frames
 stitched with ffmpeg (`tools/turntable.sh`).
