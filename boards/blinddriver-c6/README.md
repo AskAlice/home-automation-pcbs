@@ -78,7 +78,7 @@ STAT_LED was unassigned in the original plan — now on GPIO1.
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fe447e3be8870825bd9360b2faf80294eabfc63a85d3469c54beade14ea6915ca?filename=render3d_top.png&sig=7H0E7j9Hn66GJ7PAaqvp2T5XtopoTnaw0POVgIjmcMw=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F4a3f37146991114d31e0e7d7301c1404902335d4c318d34e6f837ed87001703a?filename=render_top.png&sig=YfR5YqP6S8jgPKeqFnozCjWqNQv8KXiRiNNfZ6j_BEY=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F0503637c3a3e45cb7459778846b78c1bff3dcd7011a83fe6adeea64aa91563c8?filename=render3d_bottom.png&sig=Kxg-iRaivtlBXaQo5xy5NmikO8erI6tXaVT4S7yIAAE=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F6ebc4915986e48f085c2d90515e4a1d6fb0f5161a0abd8cc0c5b4cbab4652aab?filename=render_bottom.png&sig=KwGu3Yp1Iw0wf5bHdwkc7n-u9flTS-mEx46aXy22dJ8=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3f08486e6f0ff1068fbd53782de2cc1f1788525d00661842cc8fa46822fbf88f?filename=turntable.gif&sig=Q4LmRTQu2VYfwpUxshEzN1dt57n0WfRyKvzQsstAcRE=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
