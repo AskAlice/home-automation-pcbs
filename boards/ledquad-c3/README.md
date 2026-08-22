@@ -124,7 +124,7 @@ the unrouted nets listed above in KiCad first. No photos yet — renders
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fe232b0ce82c78cec041e53d20b1c4884b987f41d2a5a51078722abff0eef9f68?filename=render3d_top.png&sig=6HfF9AtzjEvYExmAnT4UPomOJ3EFM55sJPlfFLKxhUc=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fd6c1935386824e8c4c73b201e05441f89122baab753186efa530c3f9392a2632?filename=render_top.png&sig=LiCQGKkyKlsW41n2YOp3TdCVv0JTJlQ6FvkgmUZusKw=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F4d73e9ded7f45009baf32ea16671c3cf3363fd3bbc226d93b34a31f7c55f0cb0?filename=render3d_bottom.png&sig=8NyWtX5bUPy-6n5O_vJcEV__vZjhzpF8g6PTF0vJYhk=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F4a285f8efd7b30763becc8a728547c963d1c296e38c277296d79ebd5b28dc578?filename=render_bottom.png&sig=H4SbCQoswnWB0EavhbuMSLlTViVIa-uQnewMSMYam7o=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3ddf83a33417e728f4d586dedb0fad48aaab489f855e0d60aa1819ec52fee7f6?filename=turntable.gif&sig=1BFyKrBtok8wgEwT9Rx_1qFtqoXZWFkSnYCaZLQYjKU=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
