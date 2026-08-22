@@ -67,7 +67,7 @@ CR2032 holder / tactile button GND pads touching GND mounting-hole copper
 
 | Raytraced 3D (KiCad) | 2D layout |
 |---|---|
-| ![top](render3d_top.png) | ![top](render_top.png) |
-| ![bottom](render3d_bottom.png) | ![bottom](render_bottom.png) |
+| ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F04d66ce5f2b0dbe1e9c6db6c3e84b6c38152a65a4af37fd8730e6938a6a78fa8?filename=render3d_top.png&sig=Pzl3YTlnlh4Np41Ok-vgE3r2Qjyf3Xp6AkvveJHdB6k=&t=o) | ![top](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2Fb055d972ef420bfaeeac9a078bd905bc216dbf245d6834449ecb6d2e3ba3a850?filename=render_top.png&sig=vUa9GZHbLQoRBjft5ldTFBoQHcCeSQcL4cCZtrfgans=&t=o) |
+| ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F5e55cf21a9885c1a40fdde8bccfe8ab11bce3bc43b2e82553b640c116edab480?filename=render3d_bottom.png&sig=CQqzUFbeU16vEWqyhO63LGUjjleB7Pij_F1b-EuJcDo=&t=o) | ![bottom](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3ec3dd78f19a565107e9a138c66026096e271efe55f5e576481db2d21f65897c?filename=render_bottom.png&sig=AWyLu5ocpDY_-VSwDMre3I_K4g9JW0Y_DCpzknz8UmI=&t=o) |
 
-🎬 [360° turntable video](turntable.mp4) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
+🎬 [360° turntable video](https://www.kimi.com/apiv2-files/sign-obj/kimi-fs%2Ffiles%2Fblob%2F3868b6a9635034c7d9e66121a65e45b7792a8fded938593a779566a7d890f282?filename=turntable.gif&sig=TVra3A1G-EXY_6SGJFgZT-twCwUq2cDF2RmxbsHQQsY=&t=o) — 24 real KiCad raytraced frames stitched with ffmpeg (tools/turntable.sh).
