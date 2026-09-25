@@ -26,6 +26,7 @@ inline custom footprints, generator scripts — every file is reproducible).
 | [`boards/irblaster-c3`](boards/irblaster-c3) | ESP32-C3-WROOM-02 | ESPHome | IR TX/RX climate bridge | v0.1 concept |
 | [`boards/gardenprobe-c6`](boards/gardenprobe-c6) | ESP32-C6-WROOM-1 | ESPHome / Matter | Battery soil-moisture probe | v0.1 concept |
 | [`boards/threadrcp-h2`](boards/threadrcp-h2) | ESP32-H2-MINI-1 | OpenThread RCP / Zigbee NCP | Border-router USB dongle | v0.1 concept |
+| [`boards/garagepilot-c6`](boards/garagepilot-c6) | ESP32-C6-WROOM-1 | ESPHome | Garage-door relay + 3× inputs | v0.1 routed, DRC/ERC issues |
 
 Each board folder contains: `*.kicad_pro/.kicad_sch/.kicad_pcb`, project-local
 symbol library, `bom_lcsc.csv` (real, in-stock LCSC part numbers), `README.md`
@@ -315,6 +316,33 @@ Border Router — the missing piece for all the H2/C6 Thread boards above.
 | STAT LED | GPIO8 | |
 | BOOT / RST | GPIO9 / EN | |
 | TX0 / RX0 | GPIO24 / GPIO23 | spare pads only |
+
+### 🚗 [GaragePilot C6](boards/garagepilot-c6) — garage-door relay + 3× inputs
+
+![GaragePilot C6](boards/garagepilot-c6/images/render3d_top.png)
+
+Dry-contact garage-door controller: ESP32-C6 closes a low-voltage relay across the opener's
+wall-button terminals and reads door-closed / door-open reed switches plus a safety beam.
+Powered from USB-C or a 5 V screw terminal.
+
+- **Relay:** SRD-05VDC-SL-C SPDT dry contact (COM/NC/NO) via AO3400A MOSFET
+- **Inputs:** 3× active-low digital inputs with 10 kΩ pull-ups for reed / safety sensors
+- **Power:** USB-C 16P → AP2112K-3.3 LDO; auxiliary 5 V terminal
+- **Key parts:** ESP32-C6-WROOM-1-N8, AP2112K-3.3, AO3400A, SRD-05VDC-SL-C, SS34 flyback
+- **Firmware:** `boards/garagepilot-c6/esphome/garagepilot-c6.yaml` (`cover` template)
+
+> ⚠ **v0.1 status:** routed and rendered, but KiCad DRC reports 96 violations / 23 unconnected
+> items and ERC could not be run from the CLI.  See the board README before ordering PCBs.
+
+| Function | ESP32-C6 GPIO |
+|---|---|---|
+| Relay driver | 4 |
+| Door-closed / door-open / safety beam inputs | 5 / 6 / 7 |
+| Status LED | 8 |
+| BOOT / RESET buttons | 9 / EN |
+| UART0 TX0 / RX0 (prog header) | 16 / 17 |
+
+---
 
 ## Firmware
 

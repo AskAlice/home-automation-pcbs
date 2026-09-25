@@ -302,10 +302,10 @@ def _render_symbol(sym: _SymDef, prefix: str = "") -> list:
     node = ["symbol", _q(full)]
     if sym.is_power:
         node.append(["power"])
-        node.append(["pin_numbers", "hide"])
-        node.append(["pin_names", "hide"])
+        node.append(["pin_numbers", ["hide", "yes"]])
+        node.append(["pin_names", ["hide", "yes"]])
     else:
-        node.append(["pin_numbers", ["offset", "1.016"]])
+        node.append(["pin_numbers", ["hide", "yes"]])
         node.append(["pin_names", ["offset", "1.016"]])
     node += [["exclude_from_sim", "no"], ["in_bom", "yes"], ["on_board", "yes"]]
     ref_effects = ["effects", ["font", ["size", "1.27", "1.27"]]]
@@ -761,6 +761,7 @@ class Footprint:
         self.fp_id = f"{lib_name}:{name}"
         self.pads = []      # dicts
         self.graphics = []  # sexp nodes
+        self.models = []    # (path, (ox,oy,oz), (sx,sy,sz), (rx,ry,rz))
 
     # -- pads ----------------------------------------------------------------
     def add_pad(self, num, kind, shape, x, y, sx, sy,
@@ -813,6 +814,13 @@ class Footprint:
                               ["effects", ["font", ["size", _fmt(size), _fmt(size)],
                                            ["thickness", _fmt(size * 0.15)]]]])
 
+    def add_model(self, path: str, offset=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0), rotate=(0.0, 0.0, 0.0)) -> None:
+        """Attach a local 3D model to this footprint."""
+        self.models.append((str(path),
+                            tuple(float(v) for v in offset),
+                            tuple(float(v) for v in scale),
+                            tuple(float(v) for v in rotate)))
+
 
 # --- whitelisted standard-library footprints (SPEC 2.4) ---------------------
 # Built-in geometry is a close approximation of the official KiCad libraries;
@@ -835,11 +843,11 @@ def _sot(fp: Footprint, n_left, n_right, pitch=0.95, row_x=0.95):
     num = 1
     for i in range(n_left):
         y = -((n_left - 1) * pitch) / 2 + i * pitch
-        fp.add_pad(str(num), "smd", "rect", -row_x, y, 0.95, 0.8)
+        fp.add_pad(str(num), "smd", "rect", -row_x, y, 0.9, 0.75)
         num += 1
     for i in range(n_right):
         y = ((n_right - 1) * pitch) / 2 - i * pitch
-        fp.add_pad(str(num), "smd", "rect", row_x, y, 0.95, 0.8)
+        fp.add_pad(str(num), "smd", "rect", row_x, y, 0.9, 0.75)
         num += 1
     fp.add_rect(-1.5, -0.75, 1.5, 0.75, "F.Fab", 0.1)
     fp.add_rect(-1.7, -1.5, 1.7, 1.5, "F.CrtYd", 0.05)
@@ -1057,6 +1065,14 @@ class PCB:
             "uuid": _uuid(),
         })
 
+    def footprint_model(self, ref, path, offset=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0), rotate=(0.0, 0.0, 0.0)) -> None:
+        """Attach a 3D model to an already-placed footprint."""
+        for f in self._footprints:
+            if f["ref"] == ref:
+                f["fp"].add_model(path, offset, scale, rotate)
+                return
+        raise ValueError(f"no placed footprint with ref {ref!r}")
+
     def set_pad_net(self, ref, pad_num, net_name) -> None:
         pad_num = str(pad_num)
         for f in self._footprints:
@@ -1165,6 +1181,12 @@ class PCB:
         has_th = any(p["kind"] in ("thru_hole", "np_thru_hole") for p in fp.pads)
         node.append(["attr", "through_hole" if has_th else "smd"])
         node.extend(fp.graphics)
+        for path, offset, scale, rotate in fp.models:
+            model = ["model", _q(path),
+                     ["offset", ["xyz", _fmt(offset[0]), _fmt(offset[1]), _fmt(offset[2])]],
+                     ["scale", ["xyz", _fmt(scale[0]), _fmt(scale[1]), _fmt(scale[2])]],
+                     ["rotate", ["xyz", _fmt(rotate[0]), _fmt(rotate[1]), _fmt(rotate[2])]]]
+            node.append(model)
         for p in fp.pads:
             pad = ["pad", _q(p["num"]), p["kind"], p["shape"],
                    ["at", _fmt(p["x"]), _fmt(p["y"])],
@@ -1271,7 +1293,7 @@ class PCB:
         for n, x, y in self._vias:
             root.append(["via",
                          ["at", _fmt(x), _fmt(y)],
-                         ["size", "0.8"], ["drill", "0.4"],
+                         ["size", "0.6"], ["drill", "0.3"],
                          ["layers", _q("F.Cu"), _q("B.Cu")],
                          ["net", str(n)],
                          ["uuid", _q(_uuid())]])
@@ -1291,7 +1313,7 @@ class PCB:
             if z["keepout"]:
                 zone.append(["keepout",
                              ["tracks", "not_allowed"], ["vias", "not_allowed"],
-                             ["pads", "not_allowed"], ["copperpour", "not_allowed"],
+                             ["pads", "allowed"], ["copperpour", "not_allowed"],
                              ["footprints", "allowed"]])
             zone.append(["fill", "yes",
                          ["thermal_gap", "0.4"], ["thermal_bridge_width", "0.5"]])
@@ -1327,15 +1349,15 @@ def write_project(path, title: str, lib_name: str) -> None:
                 },
                 "rules": {
                     "min_clearance": 0.2,
-                    "min_track_width": 0.25,
-                    "min_via_diameter": 0.8,
-                    "min_via_annular_width": 0.2,
-                    "min_hole_clearance": 0.25,
-                    "min_hole_to_hole": 0.25,
+                    "min_track_width": 0.2,
+                    "min_via_diameter": 0.6,
+                    "min_via_annular_width": 0.13,
+                    "min_hole_clearance": 0.2,
+                    "min_hole_to_hole": 0.2,
                     "min_silk_clearance": 0.15,
                 },
-                "track_widths": [0.25, 0.5, 1.0],
-                "via_dimensions": [{"diameter": 0.8, "drill": 0.4}],
+                "track_widths": [0.2, 0.25, 0.5, 1.0],
+                "via_dimensions": [{"diameter": 0.6, "drill": 0.3}],
             },
             "layer_presets": [],
         },
@@ -1360,8 +1382,8 @@ def write_project(path, title: str, lib_name: str) -> None:
                 "pcb_color": "rgba(0, 0, 0, 0.000)",
                 "schematic_color": "rgba(0, 0, 0, 0.000)",
                 "track_width": 0.25,
-                "via_diameter": 0.8,
-                "via_drill": 0.4,
+                "via_diameter": 0.6,
+                "via_drill": 0.3,
                 "wire_width": 6,
             }],
             "meta": {"version": 3},

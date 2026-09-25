@@ -28,6 +28,8 @@ Long-list from the design brainstorm. ✅ = designed in this repo.
 - ✅ **GardenProbe C6** — capacitive soil moisture + temp, deep-sleep Thread node,
   AAA or LiPo + LDO.
 - ✅ **ThreadRCP H2** — USB OpenThread RCP / border-router dongle (ESP32-H2-MINI).
+- ✅ **GaragePilot C6** — ESP32-C6 garage-door controller with 5 V SPDT dry relay contact,
+  door-closed/open reed inputs, safety beam input, USB-C + 5 V terminal power.
 
 ## Backlog (not designed yet)
 
